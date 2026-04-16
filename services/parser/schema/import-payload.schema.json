@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "HSK Import Payload",
+  "type": "object",
+  "required": ["items"],
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "prompt",
+          "levelCode",
+          "sectionCode",
+          "questionTypeCode",
+          "options",
+          "correctOptionId"
+        ],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "stem": { "type": "string" },
+          "prompt": { "type": "string" },
+          "levelCode": { "type": "string" },
+          "sectionCode": { "type": "string" },
+          "questionTypeCode": { "type": "string" },
+          "explanation": { "type": "string" },
+          "reviewStatus": { "type": "string" },
+          "publishStatus": { "type": "string" },
+          "sourceType": { "type": "string" },
+          "copyrightCleared": { "type": "boolean" },
+          "correctOptionId": { "type": "string" },
+          "options": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "label", "text"],
+              "properties": {
+                "id": { "type": "string" },
+                "label": { "type": "string" },
+                "text": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "sets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "slug", "title", "levelCode", "mode", "itemIds"],
+        "properties": {
+          "id": { "type": "string" },
+          "slug": { "type": "string" },
+          "title": { "type": "string" },
+          "description": { "type": "string" },
+          "levelCode": { "type": "string" },
+          "mode": { "type": "string" },
+          "sectionCode": { "type": "string" },
+          "access": { "type": "string" },
+          "minutes": { "type": "number" },
+          "itemIds": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    }
+  }
+}

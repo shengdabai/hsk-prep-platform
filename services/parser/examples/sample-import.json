@@ -1,0 +1,26 @@
+{
+  "items": [
+    {
+      "id": "parser_demo_item_001",
+      "title": "Parser Demo Item 001",
+      "stem": "选词填空",
+      "prompt": "我今天很____，想早点回家休息。",
+      "levelCode": "hsk-1",
+      "sectionCode": "reading",
+      "questionTypeCode": "fill_blank",
+      "explanation": "表示身体不舒服，用“病”。",
+      "reviewStatus": "pending",
+      "publishStatus": "draft",
+      "sourceType": "re_authored",
+      "copyrightCleared": false,
+      "options": [
+        { "id": "A", "label": "A", "text": "忙" },
+        { "id": "B", "label": "B", "text": "病" },
+        { "id": "C", "label": "C", "text": "贵" }
+      ],
+      "correctOptionId": "B",
+      "tags": ["健康"]
+    }
+  ],
+  "sets": []
+}

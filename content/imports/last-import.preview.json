@@ -1,0 +1,411 @@
+{
+  "items": [
+    {
+      "id": "item_hsk1_001",
+      "title": "听力图片判断 1",
+      "stem": "看图判断",
+      "prompt": "你听到：他在喝茶。",
+      "levelCode": "hsk-1",
+      "sectionCode": "listening",
+      "questionTypeCode": "image_true_false",
+      "explanation": "图片和句子都在描述男生喝茶。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "一致"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "不一致"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "饮品",
+        "动作"
+      ]
+    },
+    {
+      "id": "item_hsk1_002",
+      "title": "听力图片判断 2",
+      "stem": "看图判断",
+      "prompt": "你听到：她在医院上班。",
+      "levelCode": "hsk-1",
+      "sectionCode": "listening",
+      "questionTypeCode": "image_true_false",
+      "explanation": "图中是护士站场景，和句子一致。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "一致"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "不一致"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "医院",
+        "工作"
+      ]
+    },
+    {
+      "id": "item_hsk1_003",
+      "title": "听力选图 1",
+      "stem": "听句子选图",
+      "prompt": "你听到：我去超市买苹果。",
+      "levelCode": "hsk-1",
+      "sectionCode": "listening",
+      "questionTypeCode": "image_choice",
+      "explanation": "只有 A 同时对应超市和苹果。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "女生在超市挑苹果"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "男生在教室上课"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "两个人在公园散步"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "超市",
+        "苹果"
+      ]
+    },
+    {
+      "id": "item_hsk1_004",
+      "title": "听力单选 1",
+      "stem": "听对话回答",
+      "prompt": "女：你去哪儿？ 男：我去学校上课。 问：男的去哪儿？",
+      "levelCode": "hsk-1",
+      "sectionCode": "listening",
+      "questionTypeCode": "single_choice",
+      "explanation": "对话中直接说去学校上课。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "学校"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "饭店"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "医院"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "学校",
+        "地点"
+      ]
+    },
+    {
+      "id": "item_hsk1_005",
+      "title": "听力单选 2",
+      "stem": "听短文回答",
+      "prompt": "短文：今天下雨了，我们没有去公园。 问：为什么没去公园？",
+      "levelCode": "hsk-1",
+      "sectionCode": "listening",
+      "questionTypeCode": "single_choice",
+      "explanation": "原因是下雨。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "太忙了"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "下雨了"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "公园关门了"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "天气",
+        "原因"
+      ]
+    },
+    {
+      "id": "item_hsk1_006",
+      "title": "阅读选词 1",
+      "stem": "选词填空",
+      "prompt": "我今天很____，想早点回家休息。",
+      "levelCode": "hsk-1",
+      "sectionCode": "reading",
+      "questionTypeCode": "fill_blank",
+      "explanation": "表示身体不舒服，用“病”。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "忙"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "病"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "贵"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "健康"
+      ]
+    },
+    {
+      "id": "item_hsk1_007",
+      "title": "阅读匹配 1",
+      "stem": "匹配对话",
+      "prompt": "你好吗？",
+      "levelCode": "hsk-1",
+      "sectionCode": "reading",
+      "questionTypeCode": "matching",
+      "explanation": "常见问候的自然回答是“我很好，谢谢”。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "我很好，谢谢。"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "在图书馆。"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "星期三。"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "问候"
+      ]
+    },
+    {
+      "id": "item_hsk1_008",
+      "title": "阅读单选 1",
+      "stem": "选词填空",
+      "prompt": "今天很热，我们去喝____吧。",
+      "levelCode": "hsk-1",
+      "sectionCode": "reading",
+      "questionTypeCode": "single_choice",
+      "explanation": "语义上应是可喝的饮品。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "牛奶"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "雨"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "桌子"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "饮品"
+      ]
+    },
+    {
+      "id": "item_hsk1_009",
+      "title": "阅读图片词义 1",
+      "stem": "看图选词",
+      "prompt": "句子：老师在黑板上写汉字。",
+      "levelCode": "hsk-1",
+      "sectionCode": "reading",
+      "questionTypeCode": "image_choice",
+      "explanation": "黑板最符合句子的场景。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "黑板"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "汽车"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "饭桌"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "教室",
+        "汉字"
+      ]
+    },
+    {
+      "id": "item_hsk1_010",
+      "title": "阅读单选 2",
+      "stem": "阅读短句回答",
+      "prompt": "玛丽是学生。她每天七点起床，八点上课。 问：玛丽几点上课？",
+      "levelCode": "hsk-1",
+      "sectionCode": "reading",
+      "questionTypeCode": "single_choice",
+      "explanation": "短句中明确写了八点上课。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "七点"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "八点"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "九点"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "时间",
+        "上课"
+      ]
+    }
+  ],
+  "sets": [
+    {
+      "id": "set_hsk1_mock_01",
+      "slug": "hsk1-mock-01",
+      "title": "HSK1 Mock Exam 01",
+      "description": "HSK1 模拟整卷，覆盖听力与阅读。",
+      "levelCode": "hsk-1",
+      "mode": "mock_exam",
+      "access": "free",
+      "minutes": 40,
+      "itemIds": [
+        "item_hsk1_001",
+        "item_hsk1_002",
+        "item_hsk1_003",
+        "item_hsk1_004",
+        "item_hsk1_005",
+        "item_hsk1_006",
+        "item_hsk1_007",
+        "item_hsk1_008",
+        "item_hsk1_009",
+        "item_hsk1_010"
+      ]
+    },
+    {
+      "id": "set_hsk1_listening_core",
+      "slug": "hsk1-listening-core",
+      "title": "HSK1 听力专项",
+      "description": "聚焦 HSK1 听力核心题型。",
+      "levelCode": "hsk-1",
+      "mode": "practice_set",
+      "sectionCode": "listening",
+      "access": "pro",
+      "minutes": 15,
+      "itemIds": [
+        "item_hsk1_001",
+        "item_hsk1_002",
+        "item_hsk1_003",
+        "item_hsk1_004",
+        "item_hsk1_005"
+      ]
+    },
+    {
+      "id": "set_hsk1_reading_core",
+      "slug": "hsk1-reading-core",
+      "title": "HSK1 阅读专项",
+      "description": "聚焦 HSK1 阅读核心题型。",
+      "levelCode": "hsk-1",
+      "mode": "practice_set",
+      "sectionCode": "reading",
+      "access": "pro",
+      "minutes": 15,
+      "itemIds": [
+        "item_hsk1_006",
+        "item_hsk1_007",
+        "item_hsk1_008",
+        "item_hsk1_009",
+        "item_hsk1_010"
+      ]
+    }
+  ]
+}
