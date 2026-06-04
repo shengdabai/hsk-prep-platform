@@ -7,8 +7,11 @@ import type {
   LevelSummary,
   MistakeEntry,
   PracticeSet,
+  ReviewGrade,
   ReviewStatus,
   PublishStatus,
+  Subscription,
+  SubscriptionStatus,
   UserRole,
 } from "@hsk/shared";
 
@@ -72,7 +75,27 @@ export type Repository = {
   }): Promise<ExamSession | null>;
   submitSession(sessionId: string): Promise<ExamReport | null>;
   getReport(reportId: string): Promise<ExamReport | null>;
+
+  // ── 评分快照(H3 持久化)──────────────────────────────────────────────────
+  // 会话创建时冻结本套卷题目(含 correctOptionId / answerText),与 sessionId 绑定持久化。
+  // 评分与渲染只读快照,与题库后续编辑/重新发布解耦。serverless 跨实例/冷启动可读回。
+  saveSessionSnapshot(sessionId: string, items: ContentItem[]): Promise<void>;
+  // 取该会话的快照题目;无快照(旧会话 / 从未冻结)返回 null。
+  getSessionSnapshot(sessionId: string): Promise<ContentItem[] | null>;
+
+  // ── submit 幂等(H2 去竞态)────────────────────────────────────────────────
+  // 按 sessionId 反查既有报告(每会话至多一份,DB 唯一约束兜底)。
+  // 并发 submit 时后者据此回退到既有 report,而非生成第二份。
+  findReportBySession(sessionId: string): Promise<ExamReport | null>;
   getMistakes(userId: string): Promise<MistakeEntry[]>;
+  // SRS 复习:按 SM-2 评分推进一条错题的调度,返回更新后的错题(不存在返回 null)。
+  reviewMistake(
+    userId: string,
+    itemId: string,
+    grade: ReviewGrade,
+  ): Promise<MistakeEntry | null>;
+  // SRS 取到期错题(dueAt <= now;无 dueAt 的旧数据视为已到期)。
+  getDueMistakes(userId: string): Promise<MistakeEntry[]>;
   getItem(itemId: string): Promise<ContentItem | null>;
   listAdminItems(): Promise<AdminListItem[]>;
   patchAdminItem(itemId: string, patch: {
@@ -87,4 +110,28 @@ export type Repository = {
   findUserByEmail(email: string): Promise<AppUser | null>;
   upsertUser(user: AppUser): Promise<AppUser>;
   getRole(userId: string): Promise<UserRole>;
+
+  // 凭据(密码哈希由调用方计算并存取,repository 不感知明文)。
+  getPasswordHash(userId: string): Promise<string | null>;
+  setPasswordHash(userId: string, passwordHash: string): Promise<void>;
+
+  // 订阅 / entitlement。
+  getSubscription(userId: string): Promise<Subscription | null>;
+  setSubscription(input: {
+    userId: string;
+    plan: Subscription["plan"];
+    status: SubscriptionStatus;
+    stripeCustomerId?: string | null;
+    stripeSubscriptionId?: string | null;
+    currentPeriodEndsAt?: string | null;
+  }): Promise<Subscription>;
+
+  // 审计日志:敏感写操作落痕。
+  addAuditLog(input: {
+    actorId: string | null;
+    targetTable: string;
+    targetId: string;
+    action: string;
+    payload?: Record<string, unknown> | null;
+  }): Promise<void>;
 };

@@ -1,0 +1,3465 @@
+{
+  "items": [
+    {
+      "id": "h5m01_l1_01",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 1",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "男的为什么不参加聚会?",
+      "explanation": "正确答案是『他要陪父母体检』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "他要出差"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "他要陪父母体检"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "他不想见同学"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "他身体不舒服"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "社会",
+        "生活",
+        "对话"
+      ],
+      "context": "录音:女:周末同学聚会你来吗?大家都很想见你。 男:真不巧,我答应了陪父母去体检,实在走不开,下次一定到。",
+      "vocabFocus": [
+        "聚会",
+        "答应",
+        "体检"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l1_01.mp3"
+    },
+    {
+      "id": "h5m01_l1_02",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 2",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "女的建议男的怎么做?",
+      "explanation": "正确答案是『当面向经理请教重点』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "当面向经理请教重点"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "再改一遍报告"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "换一份工作"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "不要理会经理"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "职场",
+        "对话"
+      ],
+      "context": "录音:男:这份报告我改了三遍,经理还是不满意。 女:与其反复猜他的想法,不如当面请教他到底要哪几个重点。",
+      "vocabFocus": [
+        "报告",
+        "与其",
+        "请教"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l1_02.mp3"
+    },
+    {
+      "id": "h5m01_l1_03",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 3",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "关于那家新开的书店,可以知道什么?",
+      "explanation": "正确答案是『还提供咖啡和讲座』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "只卖旧书"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "还提供咖啡和讲座"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "生意不太好"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "周末不开门"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "文化",
+        "生活",
+        "对话"
+      ],
+      "context": "录音:女:楼下新开的那家书店你去过吗? 男:去过,它不光卖书,还有咖啡区和讲座,周末特别热闹。",
+      "vocabFocus": [
+        "书店",
+        "讲座",
+        "热闹"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l1_03.mp3"
+    },
+    {
+      "id": "h5m01_l1_04",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 4",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "男的对那部电影是什么态度?",
+      "explanation": "正确答案是『有些失望』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "非常满意"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "完全没看懂"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "还没去看"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "有些失望"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "文化",
+        "对话"
+      ],
+      "context": "录音:女:听说那部科幻电影评价很高,你看了吗? 男:看了,画面确实震撼,可惜故事讲得太乱,我有点儿失望。",
+      "vocabFocus": [
+        "科幻",
+        "震撼",
+        "失望"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l1_04.mp3"
+    },
+    {
+      "id": "h5m01_l1_05",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 5",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "女的最担心的是什么?",
+      "explanation": "正确答案是『小张经验不足』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "小张能力不够"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "小张经验不足"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "小张不够努力"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "项目时间太紧"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "职场",
+        "对话"
+      ],
+      "context": "录音:男:这个项目交给小张负责,你放心吗? 女:能力我不担心,就怕他经验少,遇到突发情况手忙脚乱。",
+      "vocabFocus": [
+        "项目",
+        "经验",
+        "突发"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l1_05.mp3"
+    },
+    {
+      "id": "h5m01_l1_06",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 6",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "他们在谈论哪方面的话题?",
+      "explanation": "正确答案是『出行方式』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "出行方式"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "旅游计划"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "饮食习惯"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "购物经验"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "社会",
+        "环保",
+        "对话"
+      ],
+      "context": "录音:女:最近油价又涨了,我打算改骑共享单车上班。 男:我也是,既省钱又锻炼身体,还不用堵在路上。",
+      "vocabFocus": [
+        "油价",
+        "共享单车",
+        "锻炼"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l1_06.mp3"
+    },
+    {
+      "id": "h5m01_l1_07",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 7",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "男的为什么推荐这家餐厅?",
+      "explanation": "正确答案是『环境安静适合谈事』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "环境安静适合谈事"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "离公司近"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "价格便宜"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "菜的分量足"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "职场",
+        "生活",
+        "对话"
+      ],
+      "context": "录音:女:晚上请客户吃饭,选哪家好? 男:就去江边那家吧,环境安静,适合谈事,服务也周到。",
+      "vocabFocus": [
+        "客户",
+        "环境",
+        "周到"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l1_07.mp3"
+    },
+    {
+      "id": "h5m01_l1_08",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 8",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "女的对网上购物有什么看法?",
+      "explanation": "正确答案是『买衣服不方便』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "价格比商场贵"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "送货速度太慢"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "质量没有保证"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "买衣服不方便"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "社会",
+        "消费",
+        "对话"
+      ],
+      "context": "录音:男:你怎么还跑去商场买衣服,网上多方便。 女:衣服还是得试了才知道合不合身,网上退来退去太麻烦。",
+      "vocabFocus": [
+        "商场",
+        "合身",
+        "麻烦"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l1_08.mp3"
+    },
+    {
+      "id": "h5m01_l1_09",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 9",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "男的接下来最可能做什么?",
+      "explanation": "正确答案是『去借一台投影仪』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "修理投影仪"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "取消汇报"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "去借一台投影仪"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "重新打印材料"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "职场",
+        "对话"
+      ],
+      "context": "录音:女:会议室的投影仪好像坏了,一会儿汇报怎么办? 男:别急,我先去借一台,实在不行就用打印的材料。",
+      "vocabFocus": [
+        "会议室",
+        "投影仪",
+        "汇报"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l1_09.mp3"
+    },
+    {
+      "id": "h5m01_l1_10",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 10",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "女的认为孩子最需要培养什么?",
+      "explanation": "正确答案是『好奇心和独立思考』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "好奇心和独立思考"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "考试成绩"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "体育能力"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "外语水平"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "社会",
+        "教育",
+        "对话"
+      ],
+      "context": "录音:男:现在的家长都拼命给孩子报各种补习班。 女:我觉得成绩固然重要,但培养孩子的好奇心和独立思考更关键。",
+      "vocabFocus": [
+        "家长",
+        "好奇心",
+        "独立"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l1_10.mp3"
+    },
+    {
+      "id": "h5m01_l1_11",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 11",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "男的为什么改变了主意?",
+      "explanation": "正确答案是『贷款压力太大』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "大房子位置太远"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "贷款压力太大"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "家人不同意"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "大房子已经卖了"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "社会",
+        "生活",
+        "对话"
+      ],
+      "context": "录音:女:你不是说要买那套大房子吗,怎么又看小户型了? 男:算了算贷款压力太大,与其每天为还钱发愁,不如住得轻松点。",
+      "vocabFocus": [
+        "户型",
+        "贷款",
+        "压力"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l1_11.mp3"
+    },
+    {
+      "id": "h5m01_l1_12",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 12",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "关于这次实验,可以知道什么?",
+      "explanation": "正确答案是『第二组需要重做』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "全部失败了"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "数据还没出来"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "第二组需要重做"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "结果非常理想"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "科普",
+        "对话"
+      ],
+      "context": "录音:男:实验数据出来了吗?结果理想吗? 女:第一组很顺利,可惜第二组温度没控制好,得重新再做一次。",
+      "vocabFocus": [
+        "实验",
+        "数据",
+        "控制"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l1_12.mp3"
+    },
+    {
+      "id": "h5m01_l1_13",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 13",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "女的打算怎么处理这些旧衣服?",
+      "explanation": "正确答案是『捐给山区孩子』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "卖给收废品的"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "直接扔掉"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "捐给山区孩子"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "改成抹布"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "社会",
+        "公益",
+        "对话"
+      ],
+      "context": "录音:男:这一大袋旧衣服你扔了吧。 女:扔了多可惜,我准备洗干净捐给山区的孩子。",
+      "vocabFocus": [
+        "可惜",
+        "捐",
+        "山区"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l1_13.mp3"
+    },
+    {
+      "id": "h5m01_l1_14",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 14",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "男的为什么坚持每天写日记?",
+      "explanation": "正确答案是『记录成长和变化』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "为了练字"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "记录成长和变化"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "工作需要"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "打发时间"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "文化",
+        "生活",
+        "对话"
+      ],
+      "context": "录音:女:你都坚持写了十年日记了,不嫌麻烦? 男:一点儿也不,回头看看自己的成长和变化,特别有意思。",
+      "vocabFocus": [
+        "坚持",
+        "日记",
+        "成长"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l1_14.mp3"
+    },
+    {
+      "id": "h5m01_l1_15",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 15",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "女的提醒男的注意什么?",
+      "explanation": "正确答案是『看清付款和违约条款』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "尽快签合同"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "找律师重写合同"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "看清付款和违约条款"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "和对方多沟通"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "职场",
+        "对话"
+      ],
+      "context": "录音:男:这次合同我大概看了一遍,没什么问题就签了。 女:别大意,付款方式和违约条款一定要逐条看清楚再签。",
+      "vocabFocus": [
+        "合同",
+        "违约",
+        "条款"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l1_15.mp3"
+    },
+    {
+      "id": "h5m01_l1_16",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 16",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "他们最可能是什么关系?",
+      "explanation": "正确答案是『医生和病人』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "医生和病人"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "司机和乘客"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "售货员和顾客"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "老师和学生"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "生活",
+        "健康",
+        "对话"
+      ],
+      "context": "录音:女:大夫,我这两天总咳嗽,晚上睡不好。 男:别担心,先量个体温,我再听听你的肺,问题应该不大。",
+      "vocabFocus": [
+        "大夫",
+        "咳嗽",
+        "体温"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l1_16.mp3"
+    },
+    {
+      "id": "h5m01_l1_17",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 17",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "男的觉得这门课最大的收获是什么?",
+      "explanation": "正确答案是『敢当众发言了』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "学到很多知识"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "敢当众发言了"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "认识了新朋友"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "成绩提高了"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "教育",
+        "对话"
+      ],
+      "context": "录音:女:这学期的演讲课你学得怎么样? 男:知识倒在其次,最大的收获是我现在敢当众发言了,不再紧张。",
+      "vocabFocus": [
+        "演讲",
+        "当众",
+        "紧张"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l1_17.mp3"
+    },
+    {
+      "id": "h5m01_l1_18",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 18",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "女的为什么推迟了旅行?",
+      "explanation": "正确答案是『临时要去培训』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "机票太贵"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "身体不舒服"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "天气不好"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "临时要去培训"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "职场",
+        "生活",
+        "对话"
+      ],
+      "context": "录音:男:你不是订好下周去云南的机票了吗? 女:本来订好了,临时被安排去外地培训,只好改签到下个月。",
+      "vocabFocus": [
+        "机票",
+        "临时",
+        "培训"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l1_18.mp3"
+    },
+    {
+      "id": "h5m01_l1_19",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 19",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "男的对这款新手机的评价是什么?",
+      "explanation": "正确答案是『拍照好但电池差』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "各方面都很差"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "拍照好但电池差"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "完美无缺"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "价格太高"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "科普",
+        "消费",
+        "对话"
+      ],
+      "context": "录音:女:这款新手机你用了一周,值不值得买? 男:拍照效果一流,就是电池不太耐用,看你更看重哪方面了。",
+      "vocabFocus": [
+        "拍照",
+        "电池",
+        "耐用"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l1_19.mp3"
+    },
+    {
+      "id": "h5m01_l2_01",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 1",
+      "stem": "听一段话,选择正确答案",
+      "prompt": "这段话主要想告诉我们什么?",
+      "explanation": "正确答案是『人的价值取决于自身定位』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "石头其实很值钱"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "运气决定一切"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "做生意要会讲价"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "人的价值取决于自身定位"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "文化",
+        "哲理",
+        "故事"
+      ],
+      "context": "录音:有个年轻人总抱怨自己运气不好,师傅没有责备他,而是递给他一颗普通的石头,让他拿到菜市场去卖,但不许真卖。结果有人愿意出几块钱。第二天师傅又让他拿到黄金市场,有人出到几百块。最后师傅让他拿到珠宝行,竟有人出价上万。师傅说:同一块石头,放在不同的地方,价值完全不同。一个人也是如此,关键看你把自己放在什么位置,愿不愿意提升自己。",
+      "vocabFocus": [
+        "抱怨",
+        "价值",
+        "提升"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l2_01.mp3"
+    },
+    {
+      "id": "h5m01_l2_02",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 2",
+      "stem": "听一段话,选择正确答案",
+      "prompt": "关于睡眠,这段话提到了什么?",
+      "explanation": "正确答案是『睡眠质量比时间更重要』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "睡得越久越好"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "睡眠质量比时间更重要"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "睡前看手机有助睡眠"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "深度睡眠没有作用"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "科普",
+        "健康"
+      ],
+      "context": "录音:很多人以为只要睡够八小时就行,其实睡眠质量比时间长短更重要。研究发现,深度睡眠阶段大脑会清理一天积累的代谢废物,并把白天的记忆整理保存。如果总是熬夜或睡前长时间看手机,即使躺得久,也很难进入深度睡眠,第二天照样疲惫。专家建议,睡前一小时放下手机,保持卧室安静和黑暗,更有助于提高睡眠质量。",
+      "vocabFocus": [
+        "睡眠",
+        "深度",
+        "代谢"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l2_02.mp3"
+    },
+    {
+      "id": "h5m01_l2_03",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 3",
+      "stem": "听一段话,选择正确答案",
+      "prompt": "这位作家是怎么开始写作的?",
+      "explanation": "正确答案是『住院时读小说被吸引』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "受老师的鼓励"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "从小就热爱文学"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "为了赚钱谋生"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "住院时读小说被吸引"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "文化",
+        "人物",
+        "故事"
+      ],
+      "context": "录音:这位著名作家小时候并不爱读书,成绩也很普通。一次生病住院,无聊之下他随手翻开父亲带来的小说,没想到一下子被故事吸引,从此一发不可收拾。出院后他几乎读遍了图书馆的藏书,还开始模仿着写短篇。他常说,是那场病让他遇见了文学,也找到了一生热爱的事业。",
+      "vocabFocus": [
+        "作家",
+        "吸引",
+        "模仿"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l2_03.mp3"
+    },
+    {
+      "id": "h5m01_l2_04",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 4",
+      "stem": "听一段话,选择正确答案",
+      "prompt": "这段话主要介绍了大熊猫的什么?",
+      "explanation": "正确答案是『习性和保护情况』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "只介绍它的食物"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "它生活的城市"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "它的天敌"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "习性和保护情况"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "科普",
+        "动物"
+      ],
+      "context": "录音:大熊猫被称为中国的国宝,它最爱吃的是竹子,一天能吃掉十几公斤。别看它身体圆滚滚的,爬起树来却十分灵活。过去由于栖息地被破坏,大熊猫数量一度急剧减少。近些年,随着保护区的建立和人工繁育技术的进步,它们的数量正在稳步回升,生存状况大大改善。",
+      "vocabFocus": [
+        "国宝",
+        "栖息地",
+        "繁育"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l2_04.mp3"
+    },
+    {
+      "id": "h5m01_l2_05",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 5",
+      "stem": "听一段话,选择正确答案",
+      "prompt": "这家公司为什么受到员工欢迎?",
+      "explanation": "正确答案是『办公方式灵活』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "工资特别高"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "不用完成任务"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "办公方式灵活"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "经常组织旅游"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "职场",
+        "管理"
+      ],
+      "context": "录音:这家公司有一项与众不同的制度:员工每周可以有一天在家办公,工作时间也比较灵活,只要按时完成任务就行。管理者认为,与其盯着员工坐在工位上,不如关注他们实际的工作成果。这样一来,大家既省去了通勤的疲劳,工作效率反而更高,公司的人才流失也明显减少。",
+      "vocabFocus": [
+        "制度",
+        "灵活",
+        "通勤"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l2_05.mp3"
+    },
+    {
+      "id": "h5m01_l2_06",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 6",
+      "stem": "听一段话,选择正确答案",
+      "prompt": "根据这段话,人为什么会忘记?",
+      "explanation": "正确答案是『是大脑的自我保护』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "是大脑的自我保护"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "因为大脑生病了"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "因为年纪太大"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "因为不够努力"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "科普",
+        "心理"
+      ],
+      "context": "录音:遗忘并不全是坏事。大脑每天接收海量信息,如果什么都记得清清楚楚,反而会不堪重负。科学家认为,适当的遗忘其实是大脑的一种自我保护,它帮我们过滤掉不重要的细节,只保留真正有用的内容,从而让思维更加清晰高效。所以,偶尔忘记一些小事,不必太过焦虑。",
+      "vocabFocus": [
+        "遗忘",
+        "过滤",
+        "高效"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l2_06.mp3"
+    },
+    {
+      "id": "h5m01_l2_07",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 7",
+      "stem": "听一段话,选择正确答案",
+      "prompt": "这位老人是如何度过晚年的?",
+      "explanation": "正确答案是『学习并参加各种活动』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "在家休息带孙子"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "继续上班工作"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "外出长期旅游"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "学习并参加各种活动"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "社会",
+        "生活",
+        "人物"
+      ],
+      "context": "录音:退休后,这位老人没有像别人那样在家里闲着,而是报名参加了社区大学,学起了书法和摄影。他还组织了一支老年合唱团,每周排练、演出,日子过得有滋有味。他说,人活到老就该学到老,只要心里有热爱,年龄从来不是问题。如今他的生活比退休前还要忙碌,也更加充实。",
+      "vocabFocus": [
+        "退休",
+        "书法",
+        "充实"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l2_07.mp3"
+    },
+    {
+      "id": "h5m01_l2_08",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 8",
+      "stem": "听一段话,选择正确答案",
+      "prompt": "这段话告诉我们应该怎样对待失败?",
+      "explanation": "正确答案是『把失败当作收获,不轻易放弃』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "把失败当作收获,不轻易放弃"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "失败了就换个目标"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "尽量避免失败"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "失败说明不适合"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "哲理",
+        "科普",
+        "故事"
+      ],
+      "context": "录音:很多发明都不是一次成功的。某位科学家在研制电灯时,试验了上千种材料才找到合适的灯丝。当别人问他失败了这么多次会不会灰心,他笑着说,我没有失败,我只是找到了一千种行不通的方法。正是这种把每次失败都当作收获的心态,才让他最终取得了成功。失败并不可怕,可怕的是因此放弃。",
+      "vocabFocus": [
+        "发明",
+        "灰心",
+        "心态"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l2_08.mp3"
+    },
+    {
+      "id": "h5m01_l2_09",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 9",
+      "stem": "听一段话,选择正确答案",
+      "prompt": "这座古城为什么吸引了大量游客?",
+      "explanation": "正确答案是『保留了原汁原味的传统』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "门票免费"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "保留了原汁原味的传统"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "交通特别方便"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "建了很多新楼"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "文化",
+        "旅游"
+      ],
+      "context": "录音:这座位于江南的古城已有上千年历史,小桥流水、青石板路保存得十分完好。最难得的是,当地居民至今仍住在老房子里,延续着传统的生活方式。游客来到这里,不仅能欣赏古朴的建筑,还能品尝地道小吃,体验手工艺,仿佛穿越回了过去。正因为这份原汁原味,它每年都吸引着成千上万的游客。",
+      "vocabFocus": [
+        "古城",
+        "延续",
+        "地道"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l2_09.mp3"
+    },
+    {
+      "id": "h5m01_l2_10",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 10",
+      "stem": "听一段话,选择正确答案",
+      "prompt": "这段话建议年轻人怎样理财?",
+      "explanation": "正确答案是『尽早养成记账储蓄的习惯』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "把钱全部投资"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "等有钱了再理财"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "尽量多花钱享受"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "尽早养成记账储蓄的习惯"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "社会",
+        "理财"
+      ],
+      "context": "录音:不少刚工作的年轻人觉得自己挣得少,理财是有钱人的事,跟自己没关系。其实正相反,越早养成记账和储蓄的习惯越好。哪怕每月只存一点,日积月累也很可观。更重要的是,这个过程能让你清楚钱花在了哪里,学会区分需要和想要,从而避免冲动消费。理财不在于钱多钱少,而在于有没有规划。",
+      "vocabFocus": [
+        "理财",
+        "储蓄",
+        "冲动"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l2_10.mp3"
+    },
+    {
+      "id": "h5m01_l2_11",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 11",
+      "stem": "听一段话,选择正确答案",
+      "prompt": "这段话主要说明了什么道理?",
+      "explanation": "正确答案是『有时静下心来更好』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "做事一定要快"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "喝水有益健康"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "有时静下心来更好"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "凡事都要请教别人"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "哲理",
+        "文化",
+        "故事"
+      ],
+      "context": "录音:一位徒弟问师傅,怎样才能让一杯浑浊的水变清。师傅没有回答,只是把水杯放在桌上。过了一会儿,泥沙慢慢沉到杯底,水自然就清了。师傅说,你越是去搅动它,水就越浑;有时候,与其急着想办法,不如静下心来等一等。生活中很多烦恼也是如此,沉住气,答案往往会自己浮现。",
+      "vocabFocus": [
+        "浑浊",
+        "搅动",
+        "烦恼"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l2_11.mp3"
+    },
+    {
+      "id": "h5m01_l2_12",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 12",
+      "stem": "听一段话,选择正确答案",
+      "prompt": "关于这种新型材料,可以知道什么?",
+      "explanation": "正确答案是『能自然分解,有望替代塑料』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "原料是石油"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "很容易污染环境"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "已经全面普及"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "能自然分解,有望替代塑料"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "科普",
+        "环保"
+      ],
+      "context": "录音:科研人员最近研发出一种新型环保材料,它的原料来自废弃的农作物秸秆。这种材料不仅结实耐用,而且能在自然环境中逐渐分解,不会造成污染。目前,它已经被用来制作餐具和包装盒。专家表示,如果能进一步降低成本,这种材料有望大规模替代传统塑料,缓解日益严重的白色污染问题。",
+      "vocabFocus": [
+        "环保",
+        "秸秆",
+        "分解"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l2_12.mp3"
+    },
+    {
+      "id": "h5m01_l2_13",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 13",
+      "stem": "听一段话,选择正确答案",
+      "prompt": "这位志愿者从支教中得到了什么?",
+      "explanation": "正确答案是『对人生意义的新认识』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "对人生意义的新认识"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "舒适的生活条件"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "出国的机会"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "一份高薪工作"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "社会",
+        "公益",
+        "人物"
+      ],
+      "context": "录音:大学毕业后,她没有急着找工作,而是去偏远山区支教了一年。条件很艰苦,没有热水,信号也时好时坏,可她却觉得收获满满。看着孩子们一双双渴望知识的眼睛,听着他们一天天进步,她第一次真切地感受到自己被需要。她说,这一年改变了她对人生意义的看法,让她变得更加坚强和踏实。",
+      "vocabFocus": [
+        "支教",
+        "艰苦",
+        "踏实"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l2_13.mp3"
+    },
+    {
+      "id": "h5m01_l2_14",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 14",
+      "stem": "听一段话,选择正确答案",
+      "prompt": "这段话提醒我们使用社交软件时要注意什么?",
+      "explanation": "正确答案是『不要盲目和别人比较』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "尽量少和朋友联系"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "多晒自己的生活"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "不要盲目和别人比较"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "相信网上的一切"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "社会",
+        "心理"
+      ],
+      "context": "录音:社交软件让我们随时能和朋友联系,却也带来了新的烦恼。有人一有空就刷别人晒出的旅行、美食和成就,越看越觉得自己的生活平淡无趣,慢慢陷入焦虑。其实,大家在网上展示的多半是经过挑选的美好瞬间,并非生活的全部。与其在比较中消耗自己,不如把目光收回来,专注于过好自己的日子。",
+      "vocabFocus": [
+        "社交",
+        "焦虑",
+        "消耗"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l2_14.mp3"
+    },
+    {
+      "id": "h5m01_l2_15",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 15",
+      "stem": "听一段话,选择正确答案",
+      "prompt": "这家面馆为什么生意一直很好?",
+      "explanation": "正确答案是『坚持质量、用心经营』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "开了很多分店"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "装修豪华"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "坚持质量、用心经营"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "价格非常便宜"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "社会",
+        "生活",
+        "故事"
+      ],
+      "context": "录音:街角那家面馆开了二十多年,店面不大,装修也很普通,生意却一直红火。老板坚持每天清早现熬高汤,面条也是手工现做,从不偷工减料。有人劝他扩大规模、开分店,他却摇摇头说,做大了就顾不上质量了,我宁愿守着这一家小店,让每位客人都吃得满意。正是这份用心,留住了一批又一批的老顾客。",
+      "vocabFocus": [
+        "面馆",
+        "偷工减料",
+        "用心"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l2_15.mp3"
+    },
+    {
+      "id": "h5m01_l2_16",
+      "levelCode": "hsk-5",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 16",
+      "stem": "听一段话,选择正确答案",
+      "prompt": "这段话主要谈的是什么?",
+      "explanation": "正确答案是『保护濒临消失的语言』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "怎样快速学外语"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "保护濒临消失的语言"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "数字技术的发展"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "老人的生活方式"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "文化",
+        "科普"
+      ],
+      "context": "录音:语言不仅是交流的工具,更承载着一个民族的文化和记忆。每当一种语言消失,人类就失去了一种独特的看世界的方式。如今,全世界有近一半的语言面临失传的危险,很多只剩下少数老人还会说。为此,不少学者正抓紧时间记录这些语言,有的还借助数字技术建立资料库,希望尽可能把它们保存下来,留给后人。",
+      "vocabFocus": [
+        "承载",
+        "失传",
+        "资料库"
+      ],
+      "audioUrl": "/generated/audio/hsk-5/h5m01_l2_16.mp3"
+    },
+    {
+      "id": "h5m01_r1_01",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_FILL_MC",
+      "title": "阅读·第一部分 1",
+      "stem": "选词填空",
+      "prompt": "请为短文中的空白处选择最恰当的词语。",
+      "explanation": "正确答案是『重视』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "重视"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "怀疑"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "放弃"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "忽视"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "社会",
+        "健康",
+        "填空"
+      ],
+      "context": "随着生活节奏的加快,越来越多的人开始____健康的重要性。他们不再一味追求工作上的成功,而是学会在忙碌之余给自己留出休息和运动的时间。",
+      "vocabFocus": [
+        "节奏",
+        "重视",
+        "健康"
+      ]
+    },
+    {
+      "id": "h5m01_r1_02",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_FILL_MC",
+      "title": "阅读·第一部分 2",
+      "stem": "选词填空",
+      "prompt": "请为短文中的空白处选择最恰当的词语。",
+      "explanation": "正确答案是『经历』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "发表"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "举行"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "制造"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "经历"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "科普",
+        "人物",
+        "填空"
+      ],
+      "context": "这位科学家一生____了无数次失败,但他从不气馁。正是凭着这种锲而不舍的精神,他最终在医学领域取得了重大突破。",
+      "vocabFocus": [
+        "经历",
+        "气馁",
+        "突破"
+      ]
+    },
+    {
+      "id": "h5m01_r1_03",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_FILL_MC",
+      "title": "阅读·第一部分 3",
+      "stem": "选词填空",
+      "prompt": "请为短文中的空白处选择最恰当的词语。",
+      "explanation": "正确答案是『始终』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "勉强"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "始终"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "几乎"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "未必"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "职场",
+        "消费",
+        "填空"
+      ],
+      "context": "这家公司新推出的产品质量过硬,价格也很合理,因此在市场上____很受欢迎,上市不到一个月就供不应求。",
+      "vocabFocus": [
+        "过硬",
+        "始终",
+        "供不应求"
+      ]
+    },
+    {
+      "id": "h5m01_r1_04",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_FILL_MC",
+      "title": "阅读·第一部分 4",
+      "stem": "选词填空",
+      "prompt": "请为短文中的空白处选择最恰当的词语。",
+      "explanation": "正确答案是『习惯』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "态度"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "条件"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "习惯"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "理由"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "教育",
+        "填空"
+      ],
+      "context": "老师常对学生说,读书不能只图快,关键要养成思考的____。只有边读边想,把书中的内容和自己的生活联系起来,知识才能真正变成自己的。",
+      "vocabFocus": [
+        "思考",
+        "习惯",
+        "联系"
+      ]
+    },
+    {
+      "id": "h5m01_r1_05",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_FILL_MC",
+      "title": "阅读·第一部分 5",
+      "stem": "选词填空",
+      "prompt": "请为短文中的空白处选择最恰当的词语。",
+      "explanation": "正确答案是『宜人』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "宜人"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "热烈"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "紧张"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "可惜"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "环保",
+        "社会",
+        "填空"
+      ],
+      "context": "这条河流曾经污染严重,鱼虾几乎绝迹。经过当地政府多年的治理,如今河水变得清澈,两岸风景____,成了市民休闲的好去处。",
+      "vocabFocus": [
+        "污染",
+        "治理",
+        "宜人"
+      ]
+    },
+    {
+      "id": "h5m01_r1_06",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_FILL_MC",
+      "title": "阅读·第一部分 6",
+      "stem": "选词填空",
+      "prompt": "请为短文中的空白处选择最恰当的词语。",
+      "explanation": "正确答案是『决定』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "想象"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "印象"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "决定"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "回忆"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "心理",
+        "填空"
+      ],
+      "context": "面对突如其来的困难,他没有惊慌失措,而是冷静地分析形势,迅速做出了正确的____。事后大家都佩服他过人的判断力。",
+      "vocabFocus": [
+        "惊慌",
+        "冷静",
+        "决定"
+      ]
+    },
+    {
+      "id": "h5m01_r1_07",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_FILL_MC",
+      "title": "阅读·第一部分 7",
+      "stem": "选词填空",
+      "prompt": "请为短文中的空白处选择最恰当的词语。",
+      "explanation": "正确答案是『交流』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "比赛"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "表演"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "竞争"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "交流"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "职场",
+        "填空"
+      ],
+      "context": "团队合作中,沟通是必不可少的一环。如果成员之间____不畅,信息传递出现误差,再好的计划也难以顺利完成。",
+      "vocabFocus": [
+        "合作",
+        "沟通",
+        "交流"
+      ]
+    },
+    {
+      "id": "h5m01_r1_08",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_FILL_MC",
+      "title": "阅读·第一部分 8",
+      "stem": "选词填空",
+      "prompt": "请为短文中的空白处选择最恰当的词语。",
+      "explanation": "正确答案是『敏感』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "陌生"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "亲切"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "诚实"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "敏感"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "科普",
+        "环保",
+        "填空"
+      ],
+      "context": "这种鸟类对环境的变化非常____,空气一旦受到轻微污染,它们就会停止鸣叫。因此,人们常把它当作监测环境质量的天然指标。",
+      "vocabFocus": [
+        "鸟类",
+        "敏感",
+        "监测"
+      ]
+    },
+    {
+      "id": "h5m01_r1_09",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_FILL_MC",
+      "title": "阅读·第一部分 9",
+      "stem": "选词填空",
+      "prompt": "请为短文中的空白处选择最恰当的词语。",
+      "explanation": "正确答案是『节省』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "节省"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "增加"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "花费"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "浪费"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "哲理",
+        "填空"
+      ],
+      "context": "做任何事都要讲究方法。如果方向错了,越努力可能离目标越远。所以在埋头苦干之前,先停下来想清楚思路,往往能____很多时间和精力。",
+      "vocabFocus": [
+        "讲究",
+        "思路",
+        "节省"
+      ]
+    },
+    {
+      "id": "h5m01_r1_10",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_FILL_MC",
+      "title": "阅读·第一部分 10",
+      "stem": "选词填空",
+      "prompt": "请为短文中的空白处选择最恰当的词语。",
+      "explanation": "正确答案是『改善』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "改善"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "降低"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "破坏"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "怀念"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "文化",
+        "人物",
+        "填空"
+      ],
+      "context": "这位演员虽然已经成名,却依然十分谦虚。每次拍完戏,他都会认真听取导演的意见,不断____自己的演技,从不满足于现状。",
+      "vocabFocus": [
+        "谦虚",
+        "改善",
+        "现状"
+      ]
+    },
+    {
+      "id": "h5m01_r2_01",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_ORDER",
+      "title": "阅读·第二部分 1",
+      "stem": "句子排序",
+      "prompt": "请将下列三个句子排列成一段语义连贯、逻辑通顺的话。",
+      "explanation": "先指出发现效率低的问题,再写采取的对策,最后写一段时间后的效果,顺序为发现问题、提前到岗、收到成效。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "于是他每天提前一小时到公司,利用安静的时间处理重要工作"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "小李发现自己白天总被各种琐事打断,效率很低"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "一段时间后,他不仅完成得更快,精神状态也好了许多"
+        }
+      ],
+      "correctOptionId": "B,A,C",
+      "tags": [
+        "职场",
+        "排序"
+      ],
+      "vocabFocus": [
+        "琐事",
+        "效率",
+        "提前"
+      ],
+      "answerText": "B,A,C"
+    },
+    {
+      "id": "h5m01_r2_02",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_ORDER",
+      "title": "阅读·第二部分 2",
+      "stem": "句子排序",
+      "prompt": "请将下列三个句子排列成一段语义连贯、逻辑通顺的话。",
+      "explanation": "先提出观点不需大事,再举例垃圾分类自带购物袋,最后总结小举动坚持有影响,顺序为观点、举例、总结。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "比如把垃圾分类、出门自带购物袋"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "保护环境其实并不需要做什么惊天动地的大事"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "这些看似微小的举动,坚持下来就能产生不小的影响"
+        }
+      ],
+      "correctOptionId": "B,A,C",
+      "tags": [
+        "环保",
+        "排序"
+      ],
+      "vocabFocus": [
+        "分类",
+        "举动",
+        "影响"
+      ],
+      "answerText": "B,A,C"
+    },
+    {
+      "id": "h5m01_r2_03",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_ORDER",
+      "title": "阅读·第二部分 3",
+      "stem": "句子排序",
+      "prompt": "请将下列三个句子排列成一段语义连贯、逻辑通顺的话。",
+      "explanation": "先写原以为简单的看法,再写动笔时遇到困难,最后悟出缺乏积累的原因,顺序为原想法、遇困难、得结论。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "可真正动笔时,他却发现脑子里一片空白"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "原来,平时积累不够,光有热情是写不出好文章的"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "他一直以为写作很简单,不过是把想法记下来罢了"
+        }
+      ],
+      "correctOptionId": "C,A,B",
+      "tags": [
+        "文化",
+        "排序"
+      ],
+      "vocabFocus": [
+        "动笔",
+        "空白",
+        "积累"
+      ],
+      "answerText": "C,A,B"
+    },
+    {
+      "id": "h5m01_r2_04",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_ORDER",
+      "title": "阅读·第二部分 4",
+      "stem": "句子排序",
+      "prompt": "请将下列三个句子排列成一段语义连贯、逻辑通顺的话。",
+      "explanation": "先说阳光合成维生素D,再说维生素D助钙吸收使骨骼结实,最后得出晒太阳有益的结论,顺序为前提、递进、结论。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "因此,适当晒太阳对身体大有好处"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "阳光能帮助人体合成维生素D"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "而维生素D又有助于钙的吸收,使骨骼更加结实"
+        }
+      ],
+      "correctOptionId": "B,C,A",
+      "tags": [
+        "科普",
+        "健康",
+        "排序"
+      ],
+      "vocabFocus": [
+        "合成",
+        "吸收",
+        "骨骼"
+      ],
+      "answerText": "B,C,A"
+    },
+    {
+      "id": "h5m01_r2_05",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_ORDER",
+      "title": "阅读·第二部分 5",
+      "stem": "句子排序",
+      "prompt": "请将下列三个句子排列成一段语义连贯、逻辑通顺的话。",
+      "explanation": "先写第一次紧张说不清,再写反复练习克服紧张,最后写如今成为主持人,顺序为起初、转变、结果。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "经过反复练习,她终于克服了紧张"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "第一次上台演讲,她紧张得连话都说不清楚"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "如今,她已经成了公司里最受欢迎的主持人"
+        }
+      ],
+      "correctOptionId": "B,A,C",
+      "tags": [
+        "职场",
+        "人物",
+        "排序"
+      ],
+      "vocabFocus": [
+        "演讲",
+        "克服",
+        "主持人"
+      ],
+      "answerText": "B,A,C"
+    },
+    {
+      "id": "h5m01_r2_06",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_ORDER",
+      "title": "阅读·第二部分 6",
+      "stem": "句子排序",
+      "prompt": "请将下列三个句子排列成一段语义连贯、逻辑通顺的话。",
+      "explanation": "先写为赶飞机提前出门,再写路上意外堵车,最后写幸亏早出没误机,顺序为打算、意外、结果。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "结果一上路才发现,堵车比平时严重得多"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "为了赶上早班飞机,他特意提前两个小时出了门"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "幸好出发得早,他才没有误了航班"
+        }
+      ],
+      "correctOptionId": "B,A,C",
+      "tags": [
+        "生活",
+        "排序"
+      ],
+      "vocabFocus": [
+        "航班",
+        "堵车",
+        "幸好"
+      ],
+      "answerText": "B,A,C"
+    },
+    {
+      "id": "h5m01_r2_07",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_ORDER",
+      "title": "阅读·第二部分 7",
+      "stem": "句子排序",
+      "prompt": "请将下列三个句子排列成一段语义连贯、逻辑通顺的话。",
+      "explanation": "先介绍桥的历史久远,再说它至今仍可通行,最后评价体现古代工匠技艺,顺序为介绍、现状、评价。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "这座桥已经有六百多年的历史"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "至今仍然稳稳地横跨在河面上,供人们通行"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "它充分体现了古代工匠高超的建筑技艺"
+        }
+      ],
+      "correctOptionId": "A,B,C",
+      "tags": [
+        "文化",
+        "历史",
+        "排序"
+      ],
+      "vocabFocus": [
+        "横跨",
+        "工匠",
+        "技艺"
+      ],
+      "answerText": "A,B,C"
+    },
+    {
+      "id": "h5m01_r2_08",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_ORDER",
+      "title": "阅读·第二部分 8",
+      "stem": "句子排序",
+      "prompt": "请将下列三个句子排列成一段语义连贯、逻辑通顺的话。",
+      "explanation": "先写他注意到灯常空亮的问题,再写提出装感应开关的建议,最后写建议节省开支的结果,顺序为发现、提议、效果。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "没想到这个小小的建议,竟为公司节省了一大笔开支"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "他注意到办公室的灯常常无人也亮着"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "于是提议安装一种人走灯灭的感应开关"
+        }
+      ],
+      "correctOptionId": "B,C,A",
+      "tags": [
+        "职场",
+        "排序"
+      ],
+      "vocabFocus": [
+        "感应",
+        "提议",
+        "开支"
+      ],
+      "answerText": "B,C,A"
+    },
+    {
+      "id": "h5m01_r2_09",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_ORDER",
+      "title": "阅读·第二部分 9",
+      "stem": "句子排序",
+      "prompt": "请将下列三个句子排列成一段语义连贯、逻辑通顺的话。",
+      "explanation": "先点出常见误解不需浇水,再纠正其实也需水只是耐旱,最后说明长期不浇也会枯死,顺序为误解、纠正、后果。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "很多人误以为仙人掌不需要浇水"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "其实它也需要水分,只是耐旱能力比一般植物强得多"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "如果长期一点儿不浇,它同样会慢慢枯死"
+        }
+      ],
+      "correctOptionId": "A,B,C",
+      "tags": [
+        "科普",
+        "排序"
+      ],
+      "vocabFocus": [
+        "仙人掌",
+        "耐旱",
+        "枯死"
+      ],
+      "answerText": "A,B,C"
+    },
+    {
+      "id": "h5m01_r2_10",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_ORDER",
+      "title": "阅读·第二部分 10",
+      "stem": "句子排序",
+      "prompt": "请将下列三个句子排列成一段语义连贯、逻辑通顺的话。",
+      "explanation": "先提出人工智能改变工作方式,再说耗时事情能交给它完成,最后举例制定计划等,顺序为总述、说明、举例。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "比如制定计划、查阅资料、安排日程"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "人工智能正在悄悄改变我们的工作方式"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "许多过去耗时的事情,如今都能交给它高效完成"
+        }
+      ],
+      "correctOptionId": "B,C,A",
+      "tags": [
+        "科普",
+        "职场",
+        "排序"
+      ],
+      "vocabFocus": [
+        "人工智能",
+        "查阅",
+        "日程"
+      ],
+      "answerText": "B,C,A"
+    },
+    {
+      "id": "h5m01_r3_01",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 1",
+      "stem": "读短文,选择正确答案",
+      "prompt": "这位老板为什么不直接告诉年轻人答案?",
+      "explanation": "正确答案是『想考察他的观察力和用心』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "自己也不知道答案"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "想考察他的观察力和用心"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "故意为难年轻人"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "没有时间解释"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "职场",
+        "短文",
+        "故事"
+      ],
+      "context": "一个年轻人去一家公司应聘,老板没有问他任何专业问题,只是带他参观了整个工厂,然后请他喝茶。临走时,老板才问:你觉得我们公司哪里还可以改进?年轻人愣了一下,凭着一路的观察,提出了几条中肯的建议。三天后,他收到了录用通知。后来他才明白,老板真正想考察的,并不是他懂多少知识,而是他是否善于观察、是否真正关心这家企业。比起标准答案,这种用心和洞察力,才是老板最看重的品质。",
+      "vocabFocus": [
+        "应聘",
+        "中肯",
+        "洞察力"
+      ]
+    },
+    {
+      "id": "h5m01_r3_02",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 2",
+      "stem": "读短文,选择正确答案",
+      "prompt": "根据短文,关于这种植物可以知道什么?",
+      "explanation": "正确答案是『遇水能重新恢复生机』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "遇水能重新恢复生机"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "只能生活在水里"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "缺水时会真的死亡"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "生长得非常快"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "科普",
+        "植物",
+        "短文"
+      ],
+      "context": "在沙漠中,有一种被称为复活草的植物。在干旱缺水时,它会把枝叶卷成一团,看上去像枯死了一样,以此减少水分蒸发,长期处于休眠状态。一旦遇到雨水,哪怕只是少量的水分,它便会在几个小时内重新舒展开来,恢复生机,继续生长。正是凭借这种独特的本领,复活草才能在极端恶劣的环境中顽强地生存下来,成为生命力的象征。",
+      "vocabFocus": [
+        "干旱",
+        "蒸发",
+        "休眠"
+      ]
+    },
+    {
+      "id": "h5m01_r3_03",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 3",
+      "stem": "读短文,选择正确答案",
+      "prompt": "这段话主要想说明什么?",
+      "explanation": "正确答案是『限制我们的往往是自己』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "跳蚤的弹跳力很弱"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "玻璃杯太高了"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "限制我们的往往是自己"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "做实验很有意思"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "哲理",
+        "心理",
+        "短文"
+      ],
+      "context": "有人做过一个有趣的实验:把一只跳蚤放进玻璃杯,它能轻松跳出杯口。可如果在杯口盖上一块玻璃,跳蚤每次往上跳都会撞到玻璃。几次之后,它便学会了降低高度,不再撞顶。等到把玻璃拿走,这只跳蚤却再也跳不出杯子了。它并非跳不出去,而是给自己设了一道看不见的限制。很多时候,真正困住我们的,不是外在的障碍,而是内心的那道墙。",
+      "vocabFocus": [
+        "跳蚤",
+        "障碍",
+        "限制"
+      ]
+    },
+    {
+      "id": "h5m01_r3_04",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 4",
+      "stem": "读短文,选择正确答案",
+      "prompt": "根据短文,志愿者们做了什么?",
+      "explanation": "正确答案是『带孩子们动手做科学实验』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "帮学校修理了教室"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "给孩子们捐了很多书"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "带孩子们动手做科学实验"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "组织了一场体育比赛"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "教育",
+        "公益",
+        "短文"
+      ],
+      "context": "上个周末,一群大学生志愿者来到城郊的一所小学,为孩子们带去了一场别开生面的科学课。他们没有照本宣科,而是带着各种小道具,让孩子们亲手做实验:用气球演示静电,用柠檬制作简易电池。原本枯燥的科学原理,在动手操作中变得生动有趣。一个小男孩兴奋地说,原来科学一点儿也不难,我长大也要当科学家。志愿者们说,能在孩子心里种下一颗好奇的种子,比讲多少知识都更有意义。",
+      "vocabFocus": [
+        "志愿者",
+        "静电",
+        "好奇"
+      ]
+    },
+    {
+      "id": "h5m01_r3_05",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 5",
+      "stem": "读短文,选择正确答案",
+      "prompt": "根据短文,作者建议怎样选择朋友?",
+      "explanation": "正确答案是『多亲近带来正能量的人』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "朋友越多越好"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "多亲近带来正能量的人"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "只和有钱人交朋友"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "不必在意朋友的影响"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "哲理",
+        "社会",
+        "短文"
+      ],
+      "context": "古人说,近朱者赤,近墨者黑。我们身边的朋友,会在不知不觉中影响我们的言行和心态。和积极上进的人在一起,你会被他们的热情感染,变得更有动力;而总和爱抱怨、消极的人来往,时间长了，自己也容易变得消沉。这并不是说要功利地挑选朋友,而是提醒我们,要多亲近那些能给自己带来正能量、让自己变得更好的人。",
+      "vocabFocus": [
+        "影响",
+        "消极",
+        "正能量"
+      ]
+    },
+    {
+      "id": "h5m01_r3_06",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 6",
+      "stem": "读短文,选择正确答案",
+      "prompt": "这家书店采取了什么经营方式?",
+      "explanation": "正确答案是『转型为文化交流空间』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "大幅降低书价"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "转型为文化交流空间"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "改成只卖咖啡"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "搬到了网上"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "社会",
+        "文化",
+        "短文"
+      ],
+      "context": "在网上书店的冲击下,不少实体书店纷纷倒闭,可城里这家老书店却越开越红火。它的秘诀在于转型:除了卖书,书店还开辟了阅读区和咖啡区,定期举办作家见面会、读书分享会,把单纯的卖场变成了一个文化交流的空间。人们来这里不只是买书,更是为了享受那种安静、有书香的氛围。事实证明,实体书店并非没有出路,关键在于能否提供网络无法替代的体验。",
+      "vocabFocus": [
+        "冲击",
+        "转型",
+        "氛围"
+      ]
+    },
+    {
+      "id": "h5m01_r3_07",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 7",
+      "stem": "读短文,选择正确答案",
+      "prompt": "根据短文,蜜蜂是怎样传递信息的?",
+      "explanation": "正确答案是『靠跳特殊的舞蹈』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "靠跳特殊的舞蹈"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "靠改变身体颜色"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "靠留下气味"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "靠发出叫声"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "科普",
+        "动物",
+        "短文"
+      ],
+      "context": "蜜蜂是一种了不起的昆虫,它们之间有着独特的交流方式。当一只蜜蜂发现了花蜜,回到蜂巢后,它会通过一种特殊的舞蹈来告诉同伴食物的方向和距离。舞蹈的方向指示着花朵相对于太阳的方位,而舞动的快慢和时间长短则表示距离的远近。同伴们就靠着解读这种舞蹈,准确地找到食物来源。科学家把这种奇妙的行为称为蜜蜂的舞蹈语言。",
+      "vocabFocus": [
+        "蜜蜂",
+        "蜂巢",
+        "方位"
+      ]
+    },
+    {
+      "id": "h5m01_r3_08",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 8",
+      "stem": "读短文,选择正确答案",
+      "prompt": "父亲想通过这件事教给孩子什么?",
+      "explanation": "正确答案是『懂得寻求帮助也是能力』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "做事不能放弃"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "要锻炼身体"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "懂得寻求帮助也是能力"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "石头太重搬不动"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "哲理",
+        "家庭",
+        "短文"
+      ],
+      "context": "一位父亲让儿子尝试搬动院子里一块大石头。孩子使出浑身的力气,推、拉、撬,石头却纹丝不动。最后他气喘吁吁地说,我已经用尽全力了,可它还是搬不动。父亲笑着摇摇头:不,你并没有用尽全力,因为你从头到尾都没有请我来帮忙。孩子这才恍然大悟。父亲想让他明白,一个人的力量终究有限,懂得在需要时寻求他人的帮助,同样是一种智慧和能力。",
+      "vocabFocus": [
+        "浑身",
+        "纹丝不动",
+        "恍然大悟"
+      ]
+    },
+    {
+      "id": "h5m01_r3_09",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 9",
+      "stem": "读短文,选择正确答案",
+      "prompt": "根据短文,城市绿地有什么作用?",
+      "explanation": "正确答案是『改善环境并供市民休闲』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "改善环境并供市民休闲"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "只是为了好看"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "会让城市变热"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "占用太多土地"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "环保",
+        "社会",
+        "短文"
+      ],
+      "context": "在钢筋水泥构成的现代城市里,公园和绿地显得格外珍贵。它们不仅美化了环境,更像是城市的肺,能够吸收二氧化碳、释放氧气,还能在炎热的夏天降低周边的温度。此外,绿地也为忙碌的市民提供了一处放松身心的去处:清晨有人在这里晨练,傍晚有人散步聊天,孩子们在草地上奔跑嬉戏。一座城市绿地的多少,往往直接关系到居民生活的舒适程度。",
+      "vocabFocus": [
+        "绿地",
+        "氧气",
+        "舒适"
+      ]
+    },
+    {
+      "id": "h5m01_r3_10",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 10",
+      "stem": "读短文,选择正确答案",
+      "prompt": "这位画家成功的关键是什么?",
+      "explanation": "正确答案是『画自己熟悉热爱的事物』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "一直模仿名家"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "运气特别好"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "画自己熟悉热爱的事物"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "拜了名师"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "文化",
+        "人物",
+        "短文"
+      ],
+      "context": "这位画家年轻时画风平平,并不出众。一次,他到乡下写生,被当地朴实的生活和壮美的山河深深打动,从此放弃了模仿名家的老路,专心描绘自己真正熟悉和热爱的乡村景象。他笔下的田野、农舍和劳作的人们,充满了真挚的情感,渐渐形成了独特的风格,最终在画坛上占有了一席之地。他常说,艺术贵在真诚,只有画自己心里有的东西,才能打动别人。",
+      "vocabFocus": [
+        "写生",
+        "朴实",
+        "真挚"
+      ]
+    },
+    {
+      "id": "h5m01_r3_11",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 11",
+      "stem": "读短文,选择正确答案",
+      "prompt": "根据短文,为什么提倡多走楼梯?",
+      "explanation": "正确答案是『走楼梯是省时省钱的锻炼』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "电梯太慢了"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "可以节约用电"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "电梯容易出故障"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "走楼梯是省时省钱的锻炼"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "健康",
+        "生活",
+        "短文"
+      ],
+      "context": "现在很多人出门坐车、上楼乘电梯,一天下来几乎没什么运动量。其实,日常生活中就藏着许多锻炼的机会，多走楼梯就是其中之一。研究表明,爬楼梯能有效锻炼腿部肌肉,增强心肺功能,消耗的热量也不少。对于工作繁忙、抽不出时间专门去健身房的人来说,把乘电梯换成爬楼梯,是一种既省时又省钱的健身方式,长期坚持，好处不言而喻。",
+      "vocabFocus": [
+        "电梯",
+        "心肺",
+        "热量"
+      ]
+    },
+    {
+      "id": "h5m01_r3_12",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 12",
+      "stem": "读短文,选择正确答案",
+      "prompt": "这段话主要谈的是什么?",
+      "explanation": "正确答案是『失败是成功的必经之路』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "成功者运气都很好"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "失败是成功的必经之路"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "应该尽量不要失败"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "成功靠的是天赋"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "哲理",
+        "短文"
+      ],
+      "context": "成功者的经历常被人津津乐道,可大家往往只看到他们风光的一面,却忽略了背后无数次的失败和坚持。其实,失败本身并不可怕,它是通往成功的必经之路。每一次跌倒,都是一次认识自身不足、积累经验的机会。真正区分成功者和失败者的,不是失败的次数,而是面对失败时的态度:是一蹶不振,还是重新站起来继续前行。",
+      "vocabFocus": [
+        "津津乐道",
+        "积累",
+        "一蹶不振"
+      ]
+    },
+    {
+      "id": "h5m01_r3_13",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 13",
+      "stem": "读短文,选择正确答案",
+      "prompt": "根据短文,这款应用有什么特点?",
+      "explanation": "正确答案是『能推荐菜谱并减少浪费』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "能帮人减肥"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "只能用来点外卖"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "能免费送食材"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "能推荐菜谱并减少浪费"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "科普",
+        "生活",
+        "短文"
+      ],
+      "context": "一款新推出的手机应用最近很受欢迎。它能根据用户的口味和饮食习惯,每天推荐适合的菜谱,并自动生成购物清单。更贴心的是,它还会提醒用户家里哪些食材快过期,建议优先食用,从而减少浪费。开发者表示,设计这款应用的初衷,就是想帮助现代人在忙碌的生活中既能吃得健康,又能避免食物的浪费,让做饭变得更轻松、更环保。",
+      "vocabFocus": [
+        "菜谱",
+        "食材",
+        "浪费"
+      ]
+    },
+    {
+      "id": "h5m01_r3_14",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 14",
+      "stem": "读短文,选择正确答案",
+      "prompt": "这位老师为什么让学生写感谢信?",
+      "explanation": "正确答案是『想让学生学会感恩』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "为了练习写作"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "为了检查字写得好不好"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "想让学生学会感恩"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "代替考试成绩"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "教育",
+        "心理",
+        "短文"
+      ],
+      "context": "学期结束时,这位老师没有像往常一样布置作业,而是让每个学生给一位曾经帮助过自己的人写一封感谢信。有的学生写给父母,有的写给同学,还有的写给食堂的师傅。一开始大家觉得有些不好意思,可写着写着，许多被忽略的温暖瞬间都浮现在眼前。老师说,她希望学生们学会发现身边的善意,懂得感恩。一个心怀感激的人,往往更容易感到幸福。",
+      "vocabFocus": [
+        "感谢",
+        "善意",
+        "感恩"
+      ]
+    },
+    {
+      "id": "h5m01_r3_15",
+      "levelCode": "hsk-5",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 15",
+      "stem": "读短文,选择正确答案",
+      "prompt": "根据短文,关于这种鱼的迁徙,下列哪项正确?",
+      "explanation": "正确答案是『繁殖时回到出生的河流』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "一生都待在大海里"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "迁徙过程毫不费力"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "从不离开淡水"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "繁殖时回到出生的河流"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "科普",
+        "动物",
+        "短文"
+      ],
+      "context": "有一种鱼,一生中要完成一次极其艰难的旅程。它们出生在淡水的河流里,长大后却要游向遥远的大海生活。等到要繁殖后代时,它们又会凭着惊人的记忆,逆流而上,历经千辛万苦,回到自己出生的那条河。一路上,它们要躲避天敌,跳过湍急的瀑布,许多鱼还没到达目的地就力竭而亡。可即便如此,它们依然年复一年地坚持着这场生命的回归。",
+      "vocabFocus": [
+        "迁徙",
+        "繁殖",
+        "逆流"
+      ]
+    },
+    {
+      "id": "h5m01_w1_01",
+      "levelCode": "hsk-5",
+      "sectionCode": "writing",
+      "questionTypeCode": "W_IMG_WORD_PARA",
+      "title": "书写·第一部分 1",
+      "stem": "结合下面的图片,写一篇短文",
+      "prompt": "请结合图片所描述的场景,写一篇不少于100字的短文,内容须完整、连贯,语句通顺。",
+      "explanation": "本题为看图写短文主观题,需围绕图片场景(当众演讲、克服紧张到自信成功)叙述完整故事,字数不少于100字,由人工按内容、结构、语言综合评分。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [],
+      "correctOptionId": "",
+      "tags": [
+        "书写",
+        "短文",
+        "看图作文"
+      ],
+      "vocabFocus": [
+        "演讲",
+        "紧张",
+        "克服",
+        "自信"
+      ],
+      "answerText": "参考思路:可叙述一个人第一次当众演讲(或参加比赛、汇报)的经历。开头交代背景——她准备了很久却十分紧张,上台时手心冒汗、声音发抖;中间写她如何深呼吸、努力调整心态,把注意力放在内容而非观众上,逐渐进入状态;结尾写演讲顺利结束、台下响起掌声,她体会到只要勇敢迈出第一步、克服内心的恐惧,就能收获成长与自信。注意首尾呼应,字数不少于100字。",
+      "imageUrl": "/generated/images/hsk-5/h5m01_w1_01.png"
+    },
+    {
+      "id": "h5m01_w2_01",
+      "levelCode": "hsk-5",
+      "sectionCode": "writing",
+      "questionTypeCode": "W_SUMMARIZE",
+      "title": "书写·第二部分 1",
+      "stem": "根据话题写一篇短文",
+      "prompt": "请以《我最难忘的一次选择》为题,写一篇不少于200字的短文,内容须完整、条理清楚、语句通顺。",
+      "explanation": "本题为话题作文主观题,需围绕《我最难忘的一次选择》写出完整经历与感悟,字数不少于200字,由人工按内容、结构、语言综合评分。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [],
+      "correctOptionId": "",
+      "tags": [
+        "书写",
+        "短文",
+        "话题作文"
+      ],
+      "vocabFocus": [
+        "选择",
+        "纠结",
+        "权衡",
+        "成长"
+      ],
+      "answerText": "参考要点:围绕一次让自己印象深刻的选择展开。1)交代背景:面临怎样的处境,需要在哪两个(或多个)选项之间做决定,例如是继续稳定的工作还是去追求理想、是帮助他人还是顾全自己。2)写出内心的纠结与权衡:各选项的利弊、当时的顾虑和挣扎,可加入他人的建议或自己的思考。3)说明最终的决定及理由,体现自己看重的价值。4)写选择带来的结果和影响,以及从中获得的体会或成长。结构上按起因、经过、结果、感悟展开,做到条理清楚、有真情实感,字数不少于200字。"
+    }
+  ],
+  "sets": [
+    {
+      "id": "set_hsk5_ai_mock_01",
+      "slug": "hsk5-ai-mock-01",
+      "title": "HSK5 AI 全真模考 01",
+      "description": "content-engine 自动生产的完整 HSK5 笔试模拟卷,严格对齐官方 HSK 3.0 五级笔试结构(官方PDF校准):听力 35 题(L_QA_MC4 ×19 + L_LONG_MC4 ×16)+ 阅读 35 题(R_TEXT_FILL_MC ×10 + R_SENT_ORDER ×10 + R_TEXT_MC4 ×15)+ 书写 2 题(W_IMG_WORD_PARA ×1 + W_SUMMARIZE ×1),共 72 题,约 110 分钟。听力题配 Minimax 真人音频(audioScript 为录音原文,以『问:…』结尾);书写题为主观题(待人工判分)。题材覆盖社会、文化、科普、职场,用词控制在 HSK5 累计 3600 词范围内。",
+      "levelCode": "hsk-5",
+      "mode": "mock_exam",
+      "access": "free",
+      "minutes": 110,
+      "itemIds": [
+        "h5m01_l1_01",
+        "h5m01_l1_02",
+        "h5m01_l1_03",
+        "h5m01_l1_04",
+        "h5m01_l1_05",
+        "h5m01_l1_06",
+        "h5m01_l1_07",
+        "h5m01_l1_08",
+        "h5m01_l1_09",
+        "h5m01_l1_10",
+        "h5m01_l1_11",
+        "h5m01_l1_12",
+        "h5m01_l1_13",
+        "h5m01_l1_14",
+        "h5m01_l1_15",
+        "h5m01_l1_16",
+        "h5m01_l1_17",
+        "h5m01_l1_18",
+        "h5m01_l1_19",
+        "h5m01_l2_01",
+        "h5m01_l2_02",
+        "h5m01_l2_03",
+        "h5m01_l2_04",
+        "h5m01_l2_05",
+        "h5m01_l2_06",
+        "h5m01_l2_07",
+        "h5m01_l2_08",
+        "h5m01_l2_09",
+        "h5m01_l2_10",
+        "h5m01_l2_11",
+        "h5m01_l2_12",
+        "h5m01_l2_13",
+        "h5m01_l2_14",
+        "h5m01_l2_15",
+        "h5m01_l2_16",
+        "h5m01_r1_01",
+        "h5m01_r1_02",
+        "h5m01_r1_03",
+        "h5m01_r1_04",
+        "h5m01_r1_05",
+        "h5m01_r1_06",
+        "h5m01_r1_07",
+        "h5m01_r1_08",
+        "h5m01_r1_09",
+        "h5m01_r1_10",
+        "h5m01_r2_01",
+        "h5m01_r2_02",
+        "h5m01_r2_03",
+        "h5m01_r2_04",
+        "h5m01_r2_05",
+        "h5m01_r2_06",
+        "h5m01_r2_07",
+        "h5m01_r2_08",
+        "h5m01_r2_09",
+        "h5m01_r2_10",
+        "h5m01_r3_01",
+        "h5m01_r3_02",
+        "h5m01_r3_03",
+        "h5m01_r3_04",
+        "h5m01_r3_05",
+        "h5m01_r3_06",
+        "h5m01_r3_07",
+        "h5m01_r3_08",
+        "h5m01_r3_09",
+        "h5m01_r3_10",
+        "h5m01_r3_11",
+        "h5m01_r3_12",
+        "h5m01_r3_13",
+        "h5m01_r3_14",
+        "h5m01_r3_15",
+        "h5m01_w1_01",
+        "h5m01_w2_01"
+      ]
+    }
+  ]
+}

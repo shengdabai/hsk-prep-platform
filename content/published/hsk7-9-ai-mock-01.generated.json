@@ -1,0 +1,4255 @@
+{
+  "items": [
+    {
+      "id": "h79m01_l1_01",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_NEWS_TF",
+      "title": "听力·第一部分 1",
+      "stem": "听新闻,判断陈述是否符合原文",
+      "prompt": "陈述:这座跨海大桥已经正式通车。",
+      "explanation": "新闻说大桥『预计将于下个月正式通车』,正确答案是『不符合』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "符合"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "不符合"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "新闻",
+        "工程"
+      ],
+      "context": "录音:据报道,这座连接两座沿海城市的跨海大桥经过八年建设,目前主体工程已经完工,正在进行最后的安全检测,预计将于下个月正式通车。陈述:这座跨海大桥已经正式通车。",
+      "vocabFocus": [
+        "跨海大桥",
+        "通车",
+        "主体工程",
+        "检测"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l1_01.mp3"
+    },
+    {
+      "id": "h79m01_l1_02",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_NEWS_TF",
+      "title": "听力·第一部分 2",
+      "stem": "听新闻,判断陈述是否符合原文",
+      "prompt": "陈述:该研究团队发现新材料能显著提高电池的充电速度。",
+      "explanation": "新闻说新型电极材料能『大幅缩短充电时间』『充电速度提高约三倍』,正确答案是『符合』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "符合"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "不符合"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "新闻",
+        "科技"
+      ],
+      "context": "录音:一支高校研究团队近日宣布,他们研发出一种新型电极材料,能够在保证安全的前提下大幅缩短锂电池的充电时间,实验表明充电速度比传统材料提高了约三倍。陈述:该研究团队发现新材料能显著提高电池的充电速度。",
+      "vocabFocus": [
+        "电极材料",
+        "锂电池",
+        "充电",
+        "研发"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l1_02.mp3"
+    },
+    {
+      "id": "h79m01_l1_03",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_NEWS_TF",
+      "title": "听力·第一部分 3",
+      "stem": "听新闻,判断陈述是否符合原文",
+      "prompt": "陈述:这部纪录片完全由人工智能独立完成,没有人类参与。",
+      "explanation": "新闻说人工智能只参与了『部分镜头的画面修复和场景重建』,正确答案是『不符合』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "符合"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "不符合"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "新闻",
+        "文化"
+      ],
+      "context": "录音:一部以海洋生态为主题的纪录片日前上映,制作方表示,影片中部分镜头借助人工智能进行了画面修复和场景重建,但整体的拍摄、剪辑和解说仍由专业团队主导完成。陈述:这部纪录片完全由人工智能独立完成,没有人类参与。",
+      "vocabFocus": [
+        "纪录片",
+        "人工智能",
+        "修复",
+        "剪辑"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l1_03.mp3"
+    },
+    {
+      "id": "h79m01_l1_04",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_NEWS_TF",
+      "title": "听力·第一部分 4",
+      "stem": "听新闻,判断陈述是否符合原文",
+      "prompt": "陈述:这项惠民政策将覆盖全市所有年龄段的居民。",
+      "explanation": "新闻明确这项医疗补贴政策『重点面向六十五岁以上的老年群体』,正确答案是『不符合』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "符合"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "不符合"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "新闻",
+        "民生"
+      ],
+      "context": "录音:本市近日出台一项新的医疗补贴政策,重点面向六十五岁以上的老年群体,符合条件的老人在指定医院就诊时可享受额外的费用减免,政策将于年底前在全市范围内实施。陈述:这项惠民政策将覆盖全市所有年龄段的居民。",
+      "vocabFocus": [
+        "补贴",
+        "减免",
+        "群体",
+        "实施"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l1_04.mp3"
+    },
+    {
+      "id": "h79m01_l1_05",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_NEWS_TF",
+      "title": "听力·第一部分 5",
+      "stem": "听新闻,判断陈述是否符合原文",
+      "prompt": "陈述:今年该地区的粮食产量比去年有所增长。",
+      "explanation": "新闻说粮食总产量『比去年增长了百分之二点五』『稳中有升』,正确答案是『符合』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "符合"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "不符合"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "新闻",
+        "农业"
+      ],
+      "context": "录音:农业部门发布的统计数据显示,尽管今年春季遭遇了几次较强的降雨,但由于推广了抗灾品种和科学的田间管理,该地区的粮食总产量仍比去年增长了百分之二点五,实现了稳中有升。陈述:今年该地区的粮食产量比去年有所增长。",
+      "vocabFocus": [
+        "粮食",
+        "产量",
+        "抗灾品种",
+        "稳中有升"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l1_05.mp3"
+    },
+    {
+      "id": "h79m01_l1_06",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_NEWS_TF",
+      "title": "听力·第一部分 6",
+      "stem": "听新闻,判断陈述是否符合原文",
+      "prompt": "陈述:这家老字号餐厅因经营困难即将停业。",
+      "explanation": "新闻说老字号餐厅是在『改造店面、推出线上服务以吸引年轻顾客』,正确答案是『不符合』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "符合"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "不符合"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "新闻",
+        "商业"
+      ],
+      "context": "录音:一家有着百年历史的老字号餐厅近日宣布,将在保留传统招牌菜的基础上,引入年轻设计师对店面进行改造,并推出线上点单服务,以吸引更多年轻顾客,负责人表示这是为了让老品牌焕发新的活力。陈述:这家老字号餐厅因经营困难即将停业。",
+      "vocabFocus": [
+        "老字号",
+        "招牌菜",
+        "改造",
+        "焕发活力"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l1_06.mp3"
+    },
+    {
+      "id": "h79m01_l1_07",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_NEWS_TF",
+      "title": "听力·第一部分 7",
+      "stem": "听新闻,判断陈述是否符合原文",
+      "prompt": "陈述:这座博物馆将延长夜间开放时间。",
+      "explanation": "正确答案是『符合』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "符合"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "不符合"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "新闻",
+        "文化"
+      ],
+      "context": "录音:为满足公众日益增长的文化需求,本市美术馆宣布从下月起在每周五、周六两天试行夜间开放,闭馆时间由原来的下午五点延长至晚上九点,并在夜场期间安排专家讲解和小型音乐会。陈述:这座场馆将延长夜间开放时间。",
+      "vocabFocus": [
+        "美术馆",
+        "试行",
+        "夜场",
+        "讲解"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l1_07.mp3"
+    },
+    {
+      "id": "h79m01_l1_08",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_NEWS_TF",
+      "title": "听力·第一部分 8",
+      "stem": "听新闻,判断陈述是否符合原文",
+      "prompt": "陈述:专家建议人们减少使用一次性塑料制品。",
+      "explanation": "新闻说专家呼吁公众『尽量减少使用一次性塑料袋和塑料餐具』,正确答案是『符合』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "符合"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "不符合"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "新闻",
+        "环保"
+      ],
+      "context": "录音:在一场环保论坛上,多位专家指出,海洋微塑料污染日益严重,呼吁公众在日常生活中尽量减少使用一次性塑料袋和塑料餐具,选择可重复使用的替代品,并表示个人的小改变汇聚起来就能产生可观的环境效益。陈述:专家建议人们减少使用一次性塑料制品。",
+      "vocabFocus": [
+        "微塑料",
+        "污染",
+        "替代品",
+        "环境效益"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l1_08.mp3"
+    },
+    {
+      "id": "h79m01_l1_09",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_NEWS_TF",
+      "title": "听力·第一部分 9",
+      "stem": "听新闻,判断陈述是否符合原文",
+      "prompt": "陈述:这项考古发现把当地的人类活动历史提前了。",
+      "explanation": "新闻说这一发现『把该地区有据可考的人类活动历史向前推进了数千年』,正确答案是『符合』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "符合"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "不符合"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "新闻",
+        "历史"
+      ],
+      "context": "录音:考古工作者在一处遗址中发掘出一批距今约一万年的石器和用火痕迹,研究人员认为,这一发现把该地区有据可考的人类活动历史向前推进了数千年,为研究早期人类的迁徙提供了重要线索。陈述:这项考古发现把当地的人类活动历史提前了。",
+      "vocabFocus": [
+        "考古",
+        "遗址",
+        "石器",
+        "迁徙"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l1_09.mp3"
+    },
+    {
+      "id": "h79m01_l1_10",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_NEWS_TF",
+      "title": "听力·第一部分 10",
+      "stem": "听新闻,判断陈述是否符合原文",
+      "prompt": "陈述:这次马拉松比赛因天气原因被取消。",
+      "explanation": "正确答案是『不符合』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "符合"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "不符合"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "新闻",
+        "体育"
+      ],
+      "context": "录音:原定于本周末举行的城市马拉松比赛吸引了上万名选手报名,组委会表示,虽然赛事当天可能有小雨,但经过评估,降雨不会影响选手安全,比赛将照常进行,同时提醒参赛者注意防滑和保暖。陈述:这次马拉松比赛因天气原因被取消。",
+      "vocabFocus": [
+        "马拉松",
+        "组委会",
+        "评估",
+        "照常"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l1_10.mp3"
+    },
+    {
+      "id": "h79m01_l2_01",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第二部分 1",
+      "stem": "听长对话和问题,选择正确答案",
+      "prompt": "男的为什么对这份工作犹豫不决?",
+      "explanation": "正确答案是『需要搬到外地且难以照顾父母』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "公司给的待遇太低"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "职位和他的专业不对口"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "需要搬到外地且难以照顾父母"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "他还没有收到录用通知"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "对话",
+        "职场"
+      ],
+      "context": "录音(长对话):女:听说那家公司给你发了正式录用通知,你怎么看起来还有点儿犹豫?男:是啊,待遇确实不错,职位也对口,但他们的办公地点在另一座城市,我得搬家,而且我父母年纪大了,我有点儿放心不下。女:这倒是个现实问题。不过现在很多岗位都支持远程,你可以问问他们能不能每周有几天在家办公。男:我也想过,可这家公司比较传统,据我了解他们对远程办公并不太支持,所以我才一直拿不定主意。问:男的为什么对这份工作犹豫不决?",
+      "vocabFocus": [
+        "录用通知",
+        "对口",
+        "犹豫不决",
+        "远程办公"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l2_01.mp3"
+    },
+    {
+      "id": "h79m01_l2_02",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第二部分 2",
+      "stem": "听长对话和问题,选择正确答案",
+      "prompt": "关于这次展览,女的主要强调了什么?",
+      "explanation": "正确答案是『展览注重降低观赏门槛、鼓励互动体验』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "展览注重降低观赏门槛、鼓励互动体验"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "展览的门票价格很优惠"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "展出的作品都是著名艺术家的真迹"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "展览只面向专业人士开放"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "对话",
+        "艺术"
+      ],
+      "context": "录音(长对话):男:这次的当代艺术展我看了介绍,好像作品都挺抽象的,我担心自己看不懂。女:其实你不用太有压力。这次策展的思路就是想打破观众和当代艺术之间的距离感,每件作品旁边都配了通俗的文字说明,还有语音导览。男:那倒挺贴心的。女:对,而且现场设了不少互动装置,你可以亲手参与,在体验中去理解作品想表达的情绪,而不是被动地站着看。问:关于这次展览,女的主要强调了什么?",
+      "vocabFocus": [
+        "策展",
+        "抽象",
+        "导览",
+        "互动装置"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l2_02.mp3"
+    },
+    {
+      "id": "h79m01_l2_03",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第二部分 3",
+      "stem": "听长对话和问题,选择正确答案",
+      "prompt": "女的对男的的创业计划提出了什么主要建议?",
+      "explanation": "正确答案是『先做最简版本、依据真实用户反馈迭代,不要贪大求全』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "放弃做老年人产品的想法"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "把全部精力放在提升技术难度上"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "先做最简版本、依据真实用户反馈迭代,不要贪大求全"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "尽快融资扩大团队规模"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "对话",
+        "创业"
+      ],
+      "context": "录音(长对话):男:我打算辞职做一个面向老年人的健康管理应用,你觉得这个方向怎么样?女:方向挺有前景,老龄化是大趋势。不过我提醒你一句,做老年人的产品,最大的难点不是技术,而是怎么让他们愿意用、用得明白。男:你是说界面要简单?女:不只是界面。你得真正去观察老人的使用习惯,先做个最简单的版本让真实用户去试,根据他们的反馈再改,千万别一上来就追求功能大而全。问:女的对男的的创业计划提出了什么主要建议?",
+      "vocabFocus": [
+        "老龄化",
+        "使用习惯",
+        "反馈",
+        "大而全"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l2_03.mp3"
+    },
+    {
+      "id": "h79m01_l2_04",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第二部分 4",
+      "stem": "听长对话和问题,选择正确答案",
+      "prompt": "男的认为传统手艺要传承下去关键在于什么?",
+      "explanation": "正确答案是『让手艺能创造收入、养活做手艺的人』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "让手艺能创造收入、养活做手艺的人"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "依靠政府强制要求年轻人学习"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "把手艺只当作博物馆里的展品保存"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "完全保持传统、拒绝任何改变"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "对话",
+        "非遗"
+      ],
+      "context": "录音(长对话):女:现在愿意学这门传统编织手艺的年轻人越来越少了,您不担心它会失传吗?男:担心当然有,但我觉得光靠情怀留不住人。年轻人也要吃饭、要养家。女:那您觉得出路在哪儿?男:得让这门手艺能挣到钱。这些年我们试着把传统纹样和现代设计结合,做成时尚的家居用品,在网上卖,收入上去了,自然就有年轻人愿意来学了。手艺要活下去,就得先能养活做手艺的人。问:男的认为传统手艺要传承下去关键在于什么?",
+      "vocabFocus": [
+        "传承",
+        "失传",
+        "情怀",
+        "纹样"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l2_04.mp3"
+    },
+    {
+      "id": "h79m01_l2_05",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第二部分 5",
+      "stem": "听长对话和问题,选择正确答案",
+      "prompt": "女的对在线教育持什么样的态度?",
+      "explanation": "正确答案是『理性看待,主张线上线下结合、扬长避短』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "盲目推崇,准备全面转为线上"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "理性看待,主张线上线下结合、扬长避短"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "坚决反对,认为它毫无价值"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "毫不关心,与自己无关"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "对话",
+        "教育"
+      ],
+      "context": "录音(长对话):男:你做了这么多年线下培训,现在大家都在搞在线教育,你怎么不转?女:不是不转,是我不想盲目跟风。在线教育确实方便,能突破地域限制,这是它的优势。男:那你的顾虑是?女:在线学习对自律要求很高,很多学生缺的恰恰是自律。所以我的做法是线上线下结合,基础内容放在线上让学生灵活安排,需要监督和当面指导的部分仍然放在线下。技术只是工具,关键还是看怎么用。问:女的对在线教育持什么样的态度?",
+      "vocabFocus": [
+        "盲目跟风",
+        "地域限制",
+        "自律",
+        "扬长避短"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l2_05.mp3"
+    },
+    {
+      "id": "h79m01_l2_06",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第二部分 6",
+      "stem": "听长对话和问题,选择正确答案",
+      "prompt": "根据对话,这座城市为缓解交通拥堵采取了什么核心措施?",
+      "explanation": "正确答案是『发展公共交通并用价格手段引导市民少开私家车』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "发展公共交通并用价格手段引导市民少开私家车"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "只靠车牌限号一种办法"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "禁止所有私家车进入市区"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "拆除老城区扩建更多道路"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "对话",
+        "城市治理"
+      ],
+      "context": "录音(长对话):女:你们城市以前堵车特别厉害,这两年好像好多了,是限号了吗?男:限号只是一部分。更关键的是我们大力发展了公共交通,新修了好几条地铁线,还把公交和地铁的换乘做得特别方便。女:光修路修地铁就够了?男:不止。我们还调整了价格,坐公共交通便宜,开车进市中心的停车费很贵,用经济手段引导大家少开私家车。多管齐下,堵车自然就缓解了。问:根据对话,这座城市为缓解交通拥堵采取了什么核心措施?",
+      "vocabFocus": [
+        "拥堵",
+        "限号",
+        "换乘",
+        "多管齐下"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l2_06.mp3"
+    },
+    {
+      "id": "h79m01_l2_07",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第二部分 7",
+      "stem": "听长对话和问题,选择正确答案",
+      "prompt": "女的认为读经典作品最大的收获是什么?",
+      "explanation": "正确答案是『培养有条理、深入的思考方式』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "能记住更多具体的知识点"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "可以在聊天时显得有学问"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "节省上网查资料的时间"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "培养有条理、深入的思考方式"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "对话",
+        "阅读"
+      ],
+      "context": "录音(长对话):男:现在信息这么发达,什么都能上网查,你还花那么多时间读那些大部头的经典,值得吗?女:正因为信息太碎、太快,我才更想读经典。男:此话怎讲?女:网上的信息大多是别人嚼碎了喂给你的结论,读多了人会变懒,不会自己思考。而读经典,你得跟着作者一步步推理,慢慢地,你的思维会变得更有条理、更深入。经典给我的,不是某个具体知识,而是一种思考的方式。问:女的认为读经典作品最大的收获是什么?",
+      "vocabFocus": [
+        "碎片",
+        "推理",
+        "有条理",
+        "经典"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l2_07.mp3"
+    },
+    {
+      "id": "h79m01_l2_08",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第二部分 8",
+      "stem": "听长对话和问题,选择正确答案",
+      "prompt": "男的为什么主张企业要重视员工的心理健康?",
+      "explanation": "正确答案是『因为关注员工心理能降低隐性成本、实现企业与员工双赢』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "因为这是法律强制规定的"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "因为同行都这么做,不做会显得落后"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "因为这样可以减少员工的工资支出"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "因为关注员工心理能降低隐性成本、实现企业与员工双赢"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "对话",
+        "管理"
+      ],
+      "context": "录音(长对话):女:很多企业现在都设了心理咨询室,你觉得这是作秀还是真有必要?男:我认为是真有必要,而且这是一笔很划算的投资。女:为什么说划算?男:你想,一个长期处于焦虑、压力中的员工,工作效率会下降,还容易出错、甚至离职,这些隐性成本加起来非常高。企业花一点钱关心员工的心理状态,换来的是更稳定的团队和更高的产出,从长远看,这是双赢。问:男的为什么主张企业要重视员工的心理健康?",
+      "vocabFocus": [
+        "心理咨询",
+        "焦虑",
+        "隐性成本",
+        "双赢"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l2_08.mp3"
+    },
+    {
+      "id": "h79m01_l2_09",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第二部分 9",
+      "stem": "听长对话和问题,选择正确答案",
+      "prompt": "女的对人工智能取代记者的看法是什么?",
+      "explanation": "正确答案是『格式化报道会被替代,但深度采访等核心能力难以被取代』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "格式化报道会被替代,但深度采访等核心能力难以被取代"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "人工智能毫无用处,无法写任何新闻"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "人工智能将完全取代所有记者"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "记者应当立刻转行,放弃新闻工作"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "对话",
+        "媒体"
+      ],
+      "context": "录音(长对话):男:现在人工智能都能自动写新闻稿了,你这个老记者会不会有危机感?女:写那种格式固定的消息,比如赛事比分、财报数据,人工智能确实又快又准,这部分被替代是迟早的事。男:那你不担心?女:我担心的不是这个。真正有价值的新闻,是要去现场、去采访、去甄别信息真伪、去理解事件背后复杂的人和情感,这些是机器目前做不到的。与其担心被取代,不如把自己往机器替代不了的方向去提升。问:女的对人工智能取代记者的看法是什么?",
+      "vocabFocus": [
+        "新闻稿",
+        "甄别",
+        "真伪",
+        "取代"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l2_09.mp3"
+    },
+    {
+      "id": "h79m01_l3_01",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_FILL",
+      "title": "听力·第三部分 1",
+      "stem": "听长对话,根据原文填空",
+      "prompt": "男的认为决定一个团队上限的,往往不是个人能力,而是成员之间的______。",
+      "explanation": "男的明确指出『决定一个团队上限的,往往不是个人能力,而是成员之间的信任』,因此空格处应填『信任』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [],
+      "correctOptionId": "",
+      "tags": [
+        "填空",
+        "团队"
+      ],
+      "context": "录音(长对话):女:你带过那么多项目,你觉得一个团队能不能成,最关键的因素是什么?男:很多人以为是看团队里有没有特别厉害的人,其实不是。我见过太多由高手组成却一盘散沙的团队。女:那关键是什么?男:是信任。决定一个团队上限的,往往不是个人能力,而是成员之间的信任。彼此信任,大家才愿意把后背交给对方,信息才会顺畅流动,出了问题也能坦诚面对,而不是互相推卸。",
+      "vocabFocus": [
+        "一盘散沙",
+        "信任",
+        "顺畅",
+        "推卸"
+      ],
+      "answerText": "信任",
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l3_01.mp3"
+    },
+    {
+      "id": "h79m01_l3_02",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_FILL",
+      "title": "听力·第三部分 2",
+      "stem": "听长对话,根据原文填空",
+      "prompt": "女的建议,记笔记的真正目的不是记录,而是促使自己对信息进行______和重组。",
+      "explanation": "女的指出记笔记的真正目的不是记录,而是促使自己对信息进行『加工』和重组,用自己的话概括要点,因此空格处应填『加工』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [],
+      "correctOptionId": "",
+      "tags": [
+        "填空",
+        "学习方法"
+      ],
+      "context": "录音(长对话):男:我也常记笔记,可记完就再也不看了,感觉一点用都没有。女:那是因为你把记笔记当成了抄写。男:难道不是吗?女:真正有效的笔记,不是把听到、看到的原样搬下来。记笔记的真正目的不是记录,而是促使自己对信息进行加工和重组——用自己的话概括要点,在不同知识之间建立联系。当你被迫这样做的时候,知识才真正变成你自己的。",
+      "vocabFocus": [
+        "抄写",
+        "加工",
+        "重组",
+        "概括"
+      ],
+      "answerText": "加工",
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l3_02.mp3"
+    },
+    {
+      "id": "h79m01_l3_03",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_FILL",
+      "title": "听力·第三部分 3",
+      "stem": "听长对话,根据原文填空",
+      "prompt": "男的认为一座城市是否宜居,越来越取决于它对待______的态度。",
+      "explanation": "男的指出一座城市是否宜居越来越取决于它对待『弱者』的态度,并以轮椅通行、为老人孩子留空间等为例,因此空格处应填『弱者』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [],
+      "correctOptionId": "",
+      "tags": [
+        "填空",
+        "城市"
+      ],
+      "context": "录音(长对话):女:评价一座城市好不好,你最看重哪个方面?男:过去大家比的是高楼、是经济总量,但现在我的标准变了。女:变成什么了?男:一座城市是否宜居,越来越取决于它对待弱者的态度。你看它的人行道方不方便轮椅通行,公共场所有没有给老人、孩子留出空间,普通劳动者能不能有尊严地生活。一座只对成功者友好的城市,算不上真正的好城市。",
+      "vocabFocus": [
+        "宜居",
+        "轮椅",
+        "弱者",
+        "尊严"
+      ],
+      "answerText": "弱者",
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l3_03.mp3"
+    },
+    {
+      "id": "h79m01_l4_01",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第四部分 1",
+      "stem": "听材料和问题,选择正确答案",
+      "prompt": "这段材料主要说明了什么?",
+      "explanation": "正确答案是『睡眠是大脑整理记忆的活跃过程,充足睡眠有助学习』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "睡眠时大脑完全停止工作"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "熬夜只会让人感到疲惫,不影响记忆"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "白天接收的信息会立刻进入长期记忆"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "睡眠是大脑整理记忆的活跃过程,充足睡眠有助学习"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "材料",
+        "科普"
+      ],
+      "context": "录音(材料):睡眠并不是大脑简单的关机休息,而是一个高度活跃的加工过程。研究发现,人在白天接收的大量信息会暂时储存在大脑的一个区域,到了夜里深度睡眠时,大脑会把这些信息重新激活、筛选,把重要的转移到长期记忆中保存,把无关的清除掉。这就解释了为什么充足的睡眠能帮助记忆,也提醒我们,熬夜不仅让人疲惫,更会直接损害学习效果。问:这段材料主要说明了什么?",
+      "vocabFocus": [
+        "睡眠",
+        "激活",
+        "筛选",
+        "长期记忆"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l4_01.mp3"
+    },
+    {
+      "id": "h79m01_l4_02",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第四部分 2",
+      "stem": "听材料和问题,选择正确答案",
+      "prompt": "关于这种鸟类的迁徙,下列哪项正确?",
+      "explanation": "正确答案是『它们靠沿途湿地停留进食、储存脂肪来支撑长途飞行』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "它们一刻不停地飞完全程"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "它们的迁徙距离不到一千公里"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "它们靠沿途湿地停留进食、储存脂肪来支撑长途飞行"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "迁徙时它们的体重会大幅减轻一半"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "材料",
+        "自然"
+      ],
+      "context": "录音(材料):有一种小型候鸟,体重还不到一百克,却能在每年的迁徙中飞行上万公里,跨越大洋。科学家曾经困惑,如此弱小的身体怎么完成这样艰巨的旅程。后来通过追踪发现,它们并非一刻不停地飞,而是会借助沿途的湿地停下来,大量进食,把体重增加近一倍,把多出来的脂肪当作燃料。正是这种走走停停、及时补给的策略,使它们能完成看似不可能的远征。问:关于这种鸟类的迁徙,下列哪项正确?",
+      "vocabFocus": [
+        "候鸟",
+        "迁徙",
+        "湿地",
+        "脂肪"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l4_02.mp3"
+    },
+    {
+      "id": "h79m01_l4_03",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第四部分 3",
+      "stem": "听材料和问题,选择正确答案",
+      "prompt": "说话人对'拖延'提出了什么新的看法?",
+      "explanation": "正确答案是『拖延常常是情绪问题,关键在于处理任务背后的情绪』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "拖延纯粹是因为懒惰,只能靠自责克服"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "拖延常常是情绪问题,关键在于处理任务背后的情绪"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "拖延是无法改变的天性,不必理会"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "解决拖延唯一的办法是制定更严格的时间表"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "材料",
+        "心理"
+      ],
+      "context": "录音(材料):我们常把拖延简单归咎为懒惰或意志力不足,然后用自责来对抗它,可往往越自责越拖延。其实,拖延很多时候是一种情绪问题,而不是时间管理问题。当一件事让我们感到焦虑、为难或者无聊时,大脑为了逃避这种不舒服的感觉,就会本能地推迟去做。明白了这一点,解决拖延的钥匙就不再是逼自己,而是先去处理任务背后让你回避的那种情绪。问:说话人对'拖延'提出了什么新的看法?",
+      "vocabFocus": [
+        "拖延",
+        "归咎",
+        "自责",
+        "回避"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l4_03.mp3"
+    },
+    {
+      "id": "h79m01_l4_04",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第四部分 4",
+      "stem": "听材料和问题,选择正确答案",
+      "prompt": "这段材料认为'冗余设计'的主要价值是什么?",
+      "explanation": "正确答案是『用平时的'低效'换取意外时刻的安全保障』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "用平时的'低效'换取意外时刻的安全保障"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "在任何情况下都能提高系统效率"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "彻底消除系统出故障的可能"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "纯粹是一种没有意义的浪费"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "材料",
+        "工程"
+      ],
+      "context": "录音(材料):在工程领域有一个概念叫冗余设计,意思是在系统中故意保留一些看似多余的备份。比如飞机会配置多套独立的控制系统,大桥会预留远超日常负荷的承重能力。从纯效率角度看,这些备份平时用不上,似乎是一种浪费。但它的价值恰恰在意外发生的那一刻——当主系统失灵时,冗余部分能立刻顶上,避免灾难。可以说,冗余是用平时的'低效'换取关键时刻的安全。问:这段材料认为'冗余设计'的主要价值是什么?",
+      "vocabFocus": [
+        "冗余",
+        "备份",
+        "负荷",
+        "失灵"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l4_04.mp3"
+    },
+    {
+      "id": "h79m01_l4_05",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第四部分 5",
+      "stem": "听材料和问题,选择正确答案",
+      "prompt": "关于方言的保护,说话人的主要观点是什么?",
+      "explanation": "正确答案是『方言承载独特文化,应在推广普通话的同时保留多样性』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "应当废除普通话,只使用方言"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "方言承载独特文化,应在推广普通话的同时保留多样性"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "方言消失是进步,完全不值得惋惜"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "方言只是发音差异,没有保护价值"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "材料",
+        "语言文化"
+      ],
+      "context": "录音(材料):随着普通话的普及,不少地方方言正在加速消失,有人觉得这是社会进步的必然代价,不值得惋惜。但我想说,每一种方言都不只是一套发音,它承载着一个地方独特的歌谣、谚语和集体记忆,是一种活的文化。方言消失,意味着一种看世界的方式也随之消失。保护方言并不是要和普通话对立,而是希望在统一语言便利沟通的同时,也为这些珍贵的多样性留下一席之地。问:关于方言的保护,说话人的主要观点是什么?",
+      "vocabFocus": [
+        "方言",
+        "谚语",
+        "对立",
+        "多样性"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l4_05.mp3"
+    },
+    {
+      "id": "h79m01_l4_06",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第四部分 6",
+      "stem": "听材料和问题,选择正确答案",
+      "prompt": "这段材料用'森林大火'说明了什么道理?",
+      "explanation": "正确答案是『一味压制小风险，反而可能为大灾难积蓄能量』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "森林里的任何火灾都必须立刻扑灭"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "枯枝落叶对森林毫无影响"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "一味压制小风险，反而可能为大灾难积蓄能量"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "森林大火完全是人类无法预防的"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "材料",
+        "哲理"
+      ],
+      "context": "录音(材料):过去人们一发现森林起小火就全力扑灭,认为这是在保护森林。可几十年后,这些'保护得最好'的森林反而爆发了无法控制的特大火灾。原因在于,适度的小火本是自然循环的一部分,它能烧掉地面堆积的枯枝落叶。当我们长期扑灭所有小火,可燃物便越积越多,一旦起火就酿成巨灾。这提醒我们,一味压制小风险,有时反而是在为大灾难积蓄能量。问:这段材料用'森林大火'说明了什么道理?",
+      "vocabFocus": [
+        "扑灭",
+        "可燃物",
+        "积蓄",
+        "压制"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l4_06.mp3"
+    },
+    {
+      "id": "h79m01_l4_07",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第四部分 7",
+      "stem": "听材料和问题,选择正确答案",
+      "prompt": "根据材料,'共享经济'面临的核心挑战是什么?",
+      "explanation": "正确答案是『如何在陌生人之间建立信任与保障机制』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "可供分享的闲置资源太少"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "如何在陌生人之间建立信任与保障机制"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "共享会增加资源浪费、不够环保"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "用户对省钱完全不感兴趣"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "材料",
+        "经济"
+      ],
+      "context": "录音(材料):共享经济曾被寄予厚望,人们以为把闲置的房屋、车辆、工具拿出来分享,既能省钱又能环保。这个设想很美好,但实践中却遇到了一个绕不开的难题:信任。把东西借给陌生人,谁来保证它被爱惜地使用、能完好地归还?谁又来为可能出现的损坏或纠纷负责?事实证明,共享平台真正的核心竞争力,不是它有多少资源,而是它能否建立起一套让陌生人之间敢于交易的信任与保障机制。问:根据材料,'共享经济'面临的核心挑战是什么?",
+      "vocabFocus": [
+        "共享经济",
+        "闲置",
+        "纠纷",
+        "保障机制"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l4_07.mp3"
+    },
+    {
+      "id": "h79m01_l4_08",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第四部分 8",
+      "stem": "听材料和问题,选择正确答案",
+      "prompt": "这段材料认为，提问能力为什么变得越来越重要？",
+      "explanation": "正确答案是『在答案易得的时代,好问题能定义需求、引导探索方向』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "因为提问可以代替一切学习"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "因为记住的答案越多越好"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "在答案易得的时代,好问题能定义需求、引导探索方向"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "因为人工智能无法回答任何问题"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "材料",
+        "思维"
+      ],
+      "context": "录音(材料):在过去,知识稀缺,谁掌握的答案多,谁就更有优势,教育也以记住标准答案为主。但今天,几乎所有现成的答案都能轻易查到,甚至由人工智能直接给出。在这种背景下,真正稀缺的能力不再是记住答案,而是提出好问题。一个好问题,能精准地定义真正的需求,能打开机器还无法独立开启的探索方向。可以说,谁会提问,谁就掌握了驾驭这些强大工具的方向盘。问:这段材料认为,提问能力为什么变得越来越重要?",
+      "vocabFocus": [
+        "稀缺",
+        "现成",
+        "定义",
+        "驾驭"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l4_08.mp3"
+    },
+    {
+      "id": "h79m01_l4_09",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第四部分 9",
+      "stem": "听材料和问题,选择正确答案",
+      "prompt": "这段材料主要想纠正人们对'天才'的什么误解?",
+      "explanation": "正确答案是『天才完全靠天生的能力,与努力无关』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "普通人永远无法理解天才"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "天才完全靠天生的能力,与努力无关"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "天赋是唯一值得学习的东西"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "成就越大越不需要训练"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "材料",
+        "成长"
+      ],
+      "context": "录音(材料):人们喜欢用'天才'来解释非凡的成就,仿佛那些人天生就和我们不同,这其实是一种省事却有害的误解。深入研究那些被称为天才的人就会发现,他们的成就背后,几乎都藏着旁人看不见的长期、刻意的训练。把成功归于天赋,看似是赞美,实则是替自己的不努力找借口——因为既然是天生的,普通人努力也没用。真正值得我们学习的,从来不是他们的'天赋',而是他们持续投入的方式。问:这段材料主要想纠正人们对'天才'的什么误解?",
+      "vocabFocus": [
+        "天赋",
+        "刻意",
+        "借口",
+        "持续投入"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l4_09.mp3"
+    },
+    {
+      "id": "h79m01_l4_10",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第四部分 10",
+      "stem": "听材料和问题,选择正确答案",
+      "prompt": "根据材料,城市绿地除了美化环境，还有什么重要作用？",
+      "explanation": "正确答案是『调节气温、滞留雨水,帮助城市应对极端天气』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "提高周边房价"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "调节气温、滞留雨水,帮助城市应对极端天气"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "为城市提供主要的粮食来源"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "完全替代城市的排水系统"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "材料",
+        "生态"
+      ],
+      "context": "录音(材料):一提到城市里的公园和绿地,人们首先想到的是好看、能散步。但它们的作用远不止于此。在高温天气里,大片绿地就像一个个天然的空调,能明显降低周边的气温,缓解城市的热岛效应;暴雨来临时,土壤和植被又能吸收、滞留大量雨水,减轻排水系统的压力,降低内涝风险。可以说,绿地是城市应对极端天气的一道柔性防线,它的生态价值常常被我们低估。问:根据材料,城市绿地除了美化环境,还有什么重要作用?",
+      "vocabFocus": [
+        "绿地",
+        "热岛效应",
+        "滞留",
+        "内涝"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l4_10.mp3"
+    },
+    {
+      "id": "h79m01_l4_11",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第四部分 11",
+      "stem": "听材料和问题,选择正确答案",
+      "prompt": "说话人认为，衡量一项技术是否成熟，更应该看什么？",
+      "explanation": "正确答案是『它是否好用到让人感觉不到它的存在』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "它的性能参数是否惊艳"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "它使用起来是否足够复杂"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "它的价格是否足够昂贵"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "它是否好用到让人感觉不到它的存在"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "材料",
+        "技术哲学"
+      ],
+      "context": "录音(材料):评价一项新技术,人们往往盯着它的性能参数有多惊艳。但在我看来,一项技术是否真正成熟,更应该看它是否'消失'了。这话听起来矛盾,意思是:当一项技术好用到让你忘记它的存在,你使用它时不再需要思考、不再产生障碍,它才算真正成熟。就像今天的电,我们随手开灯,谁也不会去想背后复杂的发电和输电系统。最好的技术,是让人感觉不到的技术。问:说话人认为,衡量一项技术是否成熟,更应该看什么?",
+      "vocabFocus": [
+        "参数",
+        "成熟",
+        "矛盾",
+        "障碍"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l4_11.mp3"
+    },
+    {
+      "id": "h79m01_l4_12",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第四部分 12",
+      "stem": "听材料和问题,选择正确答案",
+      "prompt": "这段材料主要介绍了'心流'状态的什么特点?",
+      "explanation": "正确答案是『挑战难度与能力恰好匹配时最容易进入心流』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "任务越难越容易进入心流"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "挑战难度与能力恰好匹配时最容易进入心流"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "任务越简单越容易进入心流"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "心流与任务难度毫无关系"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "材料",
+        "心理学"
+      ],
+      "context": "录音(材料):心理学上有一个概念叫'心流',指的是人在做某件事时完全投入、忘记时间的那种状态。研究发现,产生心流有一个微妙的条件:任务的难度要和你的能力恰好匹配。如果任务太简单,你会觉得无聊;如果太难,你又会感到焦虑;只有当挑战略高于现有能力、又跳一跳够得着的时候,人才最容易进入心流。这也解释了为什么适度的挑战让人着迷,而过易或过难的事都让人提不起劲。问:这段材料主要介绍了'心流'状态的什么特点?",
+      "vocabFocus": [
+        "心流",
+        "投入",
+        "匹配",
+        "焦虑"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l4_12.mp3"
+    },
+    {
+      "id": "h79m01_l4_13",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第四部分 13",
+      "stem": "听材料和问题,选择正确答案",
+      "prompt": "根据材料,古代工匠在器物上留名的做法起到了什么作用?",
+      "explanation": "正确答案是『建立可追溯的责任机制,从而保证产品质量』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "只是为了让工匠出名"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "方便官府向工匠收税"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "增加器物的装饰美感"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "建立可追溯的责任机制,从而保证产品质量"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "材料",
+        "历史制度"
+      ],
+      "context": "录音(材料):在一些古代器物上,我们能看到工匠刻下的名字。这看似只是工匠想留下自己的印记,背后其实是一套精巧的质量管理制度。在那个年代,一旦器物出现质量问题,官府就能根据上面的名字,直接追查到具体的制作者并加以追责。正是这种'谁制造、谁负责'的可追溯机制,迫使工匠不敢有半点马虎,客观上保证了产品的质量。一个小小的署名,连接的是一整套责任体系。问:根据材料,古代工匠在器物上留名的做法起到了什么作用?",
+      "vocabFocus": [
+        "工匠",
+        "追溯",
+        "追责",
+        "署名"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l4_13.mp3"
+    },
+    {
+      "id": "h79m01_l4_14",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第四部分 14",
+      "stem": "听材料和问题,选择正确答案",
+      "prompt": "这段材料认为，真正的'节俭'应该是什么样的？",
+      "explanation": "正确答案是『把钱花在有长久价值处、砍掉浪费,是清醒的取舍』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "在任何方面都尽量少花钱"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "完全不消费才算真正节俭"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "把钱花在有长久价值处、砍掉浪费,是清醒的取舍"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "想买什么就买什么,不必克制"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "材料",
+        "观念"
+      ],
+      "context": "录音(材料):很多人把节俭理解为一味地少花钱、不舍得买,把生活过得紧巴巴的。但在我看来,这是对节俭的误解。真正的节俭,不是压抑一切消费,而是把钱花在真正重要、真正能带来长久价值的地方,同时坚决砍掉那些冲动的、浪费的开支。一个人可以舍得为一本好书、一次有意义的学习付费,却对随手买来又闲置的东西毫不留情。节俭的本质,是对资源有清醒的取舍,而不是简单的吝啬。问:这段材料认为,真正的'节俭'应该是什么样的?",
+      "vocabFocus": [
+        "节俭",
+        "压抑",
+        "取舍",
+        "吝啬"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l4_14.mp3"
+    },
+    {
+      "id": "h79m01_l4_15",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第四部分 15",
+      "stem": "听材料和问题,选择正确答案",
+      "prompt": "说话人认为，面对不确定的未来，最好的应对策略是什么？",
+      "explanation": "正确答案是『放弃对预测准确的执念,转而提升适应力和弹性』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "想方设法做出最准确的预测"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "制定一个绝不更改的完美长期计划"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "对未来不做任何准备,顺其自然"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "放弃对预测准确的执念,转而提升适应力和弹性"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "材料",
+        "决策"
+      ],
+      "context": "录音(材料):面对一个越来越难以预测的未来,很多人焦虑地想要做出最准确的预测,然后据此制定一个完美的长期计划。但我想提醒大家,在高度不确定的环境里,准确预测几乎是不可能的,死守一个僵化的计划反而最危险。更明智的做法,是放弃对'预测准确'的执念,转而提升自己的适应力——保持学习,留有余地,让自己具备在多种可能的未来中都能生存和调整的弹性。与其押注于某一个未来,不如让自己变得对各种未来都不那么脆弱。问:说话人认为,面对不确定的未来,最好的应对策略是什么?",
+      "vocabFocus": [
+        "不确定",
+        "僵化",
+        "适应力",
+        "弹性"
+      ],
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l4_15.mp3"
+    },
+    {
+      "id": "h79m01_l5_01",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_FILL",
+      "title": "听力·第五部分 1",
+      "stem": "听材料,根据原文填空",
+      "prompt": "材料指出,人们之所以容易高估短期、低估长期,是因为大脑天生偏好______的回报。",
+      "explanation": "材料指出大脑形成了偏好『即时的回报』的本能,正是这种偏好让人高估短期快乐、低估长期价值,因此空格处应填『即时』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [],
+      "correctOptionId": "",
+      "tags": [
+        "填空",
+        "行为科学"
+      ],
+      "context": "录音(材料):为什么很多人立志要长期坚持读书、运动,最后却半途而废?这背后有大脑的'锅'。从进化的角度看,我们的祖先生活在朝不保夕的环境中,'今天能拿到的'远比'明天才有的'可靠,于是大脑形成了一种强烈的本能:偏好即时的回报。正是这种偏好,让我们一次次高估短期的快乐,低估长期的价值。明白了这一点,我们就不该一味责怪自己意志薄弱,而要学会用方法去对抗这种本能,比如把长远目标拆成能立刻看到反馈的小步骤。",
+      "vocabFocus": [
+        "进化",
+        "朝不保夕",
+        "即时",
+        "本能"
+      ],
+      "answerText": "即时",
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l5_01.mp3"
+    },
+    {
+      "id": "h79m01_l5_02",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_FILL",
+      "title": "听力·第五部分 2",
+      "stem": "听材料,根据原文填空",
+      "prompt": "材料认为,一个社会创新活力的高低,很大程度上取决于它对______的宽容程度。",
+      "explanation": "材料指出成功创新背后是数不清的失败,因此社会创新活力的高低很大程度上取决于它对『失败』的宽容程度,故空格处应填『失败』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [],
+      "correctOptionId": "",
+      "tags": [
+        "填空",
+        "社会"
+      ],
+      "context": "录音(材料):谈到创新,人们津津乐道的总是那些成功的故事,却忽略了一个更根本的问题:成功的创新背后,是数不清的失败。每一个被验证可行的方向,都意味着许多被证明走不通的尝试。因此,一个社会创新活力的高低,很大程度上取决于它对失败的宽容程度。如果失败者动辄被嘲笑、被彻底淘汰,人们就会变得谨小慎微,不敢冒险;只有当社会能够包容那些'体面的失败',真正的创新才会源源不断地涌现。",
+      "vocabFocus": [
+        "创新",
+        "宽容",
+        "谨小慎微",
+        "涌现"
+      ],
+      "answerText": "失败",
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l5_02.mp3"
+    },
+    {
+      "id": "h79m01_l5_03",
+      "levelCode": "hsk-7",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_FILL",
+      "title": "听力·第五部分 3",
+      "stem": "听材料,根据原文填空",
+      "prompt": "材料强调,阅读一份资料时,先了解作者的立场和______,有助于我们更客观地判断其内容。",
+      "explanation": "材料反复强调阅读前要了解作者是谁、站在什么立场、出于什么目的,先了解作者的立场和『目的』就能更客观地判断内容可信度,故空格处应填『目的』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [],
+      "correctOptionId": "",
+      "tags": [
+        "填空",
+        "媒介素养"
+      ],
+      "context": "录音(材料):在信息爆炸的今天,学会带着批判的眼光去阅读,比读得多更重要。一个实用的习惯是:在阅读一份资料、尤其是观点性内容之前,先花点时间了解一下作者是谁、他站在什么立场、又是出于什么目的来写这篇文章的。同样一组数据,在不同目的的人手里,可能被引向截然相反的结论。先了解作者的立场和目的,我们就能在心里设一道防线,更客观地去判断内容的可信度,而不是被动地全盘接受。",
+      "vocabFocus": [
+        "批判",
+        "立场",
+        "目的",
+        "可信度"
+      ],
+      "answerText": "目的",
+      "audioUrl": "/generated/audio/hsk-7/h79m01_l5_03.mp3"
+    },
+    {
+      "id": "h79m01_r1_01",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第一部分(语篇一)1",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "根据第一段,经典计算机用比特处理信息的方式可以概括为什么?",
+      "explanation": "第一段明确指出经典计算机的比特『在任意时刻只能处于0或1两种状态之一』,正确答案是『每个比特在任意时刻只能是0或1中的一个』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "比特之间相互纠缠、状态不确定"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "每个比特同时处于0和1两种状态"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "每个比特在任意时刻只能是0或1中的一个"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "比特可以表示0到9之间的任意数字"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "语篇",
+        "科技",
+        "细节"
+      ],
+      "context": "【语篇一】量子计算近年来频繁出现在新闻里,被许多人视为将要颠覆未来的技术。要理解它的特别之处,得先从我们熟悉的经典计算机说起。经典计算机处理信息的最小单位是比特,每一个比特在任意时刻只能处于0或1两种状态之一,所有复杂的运算,归根结底都是对海量比特进行0和1之间的开关操作。这种非此即彼的确定性,是经典计算可靠、稳定的基础,几十年来支撑起了整个数字世界。\n量子计算的革命性,在于它用量子比特取代了经典比特。借助量子力学中的'叠加'原理,一个量子比特可以同时处于0和1的叠加状态,而不是只能二选一。如果说经典比特像一枚已经落定、要么正面要么反面的硬币,那么量子比特更像一枚正在高速旋转、尚未落定的硬币,正反两面以某种比例同时存在。当多个量子比特纠缠在一起时,它们能表示的状态数量会随比特数呈指数级增长,这意味着量子计算机在原理上能够同时探索海量的可能性。\n然而,这种强大并非没有代价。量子状态极其脆弱,周围环境哪怕极微小的干扰——温度的波动、杂散的电磁信号——都可能让叠加状态瞬间瓦解,这个现象被称为'退相干'。为了维持量子比特的稳定,科学家不得不把它们冷却到接近绝对零度的极低温环境,并层层屏蔽外界干扰。正因如此,目前的量子计算机体积庞大、造价高昂,且容易出错,离走进千家万户还有相当长的路。\n值得强调的是,量子计算并不是要取代经典计算机。对于日常的文字处理、网页浏览这类任务,经典计算机依然又快又稳,量子计算机反而毫无优势。量子计算真正的舞台,在于那些经典计算机难以应付的特定难题,例如模拟复杂分子的相互作用以加速新药研发、优化庞大的物流网络、破解某些密码体系等。换言之,二者更可能是长期分工协作的关系,而非简单的谁淘汰谁。",
+      "vocabFocus": [
+        "比特",
+        "颠覆",
+        "确定性",
+        "运算"
+      ]
+    },
+    {
+      "id": "h79m01_r1_02",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第一部分(语篇一)2",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "文中用'高速旋转、尚未落定的硬币'比喻什么?",
+      "explanation": "正确答案是『处于0和1叠加状态的量子比特』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "处于0和1叠加状态的量子比特"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "经典计算机中处于确定状态的比特"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "已经发生退相干的量子比特"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "量子计算机庞大的体积"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "语篇",
+        "科技",
+        "推断"
+      ],
+      "context": "【见语篇一】",
+      "vocabFocus": [
+        "叠加",
+        "量子比特",
+        "比喻"
+      ]
+    },
+    {
+      "id": "h79m01_r1_03",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第一部分(语篇一)3",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "多个量子比特纠缠在一起时,它们能表示的状态数量呈现什么变化?",
+      "explanation": "正确答案是『随比特数呈指数级增长』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "随比特数线性缓慢增加"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "随比特数呈指数级增长"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "始终保持不变"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "随比特数迅速减少"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "语篇",
+        "科技",
+        "细节"
+      ],
+      "context": "【见语篇一】",
+      "vocabFocus": [
+        "纠缠",
+        "指数级",
+        "增长"
+      ]
+    },
+    {
+      "id": "h79m01_r1_04",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第一部分(语篇一)4",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "文中所说的'退相干'指的是什么?",
+      "explanation": "正确答案是『外界干扰导致量子叠加状态瞬间瓦解』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "外界干扰导致量子叠加状态瞬间瓦解"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "经典比特进行开关操作的现象"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "量子计算机被冷却到极低温的过程"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "量子比特数量不断增加的过程"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "语篇",
+        "科技",
+        "词义"
+      ],
+      "context": "【见语篇一】",
+      "vocabFocus": [
+        "退相干",
+        "脆弱",
+        "干扰",
+        "瓦解"
+      ]
+    },
+    {
+      "id": "h79m01_r1_05",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第一部分(语篇一)5",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "科学家为什么要把量子比特冷却到接近绝对零度?",
+      "explanation": "正确答案是『为了维持量子比特的稳定、减少外界干扰』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "为了降低量子计算机的造价"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "为了减小量子计算机的体积"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "为了加快量子计算机的运算速度"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "为了维持量子比特的稳定、减少外界干扰"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "语篇",
+        "科技",
+        "因果"
+      ],
+      "context": "【见语篇一】",
+      "vocabFocus": [
+        "绝对零度",
+        "屏蔽",
+        "稳定"
+      ]
+    },
+    {
+      "id": "h79m01_r1_06",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第一部分(语篇一)6",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "根据第四段,下列哪项最适合发挥量子计算的优势?",
+      "explanation": "正确答案是『模拟复杂分子相互作用以加速新药研发』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "日常的文字处理"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "普通的网页浏览"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "模拟复杂分子相互作用以加速新药研发"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "播放高清视频"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "语篇",
+        "科技",
+        "应用"
+      ],
+      "context": "【见语篇一】",
+      "vocabFocus": [
+        "模拟",
+        "分子",
+        "研发",
+        "优化"
+      ]
+    },
+    {
+      "id": "h79m01_r1_07",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第一部分(语篇一)7",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "这篇语篇对量子计算与经典计算关系的总体判断是什么?",
+      "explanation": "正确答案是『二者更可能长期分工协作,而非互相淘汰』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "量子计算很快将全面取代经典计算"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "二者更可能长期分工协作,而非互相淘汰"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "经典计算将很快彻底消失"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "量子计算毫无实际用途"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "语篇",
+        "科技",
+        "主旨"
+      ],
+      "context": "【见语篇一】",
+      "vocabFocus": [
+        "取代",
+        "分工",
+        "协作"
+      ]
+    },
+    {
+      "id": "h79m01_r1_08",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第一部分(语篇二)1",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "在印刷术普及之前,书籍主要依靠什么方式复制?",
+      "explanation": "正确答案是『依靠手工抄写来复制』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "依靠机器自动排版"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "依靠活字印刷批量生产"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "依靠口头背诵代代相传"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "依靠手工抄写来复制"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "语篇",
+        "历史",
+        "细节"
+      ],
+      "context": "【语篇二】我们常把某项技术的意义局限在它本身,却忽视了它如何悄然重塑了整个社会的运转方式。印刷术便是一个典型的例子。在它普及之前,书籍主要依靠手工抄写来复制,抄写一部典籍往往需要数月乃至数年,而且抄写者难免出错,每经一次传抄,谬误就可能层层累积。在这种条件下,书籍极为稀缺、昂贵,知识被牢牢掌握在少数僧侣、贵族和学者手中,普通人几乎无缘接触。\n活字印刷的出现,从根本上改变了这一局面。它让书籍得以批量、快速、低成本地生产,同一部著作可以印出成百上千份内容完全一致的副本。书价随之大幅下降,识字不再是少数人的特权,知识开始向更广泛的人群扩散。更深远的是,印刷带来的标准化也深刻影响了知识本身:由于所有副本完全相同,不同地方的读者第一次能够确信他们读到的是同一段文字,这为跨地域的讨论、引用和批评提供了共同的基础,学术由此变得可以累积、可以彼此校验。\n然而,印刷术的影响绝不只是'好处'二字可以概括。它在传播真知的同时,也同样高效地传播了谣言、偏见与煽动性的言论。一旦某种说法被印成白纸黑字、广为散布,纠正它就变得异常困难。可以说,印刷术既是启蒙的工具,也可能成为蛊惑人心的扩音器,它放大的是内容本身,而不分辨内容的好坏。\n回望这段历史,我们或许能获得一点启示:任何一项强大的信息技术,其真正的影响都远远超出技术本身,它会重新分配知识的权力,改变人们认知世界的方式,并同时打开通向光明与混乱的两扇门。理解了印刷术,我们也就更能冷静地看待今天种种新的信息技术——它们带来的,从来不只是便利。",
+      "vocabFocus": [
+        "抄写",
+        "典籍",
+        "传抄",
+        "谬误"
+      ]
+    },
+    {
+      "id": "h79m01_r1_09",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第一部分(语篇二)2",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "在印刷术普及前,知识主要掌握在哪些人手中?",
+      "explanation": "正确答案是『少数僧侣、贵族和学者』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "专门的印刷工人"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "广大的普通百姓"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "少数僧侣、贵族和学者"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "各地的商人"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "语篇",
+        "历史",
+        "细节"
+      ],
+      "context": "【见语篇二】",
+      "vocabFocus": [
+        "僧侣",
+        "贵族",
+        "稀缺",
+        "特权"
+      ]
+    },
+    {
+      "id": "h79m01_r1_10",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第一部分(语篇二)3",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "活字印刷在生产书籍方面带来的直接变化是什么?",
+      "explanation": "正确答案是『书籍能批量、快速、低成本地生产,书价大幅下降』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "书籍变得更加稀少和昂贵"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "书籍能批量、快速、低成本地生产,书价大幅下降"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "每份副本的内容都各不相同"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "抄写者的需求大量增加"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "语篇",
+        "历史",
+        "细节"
+      ],
+      "context": "【见语篇二】",
+      "vocabFocus": [
+        "活字",
+        "批量",
+        "副本",
+        "书价"
+      ]
+    },
+    {
+      "id": "h79m01_r1_11",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第一部分(语篇二)4",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "印刷带来的'标准化'对学术产生了怎样的深远影响?",
+      "explanation": "正确答案是『让不同地方的读者读到同一文字,使学术可累积、可校验』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "使学术研究变得不再可信"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "让不同地方的读者读到同一文字,使学术可累积、可校验"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "使各地的文字版本差异越来越大"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "让学术彻底脱离了普通读者"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "语篇",
+        "历史",
+        "推断"
+      ],
+      "context": "【见语篇二】",
+      "vocabFocus": [
+        "标准化",
+        "引用",
+        "累积",
+        "校验"
+      ]
+    },
+    {
+      "id": "h79m01_r1_12",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第一部分(语篇二)5",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "作者为什么说印刷术也可能成为'蛊惑人心的扩音器'?",
+      "explanation": "正确答案是『因为它能高效传播谣言、偏见,且放大内容时不分好坏』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "因为它只能传播真知"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "因为它让纠正错误变得非常容易"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "因为它使书籍变得更加昂贵"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "因为它能高效传播谣言、偏见,且放大内容时不分好坏"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "语篇",
+        "历史",
+        "因果"
+      ],
+      "context": "【见语篇二】",
+      "vocabFocus": [
+        "谣言",
+        "偏见",
+        "煽动",
+        "蛊惑"
+      ]
+    },
+    {
+      "id": "h79m01_r1_13",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第一部分(语篇二)6",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "作者认为强大的信息技术对社会的影响具有什么特点?",
+      "explanation": "正确答案是『会重新分配知识权力,同时打开通向光明与混乱的两扇门』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "对社会的运转方式毫无影响"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "只会带来便利,没有任何负面影响"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "会重新分配知识权力,同时打开通向光明与混乱的两扇门"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "只影响技术本身,不影响人的认知"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "语篇",
+        "历史",
+        "推断"
+      ],
+      "context": "【见语篇二】",
+      "vocabFocus": [
+        "分配",
+        "权力",
+        "认知",
+        "混乱"
+      ]
+    },
+    {
+      "id": "h79m01_r1_14",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第一部分(语篇二)7",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "作者借回顾印刷术的历史,主要想传达什么启示?",
+      "explanation": "正确答案是『新的信息技术带来的从来不只是便利,应冷静看待』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "应当抵制并停止使用一切新的信息技术"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "技术的影响完全可以被准确预测"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "印刷术是历史上唯一重要的技术"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "新的信息技术带来的从来不只是便利,应冷静看待"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "语篇",
+        "历史",
+        "主旨"
+      ],
+      "context": "【见语篇二】",
+      "vocabFocus": [
+        "启示",
+        "冷静",
+        "便利"
+      ]
+    },
+    {
+      "id": "h79m01_r1_15",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第一部分(语篇三)1",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "文中所说的'零工经济'最核心的特征是什么?",
+      "explanation": "正确答案是『通过平台以独立、短期任务为单位获取报酬』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "通过平台以独立、短期任务为单位获取报酬"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "所有工作都必须朝九晚五"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "劳动者与公司签订长期固定合同"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "劳动者完全不需要使用网络"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "语篇",
+        "经济",
+        "细节"
+      ],
+      "context": "【语篇三】近十年来,'零工经济'迅速兴起,深刻地改变了许多人的工作方式。所谓零工经济,核心特征是劳动者不再与某一家公司签订长期的固定雇佣合同,而是通过网络平台,以一项项独立的、短期的任务为单位获取报酬。送一单外卖、完成一次设计、开一段网约车,都可以是其中的一份'零工'。\n这种模式之所以吸引人,很大程度上是因为它许诺了'自由'。劳动者似乎可以自己决定何时工作、工作多久,不必朝九晚五,也不必看上司的脸色。对一部分人而言,这种灵活性确实宝贵:它让学生、需要照顾家庭的人或希望多一份收入的上班族,得以利用碎片时间灵活地赚取报酬。\n然而,这份'自由'往往是有代价的,甚至可能是一种幻觉。由于不被认定为正式员工,大量零工劳动者无法享受稳定的底薪、医疗保险、带薪休假等传统雇佣关系所附带的保障。他们的收入随订单的多少而剧烈波动,平台的算法和评分规则又在很大程度上支配着他们的工作节奏——为了维持评分、获得更多派单,许多人实际上比固定岗位的员工更不自由。表面上没有了老板,实际上算法成了一个更冷酷、更难申诉的'隐形上司'。\n面对这一新生事物,简单地赞美或一味地否定都失之偏颇。更值得追问的是:我们的社会保障体系、法律框架,是否还停留在工业时代'一份稳定工作'的旧假设上?当越来越多的人以零工的形式谋生,如何为这种新的劳动形态提供与之匹配的保障和尊严,正在成为一个不容回避的时代课题。",
+      "vocabFocus": [
+        "零工",
+        "雇佣",
+        "平台",
+        "报酬"
+      ]
+    },
+    {
+      "id": "h79m01_r1_16",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第一部分(语篇三)2",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "零工经济之所以吸引人,主要是因为它许诺了什么?",
+      "explanation": "正确答案是『自己决定工作时间的'自由'与灵活性』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "更高的固定底薪"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "自己决定工作时间的'自由'与灵活性"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "更长的带薪休假"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "更完善的医疗保险"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "语篇",
+        "经济",
+        "细节"
+      ],
+      "context": "【见语篇三】",
+      "vocabFocus": [
+        "自由",
+        "灵活性",
+        "碎片时间"
+      ]
+    },
+    {
+      "id": "h79m01_r1_17",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第一部分(语篇三)3",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "根据第二段,下列哪类人最可能从零工经济的灵活性中受益?",
+      "explanation": "正确答案是『需要照顾家庭、想利用碎片时间赚钱的人』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "希望获得稳定终身雇佣的人"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "需要照顾家庭、想利用碎片时间赚钱的人"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "完全不想工作的人"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "只追求高额固定工资的人"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "语篇",
+        "经济",
+        "推断"
+      ],
+      "context": "【见语篇三】",
+      "vocabFocus": [
+        "照顾",
+        "上班族",
+        "灵活"
+      ]
+    },
+    {
+      "id": "h79m01_r1_18",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第一部分(语篇三)4",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "由于不被认定为正式员工,零工劳动者通常无法享受什么?",
+      "explanation": "正确答案是『稳定的底薪、医疗保险、带薪休假等保障』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "使用网络平台接单的权利"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "完成任务后获得报酬"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "自己安排工作时间的可能"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "稳定的底薪、医疗保险、带薪休假等保障"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "语篇",
+        "经济",
+        "细节"
+      ],
+      "context": "【见语篇三】",
+      "vocabFocus": [
+        "底薪",
+        "保险",
+        "带薪休假",
+        "保障"
+      ]
+    },
+    {
+      "id": "h79m01_r1_19",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第一部分(语篇三)5",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "作者为什么把平台算法称为'隐形上司'?",
+      "explanation": "正确答案是『因为算法通过评分和派单规则支配劳动者,却更冷酷、难申诉』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "因为算法通过评分和派单规则支配劳动者,却更冷酷、难申诉"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "因为算法会主动给劳动者发奖金"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "因为算法会亲自和劳动者面谈"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "因为算法让劳动者变得更加自由"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "语篇",
+        "经济",
+        "推断"
+      ],
+      "context": "【见语篇三】",
+      "vocabFocus": [
+        "算法",
+        "评分",
+        "支配",
+        "申诉"
+      ]
+    },
+    {
+      "id": "h79m01_r1_20",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第一部分(语篇三)6",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "作者对零工经济的态度可以概括为什么?",
+      "explanation": "正确答案是『辩证看待,既肯定其灵活性,也指出其保障缺失』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "全盘赞美,认为它有百利而无一害"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "一味否定,主张彻底取缔"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "辩证看待,既肯定其灵活性,也指出其保障缺失"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "完全无所谓,认为与社会无关"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "语篇",
+        "经济",
+        "态度"
+      ],
+      "context": "【见语篇三】",
+      "vocabFocus": [
+        "辩证",
+        "偏颇",
+        "保障"
+      ]
+    },
+    {
+      "id": "h79m01_r1_21",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第一部分(语篇三)7",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "作者认为面对零工经济,社会最值得追问的问题是什么?",
+      "explanation": "正确答案是『现有的社会保障与法律是否仍停留在旧假设上,如何为新劳动形态提供保障』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "现有的社会保障与法律是否仍停留在旧假设上,如何为新劳动形态提供保障"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "如何让所有人都去做零工"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "如何彻底禁止网络平台"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "如何让算法完全取代人类劳动"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "语篇",
+        "经济",
+        "主旨"
+      ],
+      "context": "【见语篇三】",
+      "vocabFocus": [
+        "法律框架",
+        "假设",
+        "劳动形态",
+        "尊严"
+      ]
+    },
+    {
+      "id": "h79m01_r1_22",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第一部分(语篇四)1",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "传统观念是如何看待人体肠道中的细菌的?",
+      "explanation": "正确答案是『几乎本能地把它和'脏'、'病'联系在一起,视为需清除的敌人』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "认为它们是有益的合作者"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "认为它们能直接控制人的情绪"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "认为它们对人体毫无影响"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "几乎本能地把它和'脏'、'病'联系在一起,视为需清除的敌人"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "语篇",
+        "科学",
+        "细节"
+      ],
+      "context": "【语篇四】长期以来,人们一提到细菌,几乎本能地把它和'脏'、'病'联系在一起,认为它们是需要被清除的敌人。然而,近二十年来兴起的肠道微生物研究,正在彻底改写这一认识。科学家发现,在我们的肠道里,生活着数以万亿计的微生物,它们的细胞数量甚至与人体自身的细胞不相上下。这个庞大而复杂的微生物群落,被称为'肠道菌群'。\n令人惊讶的是,这些微生物绝非可有可无的'房客',而是深度参与了我们生命活动的'合作者'。它们帮助人体消化那些自身无法分解的食物纤维,合成某些必需的维生素,还像一支训练有素的卫队,通过占据生存空间、与有害菌竞争,抵御外来致病菌的入侵。研究还不断揭示,肠道菌群的状态与人的免疫力、新陈代谢密切相关,菌群一旦失衡,可能与肥胖、糖尿病乃至某些免疫疾病的发生有关联。\n更出乎意料的是,肠道与大脑之间存在着一条被称为'肠脑轴'的双向通讯通道。肠道菌群能够产生多种影响神经系统的物质,科学家据此推测,它们或许在一定程度上影响着我们的情绪与行为。这一前沿发现还有许多未解之处,但它至少提示我们,'肠胃'与'心情'之间那种古老的直觉联系,可能并非全无道理。\n当然,这些研究目前大多仍处于探索阶段,远没有到可以指导人们随意服用各种'益生菌'产品的程度,过度的商业宣传有时甚至跑在了科学证据的前面。但无论如何,肠道菌群研究带给我们一个深刻的观念转变:人体并非一座孤立、纯净的城堡,而更像一个与无数微生物共生共荣的复杂生态系统。学会与体内的微生物和平相处、互利共生,或许是未来健康观念的一个重要方向。",
+      "vocabFocus": [
+        "细菌",
+        "本能",
+        "肠道菌群",
+        "群落"
+      ]
+    },
+    {
+      "id": "h79m01_r1_23",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第一部分(语篇四)2",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "关于肠道里微生物的数量,文中提到了什么?",
+      "explanation": "正确答案是『细胞数量甚至与人体自身细胞不相上下』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "数量极少,可以忽略不计"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "细胞数量甚至与人体自身细胞不相上下"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "数量远远少于人体自身细胞"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "数量无法被科学家估计"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "语篇",
+        "科学",
+        "细节"
+      ],
+      "context": "【见语篇四】",
+      "vocabFocus": [
+        "万亿",
+        "细胞",
+        "不相上下"
+      ]
+    },
+    {
+      "id": "h79m01_r1_24",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第一部分(语篇四)3",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "下列哪一项不属于文中所说肠道微生物对人体的作用?",
+      "explanation": "正确答案是『直接替代人体的免疫系统独立运作』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "帮助消化人体自身无法分解的食物纤维"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "直接替代人体的免疫系统独立运作"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "与有害菌竞争、抵御致病菌入侵"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "合成某些必需的维生素"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "语篇",
+        "科学",
+        "细节"
+      ],
+      "context": "【见语篇四】",
+      "vocabFocus": [
+        "纤维",
+        "维生素",
+        "致病菌",
+        "卫队"
+      ]
+    },
+    {
+      "id": "h79m01_r1_25",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第一部分(语篇四)4",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "文中提到,肠道菌群一旦失衡,可能与什么有关联?",
+      "explanation": "正确答案是『肥胖、糖尿病乃至某些免疫疾病的发生』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "肥胖、糖尿病乃至某些免疫疾病的发生"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "视力的突然下降"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "头发颜色的改变"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "身高的快速增长"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "语篇",
+        "科学",
+        "细节"
+      ],
+      "context": "【见语篇四】",
+      "vocabFocus": [
+        "失衡",
+        "肥胖",
+        "糖尿病",
+        "新陈代谢"
+      ]
+    },
+    {
+      "id": "h79m01_r1_26",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第一部分(语篇四)5",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "文中提到的'肠脑轴'是指什么?",
+      "explanation": "正确答案是『肠道与大脑之间的双向通讯通道』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "连接肠道和心脏的血管"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "大脑中专门控制食欲的区域"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "肠道与大脑之间的双向通讯通道"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "一种新发现的肠道细菌"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "语篇",
+        "科学",
+        "词义"
+      ],
+      "context": "【见语篇四】",
+      "vocabFocus": [
+        "肠脑轴",
+        "双向",
+        "通讯",
+        "神经系统"
+      ]
+    },
+    {
+      "id": "h79m01_r1_27",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第一部分(语篇四)6",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "作者对市面上'益生菌'产品的态度是什么?",
+      "explanation": "正确答案是『提醒研究仍处探索阶段,过度商业宣传可能跑在证据前面』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "强烈推荐人人每天服用"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "认为这些产品完全没有任何依据,纯属骗局"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "认为它们能彻底治愈一切疾病"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "提醒研究仍处探索阶段,过度商业宣传可能跑在证据前面"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "语篇",
+        "科学",
+        "态度"
+      ],
+      "context": "【见语篇四】",
+      "vocabFocus": [
+        "益生菌",
+        "探索阶段",
+        "商业宣传",
+        "证据"
+      ]
+    },
+    {
+      "id": "h79m01_r1_28",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第一部分(语篇四)7",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "这篇语篇带给我们的核心观念转变是什么?",
+      "explanation": "正确答案是『人体是与无数微生物共生共荣的复杂生态系统,应学会互利共生』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "人体是一座孤立、纯净的城堡,应彻底清除一切微生物"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "人类应当尽快消灭体内所有细菌"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "微生物研究毫无价值,不值得关注"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "人体是与无数微生物共生共荣的复杂生态系统,应学会互利共生"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "语篇",
+        "科学",
+        "主旨"
+      ],
+      "context": "【见语篇四】",
+      "vocabFocus": [
+        "共生",
+        "生态系统",
+        "互利",
+        "城堡"
+      ]
+    },
+    {
+      "id": "h79m01_r2_01",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分(语篇五)1",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "传统经济学对人的一个核心假设是什么?",
+      "explanation": "正确答案是『人是完全理性的,总能挑出对自己最有利的选项』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "人是完全理性的,总能挑出对自己最有利的选项"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "人总是凭情绪冲动做决定"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "人无法做出任何选择"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "人只会顺从默认选项"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "语篇",
+        "经济",
+        "细节"
+      ],
+      "context": "【语篇五】传统经济学有一个深入人心的假设:人是完全理性的。也就是说,每个人都会冷静地权衡利弊,在所有选项中挑出对自己最有利的那一个。然而,行为经济学的大量研究却发现,真实的人远没有这么'理性'。我们的决策时时受到情绪、习惯、思维捷径以及种种心理偏差的左右,常常做出连自己事后都觉得不明智的选择。\n一个广为人知的例子是'默认选项'的力量。研究者比较了两个相邻国家的器官捐献率,两国文化、经济水平都很接近,捐献率却相差悬殊。差别的根源并不在于国民是否更有爱心,而在于一个看似微不足道的制度设计:在捐献率高的国家,公民默认是器官捐献者,不愿意的人需要主动勾选退出;而在捐献率低的国家,情况恰好相反,愿意捐献的人才需要主动登记。仅仅是这个默认设置的差异,就造成了巨大的结果分化——因为大多数人都倾向于'什么都不做',顺从默认。\n基于这类发现,有学者提出了'助推'的概念。所谓助推,是指在不限制人们选择自由、也不动用强制或重罚的前提下,通过巧妙地设计选择的呈现方式,温和地引导人们做出更有利于自身或社会的决定。把健康食品摆在餐厅最显眼的位置,把节能选项设为默认,都是助推的实例。它的高明之处在于,人们依然可以自由地选择'不被助推',它只是顺势而为,而非强加于人。\n不过,助推也并非没有争议。批评者担心,既然政策制定者可以用助推引导人们'向善',那么同样的手段是否也可能被用来悄悄操纵公众、服务于某些不可告人的目的?谁来决定什么才是'更好的'选择?这些追问提醒我们,任何一种影响他人决策的力量,都必须接受透明与伦理的约束。助推是一把好用的工具,但工具本身并不能保证使用者的善意。",
+      "vocabFocus": [
+        "理性",
+        "权衡",
+        "假设",
+        "偏差"
+      ]
+    },
+    {
+      "id": "h79m01_r2_02",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分(语篇五)2",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "行为经济学发现,人的决策实际上常常受到什么影响?",
+      "explanation": "正确答案是『受情绪、习惯、思维捷径及心理偏差的左右』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "只受到收入水平的影响"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "完全不受任何因素影响"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "受情绪、习惯、思维捷径及心理偏差的左右"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "只受他人命令的影响"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "语篇",
+        "经济",
+        "细节"
+      ],
+      "context": "【见语篇五】",
+      "vocabFocus": [
+        "情绪",
+        "习惯",
+        "思维捷径",
+        "左右"
+      ]
+    },
+    {
+      "id": "h79m01_r2_03",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分(语篇五)3",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "两国器官捐献率相差悬殊的根本原因是什么?",
+      "explanation": "正确答案是『默认是否为捐献者的制度设计不同』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "默认是否为捐献者的制度设计不同"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "两国的经济水平相差悬殊"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "两国国民爱心程度差别很大"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "两国的医疗技术水平不同"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "语篇",
+        "经济",
+        "因果"
+      ],
+      "context": "【见语篇五】",
+      "vocabFocus": [
+        "默认选项",
+        "捐献",
+        "悬殊",
+        "顺从"
+      ]
+    },
+    {
+      "id": "h79m01_r2_04",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分(语篇五)4",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "根据文中定义,'助推'最关键的特点是什么?",
+      "explanation": "正确答案是『在不限制选择自由的前提下温和地引导人们做更有利的决定』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "通过强制和重罚迫使人们服从"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "只适用于器官捐献一个领域"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "在不限制选择自由的前提下温和地引导人们做更有利的决定"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "完全取消人们的选择权"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "语篇",
+        "经济",
+        "词义"
+      ],
+      "context": "【见语篇五】",
+      "vocabFocus": [
+        "助推",
+        "强制",
+        "引导",
+        "呈现方式"
+      ]
+    },
+    {
+      "id": "h79m01_r2_05",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分(语篇五)5",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "下列哪一项属于文中所举的'助推'实例?",
+      "explanation": "正确答案是『把健康食品摆在餐厅最显眼的位置』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "把健康食品摆在餐厅最显眼的位置"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "立法禁止销售一切不健康食品"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "对购买高能耗产品的人处以重罚"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "强制要求每个人登记为器官捐献者"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "语篇",
+        "经济",
+        "推断"
+      ],
+      "context": "【见语篇五】",
+      "vocabFocus": [
+        "显眼",
+        "节能",
+        "实例"
+      ]
+    },
+    {
+      "id": "h79m01_r2_06",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分(语篇五)6",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "批评者对'助推'的主要担忧是什么?",
+      "explanation": "正确答案是『同样的手段可能被用来操纵公众、服务不正当目的』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "同样的手段可能被用来操纵公众、服务不正当目的"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "助推完全没有任何实际效果"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "助推会显著提高政府开支"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "助推只能用于商业领域"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "语篇",
+        "经济",
+        "态度"
+      ],
+      "context": "【见语篇五】",
+      "vocabFocus": [
+        "操纵",
+        "伦理",
+        "约束",
+        "争议"
+      ]
+    },
+    {
+      "id": "h79m01_r2_07",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分(语篇六)1",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "作者认为人们对翻译的常见误解是什么?",
+      "explanation": "正确答案是『把翻译想象成只要换词、意思就能自然传递的纯技术活』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "认为只有机器才能做翻译"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "把翻译想象成只要换词、意思就能自然传递的纯技术活"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "认为翻译毫无价值"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "认为翻译比写作更容易出名"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "语篇",
+        "人文",
+        "细节"
+      ],
+      "context": "【语篇六】很多人把翻译想象成一项纯粹的技术活:只要精通两种语言,把一个个词从一种语言换成另一种语言,意思自然就传递过去了。然而,真正从事过文学翻译的人都明白,事情远没有这么简单。语言从来不只是符号的集合,它深深扎根于一个民族的历史、习俗和情感之中。许多词语承载的微妙意味,在另一种语言里根本找不到对应物。\n以一些表达独特情绪的词为例:某些语言里有专门的词,用来形容'久别重逢时那种既欣喜又略带感伤的复杂心情',或者'雨后泥土散发出的特殊气味'所唤起的怀旧。这些词在它们自己的文化语境中一目了然,可一旦要翻成别的语言,译者就只能用一长串解释勉强逼近,那种凝练而完整的韵味却不可避免地流失了。这便是所谓的'不可译性'。\n面对不可译性,优秀的译者并不会因此放弃,而是把翻译从'转换'升华为一种'再创造'。他们深入体会原文的精神,然后在目标语言里调动一切资源,去重建一种尽可能接近的效果——有时甚至需要牺牲字面的忠实,以保全整体的神韵。正因如此,人们才说翻译是'戴着镣铐跳舞':既要受原文的严格约束,又要在约束中创造出新的、自足的美。\n从这个角度看,翻译的价值就远不止于沟通信息。每一次认真的翻译,都是两种文化之间一场艰难而真诚的对话,它逼迫我们去触碰另一种思维方式的边界,也让我们更清醒地意识到自身语言的特点与局限。一部好的译作,不仅把异域的故事带到我们面前,更在两种语言的碰撞中,悄悄拓宽了我们感受世界的方式。",
+      "vocabFocus": [
+        "翻译",
+        "符号",
+        "扎根",
+        "对应物"
+      ]
+    },
+    {
+      "id": "h79m01_r2_08",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分(语篇六)2",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "作者认为语言的本质是什么?",
+      "explanation": "正确答案是『深深扎根于民族历史、习俗和情感之中』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "只是一套与文化无关的符号集合"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "只是用来交换商品信息的工具"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "深深扎根于民族历史、习俗和情感之中"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "可以被任意替换而毫无损失"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "语篇",
+        "人文",
+        "推断"
+      ],
+      "context": "【见语篇六】",
+      "vocabFocus": [
+        "民族",
+        "习俗",
+        "情感",
+        "意味"
+      ]
+    },
+    {
+      "id": "h79m01_r2_09",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分(语篇六)3",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "文中所说的'不可译性'指的是什么?",
+      "explanation": "正确答案是『某些词凝练完整的韵味在转译时不可避免地流失』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "机器翻译永远比人工准确"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "某些语言根本无法被任何人学会"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "翻译时绝对不能改动任何一个字"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "某些词凝练完整的韵味在转译时不可避免地流失"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "语篇",
+        "人文",
+        "词义"
+      ],
+      "context": "【见语篇六】",
+      "vocabFocus": [
+        "凝练",
+        "韵味",
+        "流失",
+        "不可译性"
+      ]
+    },
+    {
+      "id": "h79m01_r2_10",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分(语篇六)4",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "面对不可译性,优秀的译者会怎么做?",
+      "explanation": "正确答案是『把翻译升华为'再创造',有时牺牲字面忠实以保全神韵』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "把翻译升华为'再创造',有时牺牲字面忠实以保全神韵"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "直接放弃翻译这段内容"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "逐字硬译,绝不改动"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "随意改写,完全不顾原文"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "语篇",
+        "人文",
+        "细节"
+      ],
+      "context": "【见语篇六】",
+      "vocabFocus": [
+        "再创造",
+        "忠实",
+        "神韵",
+        "重建"
+      ]
+    },
+    {
+      "id": "h79m01_r2_11",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分(语篇六)5",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "人们为什么把翻译比作'戴着镣铐跳舞'?",
+      "explanation": "正确答案是『因为译者既受原文严格约束,又要在约束中创造出新的美』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "因为翻译是一件令人痛苦的体力劳动"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "因为译者既受原文严格约束,又要在约束中创造出新的美"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "因为翻译完全没有任何规则可循"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "因为译者必须放弃所有自由"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "语篇",
+        "人文",
+        "推断"
+      ],
+      "context": "【见语篇六】",
+      "vocabFocus": [
+        "镣铐",
+        "约束",
+        "自足",
+        "比喻"
+      ]
+    },
+    {
+      "id": "h79m01_r2_12",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分(语篇六)6",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "作者认为翻译的价值远不止于什么?",
+      "explanation": "正确答案是『远不止于沟通信息』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "远不止于出版书籍"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "远不止于赚取报酬"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "远不止于学习外语"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "远不止于沟通信息"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "语篇",
+        "人文",
+        "细节"
+      ],
+      "context": "【见语篇六】",
+      "vocabFocus": [
+        "沟通",
+        "对话",
+        "边界"
+      ]
+    },
+    {
+      "id": "h79m01_r2_13",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分(语篇六)7",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "这篇语篇的主旨可以概括为什么?",
+      "explanation": "正确答案是『翻译是受约束的再创造,更是拓宽我们感受世界方式的文化对话』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "翻译终将被机器完全取代"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "翻译是简单的词语替换,人人可为"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "翻译是受约束的再创造,更是拓宽我们感受世界方式的文化对话"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "不同语言之间无法进行任何交流"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "语篇",
+        "人文",
+        "主旨"
+      ],
+      "context": "【见语篇六】",
+      "vocabFocus": [
+        "主旨",
+        "再创造",
+        "拓宽",
+        "碰撞"
+      ]
+    },
+    {
+      "id": "h79m01_r2_14",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分(语篇七)1",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "与其他污染相比,'光污染'有什么特别之处?",
+      "explanation": "正确答案是『人们多把灯火通明当作繁荣与安全的象征,因而毫无戒备』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "它比任何污染都更难被人察觉气味"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "它只在白天才会产生影响"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "人们多把灯火通明当作繁荣与安全的象征,因而毫无戒备"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "它对所有生物都完全无害"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "语篇",
+        "环境",
+        "细节"
+      ],
+      "context": "【语篇七】提到环境污染,人们往往想到雾霾、污水或者噪音,却很少有人把'光'也列入其中。事实上,过量、无序的人造光,正在成为一种被普遍低估的污染形式——光污染。它的特别之处在于,人们大多把灯火通明当作繁荣与安全的象征,因而对它的危害几乎毫无戒备。\n然而,被夜晚的灯光打乱节律的,远不止人类。无数生物的生理活动,本来由亿万年演化形成的昼夜节律所调控。海龟幼崽孵化后,本能地朝向海面最明亮的方向爬行,在自然状态下那是月光映照的海洋;可如今,岸边城市刺眼的灯光却把它们引向相反的方向,导致大量幼龟在歧途中死去。许多候鸟夜间依靠星光导航,城市的强光让它们迷失方向,甚至撞向高楼。对昆虫而言,路灯则像致命的陷阱,大量趋光的昆虫围绕灯光耗尽体力而亡,而昆虫数量的锐减,又会沿着食物链波及更多物种。\n光污染对人类自身同样不是无害的。研究指出,夜间过度暴露在明亮光线下,会抑制人体一种与睡眠相关激素的正常分泌,从而干扰睡眠、影响健康。更不必说,当城市的夜空被霞光般的光雾笼罩,绝大多数城市居民已经几代人未曾见过真正繁星满天的夜空——这是一种难以察觉、却实实在在的精神与文化的损失。\n值得欣慰的是,光污染或许是最容易治理的污染之一。它不像化学污染那样会长期残留,只要关灯,影响便几乎立刻消失。我们并不需要在'黑暗'与'光明'之间二选一,而完全可以通过更合理的设计——比如让灯光照向该照的地方、在深夜适当调暗路灯、采用对生物更友好的暖色光源——在保证安全的同时,把多余的光还给夜空。重新找回那片久违的星空,我们要做的,有时仅仅是学会在恰当的时候,关掉一盏不必要的灯。",
+      "vocabFocus": [
+        "光污染",
+        "无序",
+        "戒备",
+        "象征"
+      ]
+    },
+    {
+      "id": "h79m01_r2_15",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分(语篇七)2",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "岸边城市的灯光为什么会危害刚孵化的海龟幼崽?",
+      "explanation": "正确答案是『刺眼的灯光把本应朝海爬行的幼龟引向相反方向』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "灯光的高温烤死了幼龟"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "灯光使海水温度急剧升高"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "灯光吸引来大量天敌捕食幼龟"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "刺眼的灯光把本应朝海爬行的幼龟引向相反方向"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "语篇",
+        "环境",
+        "因果"
+      ],
+      "context": "【见语篇七】",
+      "vocabFocus": [
+        "孵化",
+        "幼崽",
+        "歧途",
+        "本能"
+      ]
+    },
+    {
+      "id": "h79m01_r2_16",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分(语篇七)3",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "城市强光对夜间迁徙的候鸟造成了什么影响?",
+      "explanation": "正确答案是『让依靠星光导航的候鸟迷失方向,甚至撞向高楼』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "帮助它们更快找到方向"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "让依靠星光导航的候鸟迷失方向,甚至撞向高楼"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "使候鸟的飞行速度大幅提高"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "对候鸟没有任何影响"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "语篇",
+        "环境",
+        "细节"
+      ],
+      "context": "【见语篇七】",
+      "vocabFocus": [
+        "候鸟",
+        "导航",
+        "迷失",
+        "星光"
+      ]
+    },
+    {
+      "id": "h79m01_r2_17",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分(语篇七)4",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "文中提到昆虫数量锐减为什么会波及更多物种?",
+      "explanation": "正确答案是『因为昆虫数量锐减会沿着食物链波及更多物种』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "因为昆虫数量锐减会沿着食物链波及更多物种"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "因为昆虫会传播疾病"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "因为昆虫会直接攻击其他动物"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "因为昆虫会争夺人类的食物"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "语篇",
+        "环境",
+        "推断"
+      ],
+      "context": "【见语篇七】",
+      "vocabFocus": [
+        "趋光",
+        "锐减",
+        "食物链",
+        "陷阱"
+      ]
+    },
+    {
+      "id": "h79m01_r2_18",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分(语篇七)5",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "夜间过度暴露在明亮光线下,会对人体产生什么影响?",
+      "explanation": "正确答案是『抑制一种与睡眠相关激素的正常分泌,干扰睡眠、影响健康』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "促进与睡眠相关激素的分泌"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "提高人体的视力"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "抑制一种与睡眠相关激素的正常分泌,干扰睡眠、影响健康"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "对人体健康完全没有影响"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "语篇",
+        "环境",
+        "细节"
+      ],
+      "context": "【见语篇七】",
+      "vocabFocus": [
+        "暴露",
+        "抑制",
+        "激素",
+        "分泌"
+      ]
+    },
+    {
+      "id": "h79m01_r2_19",
+      "levelCode": "hsk-7",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分(语篇七)6",
+      "stem": "读语篇,选择正确答案",
+      "prompt": "作者认为光污染'最容易治理'的原因是什么?",
+      "explanation": "正确答案是『因为它不像化学污染会长期残留,只要关灯影响便几乎立刻消失』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "因为它不像化学污染会长期残留,只要关灯影响便几乎立刻消失"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "因为它根本不需要人类做任何事"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "因为它会随时间自动彻底消失"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "因为治理它需要昂贵的高科技设备"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "语篇",
+        "环境",
+        "主旨"
+      ],
+      "context": "【见语篇七】",
+      "vocabFocus": [
+        "治理",
+        "残留",
+        "暖色光源",
+        "夜空"
+      ]
+    },
+    {
+      "id": "h79m01_w1_01",
+      "levelCode": "hsk-7",
+      "sectionCode": "writing",
+      "questionTypeCode": "W_SUMMARIZE",
+      "title": "书写·缩写",
+      "stem": "请仔细阅读下面的文章,然后把它缩写成一篇约400字的短文",
+      "prompt": "请仔细阅读下面这篇文章(限时10分钟,阅读时不能抄写、记录),然后将其缩写成一篇约400字的短文。标题自拟。只需复述文章的主要内容,不需要加入自己的观点。",
+      "explanation": "缩写应保留主要情节与因果:人物身份与办馆决定、办馆动机(少年对书的渴望)、初期的质疑与艰难、转机(给孩子讲故事、成为留守儿童港湾、男孩考上重点高中)、如今成果与他的感言。不需加入个人评论,字数约400字,标题自拟。本题为主观题,待人工判分。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [],
+      "correctOptionId": "",
+      "tags": [
+        "书写",
+        "缩写",
+        "主观题"
+      ],
+      "context": "【阅读文章】陈砚秋是一位在小城里教了三十年书的中学语文老师,临近退休的那年,他做了一个让许多人不解的决定:把自己积攒多年、原本打算用来养老的一笔钱,拿出来在镇上租下一间旧仓库,改造成一家不收费的乡村图书馆。\n这个念头并非一时冲动。陈老师从小生长在这个偏远的镇子,他至今记得自己少年时对书的那种近乎饥渴的渴望。那时镇上没有书店,更没有图书馆,他能读到的每一本书,都来之不易。一本破旧的小说,常常要在同学之间传上几十遍,书页都被翻得起了毛边。正是那些零散得来的书，为他打开了一扇望向外面世界的窗，也最终把他引上了求学和教书的道路。他常说:'是书把我从这座小镇带了出去,又让我心甘情愿地回来。'\n然而,理想落地的过程远比想象中艰难。最初,镇上很多人并不理解。有人觉得他是在'瞎折腾',好好的退休生活不过,偏要去操这份心;也有人怀疑,如今孩子们都抱着手机,谁还会来一个破仓库里看纸书?面对这些质疑,陈老师没有争辩,只是默默地做。他自己动手粉刷墙壁、打造书架,把毕生收藏的几千册书一一摆上,又四处奔走,向老同事、老学生募集旧书。图书馆开门的第一个月,来的人寥寥无几,空荡荡的屋子里,常常只有他一个人守着满架的书。\n转机来得很慢,却很坚实。陈老师开始利用周末,在图书馆里给孩子们免费讲故事、读名著,渐渐地,来的孩子多了起来。这些孩子大多是留守儿童,父母在外打工,放学后无处可去。图书馆成了他们温暖的港湾——在这里,他们不仅读书,也找到了陪伴。有个原本沉默寡言、成绩很差的男孩,在陈老师的鼓励下迷上了阅读,几年后竟以优异的成绩考上了重点高中。这样的故事一个接一个地发生,曾经质疑的声音,慢慢变成了由衷的敬佩。\n如今，这间小小的乡村图书馆已经运转了五年，藏书超过了一万册，还有十几位志愿者定期来帮忙。陈老师的身体不如从前了，但每天清晨，他仍坚持第一个到馆，把书架擦得一尘不染。有人问他图什么，他笑着说:'我这辈子最大的幸运,就是遇到了书。我只是想让镇上的孩子也有这样的幸运。一个人能照亮的地方很有限,但只要这盏灯一直亮着,总会有孩子顺着光走出去。'",
+      "vocabFocus": [
+        "缩写",
+        "图书馆",
+        "留守儿童",
+        "港湾"
+      ],
+      "answerText": "参考缩写要点:中学语文老师陈砚秋退休前用养老钱在家乡小镇创办了一家免费的乡村图书馆。他这样做源于少年时对书的渴望——当年镇上没有书店,书来之不易,正是书把他引上求学和教书之路。创办过程很艰难,起初很多人不理解、质疑没人来看纸书,他不争辩,默默粉刷、打书架、募旧书,开馆第一个月几乎无人光顾。后来他周末免费给孩子讲故事、读名著,来的孩子渐渐多了,图书馆成了留守儿童的港湾,有个成绩差的男孩因爱上阅读考上了重点高中,质疑变成了敬佩。五年后图书馆藏书过万、有十几位志愿者,年迈的他仍每天第一个到馆。他说自己最大的幸运是遇到书,只想让镇上的孩子也有这样的幸运,只要灯亮着,总会有孩子顺着光走出去。"
+    },
+    {
+      "id": "h79m01_t1_01",
+      "levelCode": "hsk-7",
+      "sectionCode": "translation",
+      "questionTypeCode": "T_L2C_WRITTEN",
+      "title": "翻译·笔译",
+      "stem": "请把下面的英文段落笔译成中文",
+      "prompt": "请将下面这段英文笔译成通顺、准确的中文:\n\nFor most of human history, knowledge was passed down slowly, from one generation to the next, and the pace of change within a single lifetime was barely noticeable. Today, that situation has been completely reversed. Technology evolves so rapidly that the skills a young person learns at school may already be outdated by the time they enter the workforce. In such an age, the most valuable ability is no longer simply mastering a fixed body of knowledge, but rather the capacity to keep learning throughout one's life. Those who stop learning, no matter how impressive their past achievements, will gradually find themselves left behind by the times.",
+      "explanation": "本题为非评分(ungraded)主观题。评判要点:准确传达原文含义(知识传递从缓慢到飞快的反转、技能易过时、终身学习成为最宝贵的能力、停止学习者会被时代抛下),中文表达通顺自然,不漏译、不增译,语序符合汉语习惯。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [],
+      "correctOptionId": "",
+      "tags": [
+        "翻译",
+        "笔译",
+        "主观题"
+      ],
+      "vocabFocus": [
+        "笔译",
+        "颠倒",
+        "过时",
+        "终身学习"
+      ],
+      "answerText": "参考译文:在人类历史的大部分时间里,知识都是缓慢地一代一代往下传递的,在一个人的一生当中,变化的速度几乎察觉不到。而今天,这种情形已经被彻底颠倒了过来。技术发展得如此之快,以至于一个年轻人在学校里学到的技能,可能等他步入职场时就已经过时了。在这样一个时代,最宝贵的能力不再是单纯地掌握某一套固定的知识,而是终身不断学习的能力。那些停止学习的人,无论过去的成就多么辉煌,都会渐渐发现自己被时代抛在了后面。"
+    },
+    {
+      "id": "h79m01_t2_01",
+      "levelCode": "hsk-7",
+      "sectionCode": "translation",
+      "questionTypeCode": "T_L2C_INTERPRET",
+      "title": "翻译·口译",
+      "stem": "请把下面的英文口译成中文",
+      "prompt": "请听(读)下面这段英文,然后口头将其翻译成中文。(本卷以文本形式呈现英文原文,实际考试中为外语音频)",
+      "explanation": "本题为非评分(ungraded)主观题,以口译方式作答。评判要点:完整传达原文要点(衡量好城市不能只看高楼与经济、宜居城市善待弱势群体、轮椅通行与老幼空间与劳动者尊严的例子、只对成功者友好算不上伟大、真正的进步在于对最需要帮助者的温暖),口语表达流畅、连贯、自然,无明显漏译。注:本卷以文本形式提供英文原文,无外语 TTS 音频。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [],
+      "correctOptionId": "",
+      "tags": [
+        "翻译",
+        "口译",
+        "主观题"
+      ],
+      "context": "【英文原文(口译材料)】Good cities are not measured only by how tall their buildings are or how fast their economy grows. A truly livable city is one that treats its most vulnerable residents with care. Look at whether its sidewalks are friendly to wheelchairs, whether there is space in public places for children and the elderly, and whether ordinary working people can live with dignity. A city that is welcoming only to the successful can hardly be called a great city. Real progress is measured not by the height of our towers, but by the warmth we extend to those who need it most.",
+      "vocabFocus": [
+        "口译",
+        "宜居",
+        "弱势",
+        "尊严"
+      ],
+      "answerText": "参考译文:好的城市不能只用楼有多高、经济增长有多快来衡量。一座真正宜居的城市,会用心地对待它最弱势的居民。看看它的人行道方不方便轮椅通行,公共场所有没有给孩子和老人留出空间,普通劳动者能不能有尊严地生活。一座只对成功者敞开怀抱的城市,算不上一座伟大的城市。真正的进步,衡量的不是我们高楼的高度,而是我们向最需要帮助的人所伸出的那份温暖。"
+    },
+    {
+      "id": "h79m01_s1_01",
+      "levelCode": "hsk-7",
+      "sectionCode": "speaking",
+      "questionTypeCode": "S_OPINION",
+      "title": "口语·观点阐述",
+      "stem": "请就下面的话题口头阐述你的观点",
+      "prompt": "话题:有人认为,在人工智能可以快速给出各种答案的今天,'提出好问题的能力'比'记住知识'更加重要;也有人认为,没有扎实的知识积累作基础,根本提不出真正有价值的问题。\n\n问题:你更赞同哪一种看法?请阐述你的观点,并说明理由。要求条理清晰、论证充分,准备1分钟,陈述约3分钟。",
+      "explanation": "本题为非评分(ungraded)口语主观题。考查考生就开放性话题清晰表达观点、组织论证的能力。无标准答案,只要立场明确、论证合理、条理清晰、语言流畅即可。参考要点供评分者把握作答方向,不要求考生覆盖全部。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [],
+      "correctOptionId": "",
+      "tags": [
+        "口语",
+        "观点阐述",
+        "主观题"
+      ],
+      "vocabFocus": [
+        "观点",
+        "论证",
+        "相辅相成",
+        "辩证"
+      ],
+      "answerText": "参考观点要点(言之成理即可,本题为非评分主观题):\n1. 可明确表明立场,如:二者并不对立,提问能力与知识积累相辅相成,但在AI时代,提问能力的相对重要性确实在上升。\n2. 支持'提问更重要'一方可论证:答案唾手可得,稀缺的是能精准定义问题、判断答案好坏、引导探索方向的能力;好问题决定了AI这类强大工具被用在何处。\n3. 支持'知识为基础'一方可论证:提不出好问题往往是因为不了解该领域;只有具备一定知识背景,才能分辨问题真伪、识别AI答案中的错误,避免被表面流畅的回答误导。\n4. 较成熟的回答应能辩证整合:知识是地基,提问是方向;在掌握必要核心知识的同时,把精力更多投向培养提问、判断与整合的高阶能力。\n5. 评判要点:观点明确、理由充分、条理清晰、举例恰当、语言流畅、用词得体。"
+    }
+  ],
+  "sets": [
+    {
+      "id": "set_hsk7_9_ai_mock_01",
+      "slug": "hsk7-9-ai-mock-01",
+      "title": "HSK7-9 AI 全真模考 01",
+      "description": "content-engine 自动生产的完整 HSK7-9(一卷三级)笔试模拟卷,官方PDF校准:听力 40 题 + 阅读 47 题 + 书写 1 题 + 翻译 2 题 + 口语 1 题,共 91 题,约 210 分钟。本卷为一卷三级、IRT 划档,词汇覆盖 11000 词,题材可深可专业(科技/人文/社会/经济/学术)。听力题配真人音频,翻译与口语为非评分主观题(ungraded),书写为缩写主观题。",
+      "levelCode": "hsk-7",
+      "mode": "mock_exam",
+      "access": "free",
+      "minutes": 210,
+      "itemIds": [
+        "h79m01_l1_01",
+        "h79m01_l1_02",
+        "h79m01_l1_03",
+        "h79m01_l1_04",
+        "h79m01_l1_05",
+        "h79m01_l1_06",
+        "h79m01_l1_07",
+        "h79m01_l1_08",
+        "h79m01_l1_09",
+        "h79m01_l1_10",
+        "h79m01_l2_01",
+        "h79m01_l2_02",
+        "h79m01_l2_03",
+        "h79m01_l2_04",
+        "h79m01_l2_05",
+        "h79m01_l2_06",
+        "h79m01_l2_07",
+        "h79m01_l2_08",
+        "h79m01_l2_09",
+        "h79m01_l3_01",
+        "h79m01_l3_02",
+        "h79m01_l3_03",
+        "h79m01_l4_01",
+        "h79m01_l4_02",
+        "h79m01_l4_03",
+        "h79m01_l4_04",
+        "h79m01_l4_05",
+        "h79m01_l4_06",
+        "h79m01_l4_07",
+        "h79m01_l4_08",
+        "h79m01_l4_09",
+        "h79m01_l4_10",
+        "h79m01_l4_11",
+        "h79m01_l4_12",
+        "h79m01_l4_13",
+        "h79m01_l4_14",
+        "h79m01_l4_15",
+        "h79m01_l5_01",
+        "h79m01_l5_02",
+        "h79m01_l5_03",
+        "h79m01_r1_01",
+        "h79m01_r1_02",
+        "h79m01_r1_03",
+        "h79m01_r1_04",
+        "h79m01_r1_05",
+        "h79m01_r1_06",
+        "h79m01_r1_07",
+        "h79m01_r1_08",
+        "h79m01_r1_09",
+        "h79m01_r1_10",
+        "h79m01_r1_11",
+        "h79m01_r1_12",
+        "h79m01_r1_13",
+        "h79m01_r1_14",
+        "h79m01_r1_15",
+        "h79m01_r1_16",
+        "h79m01_r1_17",
+        "h79m01_r1_18",
+        "h79m01_r1_19",
+        "h79m01_r1_20",
+        "h79m01_r1_21",
+        "h79m01_r1_22",
+        "h79m01_r1_23",
+        "h79m01_r1_24",
+        "h79m01_r1_25",
+        "h79m01_r1_26",
+        "h79m01_r1_27",
+        "h79m01_r1_28",
+        "h79m01_r2_01",
+        "h79m01_r2_02",
+        "h79m01_r2_03",
+        "h79m01_r2_04",
+        "h79m01_r2_05",
+        "h79m01_r2_06",
+        "h79m01_r2_07",
+        "h79m01_r2_08",
+        "h79m01_r2_09",
+        "h79m01_r2_10",
+        "h79m01_r2_11",
+        "h79m01_r2_12",
+        "h79m01_r2_13",
+        "h79m01_r2_14",
+        "h79m01_r2_15",
+        "h79m01_r2_16",
+        "h79m01_r2_17",
+        "h79m01_r2_18",
+        "h79m01_r2_19",
+        "h79m01_w1_01",
+        "h79m01_t1_01",
+        "h79m01_t2_01",
+        "h79m01_s1_01"
+      ]
+    }
+  ]
+}

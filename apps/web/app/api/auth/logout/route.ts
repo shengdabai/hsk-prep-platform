@@ -1,10 +1,12 @@
 import { NextResponse } from "next/server";
 
-import { demoRoleCookie, demoUserCookie } from "@/lib/auth-cookies";
+import { legacyRoleCookie, legacyUserCookie, sessionCookie } from "@/lib/auth-cookies";
 
 export async function POST() {
   const response = NextResponse.json({ ok: true });
-  response.cookies.set(demoUserCookie, "", { httpOnly: true, sameSite: "lax", path: "/", expires: new Date(0) });
-  response.cookies.set(demoRoleCookie, "", { httpOnly: true, sameSite: "lax", path: "/", expires: new Date(0) });
+  const expired = { httpOnly: true, sameSite: "lax" as const, path: "/", expires: new Date(0) };
+  response.cookies.set(sessionCookie, "", expired);
+  response.cookies.set(legacyUserCookie, "", expired);
+  response.cookies.set(legacyRoleCookie, "", expired);
   return response;
 }

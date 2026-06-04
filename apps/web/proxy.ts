@@ -1,27 +1,30 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
-import { demoRoleCookie, demoUserCookie } from "@/lib/auth-cookies";
+import { sessionCookie } from "@/lib/auth-cookies";
+import { verifySessionTokenEdge } from "@/lib/session-edge";
 
 const adminPaths = ["/admin"];
 const learnerPaths = ["/account", "/mistakes", "/session", "/report"];
 
-export function proxy(request: NextRequest) {
+// 快速门禁(纵深防御第一层):验签会话令牌。无效/越权先在边缘拦截。
+// 权威 role 判定仍由各页面的 requireRole 与 API 守卫从 repository 现取完成。
+export async function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
-  const userId = request.cookies.get(demoUserCookie)?.value;
-  const role = request.cookies.get(demoRoleCookie)?.value;
+  const token = request.cookies.get(sessionCookie)?.value;
+  const session = await verifySessionTokenEdge(token);
 
-  if (learnerPaths.some((path) => pathname.startsWith(path)) && !userId) {
-    return NextResponse.redirect(new URL(`/login?next=${encodeURIComponent(pathname)}`, request.url));
+  const needsLearner = learnerPaths.some((path) => pathname.startsWith(path));
+  const needsAdmin = adminPaths.some((path) => pathname.startsWith(path));
+
+  if ((needsLearner || needsAdmin) && !session) {
+    return NextResponse.redirect(
+      new URL(`/login?next=${encodeURIComponent(pathname)}`, request.url),
+    );
   }
 
-  if (adminPaths.some((path) => pathname.startsWith(path))) {
-    if (!userId) {
-      return NextResponse.redirect(new URL(`/login?next=${encodeURIComponent(pathname)}`, request.url));
-    }
-    if (role !== "admin" && role !== "reviewer") {
-      return NextResponse.redirect(new URL("/", request.url));
-    }
+  if (needsAdmin && session && session.role !== "admin" && session.role !== "reviewer") {
+    return NextResponse.redirect(new URL("/", request.url));
   }
 
   return NextResponse.next();

@@ -33,9 +33,11 @@ export function AuthForm({ mode }: { mode: Mode }) {
       return;
     }
 
+    // 防 Open Redirect:只接受站内相对路径(以单个 / 开头),拒绝 //host 与绝对 URL。
     const next = searchParams.get("next") ?? "/account";
+    const safeNext = next.startsWith("/") && !next.startsWith("//") ? next : "/account";
     startTransition(() => {
-      router.push(next);
+      router.push(safeNext);
       router.refresh();
     });
   }

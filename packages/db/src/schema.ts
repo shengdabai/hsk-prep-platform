@@ -168,6 +168,9 @@ export type ExamSessionItemRow = TimestampedRow & {
   exam_session_id: string;
   content_item_id: string;
   display_order: number;
+  // 评分快照(006):冻结的领域 ContentItem(含 correctOptionId / answerText / 题型 /
+  // 媒体直链)。旧库(未跑 006)读回时可能缺失,故 optional。
+  snapshot_json?: Record<string, unknown>;
 };
 
 export type ExamResponseRow = TimestampedRow & {
@@ -199,6 +202,12 @@ export type MistakeBookRow = TimestampedRow & {
   first_seen_session_id: string | null;
   last_seen_at: string;
   mastered: boolean;
+  // SRS(SM-2)列,见 infra/sql/004_srs.sql。旧库(未跑 004)读回时可能缺失,故 optional。
+  ease_factor?: number;
+  interval_days?: number;
+  repetitions?: number;
+  due_at?: string;
+  last_reviewed_at?: string;
 };
 
 export type ReviewTaskRow = TimestampedRow & {

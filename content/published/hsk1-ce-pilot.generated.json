@@ -1,0 +1,178 @@
+{
+  "items": [
+    {
+      "id": "ce_hsk1_001",
+      "levelCode": "hsk-1",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_WORD_IMG_TF",
+      "title": "听力 · 听词判断图文 1",
+      "stem": "看图判断:听到的句子与图片是否一致",
+      "prompt": "他在喝茶。",
+      "explanation": "录音说『他在喝茶』,图中男士正在喝茶,内容一致,选 A。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "一致"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "不一致"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "饮品",
+        "动作"
+      ],
+      "context": "录音原文:他在喝茶。",
+      "vocabFocus": [
+        "喝",
+        "茶"
+      ],
+      "imageUrl": "/generated/images/hsk-1/ce_hsk1_001.png",
+      "audioUrl": "/generated/audio/hsk-1/ce_hsk1_001.mp3"
+    },
+    {
+      "id": "ce_hsk1_002",
+      "levelCode": "hsk-1",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_IMG_WORD_TF",
+      "title": "阅读 · 看图判断词语 1",
+      "stem": "看图判断:图片与词语是否一致",
+      "prompt": "词语:苹果",
+      "explanation": "图中是一个苹果,词语也是『苹果』,一致,选 A。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "一致"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "不一致"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "水果",
+        "名词"
+      ],
+      "vocabFocus": [
+        "苹果"
+      ],
+      "imageUrl": "/generated/images/hsk-1/ce_hsk1_002.png"
+    },
+    {
+      "id": "ce_hsk1_003",
+      "levelCode": "hsk-1",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC3",
+      "title": "听力 · 听问答三选一 1",
+      "stem": "听对话,选择正确答案",
+      "prompt": "男的要去哪儿?",
+      "explanation": "男的说『我去学校』,所以答案是 A 学校。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "学校"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "商店"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "医院"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "地点",
+        "对话"
+      ],
+      "context": "录音原文:女:你去哪儿? 男:我去学校。",
+      "vocabFocus": [
+        "学校",
+        "去"
+      ],
+      "audioUrl": "/generated/audio/hsk-1/ce_hsk1_003.mp3"
+    },
+    {
+      "id": "ce_hsk1_004",
+      "levelCode": "hsk-1",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_FILL_MC",
+      "title": "阅读 · 句子选词填空 1",
+      "stem": "选词填空",
+      "prompt": "我很渴,想____水。",
+      "explanation": "『水』要用『喝』搭配,『喝水』,选 A。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "喝"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "吃"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "看"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "搭配",
+        "动词"
+      ],
+      "vocabFocus": [
+        "喝",
+        "水",
+        "渴"
+      ]
+    }
+  ],
+  "sets": [
+    {
+      "id": "set_hsk1_ce_pilot",
+      "slug": "hsk1-ce-pilot",
+      "title": "HSK1 自动生成模考 · 试点",
+      "description": "由 content-engine 自动生产:文本(authoring)+ Codex 配图 + Minimax 配音。覆盖听力看图判断、阅读看图判断、听力问答、阅读选词四类。",
+      "levelCode": "hsk-1",
+      "mode": "mock_exam",
+      "access": "free",
+      "minutes": 10,
+      "itemIds": [
+        "ce_hsk1_001",
+        "ce_hsk1_002",
+        "ce_hsk1_003",
+        "ce_hsk1_004"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4024 @@
+{
+  "items": [
+    {
+      "id": "h6m01_l1_01",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_CONSIST_MC4",
+      "title": "听力·第一部分 1",
+      "stem": "请听一段话,选出与所听内容一致的一项",
+      "prompt": "请选出与录音内容一致的一项。",
+      "explanation": "正确答案是『无人驾驶系统有助于减少人为失误』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "这条地铁线路仍需司机手动驾驶"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "系统主要目的是降低地铁建设成本"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "该线路因技术问题尚未投入运营"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "无人驾驶系统有助于减少人为失误"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "新闻",
+        "科技"
+      ],
+      "context": "录音:近日,我国首条全程采用无人驾驶技术的城市地铁线路正式开通运营。该线路全长三十二公里,设站二十座,列车运行、停靠、开关门均由系统自动完成,无需人工操作。运营方表示,这套系统在提高发车密度的同时,也大幅降低了人为失误带来的安全隐患。",
+      "vocabFocus": [
+        "无人驾驶",
+        "运营",
+        "隐患",
+        "失误"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l1_01.mp3"
+    },
+    {
+      "id": "h6m01_l1_02",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_CONSIST_MC4",
+      "title": "听力·第一部分 2",
+      "stem": "请听一段话,选出与所听内容一致的一项",
+      "prompt": "请选出与录音内容一致的一项。",
+      "explanation": "正确答案是『电子书和有声读物弥补了纸质书的减少』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "城市居民的整体阅读量明显下降"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "纸质书销量近年来稳步上升"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "电子书和有声读物弥补了纸质书的减少"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "人们主要在睡前进行阅读"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "新闻",
+        "文化"
+      ],
+      "context": "录音:一项针对城市居民阅读习惯的调查显示,尽管纸质书的销量近年来有所下滑,但人们的整体阅读量并未减少。研究者认为,这是因为电子书和有声读物填补了空缺。调查还发现,通勤途中是许多上班族最主要的阅读时段。",
+      "vocabFocus": [
+        "下滑",
+        "填补",
+        "通勤",
+        "时段"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l1_02.mp3"
+    },
+    {
+      "id": "h6m01_l1_03",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_CONSIST_MC4",
+      "title": "听力·第一部分 3",
+      "stem": "请听一段话,选出与所听内容一致的一项",
+      "prompt": "请选出与录音内容一致的一项。",
+      "explanation": "正确答案是『工程旨在吸引候鸟重新回归』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "湿地缩减是因为气候变化"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "保护区内仍允许商业捕捞"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "工程旨在吸引候鸟重新回归"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "该工程预计十年内完成"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "新闻",
+        "环保"
+      ],
+      "context": "录音:某沿海城市日前启动了一项湿地修复工程。由于多年来的过度开发,当地湿地面积大幅缩减,不少候鸟失去了栖息地。此次工程计划在三年内恢复约两千公顷湿地,并禁止在保护区内进行任何商业捕捞活动。环保部门希望借此重新吸引候鸟回归。",
+      "vocabFocus": [
+        "湿地",
+        "栖息地",
+        "公顷",
+        "捕捞"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l1_03.mp3"
+    },
+    {
+      "id": "h6m01_l1_04",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_CONSIST_MC4",
+      "title": "听力·第一部分 4",
+      "stem": "请听一段话,选出与所听内容一致的一项",
+      "prompt": "请选出与录音内容一致的一项。",
+      "explanation": "正确答案是『政策旨在营造长期的创业环境』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "B",
+          "text": "该政策只面向已工作多年的人群"
+        },
+        {
+          "id": "B",
+          "label": "A",
+          "text": "政策旨在营造长期的创业环境"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "毕业生创业需缴纳更高的税费"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "政策仅向初创企业发放现金补贴"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "新闻",
+        "经济"
+      ],
+      "context": "录音:为缓解年轻人的就业压力,某省近期推出了一系列扶持政策,鼓励大学毕业生自主创业。政策包括提供低息贷款、减免部分税费,以及为初创企业提供免费的办公场地。相关负责人强调,这些措施并非简单的资金补贴,而是着眼于营造一个长期友好的创业环境。",
+      "vocabFocus": [
+        "扶持",
+        "低息",
+        "减免",
+        "初创"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l1_04.mp3"
+    },
+    {
+      "id": "h6m01_l1_05",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_CONSIST_MC4",
+      "title": "听力·第一部分 5",
+      "stem": "请听一段话,选出与所听内容一致的一项",
+      "prompt": "请选出与录音内容一致的一项。",
+      "explanation": "正确答案是『处理诗歌谚语时机器翻译仍有局限』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "这款软件已能完全替代人工翻译"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "软件无法识别说话者的语气"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "处理诗歌谚语时机器翻译仍有局限"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "该软件由国外团队研发"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "新闻",
+        "科技"
+      ],
+      "context": "录音:近期,一款由国内团队研发的人工智能翻译软件引起了广泛关注。与传统翻译工具不同,它能够根据上下文判断说话者的语气和情绪,从而给出更贴近原意的译文。不过,开发者也坦言,在处理诗歌、谚语等具有深厚文化背景的内容时,机器翻译仍难以替代人工。",
+      "vocabFocus": [
+        "研发",
+        "语气",
+        "谚语",
+        "替代"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l1_05.mp3"
+    },
+    {
+      "id": "h6m01_l1_06",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_CONSIST_MC4",
+      "title": "听力·第一部分 6",
+      "stem": "请听一段话,选出与所听内容一致的一项",
+      "prompt": "请选出与录音内容一致的一项。",
+      "explanation": "正确答案是『混合办公模式目前更受欢迎』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "C",
+          "text": "完全居家办公受到所有员工欢迎"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "远程办公延长了员工的通勤时间"
+        },
+        {
+          "id": "C",
+          "label": "A",
+          "text": "混合办公模式目前更受欢迎"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "企业普遍要求员工每天到岗"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "新闻",
+        "社会"
+      ],
+      "context": "录音:随着远程办公的普及,越来越多的企业开始重新审视办公空间的意义。一项调查表明,完全居家办公虽然节省了通勤时间,却也让不少员工感到孤立,工作与生活的界限变得模糊。因此,目前更受欢迎的是一种混合模式,即员工每周有几天在公司,其余时间在家工作。",
+      "vocabFocus": [
+        "远程",
+        "孤立",
+        "界限",
+        "混合"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l1_06.mp3"
+    },
+    {
+      "id": "h6m01_l1_07",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_CONSIST_MC4",
+      "title": "听力·第一部分 7",
+      "stem": "请听一段话,选出与所听内容一致的一项",
+      "prompt": "请选出与录音内容一致的一项。",
+      "explanation": "正确答案是『建馆是希望传统手艺被年轻人喜爱』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "博物馆禁止游客触碰任何展品"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "建馆是希望传统手艺被年轻人喜爱"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "馆内只展出现代艺术作品"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "该博物馆已开放数十年"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "新闻",
+        "文化"
+      ],
+      "context": "录音:一座以传统手工艺为主题的博物馆昨日在古城正式落成。馆内不仅陈列着上千件珍贵的手工艺品,还专门设置了体验区,游客可以在工匠的指导下亲手制作陶器和剪纸。馆长表示,他们最大的愿望,是让那些濒临失传的老手艺被更多年轻人看见和喜爱。",
+      "vocabFocus": [
+        "落成",
+        "工匠",
+        "濒临",
+        "失传"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l1_07.mp3"
+    },
+    {
+      "id": "h6m01_l1_08",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_CONSIST_MC4",
+      "title": "听力·第一部分 8",
+      "stem": "请听一段话,选出与所听内容一致的一项",
+      "prompt": "请选出与录音内容一致的一项。",
+      "explanation": "正确答案是『适度的压力有助于提高专注力』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "专家建议彻底逃避一切压力"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "任何程度的压力都对健康有害"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "适度的压力有助于提高专注力"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "压力对工作效率毫无影响"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "新闻",
+        "健康"
+      ],
+      "context": "录音:研究人员通过长期观察发现,适度的压力其实有助于提高人的工作效率和专注力,只有当压力超过一定限度并长期持续时,才会对身心健康造成损害。专家因此建议,与其一味地逃避压力,不如学会识别自己的压力信号,并掌握有效的调节方法。",
+      "vocabFocus": [
+        "适度",
+        "专注力",
+        "限度",
+        "调节"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l1_08.mp3"
+    },
+    {
+      "id": "h6m01_l2_01",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 1",
+      "stem": "请听一段材料,根据问题选择正确答案",
+      "prompt": "这种新型材料最突出的优点是什么?",
+      "explanation": "正确答案是『质量轻而强度高』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "制作过程简单"
+        },
+        {
+          "id": "B",
+          "label": "C",
+          "text": "颜色丰富多样"
+        },
+        {
+          "id": "C",
+          "label": "B",
+          "text": "质量轻而强度高"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "价格极其低廉"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "专题",
+        "科技"
+      ],
+      "context": "录音:科研团队最近公布了一种新型环保建筑材料,它由回收的废旧塑料和植物纤维混合制成。这种材料最突出的优点是质量轻而强度高,同时具有良好的隔热和防水性能。更重要的是,它在使用寿命结束后可以再次回收利用,几乎不产生废弃物,被认为是未来绿色建筑的重要选择。 问:这种新型材料最突出的优点是什么?",
+      "vocabFocus": [
+        "纤维",
+        "强度",
+        "隔热",
+        "回收"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l2_01.mp3"
+    },
+    {
+      "id": "h6m01_l2_02",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 2",
+      "stem": "请听一段材料,根据问题选择正确答案",
+      "prompt": "这段话主要想说明什么?",
+      "explanation": "正确答案是『创意可以通过训练和积累获得』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "创意完全取决于天赋"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "创意可以通过训练和积累获得"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "知识领域越单一越有利于创新"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "灵感总是突然出现且无法解释"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "专题",
+        "教育"
+      ],
+      "context": "录音:很多人以为创意来自天赋,是少数人与生俱来的能力。然而,越来越多的研究表明,创意更像是一种可以通过训练获得的技能。它往往诞生于不同知识领域的交叉之处,需要大量的积累和反复的尝试。换句话说,那些看似灵光一现的想法,背后其实是长期努力的结果。 问:这段话主要想说明什么?",
+      "vocabFocus": [
+        "天赋",
+        "交叉",
+        "积累",
+        "灵光一现"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l2_02.mp3"
+    },
+    {
+      "id": "h6m01_l2_03",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 3",
+      "stem": "请听一段材料,根据问题选择正确答案",
+      "prompt": "作者认为人们误解了节俭的含义,真正的节俭是指什么?",
+      "explanation": "正确答案是『把有限的资源用在最有价值的地方』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "在任何情况下都尽量不花钱"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "刻意降低自己的生活质量"
+        },
+        {
+          "id": "C",
+          "label": "D",
+          "text": "把有限的资源用在最有价值的地方"
+        },
+        {
+          "id": "D",
+          "label": "C",
+          "text": "通过购物来与他人攀比"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "专题",
+        "观点"
+      ],
+      "context": "录音:在很多人的印象里,节俭意味着一味地省钱,甚至是降低生活质量。但真正的节俭并非如此,它指的是把有限的资源用在最有价值的地方,而不是简单地不花钱。一个懂得节俭的人,可能愿意为一本好书或一次有意义的旅行支付不菲的费用,却不会为了攀比去购买毫无用处的东西。 问:作者认为真正的节俭是指什么?",
+      "vocabFocus": [
+        "节俭",
+        "有限",
+        "不菲",
+        "攀比"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l2_03.mp3"
+    },
+    {
+      "id": "h6m01_l2_04",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 4",
+      "stem": "请听一段材料,根据问题选择正确答案",
+      "prompt": "根据这段话,候鸟迁徙时主要依靠什么来辨别方向?",
+      "explanation": "正确答案是『地球的磁场』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "地球的磁场"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "人类设置的标记"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "地面的河流走向"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "风向的变化"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "专题",
+        "自然"
+      ],
+      "context": "录音:每年秋天,成群的候鸟会飞越数千公里前往温暖的南方过冬。科学家长期以来都对它们如何辨别方向感到好奇。最新的研究发现,候鸟主要依靠地球的磁场来导航,就像随身携带了一个看不见的指南针。此外,白天的太阳和夜晚的星辰也能为它们提供辅助的参照。 问:候鸟迁徙时主要依靠什么辨别方向?",
+      "vocabFocus": [
+        "候鸟",
+        "迁徙",
+        "磁场",
+        "导航"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l2_04.mp3"
+    },
+    {
+      "id": "h6m01_l2_05",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 5",
+      "stem": "请听一段材料,根据问题选择正确答案",
+      "prompt": "这家书店之所以能存活下来,关键原因是什么?",
+      "explanation": "正确答案是『它成了爱书人交流的场所』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "书的价格比网店更便宜"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "它位于繁华的商业中心"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "它的藏书极其丰富"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "它成了爱书人交流的场所"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "专题",
+        "社会"
+      ],
+      "context": "录音:在网络购书盛行的今天,一家位于小巷里的独立书店却奇迹般地存活了下来。它的面积不大,藏书也算不上丰富,但每周都会举办各种读书会和作家见面会。店主把书店变成了一个让爱书人彼此交流的场所。许多顾客说,他们来这里不只是为了买书,更是为了那份难得的归属感。 问:这家书店能存活下来的关键原因是什么?",
+      "vocabFocus": [
+        "盛行",
+        "独立",
+        "归属感",
+        "见面会"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l2_05.mp3"
+    },
+    {
+      "id": "h6m01_l2_06",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 6",
+      "stem": "请听一段材料,根据问题选择正确答案",
+      "prompt": "这段话提醒人们在面对网络信息时应该怎么做?",
+      "explanation": "正确答案是『转发前先核实信息来源』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "尽快转发所有看到的消息"
+        },
+        {
+          "id": "B",
+          "label": "C",
+          "text": "转发前先核实信息来源"
+        },
+        {
+          "id": "C",
+          "label": "B",
+          "text": "完全拒绝使用互联网"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "只相信转发量大的消息"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "专题",
+        "媒体"
+      ],
+      "context": "录音:互联网让我们获取信息变得空前便利,但与此同时,虚假信息也随之泛滥。一条未经证实的消息,可能在短短几个小时内被转发千万次。专家提醒,面对铺天盖地的信息,我们更需要保持理性和怀疑的态度,在转发之前,先花一点时间去核实它的来源是否可靠。 问:这段话提醒人们应该怎么做?",
+      "vocabFocus": [
+        "泛滥",
+        "证实",
+        "铺天盖地",
+        "核实"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l2_06.mp3"
+    },
+    {
+      "id": "h6m01_l2_07",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 7",
+      "stem": "请听一段材料,根据问题选择正确答案",
+      "prompt": "根据这段话,睡眠不足会带来哪种影响?",
+      "explanation": "正确答案是『削弱记忆力和判断力』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "削弱记忆力和判断力"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "让人长时间不感到疲倦"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "增强大脑的反应速度"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "明显提高工作效率"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "专题",
+        "健康"
+      ],
+      "context": "录音:人们常常为了完成工作而牺牲睡眠,以为这样能换来更高的效率。事实恰恰相反。研究显示,长期睡眠不足会显著削弱大脑的记忆力和判断力,使人更容易出错。从长远来看,熬夜省下的那点时间,往往要用第二天成倍的低效来偿还。 问:睡眠不足会带来哪种影响?",
+      "vocabFocus": [
+        "牺牲",
+        "削弱",
+        "判断力",
+        "偿还"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l2_07.mp3"
+    },
+    {
+      "id": "h6m01_l2_08",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 8",
+      "stem": "请听一段材料,根据问题选择正确答案",
+      "prompt": "这位企业家认为年轻人最应该重视的是什么?",
+      "explanation": "正确答案是『长期的坚持』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "抓住偶然的运气"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "长期的坚持"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "选择高起点的出身"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "尽量回避一切挫折"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "专题",
+        "励志"
+      ],
+      "context": "录音:一位白手起家的企业家在演讲中谈到,他常被年轻人问起成功的秘诀。他说,人们总是高估机遇的作用,却低估了坚持的力量。在他看来,真正拉开人与人差距的,不是起点的高低,也不是偶然的运气,而是能否在长期的枯燥和挫折中坚持做对的事情。 问:这位企业家认为年轻人最应该重视什么?",
+      "vocabFocus": [
+        "白手起家",
+        "秘诀",
+        "高估",
+        "挫折"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l2_08.mp3"
+    },
+    {
+      "id": "h6m01_l2_09",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 9",
+      "stem": "请听一段材料,根据问题选择正确答案",
+      "prompt": "根据这段话,这座古桥被保留下来的方式是什么?",
+      "explanation": "正确答案是『改造成供行人通行的步行景观』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "被原样拆除后异地重建"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "改造成供行人通行的步行景观"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "被改造为机动车专用通道"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "被搬进博物馆封存起来"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "专题",
+        "城市"
+      ],
+      "context": "录音:在一项重大的城市改造工程中,一座有着数百年历史的石桥面临被拆除的命运。许多市民和专家强烈反对,认为它承载着这座城市的记忆。经过反复讨论,设计方最终修改了方案:不仅保留了古桥,还将其改造成一个供行人通行的步行景观,让现代道路从桥下绕行而过。 问:这座古桥最终是以什么方式被保留下来的?",
+      "vocabFocus": [
+        "改造",
+        "拆除",
+        "承载",
+        "绕行"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l2_09.mp3"
+    },
+    {
+      "id": "h6m01_l2_10",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 10",
+      "stem": "请听一段材料,根据问题选择正确答案",
+      "prompt": "这段话主要表达了怎样的观点?",
+      "explanation": "正确答案是『旅行能让人换个视角重新审视自己』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "旅行的价值在于去过多少地方"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "旅行只会增加生活中的烦恼"
+        },
+        {
+          "id": "C",
+          "label": "D",
+          "text": "熟悉的环境比陌生的更有意义"
+        },
+        {
+          "id": "D",
+          "label": "C",
+          "text": "旅行能让人换个视角重新审视自己"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "专题",
+        "观点"
+      ],
+      "context": "录音:有人说,旅行的意义在于看到多少风景,去过多少地方。但在我看来,旅行真正珍贵的,是它能让我们暂时跳出熟悉的生活,以一个旁观者的视角重新审视自己。当你身处一个完全陌生的环境,那些平日里习以为常的烦恼,常常会显得微不足道。 问:这段话主要表达了怎样的观点?",
+      "vocabFocus": [
+        "旁观者",
+        "审视",
+        "习以为常",
+        "微不足道"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l2_10.mp3"
+    },
+    {
+      "id": "h6m01_l2_11",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 11",
+      "stem": "请听一段材料,根据问题选择正确答案",
+      "prompt": "这项研究发现,种植花草对城市有何好处?",
+      "explanation": "正确答案是『能降低周边温度并吸收污染物』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "会使城市夏天更加炎热"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "会显著增加城市的用水量"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "仅仅起到美化环境的作用"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "能降低周边温度并吸收污染物"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "专题",
+        "环保"
+      ],
+      "context": "录音:一项城市生态研究发现,在街道两旁和屋顶大量种植花草,不仅能美化环境,还有意想不到的实际效益。这些绿色植物可以吸收空气中的部分污染物,在炎热的夏天还能有效降低周边的温度,缓解城市的热岛效应。研究者建议,城市规划应该把绿化放在更重要的位置。 问:种植花草对城市有何好处?",
+      "vocabFocus": [
+        "生态",
+        "效益",
+        "污染物",
+        "热岛效应"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l2_11.mp3"
+    },
+    {
+      "id": "h6m01_l2_12",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 12",
+      "stem": "请听一段材料,根据问题选择正确答案",
+      "prompt": "作者认为衡量一个人是否真正读懂了一本书,标准是什么?",
+      "explanation": "正确答案是『书是否改变了他看待世界的方式』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "书是否改变了他看待世界的方式"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "能完整复述书的内容"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "一年内读书的数量"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "读书所花费的总时间"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "专题",
+        "观点"
+      ],
+      "context": "录音:读书的多少并不等于收获的大小。有些人一年读上百本书,合上书页却什么也记不住;有些人反复琢磨一本书,反而受益终生。在我看来,衡量一个人是否真正读懂了一本书,不在于他能复述多少内容,而在于这本书是否改变了他看待世界的某种方式。 问:作者认为衡量真正读懂一本书的标准是什么?",
+      "vocabFocus": [
+        "琢磨",
+        "受益",
+        "复述",
+        "衡量"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l2_12.mp3"
+    },
+    {
+      "id": "h6m01_l2_13",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 13",
+      "stem": "请听一段材料,根据问题选择正确答案",
+      "prompt": "这家公司推行四天工作制后,结果如何?",
+      "explanation": "正确答案是『整体业绩不降反升』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "工作量堆积导致效率下降"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "整体业绩不降反升"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "公司被迫给员工降薪"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "员工的离职率大幅上升"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "专题",
+        "经济"
+      ],
+      "context": "录音:一家科技公司去年大胆尝试了四天工作制,员工每周只工作四天,薪水却保持不变。许多人原本担心工作量会因此堆积,效率会下降。然而一年后的数据却令人惊讶:公司的整体业绩不降反升,员工的离职率明显下降,大家普遍反映工作时更加专注、更有干劲。 问:这家公司推行四天工作制后,结果如何?",
+      "vocabFocus": [
+        "薪水",
+        "堆积",
+        "业绩",
+        "干劲"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l2_13.mp3"
+    },
+    {
+      "id": "h6m01_l2_14",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 14",
+      "stem": "请听一段材料,根据问题选择正确答案",
+      "prompt": "这段话告诉我们,失败之所以宝贵,是因为什么?",
+      "explanation": "正确答案是『它能暴露不足并促使人改进』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "它能让人轻松获得成功"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "它证明努力是没有意义的"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "它能暴露不足并促使人改进"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "它掩盖了过程中的问题"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "专题",
+        "观点"
+      ],
+      "context": "录音:我们的文化常常过分推崇成功,而对失败避之不及。但如果换一个角度看,失败其实是最诚实的老师。成功有时只是侥幸,它可能掩盖了过程中的诸多问题;而失败则会毫不留情地暴露出你的不足,逼着你去思考、去改进。从这个意义上说,一次深刻的失败,价值可能远超十次轻松的成功。 问:失败之所以宝贵,是因为什么?",
+      "vocabFocus": [
+        "推崇",
+        "侥幸",
+        "掩盖",
+        "暴露"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l2_14.mp3"
+    },
+    {
+      "id": "h6m01_l2_15",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 15",
+      "stem": "请听一段材料,根据问题选择正确答案",
+      "prompt": "这位老人坚持记录天气数据的最初原因是什么?",
+      "explanation": "正确答案是『为了帮助乡亲安排农事』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "为了供科学家做研究"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "为了帮助乡亲安排农事"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "为了完成上级布置的任务"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "为了出版自己的书"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "专题",
+        "人物"
+      ],
+      "context": "录音:在偏远的山村里,一位八十多岁的老人坚持手工记录当地的天气数据,已经整整四十年。起初,他只是为了帮助乡亲们安排农事,什么时候播种,什么时候收割。没想到,这些泛黄笔记本里日积月累的数据,如今竟成了科学家研究当地气候变化的珍贵资料。 问:这位老人坚持记录天气数据的最初原因是什么?",
+      "vocabFocus": [
+        "偏远",
+        "农事",
+        "播种",
+        "日积月累"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l2_15.mp3"
+    },
+    {
+      "id": "h6m01_l2_16",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 16",
+      "stem": "请听一段材料,根据问题选择正确答案",
+      "prompt": "根据这段话,过度依赖导航软件可能带来什么问题?",
+      "explanation": "正确答案是『削弱人辨认方向的能力』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "使出行变得更加不便"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "削弱人辨认方向的能力"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "大幅增加交通事故"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "让手机电量消耗更快"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "专题",
+        "科技"
+      ],
+      "context": "录音:导航软件的普及给我们的出行带来了极大的便利,但也悄悄改变了我们的大脑。有研究指出,长期过度依赖导航,会让我们逐渐丧失主动辨认方向、构建空间地图的能力。一旦手机没电或信号中断,许多人便会在熟悉的城市里感到无所适从。便利的工具,有时也在悄悄削弱我们本应具备的能力。 问:过度依赖导航软件可能带来什么问题?",
+      "vocabFocus": [
+        "导航",
+        "丧失",
+        "构建",
+        "无所适从"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l2_16.mp3"
+    },
+    {
+      "id": "h6m01_l2_17",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 17",
+      "stem": "请听一段材料,根据问题选择正确答案",
+      "prompt": "这段话认为,真正的礼貌应该是怎样的?",
+      "explanation": "正确答案是『是发自内心对他人的体贴』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "是发自内心对他人的体贴"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "动作标准、礼节周到即可"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "只要说足够多的客套话"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "在任何场合都保持沉默"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "专题",
+        "观点"
+      ],
+      "context": "录音:很多人把礼貌简单地理解为说几句客套话,做几个标准的动作。但真正的礼貌,并不只是表面的形式,而是一种发自内心的、对他人感受的体贴。它体现在你是否愿意为别人着想,是否懂得在恰当的时候保持沉默。缺少了这份真诚,再周到的礼节也只是空洞的表演。 问:这段话认为真正的礼貌应该是怎样的?",
+      "vocabFocus": [
+        "客套",
+        "体贴",
+        "周到",
+        "空洞"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l2_17.mp3"
+    },
+    {
+      "id": "h6m01_l2_18",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 18",
+      "stem": "请听一段材料,根据问题选择正确答案",
+      "prompt": "这位设计师在设计公园时最看重的是什么?",
+      "explanation": "正确答案是『能否让普通人感到放松舒适』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "种植多少名贵的花木"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "使用了多少华丽的装饰"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "公园修建得是否气派"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "能否让普通人感到放松舒适"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "专题",
+        "设计"
+      ],
+      "context": "录音:一位知名的景观设计师在谈到他的作品时说,他设计公园时,最看重的不是有多少名贵的花木,也不是修建得多么气派,而是它能否让普通人感到放松和舒适。在他看来,一条让老人愿意坐下来歇脚的长椅,一片孩子可以尽情奔跑的草地,远比那些华而不实的装饰更有价值。 问:这位设计师设计公园时最看重什么?",
+      "vocabFocus": [
+        "景观",
+        "名贵",
+        "气派",
+        "华而不实"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l2_18.mp3"
+    },
+    {
+      "id": "h6m01_l2_19",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 19",
+      "stem": "请听一段材料,根据问题选择正确答案",
+      "prompt": "根据这段话,这种古老灌溉系统至今仍受推崇的原因是什么?",
+      "explanation": "正确答案是『高效又环保,减少水分蒸发』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "高效又环保,减少水分蒸发"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "外观十分壮观气派"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "建造的成本非常低廉"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "能大量增加当地降雨"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "专题",
+        "文化"
+      ],
+      "context": "录音:在干旱的西北地区,有一种沿用了上千年的古老灌溉系统。它巧妙地利用地下暗渠引水,最大限度地减少了水分在沿途的蒸发损耗。在水资源日益紧张的今天,这种凝聚着古人智慧的工程,因其高效和环保的特点,重新受到了水利专家的推崇,被视为可持续利用水资源的典范。 问:这种古老灌溉系统至今仍受推崇的原因是什么?",
+      "vocabFocus": [
+        "灌溉",
+        "暗渠",
+        "蒸发",
+        "可持续"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l2_19.mp3"
+    },
+    {
+      "id": "h6m01_l2_20",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 20",
+      "stem": "请听一段材料,根据问题选择正确答案",
+      "prompt": "这段话主要想说明陪伴在亲子关系中起什么作用?",
+      "explanation": "正确答案是『高质量的陪伴是亲子信任的基石』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "优越的物质条件最重要"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "高质量的陪伴是亲子信任的基石"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "昂贵的教育能解决一切问题"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "父母应尽量减少与孩子相处"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "专题",
+        "家庭"
+      ],
+      "context": "录音:不少父母认为,给孩子最好的爱,就是为他们提供优越的物质条件和昂贵的教育。然而,孩子真正渴望的,往往是父母高质量的陪伴。哪怕只是放下手机,认真听他讲讲学校里发生的事,陪他读一本书,这些看似微小的时刻,才是构筑亲子之间信任和安全感的基石。 问:这段话主要想说明什么?",
+      "vocabFocus": [
+        "优越",
+        "渴望",
+        "陪伴",
+        "基石"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l2_20.mp3"
+    },
+    {
+      "id": "h6m01_l3_01",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第三部分 1",
+      "stem": "请听一段访谈,根据问题选择正确答案",
+      "prompt": "这位作家认为写作最大的困难是什么?",
+      "explanation": "正确答案是『把想法准确地用文字表达出来』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "始终找不到写作灵感"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "缺少可以参考的素材"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "没有足够的时间写作"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "把想法准确地用文字表达出来"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "访谈",
+        "文化"
+      ],
+      "context": "录音:女:作为一位高产的作家,您觉得写作过程中最大的困难是什么? 男:很多人以为是找不到灵感,其实不是。对我来说,最难的是把脑海中那个模糊而完整的想法,准确地用文字表达出来。想法在心里时总是闪闪发光的,可一旦落到纸上,常常会变得苍白无力。这中间的落差,是每个写作者都要终生面对的。 女:那您是怎么克服这种落差的呢? 男:没有捷径,只能不断地修改。我的初稿往往很糟糕,但我相信,好文章不是写出来的,而是改出来的。 问:这位作家认为写作最大的困难是什么?",
+      "vocabFocus": [
+        "高产",
+        "苍白",
+        "落差",
+        "捷径"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l3_01.mp3"
+    },
+    {
+      "id": "h6m01_l3_02",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第三部分 2",
+      "stem": "请听一段访谈,根据问题选择正确答案",
+      "prompt": "关于初稿,这位作家持什么态度?",
+      "explanation": "正确答案是『初稿往往很糟糕,要靠不断修改』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "初稿通常已经相当完美"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "写作根本不需要写初稿"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "初稿一旦写完就不再改动"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "初稿往往很糟糕,要靠不断修改"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "访谈",
+        "文化"
+      ],
+      "context": "录音:女:作为一位高产的作家,您觉得写作过程中最大的困难是什么? 男:很多人以为是找不到灵感,其实不是。对我来说,最难的是把脑海中那个模糊而完整的想法,准确地用文字表达出来。想法在心里时总是闪闪发光的,可一旦落到纸上,常常会变得苍白无力。这中间的落差,是每个写作者都要终生面对的。 女:那您是怎么克服这种落差的呢? 男:没有捷径,只能不断地修改。我的初稿往往很糟糕,但我相信,好文章不是写出来的,而是改出来的。 问:关于初稿,这位作家持什么态度?",
+      "vocabFocus": [
+        "初稿",
+        "糟糕",
+        "修改",
+        "捷径"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l3_02.mp3"
+    },
+    {
+      "id": "h6m01_l3_03",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第三部分 3",
+      "stem": "请听一段访谈,根据问题选择正确答案",
+      "prompt": "这位医生认为预防疾病的关键在于什么?",
+      "explanation": "正确答案是『保持良好的日常生活习惯』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "保持良好的日常生活习惯"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "生病后及时花钱治疗"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "寻找神奇的治疗秘方"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "定期更换居住的环境"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "访谈",
+        "健康"
+      ],
+      "context": "录音:男:您从医三十多年,在您看来,普通人保持健康最重要的是什么? 女:其实没有什么神奇的秘方。我接触过太多病人,深刻体会到,绝大多数慢性病都和长期不良的生活方式有关。与其等生病了再花大价钱去治疗,不如把功夫下在平时。规律作息、均衡饮食、适量运动,这些老生常谈的道理,才是最有效、也最便宜的良药。 男:可这些道理大家都懂,为什么还是做不到呢? 女:懂和做之间隔着一个习惯。健康的本质,其实是一种自律。 问:这位医生认为预防疾病的关键在于什么?",
+      "vocabFocus": [
+        "秘方",
+        "慢性病",
+        "均衡",
+        "自律"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l3_03.mp3"
+    },
+    {
+      "id": "h6m01_l3_04",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第三部分 4",
+      "stem": "请听一段访谈,根据问题选择正确答案",
+      "prompt": "这位医生如何看待懂道理却做不到这件事?",
+      "explanation": "正确答案是『懂和做之间隔着一个习惯』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "做不到完全是经济原因"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "做不到是因为道理本身错了"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "只要懂了自然就能做到"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "懂和做之间隔着一个习惯"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "访谈",
+        "健康"
+      ],
+      "context": "录音:男:您从医三十多年,在您看来,普通人保持健康最重要的是什么? 女:其实没有什么神奇的秘方。我接触过太多病人,深刻体会到,绝大多数慢性病都和长期不良的生活方式有关。与其等生病了再花大价钱去治疗,不如把功夫下在平时。规律作息、均衡饮食、适量运动,这些老生常谈的道理,才是最有效、也最便宜的良药。 男:可这些道理大家都懂,为什么还是做不到呢? 女:懂和做之间隔着一个习惯。健康的本质,其实是一种自律。 问:这位医生如何看待懂道理却做不到这件事?",
+      "vocabFocus": [
+        "习惯",
+        "本质",
+        "自律",
+        "良药"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l3_04.mp3"
+    },
+    {
+      "id": "h6m01_l3_05",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第三部分 5",
+      "stem": "请听一段访谈,根据问题选择正确答案",
+      "prompt": "这位创业者最初放弃稳定工作去创业的原因是什么?",
+      "explanation": "正确答案是『不想将来后悔自己没尝试』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "原来的工作待遇太差"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "不想将来后悔自己没尝试"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "确信创业一定能赚大钱"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "受到家人的强烈反对"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "访谈",
+        "励志"
+      ],
+      "context": "录音:女:您当年放弃了一份待遇优厚的稳定工作去创业,做这个决定时犹豫过吗? 男:说不犹豫是假的。但我当时三十岁,我问自己,如果再不去试,可能这辈子都不会试了。比起失败,我更害怕的是几十年后回想起来,后悔自己当初连试都没敢试。所以打动我的,不是创业能赚多少钱,而是那种不想留下遗憾的冲动。 女:现在回头看,后悔吗? 男:完全不。哪怕最后失败了,我也庆幸自己年轻时勇敢过。 问:这位创业者最初去创业的原因是什么?",
+      "vocabFocus": [
+        "优厚",
+        "犹豫",
+        "遗憾",
+        "庆幸"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l3_05.mp3"
+    },
+    {
+      "id": "h6m01_l3_06",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第三部分 6",
+      "stem": "请听一段访谈,根据问题选择正确答案",
+      "prompt": "如今回头看当初的选择,这位创业者持什么态度?",
+      "explanation": "正确答案是『完全不后悔,庆幸自己勇敢过』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "非常后悔当初的决定"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "认为创业是一个错误"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "希望能回到过去重新选择"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "完全不后悔,庆幸自己勇敢过"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "访谈",
+        "励志"
+      ],
+      "context": "录音:女:您当年放弃了一份待遇优厚的稳定工作去创业,做这个决定时犹豫过吗? 男:说不犹豫是假的。但我当时三十岁,我问自己,如果再不去试,可能这辈子都不会试了。比起失败,我更害怕的是几十年后回想起来,后悔自己当初连试都没敢试。所以打动我的,不是创业能赚多少钱,而是那种不想留下遗憾的冲动。 女:现在回头看,后悔吗? 男:完全不。哪怕最后失败了,我也庆幸自己年轻时勇敢过。 问:如今回头看当初的选择,这位创业者持什么态度?",
+      "vocabFocus": [
+        "回头",
+        "后悔",
+        "庆幸",
+        "勇敢"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l3_06.mp3"
+    },
+    {
+      "id": "h6m01_l3_07",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第三部分 7",
+      "stem": "请听一段访谈,根据问题选择正确答案",
+      "prompt": "这位老师不主张给学生标准答案的原因是什么?",
+      "explanation": "正确答案是『怕学生失去独立思考的能力』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "为了节省上课的时间"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "怕学生失去独立思考的能力"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "因为她自己也不知道答案"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "为了立刻提高考试成绩"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "访谈",
+        "教育"
+      ],
+      "context": "录音:男:您教书四十年,有没有形成自己独特的教学理念? 女:有。我一直不主张直接给学生标准答案。在我看来,教育的目的不是往学生脑子里塞满现成的知识,而是点燃他们独立思考的火花。一个被喂惯了标准答案的孩子,会逐渐失去提问的勇气和探索的乐趣。我宁愿他们多问几个为什么,哪怕暂时找不到答案。 男:可这样会不会影响考试成绩? 女:短期内或许会,但从长远看,会思考的人,走得更远。 问:这位老师不主张给学生标准答案的原因是什么?",
+      "vocabFocus": [
+        "理念",
+        "点燃",
+        "探索",
+        "勇气"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l3_07.mp3"
+    },
+    {
+      "id": "h6m01_l3_08",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第三部分 8",
+      "stem": "请听一段访谈,根据问题选择正确答案",
+      "prompt": "关于这种教学方式可能影响考试成绩,这位老师怎么看?",
+      "explanation": "正确答案是『短期或有影响,但长远看更有利』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "短期或有影响,但长远看更有利"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "这种方式绝不会影响成绩"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "考试成绩是唯一的标准"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "成绩好坏与思考毫无关系"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "访谈",
+        "教育"
+      ],
+      "context": "录音:男:您教书四十年,有没有形成自己独特的教学理念? 女:有。我一直不主张直接给学生标准答案。在我看来,教育的目的不是往学生脑子里塞满现成的知识,而是点燃他们独立思考的火花。一个被喂惯了标准答案的孩子,会逐渐失去提问的勇气和探索的乐趣。我宁愿他们多问几个为什么,哪怕暂时找不到答案。 男:可这样会不会影响考试成绩? 女:短期内或许会,但从长远看,会思考的人,走得更远。 问:关于这种教学方式可能影响考试成绩,这位老师怎么看?",
+      "vocabFocus": [
+        "短期",
+        "长远",
+        "成绩",
+        "思考"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l3_08.mp3"
+    },
+    {
+      "id": "h6m01_l3_09",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第三部分 9",
+      "stem": "请听一段访谈,根据问题选择正确答案",
+      "prompt": "这位纪录片导演认为拍摄自然纪录片最大的挑战是什么?",
+      "explanation": "正确答案是『需要漫长而耐心的等待』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "找不到合适的拍摄团队"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "动物的表演难以安排"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "拍摄设备过于昂贵"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "需要漫长而耐心的等待"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "访谈",
+        "文化"
+      ],
+      "context": "录音:女:您拍摄野生动物纪录片这么多年,最大的挑战是什么? 男:是等待。拍纪录片和拍电影完全不同,我们无法安排动物表演,只能耐心地守候。为了捕捉一个珍贵的瞬间,我们常常要在荒野里连续守上几个月,甚至一无所获。 女:这么辛苦,是什么支撑您坚持下来? 男:是对自然的敬畏。当你真正看到那些壮观的生命画面时,会觉得之前所有的等待都是值得的。我希望通过我的镜头,唤起更多人保护自然的意识。 问:拍摄自然纪录片最大的挑战是什么?",
+      "vocabFocus": [
+        "纪录片",
+        "守候",
+        "瞬间",
+        "荒野"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l3_09.mp3"
+    },
+    {
+      "id": "h6m01_l3_10",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第三部分 10",
+      "stem": "请听一段访谈,根据问题选择正确答案",
+      "prompt": "支撑这位导演坚持下来的最主要力量是什么?",
+      "explanation": "正确答案是『对自然的敬畏』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "对名利的追求"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "拍摄过程本身很轻松"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "上级布置的任务要求"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "对自然的敬畏"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "访谈",
+        "环保"
+      ],
+      "context": "录音:女:您拍摄野生动物纪录片这么多年,最大的挑战是什么? 男:是等待。拍纪录片和拍电影完全不同,我们无法安排动物表演,只能耐心地守候。为了捕捉一个珍贵的瞬间,我们常常要在荒野里连续守上几个月,甚至一无所获。 女:这么辛苦,是什么支撑您坚持下来? 男:是对自然的敬畏。当你真正看到那些壮观的生命画面时,会觉得之前所有的等待都是值得的。我希望通过我的镜头,唤起更多人保护自然的意识。 问:支撑这位导演坚持下来的最主要力量是什么?",
+      "vocabFocus": [
+        "敬畏",
+        "壮观",
+        "镜头",
+        "唤起"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l3_10.mp3"
+    },
+    {
+      "id": "h6m01_l3_11",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第三部分 11",
+      "stem": "请听一段访谈,根据问题选择正确答案",
+      "prompt": "这位经济学家认为,人们在消费时常犯的一个错误是什么?",
+      "explanation": "正确答案是『被打折促销吸引,买下不需要的东西』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "总是拒绝购买任何打折商品"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "被打折促销吸引,买下不需要的东西"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "只买价格最贵的商品"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "从不关心商品是否有用"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "访谈",
+        "经济"
+      ],
+      "context": "录音:男:在您看来,普通人在日常消费中最容易犯的错误是什么? 女:很多人会被便宜冲昏头脑。商家打出五折、买二送一的招牌,人们就觉得占了大便宜,买回一堆其实并不需要的东西。但理性的消费,衡量的从来不是省下了多少,而是这件东西对你是否真的有用。为了省钱而买下用不上的东西,本身就是最大的浪费。 男:那您觉得怎样才算理性消费呢? 女:在掏钱之前,先问自己一句:如果它不打折,我还会买吗? 问:人们在消费时常犯的一个错误是什么?",
+      "vocabFocus": [
+        "冲昏",
+        "招牌",
+        "理性",
+        "衡量"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l3_11.mp3"
+    },
+    {
+      "id": "h6m01_l3_12",
+      "levelCode": "hsk-6",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第三部分 12",
+      "stem": "请听一段访谈,根据问题选择正确答案",
+      "prompt": "这位经济学家提出的理性消费的判断方法是什么?",
+      "explanation": "正确答案是『先问自己如果不打折是否还会买』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "比较哪家店的折扣力度更大"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "只听从他人的购物推荐"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "尽量一次性囤积大量商品"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "先问自己如果不打折是否还会买"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "访谈",
+        "经济"
+      ],
+      "context": "录音:男:在您看来,普通人在日常消费中最容易犯的错误是什么? 女:很多人会被便宜冲昏头脑。商家打出五折、买二送一的招牌,人们就觉得占了大便宜,买回一堆其实并不需要的东西。但理性的消费,衡量的从来不是省下了多少,而是这件东西对你是否真的有用。为了省钱而买下用不上的东西,本身就是最大的浪费。 男:那您觉得怎样才算理性消费呢? 女:在掏钱之前,先问自己一句:如果它不打折,我还会买吗? 问:这位经济学家提出的理性消费的判断方法是什么?",
+      "vocabFocus": [
+        "掏钱",
+        "打折",
+        "判断",
+        "浪费"
+      ],
+      "audioUrl": "/generated/audio/hsk-6/h6m01_l3_12.mp3"
+    },
+    {
+      "id": "h6m01_r1_01",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_FILL_MC",
+      "title": "阅读·第一部分 1",
+      "stem": "选词填空",
+      "prompt": "选择最恰当的词语填入空白处。",
+      "explanation": "正确答案是『推崇』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "忽视"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "排斥"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "嘲笑"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "推崇"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "选词",
+        "社会"
+      ],
+      "context": "随着城市化进程的加快,人们的生活节奏越来越快,慢生活的理念因此受到不少人的____。它倡导人们放慢脚步,用心去感受日常中那些容易被忽略的细节,从而在忙碌中找回内心的平静。",
+      "vocabFocus": [
+        "城市化",
+        "倡导",
+        "推崇",
+        "平静"
+      ]
+    },
+    {
+      "id": "h6m01_r1_02",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_FILL_MC",
+      "title": "阅读·第一部分 2",
+      "stem": "选词填空",
+      "prompt": "选择最恰当的词语填入空白处。",
+      "explanation": "正确答案是『动摇』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "巩固"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "宣传"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "动摇"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "实现"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "选词",
+        "人物"
+      ],
+      "context": "这位科学家几十年如一日地专注于一个冷门领域的研究,即使在最艰难、看不到成果的时候,他也从未____过自己最初的信念。正是这种近乎执着的坚持,才让他最终取得了举世瞩目的突破。",
+      "vocabFocus": [
+        "冷门",
+        "信念",
+        "动摇",
+        "执着"
+      ]
+    },
+    {
+      "id": "h6m01_r1_03",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_FILL_MC",
+      "title": "阅读·第一部分 3",
+      "stem": "选词填空",
+      "prompt": "选择最恰当的词语填入空白处。",
+      "explanation": "正确答案是『面目全非』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "面目全非"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "干干净净"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "井井有条"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "焕然一新"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "选词",
+        "城市"
+      ],
+      "context": "一座城市的魅力,不仅在于它的高楼大厦,更在于它对历史的态度。一些城市在大规模改造的过程中,把老街区拆得____,虽然换来了现代化的外观,却也失去了独一无二的城市记忆和文化底蕴。",
+      "vocabFocus": [
+        "改造",
+        "面目全非",
+        "独一无二",
+        "底蕴"
+      ]
+    },
+    {
+      "id": "h6m01_r1_04",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_FILL_MC",
+      "title": "阅读·第一部分 4",
+      "stem": "选词填空",
+      "prompt": "选择最恰当的词语填入空白处。",
+      "explanation": "正确答案是『重要性』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "重要性"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "缺点"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "成本"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "障碍"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "选词",
+        "职场"
+      ],
+      "context": "在团队合作中,沟通的____常常超出人们的想象。许多看似复杂的矛盾,追根究底,不过是双方信息不对称造成的误会。一旦把话说开,问题往往就迎刃而解了。",
+      "vocabFocus": [
+        "沟通",
+        "矛盾",
+        "追根究底",
+        "迎刃而解"
+      ]
+    },
+    {
+      "id": "h6m01_r1_05",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_FILL_MC",
+      "title": "阅读·第一部分 5",
+      "stem": "选词填空",
+      "prompt": "选择最恰当的词语填入空白处。",
+      "explanation": "正确答案是『立足』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "倒闭"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "退缩"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "立足"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "犹豫"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "选词",
+        "经济"
+      ],
+      "context": "这家百年老店之所以能在激烈的竞争中____,靠的不是花哨的营销,而是几代人对品质始终如一的坚守。在他们看来,信誉一旦建立,就比任何广告都更有说服力。",
+      "vocabFocus": [
+        "老店",
+        "立足",
+        "始终如一",
+        "信誉"
+      ]
+    },
+    {
+      "id": "h6m01_r1_06",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_FILL_MC",
+      "title": "阅读·第一部分 6",
+      "stem": "选词填空",
+      "prompt": "选择最恰当的词语填入空白处。",
+      "explanation": "正确答案是『独善其身』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "一举两得"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "为所欲为"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "独善其身"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "不相上下"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "选词",
+        "环保"
+      ],
+      "context": "面对气候变化这一全球性挑战,任何一个国家都难以____。只有各国摒弃分歧、加强合作,共同减少碳排放,才有可能为子孙后代留下一个宜居的地球。",
+      "vocabFocus": [
+        "挑战",
+        "独善其身",
+        "摒弃",
+        "碳排放"
+      ]
+    },
+    {
+      "id": "h6m01_r1_07",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_FILL_MC",
+      "title": "阅读·第一部分 7",
+      "stem": "选词填空",
+      "prompt": "选择最恰当的词语填入空白处。",
+      "explanation": "正确答案是『潜移默化』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "潜移默化"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "斤斤计较"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "三心二意"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "轰轰烈烈"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "选词",
+        "教育"
+      ],
+      "context": "好的教育不应是机械的灌输,而应像春雨一样,____地滋润孩子的心灵。它在不知不觉中塑造着一个人的品格,这种影响往往比生硬的说教更为深远。",
+      "vocabFocus": [
+        "灌输",
+        "潜移默化",
+        "塑造",
+        "说教"
+      ]
+    },
+    {
+      "id": "h6m01_r1_08",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_FILL_MC",
+      "title": "阅读·第一部分 8",
+      "stem": "选词填空",
+      "prompt": "选择最恰当的词语填入空白处。",
+      "explanation": "正确答案是『明智』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "盲目"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "草率"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "明智"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "随意"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "选词",
+        "科技"
+      ],
+      "context": "科技的发展是一把双刃剑。它在极大地便利我们生活的同时,也带来了诸如个人隐私泄露、信息过载等新的问题。如何____地利用技术,趋利避害,是摆在现代人面前的一道难题。",
+      "vocabFocus": [
+        "双刃剑",
+        "隐私",
+        "过载",
+        "明智"
+      ]
+    },
+    {
+      "id": "h6m01_r1_09",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_FILL_MC",
+      "title": "阅读·第一部分 9",
+      "stem": "选词填空",
+      "prompt": "选择最恰当的词语填入空白处。",
+      "explanation": "正确答案是『价值』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "价格"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "价值"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "数量"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "尺寸"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "选词",
+        "文化"
+      ],
+      "context": "评价一项艺术作品的高低,不能只看它在市场上卖出了多少钱。商业上的成功固然值得肯定,但艺术真正的____,在于它能否触动人心,能否经受住时间的考验。",
+      "vocabFocus": [
+        "评价",
+        "价值",
+        "触动",
+        "考验"
+      ]
+    },
+    {
+      "id": "h6m01_r1_10",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_FILL_MC",
+      "title": "阅读·第一部分 10",
+      "stem": "选词填空",
+      "prompt": "选择最恰当的词语填入空白处。",
+      "explanation": "正确答案是『谦逊』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "傲慢"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "谦逊"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "冷漠"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "固执"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "选词",
+        "观点"
+      ],
+      "context": "一个人的成熟,并不在于他读过多少书、走过多少路,而在于他能否____地看待自己的局限。承认自己有所不知,恰恰是不断进步的起点。",
+      "vocabFocus": [
+        "成熟",
+        "局限",
+        "谦逊",
+        "起点"
+      ]
+    },
+    {
+      "id": "h6m01_r2_01",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_FILL_CONTEXT",
+      "title": "阅读·第二部分 1",
+      "stem": "选句填空",
+      "prompt": "睡眠不足的危害常常被人们低估。许多人为了多挤出一点工作时间,长期牺牲睡眠,以为这样很划算。__________研究表明,长期睡眠不足不仅会损害记忆力和判断力,还会削弱身体的免疫力。",
+      "explanation": "正确答案是『然而,这其实是一笔得不偿失的买卖。』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "可见,合理安排作息确实需要一些技巧。"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "因此,这种做法短期内确实能见到一些成效。"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "然而,这其实是一笔得不偿失的买卖。"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "总之,时间管理是现代人的一项重要能力。"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "选句",
+        "健康"
+      ],
+      "vocabFocus": [
+        "牺牲",
+        "得不偿失",
+        "免疫力",
+        "划算"
+      ]
+    },
+    {
+      "id": "h6m01_r2_02",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_FILL_CONTEXT",
+      "title": "阅读·第二部分 2",
+      "stem": "选句填空",
+      "prompt": "在信息爆炸的时代,获取知识变得前所未有的容易,但这并不意味着人就更有智慧了。__________它需要我们对海量信息进行筛选、思考和整合,把零散的知识真正转化为自己的判断力。",
+      "explanation": "正确答案是『智慧从来不是信息的简单堆积。』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "智慧从来不是信息的简单堆积。"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "信息越丰富,人的视野自然就越开阔。"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "获取信息的能力在今天固然重要。"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "两者之间的界限有时并不那么分明。"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "选句",
+        "观点"
+      ],
+      "vocabFocus": [
+        "爆炸",
+        "筛选",
+        "整合",
+        "堆积"
+      ]
+    },
+    {
+      "id": "h6m01_r2_03",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_FILL_CONTEXT",
+      "title": "阅读·第二部分 3",
+      "stem": "选句填空",
+      "prompt": "许多濒危的传统手工艺正面临后继无人的困境。年轻人大多不愿学习这些耗时长、收入又不稳定的老手艺。__________一些地方开始尝试把传统工艺与现代设计相结合,开发出受市场欢迎的文创产品,让老手艺重新焕发了生机。",
+      "explanation": "正确答案是『为了改变这种局面,』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "因为这些手艺缺乏实用价值,"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "由于宣传推广还不够充分,"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "为了改变这种局面,"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "经过专家们的反复论证,"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "选句",
+        "文化"
+      ],
+      "vocabFocus": [
+        "濒危",
+        "后继无人",
+        "文创",
+        "焕发"
+      ]
+    },
+    {
+      "id": "h6m01_r2_04",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_FILL_CONTEXT",
+      "title": "阅读·第二部分 4",
+      "stem": "选句填空",
+      "prompt": "城市绿化绝不只是为了好看。研究发现,城市中的树木和绿地能够吸收空气中的污染物,在夏季有效降低气温。__________它们还能为鸟类和昆虫提供栖息之所,在不知不觉中维护着城市的生态平衡。",
+      "explanation": "正确答案是『除了这些直接的好处,』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "除了这些直接的好处,"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "与此相反的是,"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "然而,种植这些树木的成本相当高昂,"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "在城市的整体规划完成之后,"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "选句",
+        "环保"
+      ],
+      "vocabFocus": [
+        "绿化",
+        "栖息",
+        "昆虫",
+        "生态平衡"
+      ]
+    },
+    {
+      "id": "h6m01_r2_05",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_FILL_CONTEXT",
+      "title": "阅读·第二部分 5",
+      "stem": "选句填空",
+      "prompt": "很多人把拖延归咎于懒惰,但心理学家指出,拖延的背后往往隐藏着对失败的恐惧。__________与其责怪自己意志薄弱,不如试着把庞大的任务拆解成一个个小步骤,先从最容易的一步做起。",
+      "explanation": "正确答案是『因此,克服拖延的关键在于减轻心理负担。』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "当然,适度的拖延有时也无伤大雅。"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "然而,这种恐惧往往被人们过分夸大了。"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "相比之下,严格的时间管理才更为关键。"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "因此,克服拖延的关键在于减轻心理负担。"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "选句",
+        "心理"
+      ],
+      "vocabFocus": [
+        "拖延",
+        "归咎",
+        "恐惧",
+        "拆解"
+      ]
+    },
+    {
+      "id": "h6m01_r2_06",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_FILL_CONTEXT",
+      "title": "阅读·第二部分 6",
+      "stem": "选句填空",
+      "prompt": "失败并不可怕,可怕的是从失败中什么也没有学到。__________每一次跌倒,都是一次重新认识自己的机会。那些最终走向成功的人,往往不是从未失败的人,而是善于在失败中总结教训的人。",
+      "explanation": "正确答案是『对一个善于反思的人来说,』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "即使一时找不到失败的原因,"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "对一个拒绝改变的人来说,"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "对一个善于反思的人来说,"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "哪怕过程充满了痛苦和挫折,"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "选句",
+        "观点"
+      ],
+      "vocabFocus": [
+        "跌倒",
+        "反思",
+        "总结",
+        "教训"
+      ]
+    },
+    {
+      "id": "h6m01_r2_07",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_FILL_CONTEXT",
+      "title": "阅读·第二部分 7",
+      "stem": "选句填空",
+      "prompt": "近年来,夜间经济成为不少城市新的增长点。入夜后的街区灯火通明,餐饮、文化、娱乐等消费十分活跃。__________它在带动就业、激发城市活力的同时,也对噪声管理、公共安全等城市治理提出了更高的要求。",
+      "explanation": "正确答案是『不过,夜间经济也是一把双刃剑。』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "显然,这股消费热潮还会持续升温。"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "当然,这背后也离不开政策的支持。"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "相比之下,白天的消费反而显得冷清。"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "不过,夜间经济也是一把双刃剑。"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "选句",
+        "经济"
+      ],
+      "vocabFocus": [
+        "夜间经济",
+        "灯火通明",
+        "双刃剑",
+        "治理"
+      ]
+    },
+    {
+      "id": "h6m01_r2_08",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_FILL_CONTEXT",
+      "title": "阅读·第二部分 8",
+      "stem": "选句填空",
+      "prompt": "真正的友谊经得起距离和时间的考验。__________即使多年不见,一旦重逢,几句话就能找回当年的默契。这种关系不需要时刻的维系,却始终在彼此心里占有一席之地。",
+      "explanation": "正确答案是『它不会因为长久的分离而轻易褪色,』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "它一旦分开就会立刻烟消云散,"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "它不会因为长久的分离而轻易褪色,"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "它必须靠每天联系才能维持,"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "它和普通的点头之交没有区别,"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "选句",
+        "情感"
+      ],
+      "vocabFocus": [
+        "友谊",
+        "考验",
+        "默契",
+        "褪色"
+      ]
+    },
+    {
+      "id": "h6m01_r2_09",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_FILL_CONTEXT",
+      "title": "阅读·第二部分 9",
+      "stem": "选句填空",
+      "prompt": "人工智能正在越来越多地参与到内容创作中,从写新闻到作曲都有它的身影。有人因此担忧人类的创造力将被取代。__________它更适合处理重复、规律的工作,而那些源于真实生命体验的、独一无二的情感表达,仍是人类不可替代的领地。",
+      "explanation": "正确答案是『但目前来看,这种担忧或许为时尚早。』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "但目前来看,这种担忧或许为时尚早。"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "因为机器的处理效率确实远超人类。"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "毕竟机器的学习速度快得惊人。"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "未来的创作或许将由人机共同完成。"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "选句",
+        "科技"
+      ],
+      "vocabFocus": [
+        "人工智能",
+        "取代",
+        "为时尚早",
+        "领地"
+      ]
+    },
+    {
+      "id": "h6m01_r2_10",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_FILL_CONTEXT",
+      "title": "阅读·第二部分 10",
+      "stem": "选句填空",
+      "prompt": "一个社会的文明程度,往往体现在它如何对待最弱势的群体。__________无障碍设施是否完善,公共服务是否照顾到老人和儿童的需求,这些容易被忽视的细节,恰恰是衡量一座城市温度的真正标尺。",
+      "explanation": "正确答案是『这种关怀不在于口号,而在于细节。』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "这种关怀不在于口号,而在于细节。"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "这种关怀往往说起来容易做起来难。"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "衡量文明的标准其实有很多方面。"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "宏大的目标固然也值得我们去追求。"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "选句",
+        "社会"
+      ],
+      "vocabFocus": [
+        "文明",
+        "弱势",
+        "无障碍",
+        "标尺"
+      ]
+    },
+    {
+      "id": "h6m01_r3_01",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 1",
+      "stem": "阅读短文,选择正确答案",
+      "prompt": "根据上文,关于心流状态,下列说法正确的是哪一项?",
+      "explanation": "正确答案是『任务难度略高于能力时最容易进入心流』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "处于心流中的人会觉得时间过得很慢"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "只有各领域的高手才能体验到心流"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "任务难度略高于能力时最容易进入心流"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "心流只能带来产出,无法带来满足感"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "短文",
+        "心理"
+      ],
+      "context": "心理学家米哈里提出了一个著名的概念,叫做心流。它指的是一个人在全神贯注地投入某项活动时所产生的一种忘我状态。处于心流之中的人,会感到时间飞逝,甚至忘记了饥饿和疲惫,内心充满了宁静的喜悦。\n\n要进入心流并非易事,它需要满足几个条件。首先,任务的难度要与个人的能力相匹配。如果任务太简单,人会感到无聊;如果太难,又会让人焦虑。只有当挑战略高于现有能力时,人才最容易进入心流。其次,这项活动需要有明确的目标和即时的反馈,让人能够清楚地知道自己做得怎么样。\n\n值得注意的是,心流体验并非高手的专利。无论是画家作画、运动员比赛,还是一个孩子专注地搭积木,都可能进入这种状态。心流的价值在于,它不仅能带来高效的产出,更能让人在投入的过程中获得深刻的满足感。许多研究者认为,一个人感到幸福的时刻,往往不是无所事事的休闲,而恰恰是这种全身心投入的忘我体验。",
+      "vocabFocus": [
+        "心流",
+        "全神贯注",
+        "焦虑",
+        "反馈"
+      ]
+    },
+    {
+      "id": "h6m01_r3_02",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 2",
+      "stem": "阅读短文,选择正确答案",
+      "prompt": "根据上文,作者举孩子搭积木的例子是为了说明什么?",
+      "explanation": "正确答案是『说明心流体验并非高手专属』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "说明搭积木比绘画更容易"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "说明孩子比成年人更幸福"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "说明心流体验并非高手专属"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "说明搭积木是最好的游戏"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "短文",
+        "心理"
+      ],
+      "context": "心理学家米哈里提出了一个著名的概念,叫做心流。它指的是一个人在全神贯注地投入某项活动时所产生的一种忘我状态。处于心流之中的人,会感到时间飞逝,甚至忘记了饥饿和疲惫,内心充满了宁静的喜悦。\n\n要进入心流并非易事,它需要满足几个条件。首先,任务的难度要与个人的能力相匹配。如果任务太简单,人会感到无聊;如果太难,又会让人焦虑。只有当挑战略高于现有能力时,人才最容易进入心流。其次,这项活动需要有明确的目标和即时的反馈,让人能够清楚地知道自己做得怎么样。\n\n值得注意的是,心流体验并非高手的专利。无论是画家作画、运动员比赛,还是一个孩子专注地搭积木,都可能进入这种状态。心流的价值在于,它不仅能带来高效的产出,更能让人在投入的过程中获得深刻的满足感。许多研究者认为,一个人感到幸福的时刻,往往不是无所事事的休闲,而恰恰是这种全身心投入的忘我体验。",
+      "vocabFocus": [
+        "专利",
+        "并列",
+        "例证",
+        "投入"
+      ]
+    },
+    {
+      "id": "h6m01_r3_03",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 3",
+      "stem": "阅读短文,选择正确答案",
+      "prompt": "下列哪一项最适合作为本文的标题?",
+      "explanation": "正确答案是『心流:专注带来的忘我与幸福』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "如何彻底告别一切焦虑"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "休闲娱乐的多种方式"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "运动员的训练秘诀"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "心流:专注带来的忘我与幸福"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "短文",
+        "主旨"
+      ],
+      "context": "心理学家米哈里提出了一个著名的概念,叫做心流。它指的是一个人在全神贯注地投入某项活动时所产生的一种忘我状态。处于心流之中的人,会感到时间飞逝,甚至忘记了饥饿和疲惫,内心充满了宁静的喜悦。\n\n要进入心流并非易事,它需要满足几个条件。首先,任务的难度要与个人的能力相匹配。如果任务太简单,人会感到无聊;如果太难,又会让人焦虑。只有当挑战略高于现有能力时,人才最容易进入心流。其次,这项活动需要有明确的目标和即时的反馈,让人能够清楚地知道自己做得怎么样。\n\n值得注意的是,心流体验并非高手的专利。无论是画家作画、运动员比赛,还是一个孩子专注地搭积木,都可能进入这种状态。心流的价值在于,它不仅能带来高效的产出,更能让人在投入的过程中获得深刻的满足感。许多研究者认为,一个人感到幸福的时刻,往往不是无所事事的休闲,而恰恰是这种全身心投入的忘我体验。",
+      "vocabFocus": [
+        "标题",
+        "忘我",
+        "满足感",
+        "幸福"
+      ]
+    },
+    {
+      "id": "h6m01_r3_04",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 4",
+      "stem": "阅读短文,选择正确答案",
+      "prompt": "根据上文,这家共享工具馆的核心理念是什么?",
+      "explanation": "正确答案是『通过共享减少浪费、节省开支』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "鼓励居民多购买各种工具"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "专门为专业工人提供服务"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "通过共享减少浪费、节省开支"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "高价出租工具以盈利"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "短文",
+        "社会"
+      ],
+      "context": "在一座城市的社区里,出现了一家特别的共享工具馆。居民只需缴纳很少的会费,就可以像在图书馆借书一样,免费借用各种家用工具,从电钻、梯子到缝纫机,应有尽有。用完之后归还,无需自己购买和保管。\n\n这家工具馆的创办者发现,许多工具一个家庭一年也用不了几次,买回来后大部分时间都在角落里落灰,既浪费金钱又占用空间。与其让每家每户都重复购置,不如把这些工具集中起来,让大家共享。这样一来,不仅为居民节省了开支,也减少了不必要的生产和资源浪费。\n\n更让人意想不到的是,这家工具馆还成了社区里的一个温馨的交流空间。邻居们在借还工具时聊上几句,有经验的人还会热心地教新手如何使用。许多原本互不相识的住户,因此熟络了起来。创办者感慨道，他们最初只是想倡导一种节约的生活方式，没想到却在不经意间，重新连接起了日渐疏远的邻里关系。",
+      "vocabFocus": [
+        "共享",
+        "落灰",
+        "开支",
+        "重复"
+      ]
+    },
+    {
+      "id": "h6m01_r3_05",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 5",
+      "stem": "阅读短文,选择正确答案",
+      "prompt": "根据上文,创办者没有想到的收获是什么?",
+      "explanation": "正确答案是『重新连接了疏远的邻里关系』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "重新连接了疏远的邻里关系"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "工具的种类大幅增加"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "工具馆获得了巨额利润"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "会费收入比预期高很多"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "短文",
+        "社会"
+      ],
+      "context": "在一座城市的社区里,出现了一家特别的共享工具馆。居民只需缴纳很少的会费,就可以像在图书馆借书一样,免费借用各种家用工具,从电钻、梯子到缝纫机,应有尽有。用完之后归还,无需自己购买和保管。\n\n这家工具馆的创办者发现,许多工具一个家庭一年也用不了几次,买回来后大部分时间都在角落里落灰,既浪费金钱又占用空间。与其让每家每户都重复购置,不如把这些工具集中起来,让大家共享。这样一来,不仅为居民节省了开支,也减少了不必要的生产和资源浪费。\n\n更让人意想不到的是,这家工具馆还成了社区里的一个温馨的交流空间。邻居们在借还工具时聊上几句,有经验的人还会热心地教新手如何使用。许多原本互不相识的住户,因此熟络了起来。创办者感慨道，他们最初只是想倡导一种节约的生活方式，没想到却在不经意间，重新连接起了日渐疏远的邻里关系。",
+      "vocabFocus": [
+        "温馨",
+        "熟络",
+        "疏远",
+        "邻里"
+      ]
+    },
+    {
+      "id": "h6m01_r3_06",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 6",
+      "stem": "阅读短文,选择正确答案",
+      "prompt": "根据上文,作者认为人们对竹子的误解是什么?",
+      "explanation": "正确答案是『误以为竹子生命力不强、长得慢』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "误以为竹子不需要阳光"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "误以为竹子根系十分发达"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "误以为竹子能长到几十米高"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "误以为竹子生命力不强、长得慢"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "短文",
+        "哲理"
+      ],
+      "context": "竹子是一种令人惊叹的植物。在它生长的最初几年里,你几乎看不到它有什么变化,地面上只冒出小小的一截,显得格外缓慢。许多人因此误以为它生命力不强,长得很慢。\n\n然而,人们看不到的是,在这看似停滞的几年里,竹子正把全部的能量用在地下,默默地、拼命地向四面八方扩展自己的根系。等到根基足够深厚、足够稳固之后,竹子便会以惊人的速度向上猛长,有的品种甚至能在几周之内长到十几米高。\n\n竹子的故事常常被用来比喻人的成长。它提醒我们,真正的成长往往不是一蹴而就的。那些看不见的努力和积累，就像竹子深扎的根，虽然在当下默默无闻，却决定了一个人未来能够达到的高度。一个人如果能在不被看好的阶段沉下心来打好基础，终有一天会迎来属于自己的爆发。",
+      "vocabFocus": [
+        "惊叹",
+        "停滞",
+        "根系",
+        "稳固"
+      ]
+    },
+    {
+      "id": "h6m01_r3_07",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 7",
+      "stem": "阅读短文,选择正确答案",
+      "prompt": "根据上文,竹子在地面看似停滞的几年里实际上在做什么?",
+      "explanation": "正确答案是『把能量用在地下扩展根系』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "正在向上快速生长"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "把能量用在地下扩展根系"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "已经停止了生长"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "正在大量开花结果"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "短文",
+        "哲理"
+      ],
+      "context": "竹子是一种令人惊叹的植物。在它生长的最初几年里,你几乎看不到它有什么变化,地面上只冒出小小的一截,显得格外缓慢。许多人因此误以为它生命力不强,长得很慢。\n\n然而,人们看不到的是,在这看似停滞的几年里,竹子正把全部的能量用在地下,默默地、拼命地向四面八方扩展自己的根系。等到根基足够深厚、足够稳固之后,竹子便会以惊人的速度向上猛长,有的品种甚至能在几周之内长到十几米高。\n\n竹子的故事常常被用来比喻人的成长。它提醒我们,真正的成长往往不是一蹴而就的。那些看不见的努力和积累，就像竹子深扎的根，虽然在当下默默无闻，却决定了一个人未来能够达到的高度。一个人如果能在不被看好的阶段沉下心来打好基础，终有一天会迎来属于自己的爆发。",
+      "vocabFocus": [
+        "能量",
+        "扩展",
+        "根基",
+        "猛长"
+      ]
+    },
+    {
+      "id": "h6m01_r3_08",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 8",
+      "stem": "阅读短文,选择正确答案",
+      "prompt": "根据上文,作者通过竹子的故事最想表达什么道理?",
+      "explanation": "正确答案是『成长需要长期的积累和打好基础』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "长得慢的植物都没有价值"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "做事应该追求立竿见影的效果"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "外表的高度比根基更重要"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "成长需要长期的积累和打好基础"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "短文",
+        "哲理"
+      ],
+      "context": "竹子是一种令人惊叹的植物。在它生长的最初几年里,你几乎看不到它有什么变化,地面上只冒出小小的一截,显得格外缓慢。许多人因此误以为它生命力不强,长得很慢。\n\n然而,人们看不到的是,在这看似停滞的几年里,竹子正把全部的能量用在地下,默默地、拼命地向四面八方扩展自己的根系。等到根基足够深厚、足够稳固之后,竹子便会以惊人的速度向上猛长,有的品种甚至能在几周之内长到十几米高。\n\n竹子的故事常常被用来比喻人的成长。它提醒我们,真正的成长往往不是一蹴而就的。那些看不见的努力和积累，就像竹子深扎的根，虽然在当下默默无闻，却决定了一个人未来能够达到的高度。一个人如果能在不被看好的阶段沉下心来打好基础，终有一天会迎来属于自己的爆发。",
+      "vocabFocus": [
+        "比喻",
+        "一蹴而就",
+        "默默无闻",
+        "爆发"
+      ]
+    },
+    {
+      "id": "h6m01_r3_09",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 9",
+      "stem": "阅读短文,选择正确答案",
+      "prompt": "根据上文,所谓达克效应指的是什么现象?",
+      "explanation": "正确答案是『能力欠缺的人反而更容易高估自己』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "专家总是高估自己的能力"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "新手通常对自己缺乏信心"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "能力欠缺的人反而更容易高估自己"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "知识越多的人越自信"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "短文",
+        "心理"
+      ],
+      "context": "你或许遇到过这样的人:在某个领域明明是个新手,却表现得格外自信,仿佛无所不知。心理学上有一个概念可以解释这种现象,叫做达克效应。它指的是,能力欠缺的人,反而更容易高估自己的水平。\n\n造成这种现象的原因颇为微妙。一个人要想准确地评估自己,首先得具备相应的知识。然而,初学者恰恰因为知道得太少,既看不到自己的错误,也意识不到自己的无知,于是盲目地自信起来。相反,真正的专家由于深知这个领域的浩瀚和复杂,反而会变得越发谦虚、谨慎。\n\n这个概念给我们的启示是深刻的。它告诉我们,自信本身并不一定是好事，盲目的自信尤其危险。当一个人开始意识到自己的不足时，往往不是退步，而恰恰是进步的开始。保持一份对未知的敬畏，承认自己的局限，是一个人走向真正成熟与睿智的必经之路。",
+      "vocabFocus": [
+        "新手",
+        "高估",
+        "无知",
+        "谦虚"
+      ]
+    },
+    {
+      "id": "h6m01_r3_10",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 10",
+      "stem": "阅读短文,选择正确答案",
+      "prompt": "根据上文,真正的专家为什么往往更加谦虚谨慎?",
+      "explanation": "正确答案是『因为他们深知领域的浩瀚和复杂』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "因为他们深知领域的浩瀚和复杂"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "因为他们其实什么都不懂"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "因为他们害怕被别人超越"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "因为他们对一切都不感兴趣"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "短文",
+        "心理"
+      ],
+      "context": "你或许遇到过这样的人:在某个领域明明是个新手,却表现得格外自信,仿佛无所不知。心理学上有一个概念可以解释这种现象,叫做达克效应。它指的是,能力欠缺的人,反而更容易高估自己的水平。\n\n造成这种现象的原因颇为微妙。一个人要想准确地评估自己,首先得具备相应的知识。然而,初学者恰恰因为知道得太少,既看不到自己的错误,也意识不到自己的无知,于是盲目地自信起来。相反,真正的专家由于深知这个领域的浩瀚和复杂,反而会变得越发谦虚、谨慎。\n\n这个概念给我们的启示是深刻的。它告诉我们,自信本身并不一定是好事，盲目的自信尤其危险。当一个人开始意识到自己的不足时，往往不是退步，而恰恰是进步的开始。保持一份对未知的敬畏，承认自己的局限，是一个人走向真正成熟与睿智的必经之路。",
+      "vocabFocus": [
+        "浩瀚",
+        "谨慎",
+        "敬畏",
+        "睿智"
+      ]
+    },
+    {
+      "id": "h6m01_r3_11",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 11",
+      "stem": "阅读短文,选择正确答案",
+      "prompt": "根据上文,这位手艺人坚持手工制作的主要原因是什么?",
+      "explanation": "正确答案是『为了保留手工制品的独特和温度』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "手工制作能大幅提高产量"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "为了保留手工制品的独特和温度"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "因为他买不起生产机器"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "因为手工制作比机器更省时"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "短文",
+        "文化"
+      ],
+      "context": "在机器大规模生产的今天,一位制作传统油纸伞的老手艺人依然坚持着纯手工制作。一把伞,从选竹、削骨到上油,要经过七十多道工序,前后耗时近半个月。有人劝他改用机器,既省时又省力,产量还能翻上几番,他却始终不肯。\n\n在他看来,机器固然高效,但做出来的东西千篇一律,缺少了手工制品的那份独特和温度。每一把手工伞,因为制作时力道和心情的细微差别,都会有它自己的脾气,这是冷冰冰的机器永远无法复制的。他常说,他卖的不只是一把伞,更是一份手艺人的用心和对传统的尊重。\n\n如今,他的伞虽然价格不菲,产量也极为有限,却赢得了一批忠实的顾客。他们看重的，正是这份在快节奏时代里愈发稀缺的匠心。这位老人也收了几个年轻的徒弟，他最大的心愿，就是让这门祖辈传下来的手艺，不要在自己这一代断了根。",
+      "vocabFocus": [
+        "工序",
+        "千篇一律",
+        "脾气",
+        "复制"
+      ]
+    },
+    {
+      "id": "h6m01_r3_12",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 12",
+      "stem": "阅读短文,选择正确答案",
+      "prompt": "根据上文,这位老人最大的心愿是什么?",
+      "explanation": "正确答案是『让祖传的手艺不要在自己这代失传』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "尽快用机器大量生产油纸伞"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "让所有顾客都学会做伞"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "把油纸伞卖到更高的价格"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "让祖传的手艺不要在自己这代失传"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "短文",
+        "文化"
+      ],
+      "context": "在机器大规模生产的今天,一位制作传统油纸伞的老手艺人依然坚持着纯手工制作。一把伞,从选竹、削骨到上油,要经过七十多道工序,前后耗时近半个月。有人劝他改用机器,既省时又省力,产量还能翻上几番,他却始终不肯。\n\n在他看来,机器固然高效,但做出来的东西千篇一律,缺少了手工制品的那份独特和温度。每一把手工伞,因为制作时力道和心情的细微差别,都会有它自己的脾气,这是冷冰冰的机器永远无法复制的。他常说,他卖的不只是一把伞,更是一份手艺人的用心和对传统的尊重。\n\n如今,他的伞虽然价格不菲,产量也极为有限,却赢得了一批忠实的顾客。他们看重的，正是这份在快节奏时代里愈发稀缺的匠心。这位老人也收了几个年轻的徒弟，他最大的心愿，就是让这门祖辈传下来的手艺，不要在自己这一代断了根。",
+      "vocabFocus": [
+        "匠心",
+        "稀缺",
+        "徒弟",
+        "断根"
+      ]
+    },
+    {
+      "id": "h6m01_r3_13",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 13",
+      "stem": "阅读短文,选择正确答案",
+      "prompt": "根据上文,沉没成本指的是什么?",
+      "explanation": "正确答案是『已经付出且无法收回的成本』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "未来可能获得的收益"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "已经付出且无法收回的成本"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "做事所需的全部预算"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "他人帮忙节省下来的开支"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "短文",
+        "经济"
+      ],
+      "context": "在经济学中,有一个概念叫做沉没成本,指的是那些已经付出且无法收回的成本,比如花掉的钱、投入的时间和精力。一个理性的决策者,在做选择时,本应只考虑未来的收益与代价,而不该被已经无法挽回的过去所束缚。\n\n然而在现实中,人们却常常被沉没成本牵着鼻子走。比如,看了半小时却发现并不好看的电影,有人会因为已经买了票而强迫自己看完;在一段早已没有感情的关系里,有人会因为已经投入了太多年而迟迟不愿放手。他们口中的不甘心,本质上就是在为沉没成本买单。\n\n经济学家提醒我们，懂得及时止损，是一种重要的智慧。已经发生的损失无法改变，纠结于此只会带来更大的损失。真正聪明的做法，是把目光从无法挽回的过去，转向尚可争取的未来。学会对沉没成本说不，往往意味着一个人能够更清醒、更勇敢地面对自己的人生。",
+      "vocabFocus": [
+        "沉没成本",
+        "理性",
+        "束缚",
+        "挽回"
+      ]
+    },
+    {
+      "id": "h6m01_r3_14",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 14",
+      "stem": "阅读短文,选择正确答案",
+      "prompt": "根据上文,作者举看电影的例子是为了说明什么?",
+      "explanation": "正确答案是『说明人们常被沉没成本所左右』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "说明电影票价格太贵"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "说明人们常被沉没成本所左右"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "说明看电影是浪费时间"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "说明应该多看好电影"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "短文",
+        "经济"
+      ],
+      "context": "在经济学中,有一个概念叫做沉没成本,指的是那些已经付出且无法收回的成本,比如花掉的钱、投入的时间和精力。一个理性的决策者,在做选择时,本应只考虑未来的收益与代价,而不该被已经无法挽回的过去所束缚。\n\n然而在现实中,人们却常常被沉没成本牵着鼻子走。比如,看了半小时却发现并不好看的电影,有人会因为已经买了票而强迫自己看完;在一段早已没有感情的关系里,有人会因为已经投入了太多年而迟迟不愿放手。他们口中的不甘心,本质上就是在为沉没成本买单。\n\n经济学家提醒我们，懂得及时止损，是一种重要的智慧。已经发生的损失无法改变，纠结于此只会带来更大的损失。真正聪明的做法，是把目光从无法挽回的过去，转向尚可争取的未来。学会对沉没成本说不，往往意味着一个人能够更清醒、更勇敢地面对自己的人生。",
+      "vocabFocus": [
+        "牵着鼻子走",
+        "不甘心",
+        "买单",
+        "放手"
+      ]
+    },
+    {
+      "id": "h6m01_r3_15",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 15",
+      "stem": "阅读短文,选择正确答案",
+      "prompt": "根据上文,作者认为对待沉没成本聪明的做法是什么?",
+      "explanation": "正确答案是『把目光转向尚可争取的未来』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "把目光转向尚可争取的未来"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "牢牢守住已经付出的一切"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "无论如何都要坚持到底"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "对未来不抱任何期待"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "短文",
+        "经济"
+      ],
+      "context": "在经济学中,有一个概念叫做沉没成本,指的是那些已经付出且无法收回的成本,比如花掉的钱、投入的时间和精力。一个理性的决策者,在做选择时,本应只考虑未来的收益与代价,而不该被已经无法挽回的过去所束缚。\n\n然而在现实中,人们却常常被沉没成本牵着鼻子走。比如,看了半小时却发现并不好看的电影,有人会因为已经买了票而强迫自己看完;在一段早已没有感情的关系里,有人会因为已经投入了太多年而迟迟不愿放手。他们口中的不甘心,本质上就是在为沉没成本买单。\n\n经济学家提醒我们，懂得及时止损，是一种重要的智慧。已经发生的损失无法改变，纠结于此只会带来更大的损失。真正聪明的做法，是把目光从无法挽回的过去，转向尚可争取的未来。学会对沉没成本说不，往往意味着一个人能够更清醒、更勇敢地面对自己的人生。",
+      "vocabFocus": [
+        "止损",
+        "纠结",
+        "清醒",
+        "勇敢"
+      ]
+    },
+    {
+      "id": "h6m01_r3_16",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 16",
+      "stem": "阅读短文,选择正确答案",
+      "prompt": "根据上文,科学家研究黏菌的迷宫实验得出了什么结论?",
+      "explanation": "正确答案是『黏菌能找到连接食物的最短路径』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "黏菌拥有和人类相似的大脑"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "黏菌无法在迷宫中生存"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "黏菌能找到连接食物的最短路径"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "黏菌会一直布满整个迷宫"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "短文",
+        "科技"
+      ],
+      "context": "黏菌是一种结构极其简单的生物,它既没有大脑,也没有神经系统。然而,科学家的一系列实验却揭示了它令人惊讶的能力。在一个经典的实验中,研究人员把食物分别放在迷宫的入口和出口,再让黏菌从中生长。\n\n起初,黏菌会向四面八方蔓延,几乎布满了整个迷宫。但有趣的是,一段时间后,它会逐渐收缩,最终只保留下连接两处食物的那条最短路径,而把其他没有意义的分支统统舍弃。换句话说,这个没有大脑的生物,竟然解决了寻找最短路径这一相当复杂的数学问题。\n\n这一发现给了科学家很大的启发。它表明，复杂的智能行为，未必需要复杂的大脑作为前提，而可能从简单个体的相互作用中自然地涌现出来。如今，研究人员正尝试从黏菌的行为中获取灵感，用于优化交通网络、设计物流路线等现实问题，让这种古老而简单的生物，焕发出新的价值。",
+      "vocabFocus": [
+        "黏菌",
+        "迷宫",
+        "蔓延",
+        "舍弃"
+      ]
+    },
+    {
+      "id": "h6m01_r3_17",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 17",
+      "stem": "阅读短文,选择正确答案",
+      "prompt": "根据上文,这一发现给科学家的主要启发是什么?",
+      "explanation": "正确答案是『复杂的智能行为未必需要复杂的大脑』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "黏菌的研究毫无实际用途"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "只有拥有大脑才能产生智能"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "复杂的智能行为未必需要复杂的大脑"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "迷宫问题是无法解决的"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "短文",
+        "科技"
+      ],
+      "context": "黏菌是一种结构极其简单的生物,它既没有大脑,也没有神经系统。然而,科学家的一系列实验却揭示了它令人惊讶的能力。在一个经典的实验中,研究人员把食物分别放在迷宫的入口和出口,再让黏菌从中生长。\n\n起初,黏菌会向四面八方蔓延,几乎布满了整个迷宫。但有趣的是,一段时间后,它会逐渐收缩,最终只保留下连接两处食物的那条最短路径,而把其他没有意义的分支统统舍弃。换句话说,这个没有大脑的生物,竟然解决了寻找最短路径这一相当复杂的数学问题。\n\n这一发现给了科学家很大的启发。它表明，复杂的智能行为，未必需要复杂的大脑作为前提，而可能从简单个体的相互作用中自然地涌现出来。如今，研究人员正尝试从黏菌的行为中获取灵感，用于优化交通网络、设计物流路线等现实问题，让这种古老而简单的生物，焕发出新的价值。",
+      "vocabFocus": [
+        "启发",
+        "涌现",
+        "优化",
+        "物流"
+      ]
+    },
+    {
+      "id": "h6m01_r3_18",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 18",
+      "stem": "阅读短文,选择正确答案",
+      "prompt": "根据上文,作者认为方言承载着怎样的意义?",
+      "explanation": "正确答案是『方言承载着地方独特的历史和文化』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "方言只是落后、不便的产物"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "方言与文化记忆毫无关系"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "方言应该尽快被普通话取代"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "方言承载着地方独特的历史和文化"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "短文",
+        "文化"
+      ],
+      "context": "随着普通话的普及和人口的频繁流动,许多地方的方言正以惊人的速度走向衰落。越来越多的年轻人只会说普通话,听不懂、更不会说家乡话了。在一些人看来,方言不过是落后、不便的产物,消失了也无可惜。\n\n然而,语言学家持有不同的看法。在他们眼中,每一种方言都是一座活的文化宝库。它不仅是一种交流工具,更承载着一个地方独特的历史记忆、风土人情和思维方式。许多只能用方言才能准确表达的俗语、歌谣,一旦方言消亡,便会随之永远地失传。这种损失,是无法用任何东西来弥补的。\n\n当然，保护方言并不意味着排斥普通话。普通话作为通用语，对于促进交流、消除隔阂有着不可替代的作用。理想的状态，是让普通话与方言各司其职、和谐共存。一个人既能用普通话与天南海北的人顺畅沟通，也能在回到故乡时，用一口亲切的乡音，唤起内心深处的归属感。",
+      "vocabFocus": [
+        "方言",
+        "衰落",
+        "宝库",
+        "俗语"
+      ]
+    },
+    {
+      "id": "h6m01_r3_19",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 19",
+      "stem": "阅读短文,选择正确答案",
+      "prompt": "根据上文,作者认为普通话与方言之间理想的关系是什么?",
+      "explanation": "正确答案是『让两者各司其职、和谐共存』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "让两者各司其职、和谐共存"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "用方言彻底取代普通话"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "完全废除其中一种语言"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "禁止人们学习普通话"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "短文",
+        "文化"
+      ],
+      "context": "随着普通话的普及和人口的频繁流动,许多地方的方言正以惊人的速度走向衰落。越来越多的年轻人只会说普通话,听不懂、更不会说家乡话了。在一些人看来,方言不过是落后、不便的产物,消失了也无可惜。\n\n然而,语言学家持有不同的看法。在他们眼中,每一种方言都是一座活的文化宝库。它不仅是一种交流工具,更承载着一个地方独特的历史记忆、风土人情和思维方式。许多只能用方言才能准确表达的俗语、歌谣,一旦方言消亡,便会随之永远地失传。这种损失,是无法用任何东西来弥补的。\n\n当然，保护方言并不意味着排斥普通话。普通话作为通用语，对于促进交流、消除隔阂有着不可替代的作用。理想的状态，是让普通话与方言各司其职、和谐共存。一个人既能用普通话与天南海北的人顺畅沟通，也能在回到故乡时，用一口亲切的乡音，唤起内心深处的归属感。",
+      "vocabFocus": [
+        "通用语",
+        "隔阂",
+        "各司其职",
+        "乡音"
+      ]
+    },
+    {
+      "id": "h6m01_r3_20",
+      "levelCode": "hsk-6",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第三部分 20",
+      "stem": "阅读短文,选择正确答案",
+      "prompt": "根据上文,下列哪一项最符合作者的观点?",
+      "explanation": "正确答案是『方言值得保护,但不必排斥普通话』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "方言走向衰落是值得高兴的事"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "方言值得保护,但不必排斥普通话"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "普通话对交流毫无帮助"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "年轻人不该学习任何语言"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "短文",
+        "主旨"
+      ],
+      "context": "随着普通话的普及和人口的频繁流动,许多地方的方言正以惊人的速度走向衰落。越来越多的年轻人只会说普通话,听不懂、更不会说家乡话了。在一些人看来,方言不过是落后、不便的产物,消失了也无可惜。\n\n然而,语言学家持有不同的看法。在他们眼中,每一种方言都是一座活的文化宝库。它不仅是一种交流工具,更承载着一个地方独特的历史记忆、风土人情和思维方式。许多只能用方言才能准确表达的俗语、歌谣,一旦方言消亡,便会随之永远地失传。这种损失,是无法用任何东西来弥补的。\n\n当然，保护方言并不意味着排斥普通话。普通话作为通用语，对于促进交流、消除隔阂有着不可替代的作用。理想的状态，是让普通话与方言各司其职、和谐共存。一个人既能用普通话与天南海北的人顺畅沟通，也能在回到故乡时，用一口亲切的乡音，唤起内心深处的归属感。",
+      "vocabFocus": [
+        "衰落",
+        "弥补",
+        "共存",
+        "归属感"
+      ]
+    },
+    {
+      "id": "h6m01_w1_01",
+      "levelCode": "hsk-6",
+      "sectionCode": "writing",
+      "questionTypeCode": "W_SUMMARIZE",
+      "title": "书写·第一部分 1",
+      "stem": "应用文写作",
+      "prompt": "你打算把自己的一套住房出租。请根据下面的提示,写一则招租启事,不少于 150 字。\n提示:房屋位置(地铁站附近)、户型与面积、月租金、配套设施(家具家电、采光等)、对租客的要求、联系方式。",
+      "explanation": "本题考查应用文写作能力,题型为根据提示写一则招租启事。评分时重点看是否覆盖提示中的全部信息点、是否符合启事的基本格式(标题、正文、联系方式)、语言是否得体准确、字数是否达到 150 字要求。本题为主观题,需人工判分。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [],
+      "correctOptionId": "",
+      "tags": [
+        "书写",
+        "应用文"
+      ],
+      "vocabFocus": [
+        "招租",
+        "户型",
+        "租金",
+        "配套设施"
+      ],
+      "answerText": "参考要点与格式:本题为应用文中的招租启事,应包含以下要素。(1)标题:居中写明招租启事或房屋出租。(2)正文需涵盖提示中的全部信息:房屋位置(如位于某地铁站步行五分钟处,交通便利)、户型与面积(如两室一厅,约八十平方米)、月租金及付款方式(如月租三千元,押一付三)、配套设施(家具家电齐全、采光良好、周边有超市和学校等)、对租客的要求(如爱护房屋、按时交租、无不良嗜好、最好长租)。(3)结尾给出联系方式(联系人、电话)和欢迎来电看房等礼貌用语。语言应简明得体,信息真实清晰,符合启事这一应用文体的格式。字数不少于 150 字。"
+    },
+    {
+      "id": "h6m01_w2_01",
+      "levelCode": "hsk-6",
+      "sectionCode": "writing",
+      "questionTypeCode": "W_SUMMARIZE",
+      "title": "书写·第二部分 1",
+      "stem": "议论文写作",
+      "prompt": "有人说:失败是成功之母;也有人说:成功才是成功之母,失败只会让人更失败。请结合自己的经历或所见所闻,谈谈你对失败与成功之间关系的看法,写一篇文章,不少于 300 字。",
+      "explanation": "本题考查议论文写作能力,要求考生就失败与成功的关系展开论述。评分重点在于是否提出明确的观点、论证是否充分有逻辑、是否能结合事例展开、结构是否完整、语言是否流畅、字数是否达到 300 字要求。本题为主观题,需人工判分。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [],
+      "correctOptionId": "",
+      "tags": [
+        "书写",
+        "议论文"
+      ],
+      "vocabFocus": [
+        "失败",
+        "成功",
+        "教训",
+        "辩证"
+      ],
+      "answerText": "参考要点与思路:本题为议论文写作,要求就失败与成功的关系发表看法。可参考以下结构。(1)开头:由两种对立观点引入,明确提出自己的立场,例如认为失败本身并不必然通向成功,关键在于能否从失败中总结教训、调整方向。(2)主体:用两到三个分论点展开论证。可以从失败的价值谈起(失败能暴露问题、磨练意志),再辩证地指出盲目重复、不加反思的失败只会带来更大的挫败,从而说明失败成为成功之母是有条件的;可结合个人经历(如某次考试失利后改进方法)、名人事例或社会现象加以佐证。(3)结尾:总结全文,提出积极的态度,如以理性的心态面对失败、把每一次跌倒都变成进步的契机。要求论点明确、论据充分、结构完整、逻辑清晰、语言流畅,字数不少于 300 字。"
+    }
+  ],
+  "sets": [
+    {
+      "id": "set_hsk6_ai_mock_01",
+      "slug": "hsk6-ai-mock-01",
+      "title": "HSK6 AI 全真模考 01",
+      "description": "content-engine 自动生产的完整 HSK6 笔试模拟卷,严格对齐官方 HSK 3.0 六级笔试结构(官方PDF校准):听力 40 题 + 阅读 40 题 + 书写 2 题,共 82 题,约 125 分钟。听力第一部分 8 题听新闻/报道选内容一致项,第二、三部分共 32 题听长材料/访谈答问句;阅读第一部分 10 题短文选词填空,第二部分 10 题语段选句填空,第三部分 20 题长文阅读理解;书写 2 题为主观题(应用文 150 字 + 议论文 300 字,待人工判分)。用词控制在 HSK6 累计 5400 词范围内,题材涉及社会评论、科技、文化、经济。",
+      "levelCode": "hsk-6",
+      "mode": "mock_exam",
+      "access": "free",
+      "minutes": 125,
+      "itemIds": [
+        "h6m01_l1_01",
+        "h6m01_l1_02",
+        "h6m01_l1_03",
+        "h6m01_l1_04",
+        "h6m01_l1_05",
+        "h6m01_l1_06",
+        "h6m01_l1_07",
+        "h6m01_l1_08",
+        "h6m01_l2_01",
+        "h6m01_l2_02",
+        "h6m01_l2_03",
+        "h6m01_l2_04",
+        "h6m01_l2_05",
+        "h6m01_l2_06",
+        "h6m01_l2_07",
+        "h6m01_l2_08",
+        "h6m01_l2_09",
+        "h6m01_l2_10",
+        "h6m01_l2_11",
+        "h6m01_l2_12",
+        "h6m01_l2_13",
+        "h6m01_l2_14",
+        "h6m01_l2_15",
+        "h6m01_l2_16",
+        "h6m01_l2_17",
+        "h6m01_l2_18",
+        "h6m01_l2_19",
+        "h6m01_l2_20",
+        "h6m01_l3_01",
+        "h6m01_l3_02",
+        "h6m01_l3_03",
+        "h6m01_l3_04",
+        "h6m01_l3_05",
+        "h6m01_l3_06",
+        "h6m01_l3_07",
+        "h6m01_l3_08",
+        "h6m01_l3_09",
+        "h6m01_l3_10",
+        "h6m01_l3_11",
+        "h6m01_l3_12",
+        "h6m01_r1_01",
+        "h6m01_r1_02",
+        "h6m01_r1_03",
+        "h6m01_r1_04",
+        "h6m01_r1_05",
+        "h6m01_r1_06",
+        "h6m01_r1_07",
+        "h6m01_r1_08",
+        "h6m01_r1_09",
+        "h6m01_r1_10",
+        "h6m01_r2_01",
+        "h6m01_r2_02",
+        "h6m01_r2_03",
+        "h6m01_r2_04",
+        "h6m01_r2_05",
+        "h6m01_r2_06",
+        "h6m01_r2_07",
+        "h6m01_r2_08",
+        "h6m01_r2_09",
+        "h6m01_r2_10",
+        "h6m01_r3_01",
+        "h6m01_r3_02",
+        "h6m01_r3_03",
+        "h6m01_r3_04",
+        "h6m01_r3_05",
+        "h6m01_r3_06",
+        "h6m01_r3_07",
+        "h6m01_r3_08",
+        "h6m01_r3_09",
+        "h6m01_r3_10",
+        "h6m01_r3_11",
+        "h6m01_r3_12",
+        "h6m01_r3_13",
+        "h6m01_r3_14",
+        "h6m01_r3_15",
+        "h6m01_r3_16",
+        "h6m01_r3_17",
+        "h6m01_r3_18",
+        "h6m01_r3_19",
+        "h6m01_r3_20",
+        "h6m01_w1_01",
+        "h6m01_w2_01"
+      ]
+    }
+  ]
+}

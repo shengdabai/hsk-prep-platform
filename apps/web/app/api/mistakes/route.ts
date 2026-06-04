@@ -1,16 +1,15 @@
-import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
 
 import { getRepository } from "@hsk/db";
 
-import { demoUserCookie } from "@/lib/auth-cookies";
+import { requireApiUser } from "@/lib/api-auth";
 
 export async function GET() {
-  const cookieStore = await cookies();
-  const userId = cookieStore.get(demoUserCookie)?.value;
-  if (!userId) {
-    return NextResponse.json({ error: "请先登录。" }, { status: 401 });
+  const guard = await requireApiUser();
+  if ("response" in guard) {
+    return guard.response;
   }
+  const { user } = guard;
 
-  return NextResponse.json({ mistakes: await getRepository().getMistakes(userId) });
+  return NextResponse.json({ mistakes: await getRepository().getMistakes(user.id) });
 }

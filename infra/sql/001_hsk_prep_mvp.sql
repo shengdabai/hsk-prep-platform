@@ -20,8 +20,11 @@ create table if not exists public.plans (
   updated_at timestamptz not null default now()
 );
 
+-- 注:本平台用自建 HMAC 会话(apps/web/lib/session.ts),不接 Supabase Auth,
+-- 故 profiles.id 是独立主键(应用层传入或默认 gen_random_uuid()),
+-- 不外键到 auth.users(避免无 Supabase Auth 时无法插入用户)。
 create table if not exists public.profiles (
-  id uuid primary key references auth.users(id) on delete cascade,
+  id uuid primary key default gen_random_uuid(),
   email text not null unique,
   full_name text,
   role text not null default 'learner' check (role in ('learner', 'reviewer', 'admin')),

@@ -1,12 +1,13 @@
 import { mockRepository } from "./mock-repository";
+import { supabaseRepository } from "./supabase-repository";
 import { isSupabaseConfigured } from "./supabase";
 import type { Repository } from "./types";
 
 export function getRepository(): Repository {
-  // MVP 默认使用 mock repository，保证项目在未接 Supabase 时也能本地跑通。
-  // 生产接入后，可在这里切换到 Supabase-backed repository。
+  // 配置了 Supabase env(URL + anon key)走真实持久化,否则回退到内存 mock,
+  // 保证项目在未接 Supabase 时也能本地跑通。
   if (isSupabaseConfigured()) {
-    return mockRepository;
+    return supabaseRepository;
   }
 
   return mockRepository;

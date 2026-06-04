@@ -3,7 +3,7 @@ import path from "node:path";
 
 import { parse } from "csv-parse/sync";
 
-import { createSupabaseAdminClient, isSupabaseConfigured } from "@hsk/db";
+import { importContent, isSupabaseConfigured } from "@hsk/db";
 import type { ImportPayload, QuestionOption } from "@hsk/shared";
 
 function parseOptions(input: string): QuestionOption[] {
@@ -64,23 +64,6 @@ async function previewPayload(payload: ImportPayload) {
   return targetPath;
 }
 
-async function importToSupabase(payload: ImportPayload) {
-  const supabase = createSupabaseAdminClient();
-
-  for (const item of payload.items) {
-    await supabase.from("content_items").upsert({
-      title: item.id,
-      stem: item.stem,
-      prompt: item.prompt,
-      explanation: item.explanation,
-      review_status: item.reviewStatus,
-      publish_status: item.publishStatus,
-      source_type: item.sourceType,
-      copyright_status: item.copyrightCleared ? "cleared" : "pending",
-    } as never);
-  }
-}
-
 async function main() {
   const inputPath =
     process.argv[2] ??
@@ -94,8 +77,8 @@ async function main() {
     return;
   }
 
-  await importToSupabase(payload);
-  console.log(`Imported ${payload.items.length} items${payload.sets?.length ? ` and ${payload.sets.length} sets` : ""}.`);
+  const result = await importContent(payload);
+  console.log(`Imported ${result.itemCount} items${result.setCount ? ` and ${result.setCount} sets` : ""}.`);
 }
 
 void main();

@@ -1,0 +1,3256 @@
+{
+  "items": [
+    {
+      "id": "h4m01_l1_01",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 1",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "女的是什么意思?",
+      "explanation": "女的说『爬山太累了』并提议『去看那个新电影』,正确答案是『她更想去看电影』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "她想去爬山"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "她不喜欢这个电影"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "她更想去看电影"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "她周末要加班"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "计划",
+        "对话"
+      ],
+      "context": "录音:男:这个周末我们去爬山怎么样?\n女:爬山太累了,我们去看那个新电影吧,听说挺有意思的。\n问:女的是什么意思?",
+      "vocabFocus": [
+        "爬山",
+        "电影",
+        "有意思"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l1_01.mp3"
+    },
+    {
+      "id": "h4m01_l1_02",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 2",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "男的怎么了?",
+      "explanation": "男的说为了准备会议『差不多两点才睡』,正确答案是『他睡得很晚』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "他生病了"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "他迟到了"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "他心情不好"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "他睡得很晚"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "健康",
+        "对话"
+      ],
+      "context": "录音:女:你的脸色看起来不太好,是不是没休息好?\n男:昨天晚上为了准备今天的会议,我差不多两点才睡。\n问:男的怎么了?",
+      "vocabFocus": [
+        "脸色",
+        "休息",
+        "会议"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l1_02.mp3"
+    },
+    {
+      "id": "h4m01_l1_03",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 3",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "他们最可能在哪里?",
+      "explanation": "对话提到『续借』『按时还』『借阅』,正确答案是『图书馆』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "图书馆"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "教室"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "邮局"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "书店"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "地点",
+        "对话"
+      ],
+      "context": "录音:男:您好,我想把这本书续借两个星期,可以吗?\n女:可以,不过下次请您按时还,免得影响别人借阅。\n问:他们最可能在哪里?",
+      "vocabFocus": [
+        "续借",
+        "按时",
+        "影响"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l1_03.mp3"
+    },
+    {
+      "id": "h4m01_l1_04",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 4",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "女的建议男的怎么做?",
+      "explanation": "女的建议『先放一放,休息一下,过两天再看』,正确答案是『先放一放再看』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "马上重写报告"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "先放一放再看"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "请别人帮忙"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "直接交上去"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "建议",
+        "工作"
+      ],
+      "context": "录音:男:这次的报告我写了好几遍,还是觉得不太满意。\n女:你别太着急,先放一放,休息一下,过两天再看可能会有新想法。\n问:女的建议男的怎么做?",
+      "vocabFocus": [
+        "报告",
+        "满意",
+        "着急",
+        "想法"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l1_04.mp3"
+    },
+    {
+      "id": "h4m01_l1_05",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 5",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "关于那家饭馆,可以知道什么?",
+      "explanation": "男的说那家饭馆『又便宜又好吃,就是中午人特别多』,正确答案是『中午人很多』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "菜很贵"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "离公司很远"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "中午人很多"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "已经开了很久"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "饮食",
+        "对话"
+      ],
+      "context": "录音:女:我们去公司旁边新开的那家饭馆吃午饭吧。\n男:好啊,我听同事说那儿的菜又便宜又好吃,就是中午人特别多。\n问:关于那家饭馆,可以知道什么?",
+      "vocabFocus": [
+        "饭馆",
+        "便宜",
+        "同事"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l1_05.mp3"
+    },
+    {
+      "id": "h4m01_l1_06",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 6",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "男的为什么没接电话?",
+      "explanation": "男的说『我在开会,手机一直是静音的』,正确答案是『他在开会』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "手机没电了"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "信号不好"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "他没带手机"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "他在开会"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "生活",
+        "对话"
+      ],
+      "context": "录音:女:刚才给你打电话怎么没人接?我打了好几次。\n男:不好意思,我在开会,手机一直是静音的,刚才才看到。\n问:男的为什么没接电话?",
+      "vocabFocus": [
+        "接电话",
+        "开会",
+        "静音"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l1_06.mp3"
+    },
+    {
+      "id": "h4m01_l1_07",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 7",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "男的打算怎么去机场?",
+      "explanation": "男的说『本来想打车,后来想想还是坐地铁吧』,正确答案是『坐地铁』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "打车"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "坐地铁"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "坐公共汽车"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "让朋友送"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "交通",
+        "对话"
+      ],
+      "context": "录音:女:明天去机场你是打车还是坐地铁?\n男:本来想打车,后来想想还是坐地铁吧,又快又不会堵车。\n问:男的打算怎么去机场?",
+      "vocabFocus": [
+        "机场",
+        "打车",
+        "地铁",
+        "堵车"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l1_07.mp3"
+    },
+    {
+      "id": "h4m01_l1_08",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 8",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "女的觉得这件衣服怎么样?",
+      "explanation": "女的说『样子是不错,可是有点儿大』,正确答案是『尺寸有点儿大』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "颜色不好看"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "尺寸有点儿大"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "价钱太贵了"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "样子很难看"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "购物",
+        "对话"
+      ],
+      "context": "录音:男:你看这件衣服怎么样?颜色我挺喜欢的。\n女:样子是不错,可是有点儿大,你穿小一号的应该更合适。\n问:女的觉得这件衣服怎么样?",
+      "vocabFocus": [
+        "样子",
+        "合适",
+        "号"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l1_08.mp3"
+    },
+    {
+      "id": "h4m01_l1_09",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 9",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "他们在谈什么?",
+      "explanation": "对话围绕『普通话考试』『成绩』『进步』,正确答案是『小李的考试成绩』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "小李的爱好"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "小李的工作"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "小李的考试成绩"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "小李的旅行"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "学习",
+        "对话"
+      ],
+      "context": "录音:女:小李这次普通话考试考得怎么样?\n男:他进步特别大,这次成绩比上次高了二十多分,真为他高兴。\n问:他们在谈什么?",
+      "vocabFocus": [
+        "考试",
+        "进步",
+        "成绩"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l1_09.mp3"
+    },
+    {
+      "id": "h4m01_l1_10",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 10",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "男的希望女的做什么?",
+      "explanation": "正确答案是『通知大家时间变了』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "改会议地点"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "取消会议"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "准备会议材料"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "通知大家时间变了"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "工作",
+        "对话"
+      ],
+      "context": "录音:男:会议时间改到下午三点了,你能帮我通知一下大家吗?\n女:没问题,我马上发个消息到群里。\n问:男的希望女的做什么?",
+      "vocabFocus": [
+        "会议",
+        "通知",
+        "消息"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l1_10.mp3"
+    },
+    {
+      "id": "h4m01_l1_11",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 11",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "女的为什么要锻炼?",
+      "explanation": "女的说『医生说我最近身体有点儿弱,让我多运动运动』,正确答案是『医生让她多运动』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "医生让她多运动"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "为了参加比赛"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "陪朋友一起"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "想减肥"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "健康",
+        "对话"
+      ],
+      "context": "录音:男:你最近怎么每天早上都去跑步啊?\n女:医生说我最近身体有点儿弱,让我多运动运动,所以我就开始锻炼了。\n问:女的为什么要锻炼?",
+      "vocabFocus": [
+        "锻炼",
+        "运动",
+        "身体"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l1_11.mp3"
+    },
+    {
+      "id": "h4m01_l1_12",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 12",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "男的觉得这份工作怎么样?",
+      "explanation": "正确答案是『离家比较远』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "工作很轻松"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "工资很低"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "同事不好"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "离家比较远"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "工作",
+        "对话"
+      ],
+      "context": "录音:女:听说你换了新工作,新公司怎么样?\n男:工资比以前高一些,不过离家比较远,每天路上要花两个小时。\n问:男的觉得这份工作怎么样?",
+      "vocabFocus": [
+        "工资",
+        "工作",
+        "小时"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l1_12.mp3"
+    },
+    {
+      "id": "h4m01_l1_13",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 13",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "女的为什么感谢男的?",
+      "explanation": "女的说『要不是你提醒我,我差点儿就把护照忘在家里了』,正确答案是『男的提醒她带护照』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "男的借给她钱"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "男的送她去机场"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "男的提醒她带护照"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "男的帮她买票"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "生活",
+        "对话"
+      ],
+      "context": "录音:女:真的太谢谢你了,要不是你提醒我,我差点儿就把护照忘在家里了。\n男:不客气,出国前检查一下东西很重要。\n问:女的为什么感谢男的?",
+      "vocabFocus": [
+        "提醒",
+        "护照",
+        "重要"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l1_13.mp3"
+    },
+    {
+      "id": "h4m01_l1_14",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_QA_MC4",
+      "title": "听力·第一部分 14",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "他们打算什么时候交材料?",
+      "explanation": "正确答案是『下周一』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "这周五"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "下周一"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "下周五"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "这周三"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "工作",
+        "时间"
+      ],
+      "context": "录音:男:这个材料什么时候交?是这周五吗?\n女:不是,经理说时间往后推了,改到下周一上午十点之前交。\n问:他们打算什么时候交材料?",
+      "vocabFocus": [
+        "材料",
+        "经理",
+        "往后推"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l1_14.mp3"
+    },
+    {
+      "id": "h4m01_l2_01",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 1",
+      "stem": "听短文和问题,选择正确答案",
+      "prompt": "说话人主要想告诉我们什么?",
+      "explanation": "短文强调『生活中的小事也一样』,正确答案是『小事也需要计划』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "要少做一些事情"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "早上要早点儿起床"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "小事也需要计划"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "大事比小事重要"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "生活",
+        "短文"
+      ],
+      "context": "录音:很多人觉得只有大事才需要计划,其实生活中的小事也一样。比如每天早上花五分钟想一想今天要做什么,把重要的事情写下来,这样做事就会更有条理,也不容易忘记。习惯了以后,你会发现自己的时间用得更好了。\n问:说话人主要想告诉我们什么?",
+      "vocabFocus": [
+        "计划",
+        "条理",
+        "习惯"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l2_01.mp3"
+    },
+    {
+      "id": "h4m01_l2_02",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 2",
+      "stem": "听短文和问题,选择正确答案",
+      "prompt": "根据这段话,应该怎么做才能学好语言?",
+      "explanation": "短文说『最好的办法是多和别人交流』『有机会就大胆地说』,正确答案是『多和别人交流』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "只看书就够了"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "多和别人交流"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "找一个好老师"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "等说对了再说"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "学习",
+        "短文"
+      ],
+      "context": "录音:学习一门新的语言,光看书是不够的。最好的办法是多和别人交流,不要害怕说错。其实,说错了别人也能明白你的意思,而且你会从错误中慢慢提高。所以,有机会就大胆地说,这样进步才会快。\n问:根据这段话,应该怎么做才能学好语言?",
+      "vocabFocus": [
+        "语言",
+        "交流",
+        "提高",
+        "大胆"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l2_02.mp3"
+    },
+    {
+      "id": "h4m01_l2_03",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 3",
+      "stem": "听短文和问题,选择正确答案",
+      "prompt": "关于这种植物,可以知道什么?",
+      "explanation": "短文说这种植物『不需要经常浇水』『忘记照顾它也能长得很好』,正确答案是『很好照顾』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "需要每天浇水"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "不容易养活"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "很好照顾"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "只能放在外面"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "生活",
+        "短文"
+      ],
+      "context": "录音:这种植物很特别,它不需要经常浇水,放在房间里几个星期不管它也没关系。即使你常常忘记照顾它,它也能长得很好。所以,对那些工作忙、又喜欢绿色植物的人来说,它是个很不错的选择。\n问:关于这种植物,可以知道什么?",
+      "vocabFocus": [
+        "植物",
+        "浇水",
+        "照顾",
+        "选择"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l2_03.mp3"
+    },
+    {
+      "id": "h4m01_l2_04",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 4",
+      "stem": "听短文和问题,选择正确答案",
+      "prompt": "说话人建议我们怎么对待别人的意见?",
+      "explanation": "短文建议『先别急着反对』『认真听一听』,正确答案是『认真听一听』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "马上反对"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "和对方吵架"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "认真听一听"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "完全不理会"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "道理",
+        "短文"
+      ],
+      "context": "录音:每个人看问题的角度都不一样。当别人提出和你不同的意见时,先别急着反对。你可以认真听一听,也许他的话里有你没想到的东西。学会接受不同的看法,会让你变得更聪明。\n问:说话人建议我们怎么对待别人的意见?",
+      "vocabFocus": [
+        "角度",
+        "意见",
+        "反对",
+        "接受"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l2_04.mp3"
+    },
+    {
+      "id": "h4m01_l2_05",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 5",
+      "stem": "听短文和问题,选择正确答案",
+      "prompt": "这段话主要谈的是什么?",
+      "explanation": "短文谈的是『在网上买东西』,正确答案是『网上购物』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "网上购物"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "怎么省钱"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "怎么照相"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "怎么开网店"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "购物",
+        "短文"
+      ],
+      "context": "录音:现在越来越多的人喜欢在网上买东西。不用出门,在家点几下就能买到自己想要的,过几天东西就送到家了,确实很方便。不过专家提醒大家,网上买东西时也要注意,不要只看图片,最好看看别人的评价再决定。\n问:这段话主要谈的是什么?",
+      "vocabFocus": [
+        "网上",
+        "方便",
+        "评价",
+        "提醒"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l2_05.mp3"
+    },
+    {
+      "id": "h4m01_l2_06",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 6",
+      "stem": "听短文和问题,选择正确答案",
+      "prompt": "为什么早上不适合做难的工作?",
+      "explanation": "短文说『刚起床的时候,人还没完全清醒』,正确答案是『人还没完全清醒』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "时间太早"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "人还没完全清醒"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "没吃早饭"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "光线太暗"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "生活",
+        "短文"
+      ],
+      "context": "录音:有人觉得早上头脑最清楚,适合做最难的工作。但实际上,刚起床的时候,人还没完全清醒,这时候做太难的事容易出错。比较好的办法是,先做一些简单的事,等头脑真正清醒了,再去做需要动脑筋的工作。\n问:根据这段话,为什么刚起床时不适合做难的工作?",
+      "vocabFocus": [
+        "头脑",
+        "清醒",
+        "出错",
+        "动脑筋"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l2_06.mp3"
+    },
+    {
+      "id": "h4m01_l2_07",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 7",
+      "stem": "听短文和问题,选择正确答案",
+      "prompt": "经理对小张的表现满意吗?",
+      "explanation": "正确答案是『很满意』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "不太满意"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "很满意"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "完全不满意"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "没有说"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "工作",
+        "短文"
+      ],
+      "context": "录音:小张刚到我们公司的时候,什么都不懂,经常需要别人帮忙。但他很努力,遇到不会的就主动问,下班后还自己学习。半年过去了,现在他已经能独立完成很多工作,经理也常常表扬他。\n问:经理对小张的表现满意吗?",
+      "vocabFocus": [
+        "努力",
+        "主动",
+        "独立",
+        "表扬"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l2_07.mp3"
+    },
+    {
+      "id": "h4m01_l2_08",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 8",
+      "stem": "听短文和问题,选择正确答案",
+      "prompt": "说话人觉得旅行最大的好处是什么?",
+      "explanation": "说话人说『对我来说,旅行最大的好处是能认识很多新朋友』,正确答案是『能认识新朋友』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "能认识新朋友"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "能看美丽的风景"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "能吃到美食"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "能买便宜的东西"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "旅行",
+        "短文"
+      ],
+      "context": "录音:有人旅行是为了看美丽的风景,有人是为了吃各地的美食。对我来说,旅行最大的好处是能认识很多新朋友,了解不同的生活方式。每到一个新地方,我都会发现,这个世界比我想象的要大得多,也有意思得多。\n问:说话人觉得旅行最大的好处是什么?",
+      "vocabFocus": [
+        "旅行",
+        "风景",
+        "生活方式",
+        "想象"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l2_08.mp3"
+    },
+    {
+      "id": "h4m01_l2_09",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 9",
+      "stem": "听短文和问题,选择正确答案",
+      "prompt": "根据这段话,孩子做错事时父母应该怎么做?",
+      "explanation": "短文建议『先冷静下来,问清楚原因』,正确答案是『先冷静下来』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "先冷静下来"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "不管孩子"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "大声地批评"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "马上离开"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "家庭",
+        "短文"
+      ],
+      "context": "录音:孩子做错事的时候,有的父母会马上生气、大声地批评。其实这样做效果并不好,孩子可能会更害怕,反而不敢说真话。比较好的办法是,先冷静下来,问清楚原因,然后告诉孩子下次应该怎么做。\n问:根据这段话,孩子做错事时父母应该怎么做?",
+      "vocabFocus": [
+        "批评",
+        "冷静",
+        "原因",
+        "害怕"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l2_09.mp3"
+    },
+    {
+      "id": "h4m01_l2_10",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 10",
+      "stem": "听短文和问题,选择正确答案",
+      "prompt": "这段话告诉我们什么道理?",
+      "explanation": "短文强调『把一件大事分成几个小步骤,一步一步地做』,正确答案是『做事要一步一步来』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "大事不用做计划"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "做事越快越好"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "一个人做不好事情"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "做事要一步一步来"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "道理",
+        "短文"
+      ],
+      "context": "录音:做事的时候,我们常常想一下子就把所有问题都解决了,结果反而越做越乱。其实,把一件大事分成几个小步骤,一步一步地做,看起来慢,但每一步都做得很扎实,最后往往完成得又快又好。\n问:这段话告诉我们什么道理?",
+      "vocabFocus": [
+        "解决",
+        "步骤",
+        "扎实"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l2_10.mp3"
+    },
+    {
+      "id": "h4m01_l2_11",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 11",
+      "stem": "听短文和问题,选择正确答案",
+      "prompt": "这家咖啡馆为什么受欢迎?",
+      "explanation": "正确答案是『老板很热情』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "老板很热情"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "价钱很便宜"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "地方特别大"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "咖啡特别好喝"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "生活",
+        "短文"
+      ],
+      "context": "录音:我家附近有一家小咖啡馆,虽然不大,但生意一直很好。这里的咖啡味道一般,价钱也不便宜,可是大家还是喜欢来。原因很简单:老板特别热情,记得每个老顾客喜欢喝什么,让人感觉像在朋友家一样舒服。\n问:这家咖啡馆为什么受欢迎?",
+      "vocabFocus": [
+        "咖啡馆",
+        "生意",
+        "热情",
+        "顾客"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l2_11.mp3"
+    },
+    {
+      "id": "h4m01_l2_12",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 12",
+      "stem": "听短文和问题,选择正确答案",
+      "prompt": "说话人为什么喜欢坐火车?",
+      "explanation": "说话人说坐火车『可以看看窗外不断变化的风景』,正确答案是『可以看路上的风景』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "火车比飞机快"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "可以看路上的风景"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "火车票更便宜"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "火车上人少"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "旅行",
+        "短文"
+      ],
+      "context": "录音:虽然坐飞机比坐火车快得多,但我出门旅行还是更喜欢坐火车。因为坐火车的时候,我可以看看窗外不断变化的风景,还能慢慢欣赏路上的城市和田野。对我来说,旅行的过程和目的地一样重要。\n问:说话人为什么喜欢坐火车?",
+      "vocabFocus": [
+        "火车",
+        "风景",
+        "欣赏",
+        "过程"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l2_12.mp3"
+    },
+    {
+      "id": "h4m01_l2_13",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 13",
+      "stem": "听短文和问题,选择正确答案",
+      "prompt": "根据这段话,看书的好处是什么?",
+      "explanation": "短文说书里有『别人用一辈子总结出来的经验』,正确答案是『能学到别人的经验』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "能很快赚到钱"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "能学到别人的经验"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "能认识很多人"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "能让人睡得更好"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "学习",
+        "短文"
+      ],
+      "context": "录音:很多人觉得看书没什么用,还不如直接去做。其实不是这样。书里有很多别人用一辈子总结出来的经验,我们花几天时间就能学到。读得多了,遇到问题的时候,自然就知道该怎么办了。\n问:根据这段话,看书的好处是什么?",
+      "vocabFocus": [
+        "经验",
+        "总结",
+        "自然"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l2_13.mp3"
+    },
+    {
+      "id": "h4m01_l2_14",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 14",
+      "stem": "听短文和问题,选择正确答案",
+      "prompt": "说话人想提醒大家注意什么?",
+      "explanation": "正确答案是『天热时注意身体』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "天热时注意身体"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "多穿点儿衣服"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "少出门"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "多运动"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "健康",
+        "短文"
+      ],
+      "context": "录音:天气越来越热了,提醒大家出门的时候一定要多带水,多喝水。特别是在外面活动的时候,如果觉得头疼、没力气,就要马上找个凉快的地方休息,别让自己太累。健康永远是最重要的。\n问:说话人想提醒大家注意什么?",
+      "vocabFocus": [
+        "提醒",
+        "凉快",
+        "健康"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l2_14.mp3"
+    },
+    {
+      "id": "h4m01_l2_15",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 15",
+      "stem": "听短文和问题,选择正确答案",
+      "prompt": "说话人觉得理想的工作应该是什么样的?",
+      "explanation": "正确答案是『应该是自己感兴趣的』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "只要工资高就行"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "应该是自己感兴趣的"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "越轻松越好"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "离家越近越好"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "工作",
+        "短文"
+      ],
+      "context": "录音:找工作的时候,工资当然很重要,但不应该是唯一的标准。一份理想的工作,还应该是自己感兴趣的、能让自己不断学到新东西的。如果只为了钱去做自己一点儿也不喜欢的事,时间长了,很难真正快乐。\n问:说话人觉得理想的工作应该是什么样的?",
+      "vocabFocus": [
+        "理想",
+        "工资",
+        "标准",
+        "感兴趣"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l2_15.mp3"
+    },
+    {
+      "id": "h4m01_l2_16",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 16",
+      "stem": "听短文和问题,选择正确答案",
+      "prompt": "为什么说话人建议先把房间收拾整齐?",
+      "explanation": "正确答案是『做事更专心、效率更高』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "为了让客人满意"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "为了好看"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "做事更专心、效率更高"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "因为东西太多了"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "生活",
+        "短文"
+      ],
+      "context": "录音:你有没有发现,房间乱的时候,人的心情也容易跟着乱。东西到处都是,找一样东西要花很长时间,做事自然就没办法专心。所以,在开始工作或学习之前,先花十分钟把桌子收拾整齐,你会发现效率高了很多。\n问:为什么说话人建议先把房间收拾整齐?",
+      "vocabFocus": [
+        "收拾",
+        "整齐",
+        "专心",
+        "效率"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l2_16.mp3"
+    },
+    {
+      "id": "h4m01_l2_17",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 17",
+      "stem": "听短文和问题,选择正确答案",
+      "prompt": "说话人对失败是什么态度?",
+      "explanation": "短文说『失败也是一种学习的机会』,正确答案是『失败也是学习的机会』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "失败很可怕"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "失败和成功没关系"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "失败了就放弃"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "失败也是学习的机会"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "道理",
+        "短文"
+      ],
+      "context": "录音:谁都不喜欢失败,但失败其实并不可怕。可怕的是失败以后什么都不做,也不去想为什么会失败。每一次失败,如果我们能认真找出原因,下次就能做得更好。从这个角度看,失败也是一种学习的机会。\n问:说话人对失败是什么态度?",
+      "vocabFocus": [
+        "失败",
+        "可怕",
+        "原因",
+        "机会"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l2_17.mp3"
+    },
+    {
+      "id": "h4m01_l2_18",
+      "levelCode": "hsk-4",
+      "sectionCode": "listening",
+      "questionTypeCode": "L_LONG_MC4",
+      "title": "听力·第二部分 18",
+      "stem": "听短文和问题,选择正确答案",
+      "prompt": "说话人觉得跟父母多打电话有什么意义?",
+      "explanation": "正确答案是『能让父母高兴』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "能借到钱"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "能省下路费"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "能让父母高兴"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "能学到知识"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "家庭",
+        "短文"
+      ],
+      "context": "录音:很多年轻人离开家去外地工作,平时很忙,常常忘了给父母打电话。其实,父母想要的并不多,有时候只是想听听你的声音,知道你过得好不好。所以,再忙也别忘了常常跟家里联系,哪怕只说几句话,他们也会很高兴。\n问:说话人觉得跟父母多打电话有什么意义?",
+      "vocabFocus": [
+        "外地",
+        "声音",
+        "联系"
+      ],
+      "audioUrl": "/generated/audio/hsk-4/h4m01_l2_18.mp3"
+    },
+    {
+      "id": "h4m01_r1_01",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_FILL_MC",
+      "title": "阅读·第一部分 1",
+      "stem": "选词填空",
+      "prompt": "这次考试很重要,你一定要____准备,千万别马虎。",
+      "explanation": "『准备』,正确答案是『认真』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "安静"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "热闹"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "暖和"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "认真"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "搭配",
+        "形容词"
+      ],
+      "vocabFocus": [
+        "认真",
+        "准备",
+        "马虎"
+      ]
+    },
+    {
+      "id": "h4m01_r1_02",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_FILL_MC",
+      "title": "阅读·第一部分 2",
+      "stem": "选词填空",
+      "prompt": "为了能赶上早上的火车,他们决定提前一个小时____饭店。",
+      "explanation": "为了赶火车要提前『离开』,正确答案是『离开』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "进入"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "出发"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "离开"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "参观"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "搭配",
+        "动词"
+      ],
+      "vocabFocus": [
+        "离开",
+        "提前",
+        "赶上"
+      ]
+    },
+    {
+      "id": "h4m01_r1_03",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_FILL_MC",
+      "title": "阅读·第一部分 3",
+      "stem": "选词填空",
+      "prompt": "他做事很有____,从来不会忘记重要的约会。",
+      "explanation": "『做事很有计划』,正确答案是『计划』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "计划"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "意见"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "感情"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "样子"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "搭配",
+        "名词"
+      ],
+      "vocabFocus": [
+        "计划",
+        "约会"
+      ]
+    },
+    {
+      "id": "h4m01_r1_04",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_FILL_MC",
+      "title": "阅读·第一部分 4",
+      "stem": "选词填空",
+      "prompt": "这道菜的____很特别,我从来没吃过这么好吃的鱼。",
+      "explanation": "形容菜『好吃』,正确答案是『味道』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "声音"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "味道"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "理想"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "习惯"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "搭配",
+        "名词"
+      ],
+      "vocabFocus": [
+        "味道",
+        "特别"
+      ]
+    },
+    {
+      "id": "h4m01_r1_05",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_FILL_MC",
+      "title": "阅读·第一部分 5",
+      "stem": "选词填空",
+      "prompt": "你别担心,这个问题我会想办法____的,你先去忙别的吧。",
+      "explanation": "『想办法』后面接『解决问题』,正确答案是『解决』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "举行"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "降低"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "招聘"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "解决"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "搭配",
+        "动词"
+      ],
+      "vocabFocus": [
+        "解决",
+        "问题",
+        "办法"
+      ]
+    },
+    {
+      "id": "h4m01_r1_06",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_FILL_MC",
+      "title": "阅读·第一部分 6",
+      "stem": "选词填空",
+      "prompt": "A:听说你要去上海工作了,是____的吗?\nB:是真的,下个月就走。",
+      "explanation": "B 回答『是真的』,正确答案是『真』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "厉害"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "正常"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "真"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "免费"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "对话",
+        "形容词"
+      ],
+      "vocabFocus": [
+        "真",
+        "工作"
+      ]
+    },
+    {
+      "id": "h4m01_r1_07",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_FILL_MC",
+      "title": "阅读·第一部分 7",
+      "stem": "选词填空",
+      "prompt": "A:这么重的箱子,你一个人____得动吗?\nB:没事,我力气挺大的。",
+      "explanation": "『这么重的箱子』要『拿得动』,正确答案是『拿』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "拿"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "看"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "听"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "走"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "对话",
+        "动词"
+      ],
+      "vocabFocus": [
+        "拿",
+        "箱子",
+        "力气"
+      ]
+    },
+    {
+      "id": "h4m01_r1_08",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_FILL_MC",
+      "title": "阅读·第一部分 8",
+      "stem": "选词填空",
+      "prompt": "A:你怎么这么____?会议都开始半个小时了。\nB:对不起,路上堵车了。",
+      "explanation": "正确答案是『晚』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "成功"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "饿"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "胖"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "晚"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "对话",
+        "形容词"
+      ],
+      "vocabFocus": [
+        "晚",
+        "会议",
+        "堵车"
+      ]
+    },
+    {
+      "id": "h4m01_r1_09",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_FILL_MC",
+      "title": "阅读·第一部分 9",
+      "stem": "选词填空",
+      "prompt": "A:你为什么选这个专业?\nB:因为我从小就对画画很____。",
+      "explanation": "选专业的原因是从小就对画画很『感兴趣』,正确答案是『感兴趣』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "感兴趣"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "热闹"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "麻烦"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "马虎"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "对话",
+        "搭配"
+      ],
+      "vocabFocus": [
+        "感兴趣",
+        "专业",
+        "画画"
+      ]
+    },
+    {
+      "id": "h4m01_r1_10",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_FILL_MC",
+      "title": "阅读·第一部分 10",
+      "stem": "选词填空",
+      "prompt": "A:今天的天气____多云,最高气温二十六度。\nB:那挺凉快的,适合出去走走。",
+      "explanation": "正确答案是『也许』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "差不多"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "终于"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "其实"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "也许"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "对话",
+        "副词"
+      ],
+      "vocabFocus": [
+        "也许",
+        "天气",
+        "气温"
+      ]
+    },
+    {
+      "id": "h4m01_r2_01",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分 1",
+      "stem": "读短文,选择正确答案",
+      "prompt": "关于这家公司,可以知道什么?",
+      "explanation": "短文说『公司的气氛很轻松,同事之间像朋友一样』,正确答案是『气氛很轻松』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "成立了三十年"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "气氛很轻松"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "只在一个城市"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "只有十几个人"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "短文",
+        "工作"
+      ],
+      "context": "我们公司虽然成立的时间不长,只有三年,但发展得很快。现在已经有了两百多名员工,在好几个城市都有办公室。最让大家高兴的是,公司的气氛很轻松,同事之间像朋友一样,有问题大家会互相帮助。",
+      "vocabFocus": [
+        "成立",
+        "发展",
+        "员工",
+        "气氛"
+      ]
+    },
+    {
+      "id": "h4m01_r2_02",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分 2",
+      "stem": "读短文,选择正确答案",
+      "prompt": "他为什么决定每天走路上班?",
+      "explanation": "正确答案是『走路让他精神更好』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "走路让他精神更好"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "他的车坏了"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "走路更省钱"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "公司离家很近"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "短文",
+        "生活"
+      ],
+      "context": "以前我每天开车上班,虽然只要二十分钟,但经常堵车,心情也容易变得很差。后来我发现,如果走路去,虽然要花四十分钟,但一路上能呼吸新鲜空气,看看街上的风景,到了公司反而觉得精神更好了。所以现在我决定每天走路上班。",
+      "vocabFocus": [
+        "堵车",
+        "呼吸",
+        "新鲜",
+        "精神"
+      ]
+    },
+    {
+      "id": "h4m01_r2_03",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分 3",
+      "stem": "读短文,选择正确答案",
+      "prompt": "这段话主要想告诉我们什么?",
+      "explanation": "正确答案是『想做的事要早点儿开始』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "水比时间重要"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "想做的事要早点儿开始"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "做事要慢慢来"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "年轻人没有机会"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "短文",
+        "道理"
+      ],
+      "context": "有人说,时间就像水,看起来很多,其实流得很快。年轻的时候,我们常常觉得来日方长,什么事都可以以后再做。可是等真正想做的时候才发现,机会已经没有了。所以,想做的事就要早点儿开始,别总是等。",
+      "vocabFocus": [
+        "时间",
+        "机会",
+        "来日方长"
+      ]
+    },
+    {
+      "id": "h4m01_r2_04",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分 4",
+      "stem": "读短文,选择正确答案",
+      "prompt": "作者为什么喜欢这个小城市?",
+      "explanation": "短文说小城市『生活很安静、很舒服』,正确答案是『生活安静舒服』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "高楼很多"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "生活安静舒服"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "非常热闹"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "购物很方便"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "短文",
+        "生活"
+      ],
+      "context": "我出生在一个北方的小城市。这里没有大城市那么多高楼,也没有那么热闹,但是生活很安静、很舒服。空气很好,人也很热情,街上的人见了面都会热情地打招呼。每次回到这里,我都觉得特别放松。",
+      "vocabFocus": [
+        "出生",
+        "热闹",
+        "安静",
+        "打招呼"
+      ]
+    },
+    {
+      "id": "h4m01_r2_05",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分 5",
+      "stem": "读短文,选择正确答案",
+      "prompt": "根据这段话,养成好习惯的关键是什么?",
+      "explanation": "短文说养成习惯最难的是『坚持』,正确答案是『坚持、不轻易放弃』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "坚持、不轻易放弃"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "有一个好的开始"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "有人帮助"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "选最简单的事"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "短文",
+        "道理"
+      ],
+      "context": "想养成一个好习惯,最难的不是开始,而是坚持。很多人决定每天早起、每天运动,可是过了几天就放弃了。其实,只要能坚持二十一天,这件事就会慢慢变成习惯,做起来也就没那么难了。所以,关键是别轻易放弃。",
+      "vocabFocus": [
+        "习惯",
+        "坚持",
+        "放弃"
+      ]
+    },
+    {
+      "id": "h4m01_r2_06",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分 6",
+      "stem": "读短文,选择正确答案",
+      "prompt": "关于这个手机软件,可以知道什么?",
+      "explanation": "短文说这个软件『会根据你的水平,每天给你安排合适的内容』,正确答案是『能根据水平安排内容』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "只能用来听音乐"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "要花很多钱"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "内容太难了"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "能根据水平安排内容"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "短文",
+        "学习"
+      ],
+      "context": "最近我下载了一个学外语的手机软件,觉得特别好用。它会根据你的水平,每天给你安排合适的内容,不会太难也不会太简单。而且每学完一课,它都会让你做几个小练习,帮你记住学过的词。用了一个月,我觉得自己进步了不少。",
+      "vocabFocus": [
+        "下载",
+        "软件",
+        "水平",
+        "练习"
+      ]
+    },
+    {
+      "id": "h4m01_r2_07",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分 7",
+      "stem": "读短文,选择正确答案",
+      "prompt": "妈妈为什么表扬小明?",
+      "explanation": "正确答案是『他帮妈妈做家务』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "他考试考得好"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "他早早回了家"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "他帮妈妈做家务"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "他买了礼物"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "短文",
+        "家庭"
+      ],
+      "context": "今天小明放学回家,看见妈妈正在打扫房间,又累又忙。他什么也没说,放下书包就去厨房,帮妈妈洗了碗,还把垃圾拿了出去。妈妈看见了,很高兴地说:你长大了,知道帮妈妈做事了,真是个好孩子。",
+      "vocabFocus": [
+        "打扫",
+        "厨房",
+        "垃圾",
+        "长大"
+      ]
+    },
+    {
+      "id": "h4m01_r2_08",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分 8",
+      "stem": "读短文,选择正确答案",
+      "prompt": "这段话告诉我们应该怎样听别人说话?",
+      "explanation": "正确答案是『要耐心听对方说完』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "要耐心听对方说完"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "要常常打断对方"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "聊天越快越好"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "要多说自己的事"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "短文",
+        "道理"
+      ],
+      "context": "和别人聊天的时候,有的人总是急着说自己的事,别人还没说完,就打断对方。这样做其实很不礼貌。一个会聊天的人,往往更会听。耐心地听别人把话说完,不但能更好地理解对方,也会让对方觉得受到了尊重。",
+      "vocabFocus": [
+        "聊天",
+        "打断",
+        "礼貌",
+        "尊重"
+      ]
+    },
+    {
+      "id": "h4m01_r2_09",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分 9",
+      "stem": "读短文,选择正确答案",
+      "prompt": "作者建议年轻人怎么花钱?",
+      "explanation": "正确答案是『把钱花在重要的地方』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "多向别人借钱"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "想买什么就买什么"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "一分钱都别花"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "把钱花在重要的地方"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "短文",
+        "生活"
+      ],
+      "context": "有些年轻人刚工作不久,工资不高,却喜欢买很贵的东西,常常月底就没钱了。其实,会花钱和会赚钱一样重要。买东西之前先想一想,这个东西是不是真的需要。把钱花在重要的地方,生活才不会有太大的压力。",
+      "vocabFocus": [
+        "工资",
+        "需要",
+        "压力"
+      ]
+    },
+    {
+      "id": "h4m01_r2_10",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分 10",
+      "stem": "读短文,选择正确答案",
+      "prompt": "关于这次活动,可以知道什么?",
+      "explanation": "正确答案是『需要提前报名』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "需要提前报名"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "下周日举办"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "要花很多钱"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "只能看不能参加"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "短文",
+        "活动"
+      ],
+      "context": "为了让大家多了解中国文化,我们学校下周六要举办一个活动。那天会有人教大家写毛笔字、包饺子,还能听到好听的中国音乐。活动是免费的,但因为地方有限,想参加的同学要提前报名,先报名的先得。",
+      "vocabFocus": [
+        "文化",
+        "举办",
+        "报名",
+        "免费"
+      ]
+    },
+    {
+      "id": "h4m01_r2_11",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分 11",
+      "stem": "读短文,选择正确答案",
+      "prompt": "这段话主要在说什么?",
+      "explanation": "正确答案是『多笑对身体好』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "多笑对身体好"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "笑会让人变老"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "研究很难做"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "不开心是正常的"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "短文",
+        "健康"
+      ],
+      "context": "笑一笑,十年少。这句老话是有道理的。研究发现,经常笑的人,身体往往更健康,心情也更好。即使遇到不开心的事,试着笑一笑,也能让自己慢慢轻松起来。所以,别忘了每天多给自己一个微笑。",
+      "vocabFocus": [
+        "道理",
+        "研究",
+        "健康",
+        "微笑"
+      ]
+    },
+    {
+      "id": "h4m01_r2_12",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分 12",
+      "stem": "读短文,选择正确答案",
+      "prompt": "作者觉得做菜最重要的是什么?",
+      "explanation": "妈妈说做菜『最重要的不是放多少调料,而是用心』,正确答案是『用心去做』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "用最好的锅"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "放很多调料"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "用心去做"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "做得越快越好"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "短文",
+        "生活"
+      ],
+      "context": "我妈妈做的菜特别好吃,我一直想学,可总是做不出那个味道。后来妈妈告诉我，做菜其实没有那么复杂，最重要的不是放多少调料，而是用心。只要你愿意花时间，认真去做，做出来的菜就会越来越好。",
+      "vocabFocus": [
+        "味道",
+        "复杂",
+        "调料",
+        "用心"
+      ]
+    },
+    {
+      "id": "h4m01_r2_13",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分 13",
+      "stem": "读短文,选择正确答案",
+      "prompt": "关于这场雨,可以知道什么?",
+      "explanation": "正确答案是『晚上才下起来』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "一整天都在下"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "根本没下"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "下午才停"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "晚上才下起来"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "短文",
+        "天气"
+      ],
+      "context": "昨天的天气预报说今天有大雨,我特意带了伞。可是一整天都没下,到了晚上下班的时候,天还是好好的。没想到刚走到家门口,雨突然下了起来,而且越下越大。还好我的伞一直带在身上,没被淋湿。",
+      "vocabFocus": [
+        "天气预报",
+        "特意",
+        "突然",
+        "淋湿"
+      ]
+    },
+    {
+      "id": "h4m01_r2_14",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分 14",
+      "stem": "读短文,选择正确答案",
+      "prompt": "这段话告诉我们,遇到困难时应该怎么办?",
+      "explanation": "正确答案是『改变面对困难的态度』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "马上停下来"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "假装没看见"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "请别人替自己做"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "改变面对困难的态度"
+        }
+      ],
+      "correctOptionId": "D",
+      "tags": [
+        "短文",
+        "道理"
+      ],
+      "context": "在工作和生活中,我们难免会遇到一些困难。这时候,有的人会因为害怕而停下来,有的人却会想:这正是一个让自己变得更强的机会。其实,困难本身并不可怕,真正决定结果的,是我们面对困难时的态度。",
+      "vocabFocus": [
+        "困难",
+        "害怕",
+        "机会",
+        "态度"
+      ]
+    },
+    {
+      "id": "h4m01_r2_15",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_TEXT_MC4",
+      "title": "阅读·第二部分 15",
+      "stem": "读短文,选择正确答案",
+      "prompt": "作者通过养花明白了什么?",
+      "explanation": "养花让作者明白『有些美好的东西,是需要时间慢慢等待的』,正确答案是『好东西需要时间等待』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "花儿很贵"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "养花很麻烦"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "好东西需要时间等待"
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "text": "晒太阳对身体好"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "短文",
+        "道理"
+      ],
+      "context": "我以前是个很没耐心的人,总希望什么都能马上看到结果。自从开始养花以后,我慢慢变了。花儿不会因为你着急就开得更快,它需要你每天浇水、晒太阳,耐心地等。养花让我明白,有些美好的东西,是需要时间慢慢等待的。",
+      "vocabFocus": [
+        "耐心",
+        "结果",
+        "浇水",
+        "等待"
+      ]
+    },
+    {
+      "id": "h4m01_r3_01",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_FILL_CONTEXT",
+      "title": "阅读·第三部分 1",
+      "stem": "选择最合适的句子填入空白处",
+      "prompt": "周末,我打算和几个朋友一起去爬山。( 1 )所以我们决定早点儿出发,争取在中午之前爬到山顶。山上空气新鲜,风景也很美,大家都很期待这次活动。",
+      "explanation": "后文说『决定早点儿出发,争取中午之前爬到山顶』,正确答案是『听说山上下午常常会下雨,』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "我最近一直在加班,"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "那家饭馆的菜很好吃,"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "听说山上下午常常会下雨,"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "语段",
+        "衔接"
+      ],
+      "vocabFocus": [
+        "爬山",
+        "出发",
+        "山顶",
+        "新鲜"
+      ]
+    },
+    {
+      "id": "h4m01_r3_02",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_FILL_CONTEXT",
+      "title": "阅读·第三部分 2",
+      "stem": "选择最合适的句子填入空白处",
+      "prompt": "学外语的时候,很多人最担心的就是发音不好。( 2 )这样,你不但能发现自己哪里说得不对,还能慢慢学会正确的读法,口语自然会越来越好。",
+      "explanation": "后文说『能发现自己哪里说得不对』『学会正确的读法』,正确答案是『一个好办法是把自己说的话录下来，再听一听，』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "所以，最好不要开口说话，"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "其实，背单词是最没用的，"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "一个好办法是把自己说的话录下来，再听一听，"
+        }
+      ],
+      "correctOptionId": "C",
+      "tags": [
+        "语段",
+        "学习"
+      ],
+      "vocabFocus": [
+        "发音",
+        "录",
+        "口语"
+      ]
+    },
+    {
+      "id": "h4m01_r3_03",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_FILL_CONTEXT",
+      "title": "阅读·第三部分 3",
+      "stem": "选择最合适的句子填入空白处",
+      "prompt": "我家的小狗很聪明。每天我下班还没到家,它就好像知道我快回来了,早早地跑到门口等着。( 3 )看到它这么高兴,我一天的累也没有了。",
+      "explanation": "正确答案是『门一开，它就高兴地跑过来，』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "门一开，它就高兴地跑过来，"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "它从来不喜欢出门，"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "我打算把它送给别人，"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "语段",
+        "生活"
+      ],
+      "vocabFocus": [
+        "聪明",
+        "门口",
+        "高兴"
+      ]
+    },
+    {
+      "id": "h4m01_r3_04",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_FILL_CONTEXT",
+      "title": "阅读·第三部分 4",
+      "stem": "选择最合适的句子填入空白处",
+      "prompt": "这家书店和别的书店不太一样。( 4 )你可以一边喝着咖啡,一边安安静静地看书,累了还能坐下来休息一会儿。正因为这样,它成了很多人周末最喜欢去的地方。",
+      "explanation": "后文说『一边喝着咖啡,一边看书』,正确答案是『店里不但卖书，还开了一个小小的咖啡馆，』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "店里不但卖书，还开了一个小小的咖啡馆，"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "这里的书又旧又少，"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "晚上九点就关门了，"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "语段",
+        "生活"
+      ],
+      "vocabFocus": [
+        "书店",
+        "咖啡",
+        "安静"
+      ]
+    },
+    {
+      "id": "h4m01_r3_05",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_FILL_CONTEXT",
+      "title": "阅读·第三部分 5",
+      "stem": "选择最合适的句子填入空白处",
+      "prompt": "刚来这个城市的时候,我一个朋友也没有,常常觉得很孤单。( 5 )慢慢地,我认识了很多人,也喜欢上了这个地方。现在想起来,真应该谢谢那个第一个对我说话的同事。",
+      "explanation": "正确答案是『后来，一位热心的同事主动带我熟悉环境、介绍朋友，』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "这个城市的天气特别冷，"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "后来，一位热心的同事主动带我熟悉环境、介绍朋友，"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "我一直都不想跟别人说话，"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "语段",
+        "生活"
+      ],
+      "vocabFocus": [
+        "孤单",
+        "热心",
+        "主动",
+        "环境"
+      ]
+    },
+    {
+      "id": "h4m01_r3_06",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_FILL_CONTEXT",
+      "title": "阅读·第三部分 6",
+      "stem": "选择最合适的句子填入空白处",
+      "prompt": "很多人觉得运动一定要去健身房,其实不是这样。( 6 )只要你愿意动起来,每天坚持一点儿,身体就会慢慢变好,根本不需要花很多钱。",
+      "explanation": "正确答案是『在家做做运动、出门多走走路，一样能锻炼身体，』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "在家做做运动、出门多走走路，一样能锻炼身体，"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "健身房的费用其实很便宜，"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "运动其实对身体没什么好处，"
+        }
+      ],
+      "correctOptionId": "A",
+      "tags": [
+        "语段",
+        "健康"
+      ],
+      "vocabFocus": [
+        "运动",
+        "健身房",
+        "坚持",
+        "锻炼"
+      ]
+    },
+    {
+      "id": "h4m01_r3_07",
+      "levelCode": "hsk-4",
+      "sectionCode": "reading",
+      "questionTypeCode": "R_SENT_FILL_CONTEXT",
+      "title": "阅读·第三部分 7",
+      "stem": "选择最合适的句子填入空白处",
+      "prompt": "小王是我们公司有名的热心人。不管谁遇到困难,只要找他帮忙,他从来不会拒绝。( 7 )所以,大家都很喜欢他,有什么事也都愿意跟他说。",
+      "explanation": "正确答案是『就算自己再忙，他也会想办法抽时间帮别人，』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "他做事总是很马虎，"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "就算自己再忙，他也会想办法抽时间帮别人，"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "他几乎不跟同事说话，"
+        }
+      ],
+      "correctOptionId": "B",
+      "tags": [
+        "语段",
+        "工作"
+      ],
+      "vocabFocus": [
+        "热心",
+        "拒绝",
+        "抽时间"
+      ]
+    },
+    {
+      "id": "h4m01_w1_01",
+      "levelCode": "hsk-4",
+      "sectionCode": "writing",
+      "questionTypeCode": "W_IMG_WORD_SENT",
+      "title": "书写·第一部分 1",
+      "stem": "看图,用所给词语写一句话",
+      "prompt": "请结合图片,用『锻炼』写一句话。",
+      "explanation": "图片是一位女士在公园跑步锻炼,需用『锻炼』造一个完整、通顺的句子,如『她每天早上都去公园锻炼』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [],
+      "correctOptionId": "",
+      "tags": [
+        "书写",
+        "造句"
+      ],
+      "vocabFocus": [
+        "锻炼"
+      ],
+      "answerText": "为了身体健康,她每天早上都会去公园锻炼。",
+      "imageUrl": "/generated/images/hsk-4/h4m01_w1_01.png"
+    },
+    {
+      "id": "h4m01_w1_02",
+      "levelCode": "hsk-4",
+      "sectionCode": "writing",
+      "questionTypeCode": "W_IMG_WORD_SENT",
+      "title": "书写·第一部分 2",
+      "stem": "看图,用所给词语写一句话",
+      "prompt": "请结合图片,用『讨论』写一句话。",
+      "explanation": "图片是几个同事在开会交流,需用『讨论』造句,如『大家在会议室里讨论问题』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [],
+      "correctOptionId": "",
+      "tags": [
+        "书写",
+        "造句"
+      ],
+      "vocabFocus": [
+        "讨论"
+      ],
+      "answerText": "他们正在会议室里认真讨论这个新的计划。",
+      "imageUrl": "/generated/images/hsk-4/h4m01_w1_02.png"
+    },
+    {
+      "id": "h4m01_w1_03",
+      "levelCode": "hsk-4",
+      "sectionCode": "writing",
+      "questionTypeCode": "W_IMG_WORD_SENT",
+      "title": "书写·第一部分 3",
+      "stem": "看图,用所给词语写一句话",
+      "prompt": "请结合图片,用『礼物』写一句话。",
+      "explanation": "图片是孩子把礼物送给妈妈,需用『礼物』造句,如『他给妈妈准备了一份礼物』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [],
+      "correctOptionId": "",
+      "tags": [
+        "书写",
+        "造句"
+      ],
+      "vocabFocus": [
+        "礼物"
+      ],
+      "answerText": "生日那天,他送给妈妈一份特别的礼物。",
+      "imageUrl": "/generated/images/hsk-4/h4m01_w1_03.png"
+    },
+    {
+      "id": "h4m01_w1_04",
+      "levelCode": "hsk-4",
+      "sectionCode": "writing",
+      "questionTypeCode": "W_IMG_WORD_SENT",
+      "title": "书写·第一部分 4",
+      "stem": "看图,用所给词语写一句话",
+      "prompt": "请结合图片,用『打扫』写一句话。",
+      "explanation": "图片是一个人在打扫房间,需用『打扫』造句,如『他正在打扫房间』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [],
+      "correctOptionId": "",
+      "tags": [
+        "书写",
+        "造句"
+      ],
+      "vocabFocus": [
+        "打扫"
+      ],
+      "answerText": "每个周末,他都会把房间打扫得干干净净。",
+      "imageUrl": "/generated/images/hsk-4/h4m01_w1_04.png"
+    },
+    {
+      "id": "h4m01_w1_05",
+      "levelCode": "hsk-4",
+      "sectionCode": "writing",
+      "questionTypeCode": "W_IMG_WORD_SENT",
+      "title": "书写·第一部分 5",
+      "stem": "看图,用所给词语写一句话",
+      "prompt": "请结合图片,用『地图』写一句话。",
+      "explanation": "图片是两个旅行者在看地图找路,需用『地图』造句,如『他们正在看地图』。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [],
+      "correctOptionId": "",
+      "tags": [
+        "书写",
+        "造句"
+      ],
+      "vocabFocus": [
+        "地图"
+      ],
+      "answerText": "我们一边看地图,一边找去车站的路。",
+      "imageUrl": "/generated/images/hsk-4/h4m01_w1_05.png"
+    },
+    {
+      "id": "h4m01_w2_01",
+      "levelCode": "hsk-4",
+      "sectionCode": "writing",
+      "questionTypeCode": "W_IMG_WORD_PARA",
+      "title": "书写·第二部分 1",
+      "stem": "结合图片或题目,写一篇不少于80字的短文",
+      "prompt": "请结合下面的图片,以『一次难忘的旅行』为题,写一篇不少于80字的短文。",
+      "explanation": "命题作文要点:围绕『难忘的旅行』,结合图中一家人外出旅行的场景,写清楚旅行的时间、地点、经过和感受,字数不少于80字,结构完整、语句连贯即可。",
+      "reviewStatus": "approved",
+      "publishStatus": "published",
+      "sourceType": "original",
+      "copyrightCleared": true,
+      "options": [],
+      "correctOptionId": "",
+      "tags": [
+        "书写",
+        "作文"
+      ],
+      "vocabFocus": [
+        "旅行",
+        "难忘",
+        "风景",
+        "感受"
+      ],
+      "answerText": "参考思路:可按『时间、地点、和谁去、做了什么、感受』的顺序展开。例如:开头交代去年暑假和家人去爬了一座有名的山;中间写一路上看到的美丽风景、爬山时的辛苦和互相鼓励;结尾写到达山顶时的高兴心情,以及这次旅行让自己难忘的原因。注意字数不少于80字,语句通顺,适当使用『不但……而且……』『虽然……但是……』等连接词。",
+      "imageUrl": "/generated/images/hsk-4/h4m01_w2_01.png"
+    }
+  ],
+  "sets": [
+    {
+      "id": "set_hsk4_ai_mock_01",
+      "slug": "hsk4-ai-mock-01",
+      "title": "HSK4 AI 全真模考 01",
+      "description": "content-engine 自动生产的完整 HSK4 笔试模拟卷,严格对齐官方 HSK 4 笔试结构(官方PDF校准):听力 32 题(听对话/短文选择,四选一,全部配 Minimax 真人音频)+ 阅读 32 题(选词填空、短文理解、语段填句)+ 书写 6 题(看图用词造句 5 题 + 命题作文 1 题,均为主观题待人工判分),共 70 题,约 85 分钟。用词控制在 HSK4 累计 2000 词范围内。",
+      "levelCode": "hsk-4",
+      "mode": "mock_exam",
+      "access": "free",
+      "minutes": 85,
+      "itemIds": [
+        "h4m01_l1_01",
+        "h4m01_l1_02",
+        "h4m01_l1_03",
+        "h4m01_l1_04",
+        "h4m01_l1_05",
+        "h4m01_l1_06",
+        "h4m01_l1_07",
+        "h4m01_l1_08",
+        "h4m01_l1_09",
+        "h4m01_l1_10",
+        "h4m01_l1_11",
+        "h4m01_l1_12",
+        "h4m01_l1_13",
+        "h4m01_l1_14",
+        "h4m01_l2_01",
+        "h4m01_l2_02",
+        "h4m01_l2_03",
+        "h4m01_l2_04",
+        "h4m01_l2_05",
+        "h4m01_l2_06",
+        "h4m01_l2_07",
+        "h4m01_l2_08",
+        "h4m01_l2_09",
+        "h4m01_l2_10",
+        "h4m01_l2_11",
+        "h4m01_l2_12",
+        "h4m01_l2_13",
+        "h4m01_l2_14",
+        "h4m01_l2_15",
+        "h4m01_l2_16",
+        "h4m01_l2_17",
+        "h4m01_l2_18",
+        "h4m01_r1_01",
+        "h4m01_r1_02",
+        "h4m01_r1_03",
+        "h4m01_r1_04",
+        "h4m01_r1_05",
+        "h4m01_r1_06",
+        "h4m01_r1_07",
+        "h4m01_r1_08",
+        "h4m01_r1_09",
+        "h4m01_r1_10",
+        "h4m01_r2_01",
+        "h4m01_r2_02",
+        "h4m01_r2_03",
+        "h4m01_r2_04",
+        "h4m01_r2_05",
+        "h4m01_r2_06",
+        "h4m01_r2_07",
+        "h4m01_r2_08",
+        "h4m01_r2_09",
+        "h4m01_r2_10",
+        "h4m01_r2_11",
+        "h4m01_r2_12",
+        "h4m01_r2_13",
+        "h4m01_r2_14",
+        "h4m01_r2_15",
+        "h4m01_r3_01",
+        "h4m01_r3_02",
+        "h4m01_r3_03",
+        "h4m01_r3_04",
+        "h4m01_r3_05",
+        "h4m01_r3_06",
+        "h4m01_r3_07",
+        "h4m01_w1_01",
+        "h4m01_w1_02",
+        "h4m01_w1_03",
+        "h4m01_w1_04",
+        "h4m01_w1_05",
+        "h4m01_w2_01"
+      ]
+    }
+  ]
+}

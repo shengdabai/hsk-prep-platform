@@ -1,40 +1,408 @@
 @import "tailwindcss";
 
+/* ─── Brand & Surface Tokens ─────────────────────────────────────────────── */
 :root {
-  --background: #f3ede4;
-  --foreground: #1d140e;
-  --brand: #9f3215;
-  --brand-soft: #fff2df;
+  /* Brand */
+  --brand:        #9f3215;
+  --brand-dark:   #7a2410;
+  --brand-light:  #c4491e;
+  --brand-soft:   #fff2df;
+  --brand-muted:  #fde8cc;
+
+  /* Surfaces */
+  --bg:           #f5ede2;
+  --bg-subtle:    #f0e6d8;
+  --bg-raised:    #faf5ee;
+  --bg-overlay:   rgba(250, 245, 238, 0.92);
+  --surface:      rgba(255, 255, 255, 0.72);
+  --surface-border: rgba(29, 20, 14, 0.09);
+  --surface-border-strong: rgba(29, 20, 14, 0.18);
+
+  /* Text */
+  --foreground:   #1d140e;
+  --text-secondary: #6b5c52;
+  --text-tertiary:  #9c8b80;
+
+  /* Functional */
+  --background:   var(--bg);
+  --radius-sm:    0.5rem;
+  --radius-md:    1rem;
+  --radius-lg:    1.5rem;
+  --radius-xl:    2rem;
+  --radius-pill:  9999px;
+
+  /* Shadows */
+  --shadow-xs:    0 1px 2px rgba(29, 20, 14, 0.06);
+  --shadow-sm:    0 2px 8px rgba(29, 20, 14, 0.08), 0 1px 2px rgba(29, 20, 14, 0.04);
+  --shadow-md:    0 4px 16px rgba(29, 20, 14, 0.10), 0 2px 4px rgba(29, 20, 14, 0.06);
+  --shadow-lg:    0 12px 40px rgba(29, 20, 14, 0.13), 0 4px 8px rgba(29, 20, 14, 0.06);
+  --shadow-xl:    0 24px 80px rgba(71, 28, 10, 0.18), 0 8px 20px rgba(71, 28, 10, 0.08);
+  --shadow-brand: 0 8px 32px rgba(159, 50, 21, 0.28), 0 2px 8px rgba(159, 50, 21, 0.14);
+
+  /* Spacing scale */
+  --space-1:  0.25rem;
+  --space-2:  0.5rem;
+  --space-3:  0.75rem;
+  --space-4:  1rem;
+  --space-5:  1.25rem;
+  --space-6:  1.5rem;
+  --space-8:  2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  /* Type scale */
+  --text-xs:   0.6875rem;
+  --text-sm:   0.875rem;
+  --text-base: 1rem;
+  --text-lg:   1.125rem;
+  --text-xl:   1.25rem;
+  --text-2xl:  1.5rem;
+  --text-3xl:  1.875rem;
+  --text-4xl:  2.25rem;
+  --text-5xl:  3rem;
+  --text-6xl:  3.75rem;
+  --text-7xl:  4.5rem;
+  --text-display: clamp(3rem, 7vw, 5.5rem);
 }
 
+/* ─── Tailwind Theme Bridge ──────────────────────────────────────────────── */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: "Avenir Next", "Segoe UI", "Helvetica Neue", sans-serif;
-  --font-display: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
+  --color-background:   var(--background);
+  --color-foreground:   var(--foreground);
+  --font-sans:          "Avenir Next", "Segoe UI", "Helvetica Neue", sans-serif;
+  --font-display:       "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
+}
+
+/* ─── Base ───────────────────────────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-sans), sans-serif;
+  font-size: var(--text-base);
+  line-height: 1.6;
+  min-height: 100dvh;
 }
 
-h1,
-h2,
-h3,
-h4 {
+h1, h2, h3, h4 {
   font-family: var(--font-display), serif;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-* {
-  box-sizing: border-box;
+  letter-spacing: -0.02em;
+  line-height: 1.12;
+  color: var(--foreground);
 }
 
 ::selection {
   background: rgba(159, 50, 21, 0.16);
+  color: var(--foreground);
+}
+
+/* ─── Utility: Design Tokens ─────────────────────────────────────────────── */
+
+/* Surfaces */
+.surface {
+  background: var(--surface);
+  border: 1px solid var(--surface-border);
+  border-radius: var(--radius-xl);
+}
+
+.surface-raised {
+  background: var(--bg-raised);
+  border: 1px solid var(--surface-border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--surface-border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-8);
+  box-shadow: var(--shadow-xs);
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--surface-border-strong);
+}
+
+.card-brand {
+  background: linear-gradient(145deg, #3e1309, #8e2d13 42%, #c44820 100%);
+  border-radius: var(--radius-xl);
+  padding: var(--space-8);
+  color: var(--brand-soft);
+  box-shadow: var(--shadow-brand);
+}
+
+/* Eyebrow label */
+.eyebrow {
+  font-family: var(--font-sans), sans-serif;
+  font-size: var(--text-xs);
+  font-weight: 500;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+}
+
+/* Divider */
+.divider {
+  border: none;
+  border-top: 1px solid var(--surface-border);
+}
+
+/* Badge */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--surface-border);
+  background: var(--surface);
+  padding: 0.3rem 0.875rem;
+  font-size: var(--text-xs);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.badge-brand {
+  background: rgba(159, 50, 21, 0.08);
+  border-color: rgba(159, 50, 21, 0.2);
+  color: var(--brand);
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-pill);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  font-family: var(--font-sans);
+  padding: 0.625rem 1.5rem;
+  transition: all 0.18s ease;
+  cursor: pointer;
+  white-space: nowrap;
+  line-height: 1;
+  letter-spacing: 0.01em;
+}
+
+.btn-primary {
+  background: var(--brand);
+  color: var(--brand-soft);
+  box-shadow: var(--shadow-brand);
+}
+
+.btn-primary:hover {
+  background: var(--brand-light);
+  box-shadow: 0 10px 36px rgba(159, 50, 21, 0.36), 0 2px 8px rgba(159, 50, 21, 0.18);
+  transform: translateY(-1px);
+}
+
+.btn-primary:active {
+  transform: translateY(0);
+  box-shadow: var(--shadow-brand);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--foreground);
+  border: 1px solid var(--surface-border-strong);
+}
+
+.btn-ghost:hover {
+  background: var(--surface);
+  border-color: rgba(29, 20, 14, 0.28);
+}
+
+.btn-ghost-soft {
+  background: rgba(255, 255, 255, 0.5);
+  color: var(--text-secondary);
+  border: 1px solid var(--surface-border);
+}
+
+.btn-ghost-soft:hover {
+  background: rgba(255, 255, 255, 0.8);
+  color: var(--foreground);
+}
+
+/* Status badges */
+.status-live {
+  background: rgba(22, 163, 74, 0.1);
+  border: 1px solid rgba(22, 163, 74, 0.25);
+  color: #166534;
+  border-radius: var(--radius-pill);
+  padding: 0.2rem 0.65rem;
+  font-size: var(--text-xs);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.status-soon {
+  background: rgba(29, 20, 14, 0.05);
+  border: 1px solid var(--surface-border);
+  color: var(--text-tertiary);
+  border-radius: var(--radius-pill);
+  padding: 0.2rem 0.65rem;
+  font-size: var(--text-xs);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Stat display */
+.stat-value {
+  font-family: var(--font-display), serif;
+  font-size: var(--text-4xl);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  color: var(--foreground);
+}
+
+.stat-label {
+  font-size: var(--text-xs);
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+  margin-top: 0.5rem;
+}
+
+/* Feature check list */
+.feature-list {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.feature-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.625rem;
+  font-size: var(--text-sm);
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+.feature-list li::before {
+  content: "✓";
+  flex-shrink: 0;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--brand);
+  margin-top: 0.1em;
+}
+
+.feature-list-inv li {
+  color: rgba(255, 242, 223, 0.75);
+}
+
+.feature-list-inv li::before {
+  color: rgba(255, 242, 223, 0.9);
+}
+
+/* Section layout helpers */
+.section {
+  padding-block: var(--space-20);
+}
+
+.section-inner {
+  margin-inline: auto;
+  max-width: 88rem;
+  padding-inline: var(--space-6);
+}
+
+@media (min-width: 1024px) {
+  .section-inner {
+    padding-inline: var(--space-10);
+  }
+}
+
+/* Page hero gradient bg */
+.hero-gradient {
+  background: radial-gradient(ellipse 80% 50% at 10% -10%, rgba(196, 73, 30, 0.08) 0%, transparent 60%),
+              radial-gradient(ellipse 60% 40% at 90% 5%,  rgba(222, 150, 80, 0.10) 0%, transparent 55%),
+              linear-gradient(180deg, var(--bg-raised) 0%, var(--bg) 60%, var(--bg-subtle) 100%);
+}
+
+/* Subtle noise texture overlay */
+.noise::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Pricing card highlight ring */
+.pricing-recommended {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
+
+/* Separator with label */
+.sep-label {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: var(--text-xs);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+}
+
+.sep-label::before,
+.sep-label::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--surface-border);
+}
+
+/* Responsive page wrapper max-width */
+.page-wrapper {
+  margin-inline: auto;
+  max-width: 88rem;
+  padding-inline: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  .page-wrapper {
+    padding-inline: 2.5rem;
+  }
+}
+
+/* Focus visible ring */
+:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Smooth link transitions */
+a {
+  transition: color 0.15s ease, opacity 0.15s ease;
 }
