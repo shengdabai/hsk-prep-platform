@@ -3,7 +3,7 @@ import { redirect } from "next/navigation";
 import { getRepository } from "@hsk/db";
 
 import { requireUser } from "@/lib/auth";
-import { getSanitizedSetItems } from "@/lib/view-models";
+import { getSessionViewItems } from "@/lib/view-models";
 import { SessionRunner } from "@/components/session-runner";
 import { SiteShell } from "@/components/site-shell";
 
@@ -21,7 +21,10 @@ export default async function SessionPage({
     redirect("/practice/mock-exams");
   }
 
-  const questions = await getSanitizedSetItems(session.setId);
+  // HIGH-1:从该会话快照渲染(与 answer/submit API 同源),避免页面用实时题集、
+  // 评分用快照导致的不一致。已提交会话用 submitted 视图补回正解/解析。
+  const submitted = session.status === "submitted";
+  const questions = await getSessionViewItems(session.id, session.setId, submitted);
 
   return (
     <SiteShell user={user}>

@@ -4,9 +4,9 @@ import { join } from "node:path";
 
 import {
   computeReportDimensions,
+  computeSectionBreakdown,
   gradeResponse,
   initialSrsState,
-  isAutoGradable,
   isMistakeDue,
   levels,
   sampleItems,
@@ -193,14 +193,6 @@ function matchSet(setIdOrSlug: string, set: PracticeSet) {
   return set.id === setIdOrSlug || set.slug === setIdOrSlug;
 }
 
-function scoreSection(items: ContentItem[], answers: Record<string, string>, sectionCode: "listening" | "reading") {
-  const relevant = items.filter((item) => item.sectionCode === sectionCode);
-  const correct = relevant.filter((item) => gradeResponse(item, answers[item.id]) === "correct").length;
-  // total 只算可自动判分的题(主观书写/口语不计入分母)。
-  const total = relevant.filter((item) => isAutoGradable(item)).length;
-  return { sectionCode, correct, total };
-}
-
 export const mockRepository: Repository = {
   async getLevels() {
     return levels;
@@ -259,6 +251,10 @@ export const mockRepository: Repository = {
     if (!session) {
       return null;
     }
+    // HIGH-3 对称:已提交会话拒绝写入(与 supabase 同语义),返回当前态不改答案。
+    if (session.status === "submitted") {
+      return session;
+    }
     session.answers[itemId] = optionId;
     getStore().sessions.set(sessionId, session);
     return session;
@@ -307,10 +303,9 @@ export const mockRepository: Repository = {
           yourAnswer: session.answers[item.id] ?? null,
           correctAnswer: item.correctOptionId,
         })),
-      sectionBreakdown: [
-        scoreSection(items, session.answers, "listening"),
-        scoreSection(items, session.answers, "reading"),
-      ],
+      // 按卷面实际出现的 section 通用聚合(支持 HSK4-9 写作/口语/翻译分区),
+      // 不再硬编码 listening+reading。与 supabase 共用同一纯函数。
+      sectionBreakdown: computeSectionBreakdown(items, session.answers),
       // 多维报告:按 skill/sectionCode、题型、标签聚合(与 supabase 共用同一纯函数)。
       dimensions: computeReportDimensions(items, session.answers),
       createdAt: new Date().toISOString(),
@@ -327,7 +322,21 @@ export const mockRepository: Repository = {
         items.find((i) => i.id === mistake.itemId) ??
         getStore().items.get(mistake.itemId);
       if (!item) continue;
-      // 错题首次入库即初始化 SRS:dueAt = 今日(report.createdAt),easeFactor = 2.5。
+      // 错题本契约对称(与 supabase upsert(onConflict: profile_id,content_item_id) 一致):
+      // 每个 (user,item) 至多一行。重复做错同一题不再插入新行 —— 更新 last_seen
+      // (createdAt 锚点)并**保留已有 SRS 进度**,与 supabase 的 upsert(不携带 SRS 列)
+      // 完全同语义。仅首次入库才初始化 SRS(dueAt = 今日,easeFactor = 2.5)。
+      const existing = [...getStore().mistakes.values()].find(
+        (m) => m.userId === session.userId && m.itemId === item.id,
+      );
+      if (existing) {
+        getStore().mistakes.set(existing.id, {
+          ...existing,
+          setSlug: session.setSlug,
+          createdAt: report.createdAt,
+        });
+        continue;
+      }
       const srs = initialSrsState(report.createdAt);
       const entry: MistakeEntry = {
         id: randomUUID(),
@@ -377,6 +386,12 @@ export const mockRepository: Repository = {
     );
     if (!entry) {
       return null;
+    }
+    // SRS 幂等(去重复提交 / 防双击叠加 interval):仅当该错题当前到期时才推进调度。
+    // 已复习过本周期(dueAt 在未来)→ 重复提交不再二次推进,直接返回当前态。
+    // 与 supabase 同语义,避免一次复习被重放成多次推进。
+    if (!isMistakeDue(entry)) {
+      return entry;
     }
     const srs = scheduleSrs(entry, grade);
     const next: MistakeEntry = {

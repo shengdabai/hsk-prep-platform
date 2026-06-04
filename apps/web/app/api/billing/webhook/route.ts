@@ -4,6 +4,8 @@ import Stripe from "stripe";
 import { getRepository } from "@hsk/db";
 import type { PlanCode, SubscriptionStatus } from "@hsk/shared";
 
+import { markStripeEventOnce } from "@/lib/stripe-event-dedup";
+
 function mapStripeStatus(status: Stripe.Subscription.Status): SubscriptionStatus {
   switch (status) {
     case "active":
@@ -71,6 +73,12 @@ export async function POST(request: Request) {
       { error: error instanceof Error ? error.message : "Webhook verification failed." },
       { status: 400 },
     );
+  }
+
+  // N2 幂等:Stripe 会重投递同一事件。已处理过的 event.id 直接回 200,
+  // 不重复执行业务副作用(setSubscription 虽 upsert 幂等,但 addAuditLog 不是)。
+  if (!markStripeEventOnce(event.id)) {
+    return NextResponse.json({ ok: true, eventType: event.type, deduplicated: true });
   }
 
   const repo = getRepository();

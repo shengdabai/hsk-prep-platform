@@ -2,10 +2,10 @@ import type { SupabaseClient } from "@supabase/supabase-js";
 
 import {
   computeReportDimensions,
+  computeSectionBreakdown,
   gradeResponse,
   hasPaidAccess,
   initialSrsState,
-  isAutoGradable,
   isMistakeDue,
   levels as staticLevels,
   scheduleSrs,
@@ -43,19 +43,19 @@ import type {
   PracticeSetRow,
   ProfileRow,
 } from "./schema";
-import type { Repository } from "./types";
+import type { Database, Repository } from "./types";
 
 // --- 客户端获取(惰性,避免模块加载即抛) --------------------------------------
 // service-role 客户端用于服务端数据访问,绕过 RLS;调用方已确保仅在服务端使用。
-// 用未带 Database 泛型的 SupabaseClient:db/src/types.ts 的 Database 类型只覆盖了
-// 部分表且 Row 是领域类型(非 snake_case Row),套用会让 .from("plans") 等失败。
-// 这里把 .from() 当作弱类型查询入口,所有结果通过本文件的 Row 类型显式收窄。
-type AdminClient = SupabaseClient;
+// 现在 db/src/types.ts 的 Database 是精确手写的 snake_case Row 类型(覆盖全部表 +
+// submit_exam_session RPC),client 因此重获列级类型校验 —— .from()/.rpc() 结果按
+// 真实列类型推断,消除此前的盲 cast。
+type AdminClient = SupabaseClient<Database>;
 
 let cachedAdmin: AdminClient | null = null;
 function admin(): AdminClient {
   if (!cachedAdmin) {
-    cachedAdmin = createSupabaseAdminClient() as unknown as AdminClient;
+    cachedAdmin = createSupabaseAdminClient();
   }
   return cachedAdmin;
 }
@@ -208,8 +208,13 @@ type MediaAssetLite = { storage_bucket: string; storage_path: string };
 
 // content_items 需要 options + answer + 媒体资产 才能构成完整 ContentItem。
 // 此 query shape 用嵌套 select 拉一次取齐(含 image/audio 资产的双向 FK 内联)。
+// 选项行 + 其选项图资产内联(选图题 mc_image 用)。
+type ContentItemOptionJoined = ContentItemOptionRow & {
+  option_image: MediaAssetLite | MediaAssetLite[] | null;
+};
+
 type ContentItemJoined = ContentItemRow & {
-  content_item_options: ContentItemOptionRow[] | null;
+  content_item_options: ContentItemOptionJoined[] | null;
   content_item_answers: ContentItemAnswerRow[] | null;
   content_item_tags:
     | Array<{ tags: { code: string } | { code: string }[] | null }>
@@ -220,7 +225,8 @@ type ContentItemJoined = ContentItemRow & {
 };
 
 const CONTENT_ITEM_SELECT =
-  "*, content_item_options(*), content_item_answers(*), content_item_tags(tags(code)), " +
+  "*, content_item_options(*, option_image:media_assets!content_item_options_image_asset_id_fkey(storage_bucket, storage_path)), " +
+  "content_item_answers(*), content_item_tags(tags(code)), " +
   "image_asset:media_assets!content_items_image_asset_id_fkey(storage_bucket, storage_path), " +
   "audio_asset:media_assets!content_items_audio_asset_id_fkey(storage_bucket, storage_path)";
 
@@ -237,11 +243,16 @@ function mapContentItem(row: ContentItemJoined, lookups: LookupMaps): ContentIte
   );
   // 领域 option.id 用 option_key(与 mock 一致:correctOptionId / 前端提交的 optionId
   // 都是 'A'/'B'/...),DB 的 UUID 仅在持久化答案时内部使用。
-  const domainOptions: QuestionOption[] = options.map((opt) => ({
-    id: opt.option_key,
-    label: opt.option_key,
-    text: opt.option_text,
-  }));
+  // 选图题(mc_image):每选项图资产 → 公开 URL;无则省略键(退化为纯文本选项)。
+  const domainOptions: QuestionOption[] = options.map((opt) => {
+    const optionImageUrl = mediaPublicUrl(firstEmbedded(opt.option_image));
+    return {
+      id: opt.option_key,
+      label: opt.option_key,
+      text: opt.option_text,
+      ...(optionImageUrl ? { imageUrl: optionImageUrl } : {}),
+    };
+  });
 
   // 正确答案:answer 行的 correct_option_id 是 option 的 UUID,映射回 option_key。
   const answer = (row.content_item_answers ?? [])[0] ?? null;
@@ -296,6 +307,15 @@ function mapContentItem(row: ContentItemJoined, lookups: LookupMaps): ContentIte
     // 主观题参考答案文本(order/书写/口语):null 时省略键,保持与领域类型 optional 对齐。
     ...(answerText != null ? { answerText } : {}),
     gradingStrategy,
+    // ---- A1 对称性:听力/阅读上下文、分部序号、共享选项池(007 列;无数据省略键)----
+    ...(row.context != null ? { context: row.context } : {}),
+    ...(row.part != null ? { part: row.part } : {}),
+    // 共享选项池(A-F 六选共享):有 groupId + poolOptionIds 才视为有效池。
+    ...(row.shared_option_pool &&
+    typeof row.shared_option_pool.groupId === "string" &&
+    Array.isArray(row.shared_option_pool.poolOptionIds)
+      ? { sharedOptionPool: row.shared_option_pool }
+      : {}),
   };
 }
 
@@ -387,18 +407,8 @@ async function fetchContentItems(ids: string[]): Promise<Map<string, ContentItem
   return map;
 }
 
-// 计分(对齐 mock):仅就 published 题集计分,answers 键为 itemId、值为 option key。
-function scoreSection(
-  items: ContentItem[],
-  answers: Record<string, string>,
-  sectionCode: SectionCode,
-) {
-  const relevant = items.filter((item) => item.sectionCode === sectionCode);
-  const correct = relevant.filter((item) => gradeResponse(item, answers[item.id]) === "correct").length;
-  // total 只算可自动判分的题(主观书写/口语不计入分母),与 mock 一致。
-  const total = relevant.filter((item) => isAutoGradable(item)).length;
-  return { sectionCode, correct, total };
-}
+// 计分统一走 @hsk/shared 的 computeSectionBreakdown / scoreSection(消除三重复制,
+// 判分口径与 mock、多维报告完全一致)。本文件不再保留本地 scoreSection。
 
 // --- ExamSession row → domain(answers 需从 exam_responses 重建) ----------------
 async function buildSessionDomain(row: ExamSessionRow): Promise<ExamSession> {
@@ -597,6 +607,12 @@ export const supabaseRepository: Repository = {
     if (!sessionRes.data) {
       return null;
     }
+    // HIGH-3 去竞态:repository 层硬拒已提交会话的写入(不只靠 API 的一次性 status 检查)。
+    // 防止"答题写入与最终提交并发"——后到的答案落在报告已评分之后,使 exam_responses
+    // 与 exam_reports.report_json 不一致。会话已提交 → 直接返回当前态,不写 exam_responses。
+    if ((sessionRes.data as ExamSessionRow).status === "submitted") {
+      return buildSessionDomain(sessionRes.data as ExamSessionRow);
+    }
 
     // 前端提交的 optionId 是 option_key('A'/'B'/...),解析为该题的 option UUID。
     const optRes = await client
@@ -687,10 +703,9 @@ export const supabaseRepository: Repository = {
         correctAnswer: item.correctOptionId,
       }));
 
-    const sectionBreakdown = [
-      scoreSection(items, session.answers, "listening"),
-      scoreSection(items, session.answers, "reading"),
-    ];
+    // 按卷面实际出现的 section 通用聚合(支持 HSK4-9 写作/口语/翻译分区),
+    // 不再硬编码 listening+reading。与 mock 共用同一纯函数。
+    const sectionBreakdown = computeSectionBreakdown(items, session.answers);
 
     // 多维报告:与 mock 共用同一纯函数,保证两套 repository 行为一致。
     const dimensions = computeReportDimensions(items, session.answers);
@@ -710,71 +725,39 @@ export const supabaseRepository: Repository = {
       createdAt,
     };
 
-    // 写报告(report_json 存完整领域报告,便于读回与审计)。
-    // H2 去竞态:用 INSERT(非 upsert)依赖唯一约束(exam_reports.exam_session_id);
-    // 两并发 submit 时后到者命中唯一冲突(Postgres 23505),回退读既有报告而非覆盖,
-    // 消除「两份 report」的竞态窗口。
-    const reportRes = await client
-      .from("exam_reports")
-      .insert({
-        exam_session_id: sessionRow.id,
-        profile_id: sessionRow.profile_id,
-        total_questions: total,
-        correct_answers: correct,
-        accuracy_rate: accuracy,
-        score: correct,
-        duration_seconds: durationSeconds,
-        report_json: report as unknown as Record<string, unknown>,
-      })
-      .select("id")
-      .single();
-    if (reportRes.error || !reportRes.data) {
-      // 唯一冲突 = 另一并发请求已提交;返回那份既有报告(幂等闭环)。
-      if (reportRes.error?.code === "23505") {
-        const existing = await this.findReportBySession(sessionRow.id);
-        if (existing) {
-          return existing;
-        }
-      }
-      fail("submitSession(report)", reportRes.error);
-    }
-    report.id = (reportRes.data as { id: string }).id;
-    // report_json 里回填真实报告 id。
-    const { error: backfillError } = await client
-      .from("exam_reports")
-      .update({ report_json: report as unknown as Record<string, unknown> })
-      .eq("id", report.id);
-    if (backfillError) fail("submitSession(report backfill)", backfillError);
-
-    // 会话置为已提交。
-    const { error: sessionUpdateError } = await client
-      .from("exam_sessions")
-      .update({ status: "submitted", submitted_at: createdAt })
-      .eq("id", sessionRow.id);
-    if (sessionUpdateError) fail("submitSession(session update)", sessionUpdateError);
-
-    // 错题入库(与 mock 一致:每道错题落 mistake_book)。
-    // SRS 初始化:首次入库时 ease_factor/interval_days/repetitions/due_at/last_reviewed_at
-    // 由 004_srs.sql 的列默认值给出(due_at=now()≈今日,ease_factor=2.5),
-    // 与 @hsk/shared 的 initialSrsState 语义一致。再次错同一题时走 onConflict,
-    // 不在 payload 里携带 SRS 列,从而保留既有复习进度(不重置 SRS)。
+    // HIGH-2 原子提交:把"插报告 + 置会话已提交 + 批量 upsert 错题"包进单一
+    // Postgres 事务函数 submit_exam_session(007 迁移),任一步失败整体回滚,
+    // 杜绝"报告存在但会话仍 active / 报告无对应错题行"的脏态。
+    // 幂等去竞态:函数内捕获 exam_reports.exam_session_id 唯一冲突,返回既有报告 id,
+    // 并仍补齐 session 置位 + 错题 upsert(修复"找到既有报告即 return、漏补写入"缺口)。
+    // 函数已在事务内把真实 report id 回填进 report_json.id,应用层无需二次 update。
+    // SRS 初始化语义:首次入库的 ease_factor/interval_days/repetitions/due_at/last_reviewed_at
+    // 由 004_srs.sql 的列默认值给出(due_at=now()≈今日,ease_factor=2.5),与
+    // @hsk/shared 的 initialSrsState 一致;再次错同一题走 onConflict 不携带 SRS 列,保留进度。
     const initSrs = initialSrsState(createdAt); // 文档化首次入库的 SRS 锚点(与 mock 对齐)。
     void initSrs;
-    for (const mistake of mistakes) {
-      const { error: mistakeError } = await client
-        .from("mistake_book")
-        .upsert(
-          {
-            profile_id: sessionRow.profile_id,
-            content_item_id: mistake.itemId,
-            first_seen_session_id: sessionRow.id,
-            last_seen_at: createdAt,
-            mastered: false,
-          },
-          { onConflict: "profile_id,content_item_id" },
-        );
-      if (mistakeError) fail("submitSession(mistake)", mistakeError);
+    const { data: rpcData, error: rpcError } = await client.rpc("submit_exam_session", {
+      p_session_id: sessionRow.id,
+      p_profile_id: sessionRow.profile_id,
+      p_total: total,
+      p_correct: correct,
+      p_accuracy: accuracy,
+      p_duration: durationSeconds,
+      p_report_json: report as unknown as Record<string, unknown>,
+      p_submitted_at: createdAt,
+      p_mistakes: mistakes.map((m) => ({ itemId: m.itemId })),
+    });
+    if (rpcError) fail("submitSession(rpc)", rpcError);
+    const reportId = rpcData;
+    if (!reportId) {
+      // RPC 未返回 id(异常)。回退按会话反查既有报告以保持幂等。
+      const existing = await this.findReportBySession(sessionRow.id);
+      if (existing) {
+        return existing;
+      }
+      fail("submitSession(rpc)", { message: "submit_exam_session returned no report id" });
     }
+    report.id = reportId;
 
     return report;
   },
@@ -968,6 +951,15 @@ export const supabaseRepository: Repository = {
       dueAt: row.due_at,
       lastReviewedAt: row.last_reviewed_at,
     };
+
+    // SRS 幂等(去重复提交 / 防双击叠加 interval):仅当该错题当前到期时才推进调度。
+    // 已复习过本周期(due_at 在未来)→ 重复提交直接按原态返回,不二次推进。
+    // 与 mock 同语义,避免一次复习被重放成多次推进。
+    if (!isMistakeDue({ dueAt: row.due_at })) {
+      const itemMapUnchanged = await fetchContentItems([row.content_item_id]);
+      return mapMistake(row, itemMapUnchanged.get(row.content_item_id) ?? null, "");
+    }
+
     const srs = scheduleSrs(prev, grade);
     const mastered = grade === "easy" ? true : row.mastered;
 
@@ -1068,7 +1060,7 @@ export const supabaseRepository: Repository = {
 
   async patchAdminItem(itemId, patch) {
     const client = admin();
-    const update: Record<string, unknown> = {};
+    const update: Database["public"]["Tables"]["content_items"]["Update"] = {};
     if (patch.reviewStatus) {
       update.review_status = patch.reviewStatus;
     }
@@ -1099,7 +1091,7 @@ export const supabaseRepository: Repository = {
         null;
     }
     const planId = await getPlanIdByCode(input.access);
-    const insertRow: Record<string, unknown> = {
+    const insertRow: Database["public"]["Tables"]["practice_sets"]["Insert"] = {
       slug: input.slug,
       title: input.title,
       description: input.description,
@@ -1141,7 +1133,7 @@ export const supabaseRepository: Repository = {
     if (!current) {
       return null;
     }
-    const update: Record<string, unknown> = {};
+    const update: Database["public"]["Tables"]["practice_sets"]["Update"] = {};
     if (patch.slug !== undefined) update.slug = patch.slug;
     if (patch.title !== undefined) update.title = patch.title;
     if (patch.description !== undefined) update.description = patch.description;

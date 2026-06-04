@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useTransition } from "react";
+import { useCallback, useMemo, useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import type { AnswerFormat } from "@hsk/shared";
 import { QuestionView } from "./question-view";
@@ -66,6 +66,11 @@ export function SessionRunner({
 
   const current = questions[currentIndex];
 
+  // 大题量(模考 80-100 题)下每次作答都会 re-render,避免重复 Object.keys 扫描。
+  const answeredCount = useMemo(() => Object.keys(answers).length, [answers]);
+  const unsavedCount = useMemo(() => Object.keys(unsavedAnswers).length, [unsavedAnswers]);
+  const progressPct = questions.length > 0 ? (answeredCount / questions.length) * 100 : 0;
+
   async function persistAnswer(itemId: string, value: string): Promise<boolean> {
     try {
       const response = await fetch(`/api/sessions/${session.id}/answer`, {
@@ -91,15 +96,37 @@ export function SessionRunner({
     }
   }
 
-  async function answer(itemId: string, value: string) {
-    const nextAnswers = { ...answers, [itemId]: value };
-    setAnswers(nextAnswers);
-    window.localStorage.setItem(
-      `hsk-session-${session.id}`,
-      JSON.stringify({ answers: nextAnswers }),
-    );
-    await persistAnswer(itemId, value);
-  }
+  // useCallback + 函数式更新:onAnswer 引用稳定,QuestionView(React.memo)
+  // 在切题/无关 state 变化时不再重渲染;依赖仅 session.id(稳定)。
+  const answer = useCallback(
+    async (itemId: string, value: string) => {
+      setAnswers((prev) => {
+        const nextAnswers = { ...prev, [itemId]: value };
+        // 隐私模式 / 配额满时 setItem 会抛;仅降级(本地缓存失效),仍走网络保存,不丢选择。
+        try {
+          window.localStorage.setItem(
+            `hsk-session-${session.id}`,
+            JSON.stringify({ answers: nextAnswers }),
+          );
+        } catch {
+          // 本地暂存不可用,忽略——服务端保存仍会执行。
+        }
+        return nextAnswers;
+      });
+      await persistAnswer(itemId, value);
+    },
+    // persistAnswer 仅用 setUnsavedAnswers(函数式)与 session.id,引用稳定。
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [session.id],
+  );
+
+  // 传给 QuestionView 的稳定 void 回调(QuestionView 已 React.memo)。
+  const handleAnswer = useCallback(
+    (itemId: string, value: string) => {
+      void answer(itemId, value);
+    },
+    [answer],
+  );
 
   async function retryUnsaved() {
     const pending = Object.entries(unsavedAnswers);
@@ -115,6 +142,7 @@ export function SessionRunner({
     if (Object.keys(unsavedAnswers).length > 0) {
       await retryUnsaved();
     }
+    // 注:此处读 unsavedAnswers 实时值,不用 memo 化的 unsavedCount(避免闭包过期)。
     let response: Response;
     try {
       response = await fetch(`/api/sessions/${session.id}/submit`, {
@@ -177,29 +205,40 @@ export function SessionRunner({
         <div className="rounded-[2rem] border border-stone-900/10 bg-[#f4ece0] p-6">
           <div className="text-xs uppercase tracking-[0.28em] text-stone-500">答题进度</div>
           <div className="mt-3 text-4xl font-semibold text-[var(--brand)]">
-            {Object.keys(answers).length} / {questions.length}
+            {answeredCount} / {questions.length}
           </div>
-          <div className="mt-4 h-2 rounded-full bg-stone-900/10">
+          <div
+            className="mt-4 h-2 rounded-full bg-stone-900/10"
+            role="progressbar"
+            aria-valuenow={answeredCount}
+            aria-valuemin={0}
+            aria-valuemax={questions.length}
+            aria-label={`答题进度:${questions.length} 题中已作答 ${answeredCount} 题`}
+          >
             <div
               className="h-full rounded-full bg-[var(--brand)]"
-              style={{
-                width: `${(Object.keys(answers).length / questions.length) * 100}%`,
-              }}
+              style={{ width: `${progressPct}%` }}
             />
           </div>
         </div>
 
         {/* Question grid navigator */}
-        <div className="grid grid-cols-5 gap-2 rounded-[2rem] border border-stone-900/10 bg-white/75 p-4">
+        <nav
+          aria-label="题目导航"
+          className="grid grid-cols-5 gap-2 rounded-[2rem] border border-stone-900/10 bg-white/75 p-4"
+        >
           {questions.map((q, index) => {
             const selected = Boolean(answers[q.id]);
+            const isCurrent = index === currentIndex;
             return (
               <button
                 key={q.id}
                 type="button"
                 onClick={() => setCurrentIndex(index)}
+                aria-current={isCurrent ? "true" : undefined}
+                aria-label={`第 ${index + 1} 题${selected ? ",已作答" : ",未作答"}${isCurrent ? ",当前题" : ""}`}
                 className={`aspect-square rounded-2xl text-sm ${
-                  index === currentIndex
+                  isCurrent
                     ? "bg-[var(--brand)] text-[var(--brand-soft)]"
                     : selected
                       ? "bg-stone-900 text-white"
@@ -210,7 +249,7 @@ export function SessionRunner({
               </button>
             );
           })}
-        </div>
+        </nav>
 
         {!submitted ? (
           <button
@@ -222,10 +261,13 @@ export function SessionRunner({
           </button>
         ) : null}
 
-        {Object.keys(unsavedAnswers).length > 0 && !submitted ? (
-          <div className="rounded-2xl border border-amber-300 bg-amber-50 p-4 text-sm text-amber-900">
+        {unsavedCount > 0 && !submitted ? (
+          <div
+            role="alert"
+            className="rounded-2xl border border-amber-300 bg-amber-50 p-4 text-sm text-amber-900"
+          >
             <p>
-              有 {Object.keys(unsavedAnswers).length} 题未能同步到服务器(答案已暂存在本机)。
+              有 {unsavedCount} 题未能同步到服务器(答案已暂存在本机)。
             </p>
             <button
               type="button"
@@ -237,7 +279,11 @@ export function SessionRunner({
           </div>
         ) : null}
 
-        {error ? <p className="text-sm text-red-700">{error}</p> : null}
+        {error ? (
+          <p role="alert" className="text-sm text-red-700">
+            {error}
+          </p>
+        ) : null}
       </aside>
 
       {/* ── Main question panel ── */}
@@ -271,7 +317,7 @@ export function SessionRunner({
             question={displayQuestion}
             answer={answers[current.id]}
             submitted={submitted}
-            onAnswer={(itemId, value) => { void answer(itemId, value); }}
+            onAnswer={handleAnswer}
             takenOptionIds={takenOptionIds}
           />
         </div>
@@ -282,6 +328,7 @@ export function SessionRunner({
             type="button"
             onClick={() => setCurrentIndex((v) => Math.max(0, v - 1))}
             disabled={currentIndex === 0}
+            aria-label="上一题"
             className="rounded-full border border-stone-900/10 px-5 py-3 text-sm disabled:opacity-40"
           >
             上一题
@@ -290,6 +337,7 @@ export function SessionRunner({
             type="button"
             onClick={() => setCurrentIndex((v) => Math.min(questions.length - 1, v + 1))}
             disabled={currentIndex === questions.length - 1}
+            aria-label="下一题"
             className="rounded-full bg-stone-900 px-5 py-3 text-sm text-white disabled:opacity-40"
           >
             下一题

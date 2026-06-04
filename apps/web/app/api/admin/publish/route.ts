@@ -1,11 +1,11 @@
-import { NextResponse } from "next/server";
-
 import { getRepository } from "@hsk/db";
-import type { PublishStatus } from "@hsk/shared";
 
 import { requireApiRole } from "@/lib/api-auth";
+import { fail, ok, withApiHandler } from "@/lib/api-response";
+import { safeJson } from "@/lib/auth-validation";
+import { publishItemSchema } from "@/lib/api-validation";
 
-export async function POST(request: Request) {
+export const POST = withApiHandler(async (request: Request) => {
   // 发布 / 下架仅限 admin。
   const guard = await requireApiRole(["admin"]);
   if ("response" in guard) {
@@ -13,21 +13,23 @@ export async function POST(request: Request) {
   }
   const { user } = guard;
 
-  const body = (await request.json()) as { itemId?: string; publishStatus?: PublishStatus };
-  if (!body.itemId || !body.publishStatus) {
-    return NextResponse.json({ error: "缺少 itemId 或 publishStatus。" }, { status: 400 });
+  const parsed = publishItemSchema.safeParse(await safeJson(request));
+  if (!parsed.success) {
+    return fail(400, parsed.error.issues[0]?.message ?? "缺少 itemId 或 publishStatus。");
   }
+  const { itemId, publishStatus } = parsed.data;
+
   const repo = getRepository();
-  const item = await repo.publishItem(body.itemId, body.publishStatus);
+  const item = await repo.publishItem(itemId, publishStatus);
   if (!item) {
-    return NextResponse.json({ error: "题目不存在。" }, { status: 404 });
+    return fail(404, "题目不存在。");
   }
   await repo.addAuditLog({
     actorId: user.id,
     targetTable: "content_items",
-    targetId: body.itemId,
+    targetId: itemId,
     action: "publish",
-    payload: { publishStatus: body.publishStatus },
+    payload: { publishStatus },
   });
-  return NextResponse.json({ item });
-}
+  return ok({ item });
+});

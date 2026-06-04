@@ -17,6 +17,8 @@ export type ProfileRow = TimestampedRow & {
   full_name: string | null;
   role: "learner" | "reviewer" | "admin";
   default_plan_code: string;
+  // 003:Supabase 模式下的凭据存储列(自建 HMAC 会话,不接 Supabase Auth)。
+  password_hash: string | null;
 };
 
 export type SubscriptionRow = TimestampedRow & {
@@ -103,6 +105,10 @@ export type ContentItemRow = TimestampedRow & {
   copyright_status: string;
   image_asset_id: string | null;
   audio_asset_id: string | null;
+  // 007:听力/阅读上下文原文、分部序号、共享选项池(全 optional;旧库未跑 007 时缺列)。
+  context?: string | null;
+  part?: number | null;
+  shared_option_pool?: { groupId: string; poolOptionIds: string[] } | null;
 };
 
 export type ContentItemOptionRow = TimestampedRow & {
@@ -111,6 +117,8 @@ export type ContentItemOptionRow = TimestampedRow & {
   option_key: string;
   option_text: string;
   display_order: number;
+  // 007:选图题(mc_image)每选项图资产。旧库未跑 007 时缺列,故 optional。
+  image_asset_id?: string | null;
 };
 
 export type ContentItemAnswerRow = TimestampedRow & {

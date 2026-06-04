@@ -66,7 +66,7 @@ export function AudioPlayer({ audioUrl, context, maxPlays = 0 }: AudioPlayerProp
         </div>
         {context ? (
           <div className="border-t border-stone-200 pt-3">
-            <div className="text-xs uppercase tracking-widest text-stone-400">原文 / Context</div>
+            <div className="text-xs uppercase tracking-widest text-stone-600">原文 / Context</div>
             <p className="mt-2 whitespace-pre-wrap text-sm leading-7 text-stone-700">{context}</p>
           </div>
         ) : null}
@@ -118,7 +118,7 @@ export function AudioPlayer({ audioUrl, context, maxPlays = 0 }: AudioPlayerProp
               {!canPlay ? <span className="ml-2 text-amber-700">（次数已用完）</span> : null}
             </span>
           ) : (
-            <span className="text-stone-400 text-xs">点击播放音频</span>
+            <span className="text-stone-600 text-xs">点击播放音频</span>
           )}
         </div>
       </div>
@@ -127,7 +127,7 @@ export function AudioPlayer({ audioUrl, context, maxPlays = 0 }: AudioPlayerProp
 
       {context ? (
         <div className="border-t border-stone-200 pt-3">
-          <div className="text-xs uppercase tracking-widest text-stone-400">原文 / Context</div>
+          <div className="text-xs uppercase tracking-widest text-stone-600">原文 / Context</div>
           <p className="mt-2 whitespace-pre-wrap text-sm leading-7 text-stone-700">{context}</p>
         </div>
       ) : null}

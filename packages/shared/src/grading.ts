@@ -1,4 +1,9 @@
-import { QUESTION_TYPE_META, type AnswerFormat, type ContentItem } from "./types";
+import {
+  QUESTION_TYPE_META,
+  type AnswerFormat,
+  type ContentItem,
+  type SectionCode,
+} from "./types";
 
 // 统一判分(纯函数)。供 mock / supabase 两套 repository 与多维报告共用,保证口径一致。
 // 修复:此前所有题型都做 `answer === correctOptionId` 单一相等比较,导致 order/书写/口语
@@ -124,16 +129,44 @@ export function gradeResponse(
 
 // 按 section 统计 {correct,total}(纯函数)。total 只算可自动判分的题
 // (主观书写/口语不计入分母),与 mock/supabase 的 sectionBreakdown 口径一致。
-// 抽到此处供「快照评分」复用,判分算法不变(仍走 gradeResponse / isAutoGradable)。
+// 这是判分的唯一实现:两套 repository 与「快照评分」均复用本函数,消除三重复制
+// (此前 mock/supabase 各自重写一份逻辑等价的本地 scoreSection,靠人工同步口径)。
+// 判分算法不变(仍走 gradeResponse / isAutoGradable);签名放宽到任意 SectionCode,
+// 以支持 HSK4-9 的 writing/speaking/translation 分区,而非硬编码 listening+reading。
+export type SectionScore = {
+  sectionCode: SectionCode;
+  correct: number;
+  total: number;
+};
+
 export function scoreSection(
   items: ContentItem[],
   answers: Record<string, string>,
-  sectionCode: "listening" | "reading",
-): { sectionCode: "listening" | "reading"; correct: number; total: number } {
+  sectionCode: SectionCode,
+): SectionScore {
   const relevant = items.filter((item) => item.sectionCode === sectionCode);
   const correct = relevant.filter(
     (item) => gradeResponse(item, answers[item.id]) === "correct",
   ).length;
   const total = relevant.filter((item) => isAutoGradable(item)).length;
   return { sectionCode, correct, total };
+}
+
+// 按卷面实际出现的 section 通用聚合 sectionBreakdown(纯函数)。
+// 取代两套 repository 各自硬编码 listening+reading 的写法:遍历 items 中实际出现的
+// sectionCode(保持首次出现顺序),逐段调用 scoreSection。这样写作/口语/翻译分区
+// (HSK4-9)也会进入 sectionBreakdown,而不是被两科时代的硬编码丢弃。
+export function computeSectionBreakdown(
+  items: ContentItem[],
+  answers: Record<string, string>,
+): SectionScore[] {
+  const seen = new Set<SectionCode>();
+  const orderedCodes: SectionCode[] = [];
+  for (const item of items) {
+    if (!seen.has(item.sectionCode)) {
+      seen.add(item.sectionCode);
+      orderedCodes.push(item.sectionCode);
+    }
+  }
+  return orderedCodes.map((code) => scoreSection(items, answers, code));
 }
