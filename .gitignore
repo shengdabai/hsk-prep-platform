@@ -12,18 +12,31 @@ pnpm-lock.yaml
 apps/web/.next
 apps/web/node_modules
 apps/web/.env.local
-# Codex governance: local secrets and machine state
-.env
-.env.*
+
+# secrets / env
+.env*
 !.env.example
 !.env.*.example
 *.pem
+*.key
 *.p12
 *.pfx
-id_rsa
+id_rsa*
 id_dsa
+credentials.*
+secrets.*
 .npmrc
-.DS_Store
+
+# Codex / Claude / OMC local state
 .omc/
 .codex/
 .claude/local/
+
+# CLI / pipeline runtime output & state files
+content/imports/*.preview.json
+*-todo.md
+state*.json
+.pipeline-state.json
+*.log
+output/
+.cache/
