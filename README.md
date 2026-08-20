@@ -84,7 +84,9 @@ pnpm dev
 
 ## Demo Mode / 演示模式
 
-Without Supabase connected, the app runs in demo auth mode:
+Without Supabase connected, the app runs in demo auth mode **only in local development and tests**.
+Production requires `NEXT_PUBLIC_SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY`; missing repository credentials fail closed instead of falling back to in-memory data.
+
 - Learner: `learner@demo.local`
 - Reviewer: `reviewer@demo.local`
 - Admin: `admin@demo.local`
