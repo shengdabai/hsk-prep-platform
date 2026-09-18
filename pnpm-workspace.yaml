@@ -6,3 +6,15 @@ packages:
 ignoredBuiltDependencies:
   - sharp
   - unrs-resolver
+overrides:
+  csv-parse@<7.0.2: '>=7.0.2'
+  next@>=16.0.0 <16.2.11: '>=16.2.11'
+  next@>=16.0.0 <16.2.5: '>=16.2.5'
+  next@>=16.0.0 <16.2.6: '>=16.2.6'
+  next@>=16.0.0 <16.3.3: '>=16.3.3'
+  postcss@<8.5.10: '>=8.5.10'
+  postcss@<=8.5.11: '>=8.5.12'
+  postcss@<=8.5.17: '>=8.5.18'
+  postcss@<=8.5.22: '>=8.5.23'
+  sharp@<0.35.0: '>=0.35.0'
+  sharp@<0.35.4: '>=0.35.4'
