@@ -1,0 +1,83 @@
+{
+  "setSlug": "hsk1-ce-pilot",
+  "setTitle": "HSK1 自动生成模考 · 试点",
+  "setDescription": "由 content-engine 自动生产:文本(authoring)+ Codex 配图 + Minimax 配音。覆盖听力看图判断、阅读看图判断、听力问答、阅读选词四类。",
+  "levelCode": "hsk-1",
+  "mode": "mock_exam",
+  "access": "free",
+  "minutes": 10,
+  "items": [
+    {
+      "id": "ce_hsk1_001",
+      "questionTypeCode": "L_WORD_IMG_TF",
+      "sectionCode": "listening",
+      "title": "听力 · 听词判断图文 1",
+      "stem": "看图判断:听到的句子与图片是否一致",
+      "prompt": "他在喝茶。",
+      "context": "录音原文:他在喝茶。",
+      "audioScript": "他在喝茶。",
+      "imageBrief": "A man sitting at a table calmly drinking a cup of hot tea, simple flat educational illustration, clean light background, no text in the image.",
+      "options": [
+        { "id": "A", "label": "A", "text": "一致" },
+        { "id": "B", "label": "B", "text": "不一致" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "录音说『他在喝茶』,图中男士正在喝茶,内容一致,选 A。",
+      "vocabFocus": ["喝", "茶"],
+      "tags": ["饮品", "动作"]
+    },
+    {
+      "id": "ce_hsk1_002",
+      "questionTypeCode": "R_IMG_WORD_TF",
+      "sectionCode": "reading",
+      "title": "阅读 · 看图判断词语 1",
+      "stem": "看图判断:图片与词语是否一致",
+      "prompt": "词语:苹果",
+      "imageBrief": "A single fresh red apple on a plain white background, simple flat educational illustration, clear and centered, no text in the image.",
+      "options": [
+        { "id": "A", "label": "A", "text": "一致" },
+        { "id": "B", "label": "B", "text": "不一致" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "图中是一个苹果,词语也是『苹果』,一致,选 A。",
+      "vocabFocus": ["苹果"],
+      "tags": ["水果", "名词"]
+    },
+    {
+      "id": "ce_hsk1_003",
+      "questionTypeCode": "L_QA_MC3",
+      "sectionCode": "listening",
+      "title": "听力 · 听问答三选一 1",
+      "stem": "听对话,选择正确答案",
+      "prompt": "男的要去哪儿?",
+      "context": "录音原文:女:你去哪儿? 男:我去学校。",
+      "audioScript": "女:你去哪儿? 男:我去学校。 问:男的要去哪儿?",
+      "options": [
+        { "id": "A", "label": "A", "text": "学校" },
+        { "id": "B", "label": "B", "text": "商店" },
+        { "id": "C", "label": "C", "text": "医院" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "男的说『我去学校』,所以答案是 A 学校。",
+      "vocabFocus": ["学校", "去"],
+      "tags": ["地点", "对话"]
+    },
+    {
+      "id": "ce_hsk1_004",
+      "questionTypeCode": "R_SENT_FILL_MC",
+      "sectionCode": "reading",
+      "title": "阅读 · 句子选词填空 1",
+      "stem": "选词填空",
+      "prompt": "我很渴,想____水。",
+      "options": [
+        { "id": "A", "label": "A", "text": "喝" },
+        { "id": "B", "label": "B", "text": "吃" },
+        { "id": "C", "label": "C", "text": "看" }
+      ],
+      "correctOptionId": "A",
+      "explanation": "『水』要用『喝』搭配,『喝水』,选 A。",
+      "vocabFocus": ["喝", "水", "渴"],
+      "tags": ["搭配", "动词"]
+    }
+  ]
+}

@@ -4,7 +4,7 @@ import Stripe from "stripe";
 import { getRepository } from "@hsk/db";
 import type { PlanCode, SubscriptionStatus } from "@hsk/shared";
 
-import { markStripeEventOnce } from "@/lib/stripe-event-dedup";
+
 
 function mapStripeStatus(status: Stripe.Subscription.Status): SubscriptionStatus {
   switch (status) {
@@ -75,13 +75,10 @@ export async function POST(request: Request) {
     );
   }
 
-  // N2 幂等:Stripe 会重投递同一事件。已处理过的 event.id 直接回 200,
-  // 不重复执行业务副作用(setSubscription 虽 upsert 幂等,但 addAuditLog 不是)。
-  if (!markStripeEventOnce(event.id)) {
-    return NextResponse.json({ ok: true, eventType: event.type, deduplicated: true });
-  }
-
   const repo = getRepository();
+  let subscriptionWrite: Parameters<typeof repo.setSubscription>[0] | null = null;
+  let auditWrite: Parameters<typeof repo.addAuditLog>[0] | null = null;
+  let applied = false;
 
   try {
     switch (event.type) {
@@ -98,30 +95,30 @@ export async function POST(request: Request) {
         const plan = planFromPriceId(priceId);
         if (!plan) {
           // priceId 无法映射到已知套餐:不擅自授予,记审计日志并跳过。
-          await repo.addAuditLog({
+          auditWrite = {
             actorId: userId,
             targetTable: "subscriptions",
             targetId: userId,
             action: "checkout_completed_unmapped_price",
             payload: { priceId, eventId: event.id },
-          });
+          };
           break;
         }
-        await repo.setSubscription({
+        subscriptionWrite = {
           userId,
           plan,
           status: "active",
           stripeCustomerId: typeof session.customer === "string" ? session.customer : null,
           stripeSubscriptionId:
             typeof session.subscription === "string" ? session.subscription : null,
-        });
-        await repo.addAuditLog({
+        };
+        auditWrite = {
           actorId: userId,
           targetTable: "subscriptions",
           targetId: userId,
           action: "checkout_completed",
           payload: { plan, eventId: event.id },
-        });
+        };
         break;
       }
       case "customer.subscription.updated":
@@ -143,7 +140,7 @@ export async function POST(request: Request) {
             : mapStripeStatus(subscription.status);
         const periodEnd = (subscription as unknown as { current_period_end?: number })
           .current_period_end;
-        await repo.setSubscription({
+        subscriptionWrite = {
           userId,
           plan,
           status,
@@ -151,19 +148,20 @@ export async function POST(request: Request) {
             typeof subscription.customer === "string" ? subscription.customer : null,
           stripeSubscriptionId: subscription.id,
           currentPeriodEndsAt: periodEnd ? new Date(periodEnd * 1000).toISOString() : null,
-        });
-        await repo.addAuditLog({
+        };
+        auditWrite = {
           actorId: userId,
           targetTable: "subscriptions",
           targetId: userId,
           action: event.type,
           payload: { status, eventId: event.id },
-        });
+        };
         break;
       }
       default:
         break;
     }
+    applied = await repo.applyStripeEvent(event.id, subscriptionWrite, auditWrite);
   } catch (error) {
     return NextResponse.json(
       { error: error instanceof Error ? error.message : "Webhook handler failed." },
@@ -171,5 +169,5 @@ export async function POST(request: Request) {
     );
   }
 
-  return NextResponse.json({ ok: true, eventType: event.type });
+  return NextResponse.json({ ok: true, eventType: event.type, deduplicated: !applied });
 }

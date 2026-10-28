@@ -1,0 +1,4 @@
+[DRY-RUN] image placeholder
+prompt: A simple illustration for R_SENT_IMG_MC at hsk-1 level, item 0
+itemId: ITEM_47D7681E62
+index: 0

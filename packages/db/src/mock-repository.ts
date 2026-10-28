@@ -52,6 +52,7 @@ type Store = {
   credentials: Map<string, string>;
   subscriptions: Map<string, Subscription>;
   auditLogs: AuditLogEntry[];
+  stripeEvents: Set<string>;
   // 评分快照(H3):sessionId → 冻结的题目数组(深拷贝,含 correctOptionId / answerText)。
   snapshots: Map<string, ContentItem[]>;
 };
@@ -180,6 +181,7 @@ function createStore(): Store {
       ],
     ]),
     auditLogs: [],
+    stripeEvents: new Set(),
     snapshots: new Map(),
   };
 }
@@ -471,6 +473,14 @@ export const mockRepository: Repository = {
   async findUserByEmail(email) {
     return [...getStore().users.values()].find((user) => user.email === email) ?? null;
   },
+  async createUserWithPassword(user, passwordHash) {
+    const store = getStore();
+    if (store.users.has(user.id) || [...store.users.values()].some(existing => existing.email === user.email)) return null;
+    // No await between the two in-memory writes: one indivisible JS turn.
+    store.credentials.set(user.id, passwordHash);
+    store.users.set(user.id, user);
+    return user;
+  },
   async upsertUser(user) {
     getStore().users.set(user.id, user);
     return user;
@@ -508,6 +518,28 @@ export const mockRepository: Repository = {
       });
     }
     return subscription;
+  },
+  async applyStripeEvent(eventId, input, audit) {
+    const store = getStore();
+    store.stripeEvents ??= new Set();
+    if (store.stripeEvents.has(eventId)) return false;
+    if (!eventId || (input && !store.users.has(input.userId))) throw new Error("Invalid Stripe event/profile");
+    // Prepare every fallible value before publishing the in-memory transaction.
+    const now = new Date().toISOString();
+    const subscription: Subscription | null = input ? {
+      ...input, stripeCustomerId: input.stripeCustomerId ?? null,
+      stripeSubscriptionId: input.stripeSubscriptionId ?? null,
+      currentPeriodEndsAt: input.currentPeriodEndsAt ?? null, updatedAt: now,
+    } : null;
+    const log = audit ? {id:randomUUID(),...audit,payload:audit.payload ?? null,createdAt:now} : null;
+    if (subscription) {
+      store.subscriptions.set(subscription.userId, subscription);
+      const user = store.users.get(subscription.userId)!;
+      store.users.set(user.id, {...user, plan: subscription.status === "active" ? subscription.plan : "free"});
+    }
+    if (log) store.auditLogs.push(log);
+    store.stripeEvents.add(eventId);
+    return true;
   },
   async addAuditLog(input) {
     getStore().auditLogs.push({

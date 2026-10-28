@@ -157,6 +157,10 @@ export type Database = {
     };
     Views: Record<string, never>;
     Functions: {
+      apply_stripe_event: {
+        Args: {p_event_id: string; p_subscription: Record<string, unknown> | null; p_audit: Record<string, unknown> | null};
+        Returns: boolean;
+      };
       submit_exam_session: {
         Args: {
           p_session_id: string;
@@ -231,6 +235,7 @@ export type Repository = {
   getUserById(userId: string): Promise<AppUser | null>;
   findUserByEmail(email: string): Promise<AppUser | null>;
   upsertUser(user: AppUser): Promise<AppUser>;
+  createUserWithPassword(user: AppUser, passwordHash: string): Promise<AppUser | null>;
   getRole(userId: string): Promise<UserRole>;
 
   // 凭据(密码哈希由调用方计算并存取,repository 不感知明文)。
@@ -247,6 +252,9 @@ export type Repository = {
     stripeSubscriptionId?: string | null;
     currentPeriodEndsAt?: string | null;
   }): Promise<Subscription>;
+
+  applyStripeEvent(eventId: string, subscription: Parameters<Repository["setSubscription"]>[0] | null,
+    audit: Parameters<Repository["addAuditLog"]>[0] | null): Promise<boolean>;
 
   // 审计日志:敏感写操作落痕。
   addAuditLog(input: {

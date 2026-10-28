@@ -38,8 +38,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "邮箱已存在。" }, { status: 409 });
   }
 
-  // 自建 id 体系:此处生成的 id 同时用于 upsertUser、setPasswordHash 与后续
-  // 订阅 / profiles 记录,三者一致,无随机 UUID 与持久化记录不匹配的问题。
+  // Profile and credential are committed together; duplicate email never overwrites an account.
   const user: AppUser = {
     id: randomUUID(),
     email,
@@ -47,8 +46,8 @@ export async function POST(request: Request) {
     role: "learner",
     plan: "free",
   };
-  await repo.upsertUser(user);
-  await repo.setPasswordHash(user.id, hashPassword(password));
+  const created = await repo.createUserWithPassword(user, hashPassword(password));
+  if (!created) return NextResponse.json({ error: "邮箱已存在。" }, { status: 409 });
 
   const response = NextResponse.json({ ok: true });
   response.cookies.set(sessionCookie, createSessionToken(user.id, user.role, SESSION_TTL), {
