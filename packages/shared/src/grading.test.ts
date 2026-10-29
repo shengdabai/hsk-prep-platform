@@ -3,6 +3,7 @@ import {
   gradeResponse,
   isAutoGradable,
   scoreSection,
+  computeSectionBreakdown,
   type GradeOutcome,
 } from "./grading";
 import { computeReportDimensions } from "./report";
@@ -251,10 +252,10 @@ describe("gradeResponse — 主观题 ungraded", () => {
 
 describe("isAutoGradable", () => {
   it("客观题(single_choice)→ true", () => {
-    expect(isAutoGradable(makeItem({ questionTypeCode: "single_choice" }))).toBe(true);
+    expect(isAutoGradable(makeItem({ questionTypeCode: "single_choice", correctOptionId: "A" }))).toBe(true);
   });
   it("order → true", () => {
-    expect(isAutoGradable(makeItem({ questionTypeCode: "R_SENT_ORDER" }))).toBe(true);
+    expect(isAutoGradable(makeItem({ questionTypeCode: "R_SENT_ORDER", answerText: "A,B" }))).toBe(true);
   });
   it("主观 write_sentence → false", () => {
     expect(isAutoGradable(makeItem({ questionTypeCode: "W_WORD_SENT", sectionCode: "writing" }))).toBe(false);
@@ -271,6 +272,77 @@ describe("isAutoGradable", () => {
     expect(
       isAutoGradable(makeItem({ questionTypeCode: "W_PINYIN_CHAR", sectionCode: "writing", answerText: null })),
     ).toBe(false);
+  });
+});
+
+describe("grading — 有效参考答案与统计口径", () => {
+  const pool: SharedOptionPool = { groupId: "g1", poolOptionIds: ["A", "B", "C"] };
+
+  it.each<QuestionTypeCode>(["W_WORD_SENT", "W_PINYIN_CHAR", "S_HSKK_REPEAT"])(
+    "%s 使用共享选项池时同时计入分子、分母和报告",
+    (questionTypeCode) => {
+      const item = makeItem({
+        questionTypeCode,
+        sectionCode: "writing",
+        correctOptionId: "B",
+        sharedOptionPool: pool,
+        tags: ["pool"],
+      });
+      expect(isAutoGradable(item)).toBe(true);
+      expect(gradeResponse(item, "B")).toBe("correct");
+      expect(gradeResponse(item, "A")).toBe("incorrect");
+      expect(gradeResponse(item, undefined)).toBe("incorrect");
+      const answers = { [item.id]: "B" };
+      expect(scoreSection([item], answers, "writing")).toEqual({
+        sectionCode: "writing", correct: 1, total: 1,
+      });
+      expect(computeSectionBreakdown([item], answers)).toEqual([
+        { sectionCode: "writing", correct: 1, total: 1 },
+      ]);
+      expect(computeReportDimensions([item], answers).bySection).toEqual([
+        { key: "writing", correct: 1, total: 1 },
+      ]);
+    },
+  );
+
+  it.each<Partial<ContentItem> & { questionTypeCode: QuestionTypeCode }>([
+    { questionTypeCode: "single_choice" },
+    { questionTypeCode: "L_SENT_TF", correctOptionId: " \t " },
+    { questionTypeCode: "R_QA_MATCH" },
+    { questionTypeCode: "R_SENT_ORDER" },
+    { questionTypeCode: "R_SENT_ORDER", answerText: " , , " },
+    { questionTypeCode: "L_LONG_FILL" },
+    { questionTypeCode: "L_LONG_FILL", answerText: " \n\t " },
+    { questionTypeCode: "W_PINYIN_CHAR", answerText: " \n\t " },
+    { questionTypeCode: "W_WORD_SENT", sharedOptionPool: pool },
+    { questionTypeCode: "W_PINYIN_CHAR", sharedOptionPool: pool, answerText: "学" },
+  ])("无有效参考答案时不自动判分: %j", (overrides) => {
+    const item = makeItem(overrides);
+    expect(isAutoGradable(item)).toBe(false);
+    for (const answer of [undefined, null, "", " ", ",,", "A", "学"]) {
+      expect(gradeResponse(item, answer)).toBe("ungraded");
+      const answers = answer == null ? {} : { [item.id]: answer };
+      expect(scoreSection([item], answers, item.sectionCode)).toEqual({
+        sectionCode: item.sectionCode, correct: 0, total: 0,
+      });
+      expect(computeReportDimensions([item], answers)).toEqual({
+        bySection: [], byQuestionType: [], byTag: [],
+      });
+    }
+  });
+
+  it.each(["", " \t ", " , , "])("排序参考文本 %j 无效时回退选项键", (answerText) => {
+    const item = makeItem({ questionTypeCode: "R_SENT_ORDER", answerText, correctOptionId: "B,A" });
+    expect(isAutoGradable(item)).toBe(true);
+    expect(gradeResponse(item, " B , A , ")).toBe("correct");
+    expect(gradeResponse(item, "A,B")).toBe("incorrect");
+  });
+
+  it("无有效选项键的文本填空使用参考文本", () => {
+    const item = makeItem({ questionTypeCode: "L_LONG_FILL", correctOptionId: " \t ", answerText: "图书馆" });
+    expect(isAutoGradable(item)).toBe(true);
+    expect(gradeResponse(item, " 图 书 馆 ")).toBe("correct");
+    expect(gradeResponse(item, " ")).toBe("incorrect");
   });
 });
 
