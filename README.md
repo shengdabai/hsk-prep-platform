@@ -70,6 +70,16 @@ npm run lint
 - Before publishing screenshots, demos, or client examples, remove private names, internal paths, account IDs, and API endpoints.
 - The `Repository Hygiene` workflow is a lightweight guardrail, not a replacement for product-specific tests.
 
+## Demo Mode
+
+Without Supabase connected, the app runs in demo auth mode **only in local development and tests**.
+Production requires `NEXT_PUBLIC_SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY`; missing repository credentials fail closed instead of falling back to in-memory data.
+
+- Learner: `learner@demo.local`
+- Reviewer: `reviewer@demo.local`
+- Admin: `admin@demo.local`
+- Any password is accepted in demo mode
+
 ## Delivery Checklist
 
 - [ ] README describes the user, business outcome, and operating boundary.

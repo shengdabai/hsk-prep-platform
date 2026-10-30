@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, it } from "vitest";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 import { isMistakeDue, scheduleSrs } from "@hsk/shared";
 
@@ -48,10 +48,22 @@ beforeEach(() => {
   resetStore();
 });
 
+afterEach(() => {
+  vi.unstubAllEnvs();
+});
+
 describe("getRepository() 配置分支", () => {
   it("无 Supabase env 时返回 mock repository(同一单例)", () => {
-    // 测试环境未注入 NEXT_PUBLIC_SUPABASE_URL/ANON_KEY → isSupabaseConfigured() 为 false。
+    // 测试环境未注入 URL/service-role key → repository 配置不完整。
     expect(getRepository()).toBe(mockRepository);
+  });
+
+  it("生产环境缺少 Supabase repository 凭据时拒绝回退 mock", () => {
+    vi.stubEnv("NODE_ENV", "production");
+    vi.stubEnv("NEXT_PUBLIC_SUPABASE_URL", "");
+    vi.stubEnv("SUPABASE_SERVICE_ROLE_KEY", "");
+
+    expect(() => getRepository()).toThrow(/mock repository is disabled/);
   });
 });
 
