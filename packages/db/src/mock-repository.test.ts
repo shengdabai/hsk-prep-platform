@@ -191,6 +191,63 @@ describe("saveAnswer", () => {
 });
 
 describe("submitSession", () => {
+  it("共享池与缺失参考答案混合时,总分、分段、维度和错题本保持一致", async () => {
+    const session = await mockRepository.createSession({
+      userId: USER,
+      setIdOrSlug: MOCK_SET_SLUG,
+      mode: "mock_exam",
+    });
+    const [base] = await mockRepository.getPublishedItemsForSet(MOCK_SET_SLUG);
+    await mockRepository.saveSessionSnapshot(session.id, [
+      {
+        ...base,
+        id: "pool-writing",
+        sectionCode: "writing",
+        questionTypeCode: "W_WORD_SENT",
+        correctOptionId: "B",
+        sharedOptionPool: { groupId: "g1", poolOptionIds: ["A", "B", "C"] },
+      },
+      { ...base, id: "missing-key", sectionCode: "reading", correctOptionId: "" },
+      { ...base, id: "wrong-answer", sectionCode: "reading", correctOptionId: "A" },
+    ]);
+    await mockRepository.saveAnswer({ sessionId: session.id, itemId: "pool-writing", optionId: "B" });
+    await mockRepository.saveAnswer({ sessionId: session.id, itemId: "missing-key", optionId: "A" });
+    await mockRepository.saveAnswer({ sessionId: session.id, itemId: "wrong-answer", optionId: "B" });
+
+    const report = await mockRepository.submitSession(session.id);
+    expect(report).toMatchObject({ score: 1, total: 2, accuracy: 0.5 });
+    expect(report?.sectionBreakdown).toEqual([
+      { sectionCode: "writing", correct: 1, total: 1 },
+      { sectionCode: "reading", correct: 0, total: 1 },
+    ]);
+    expect(report?.dimensions?.bySection).toEqual([
+      { key: "reading", correct: 0, total: 1 },
+      { key: "writing", correct: 1, total: 1 },
+    ]);
+    expect(report?.mistakes.map((mistake) => mistake.itemId)).toEqual(["wrong-answer"]);
+    expect((await mockRepository.getMistakes(USER)).map((mistake) => mistake.itemId)).toEqual(["wrong-answer"]);
+  });
+
+  it("整卷没有有效参考答案时返回零分零题,不生成错题", async () => {
+    const session = await mockRepository.createSession({
+      userId: USER,
+      setIdOrSlug: MOCK_SET_SLUG,
+      mode: "mock_exam",
+    });
+    const [base] = await mockRepository.getPublishedItemsForSet(MOCK_SET_SLUG);
+    await mockRepository.saveSessionSnapshot(session.id, [
+      { ...base, correctOptionId: "", answerText: null },
+    ]);
+
+    const report = await mockRepository.submitSession(session.id);
+    expect(report).toMatchObject({ score: 0, total: 0, accuracy: 0, mistakes: [] });
+    expect(report?.sectionBreakdown).toEqual([
+      { sectionCode: base.sectionCode, correct: 0, total: 0 },
+    ]);
+    expect(report?.dimensions).toEqual({ bySection: [], byQuestionType: [], byTag: [] });
+    expect(await mockRepository.getMistakes(USER)).toEqual([]);
+  });
+
   it("正常评分:生成 report,分数与错题正确", async () => {
     const { session, report } = await runSessionAllA();
     expect(report).not.toBeNull();

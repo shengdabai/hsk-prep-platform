@@ -67,71 +67,66 @@ function normalizeChar(value: string): string {
   return mapped;
 }
 
-// 该题是否可被客观自动判分(真主观书写/口语不可)。
-// write_char 仅当 answerText 非空时才视为可自动判分(无参考答案则归人工)。
-export function isAutoGradable(item: ContentItem): boolean {
-  const format = formatOf(item);
-  if (MANUAL_FORMATS.includes(format)) {
-    return false;
-  }
+function normalizeAnswer(format: AnswerFormat, value: string): string {
   if (format === "write_char") {
-    return Boolean((item.answerText ?? "").trim());
+    return normalizeChar(value);
   }
-  return true;
+  if (format === "order") {
+    return normalizeSequence(value);
+  }
+  if (format === "fill") {
+    return normalizeText(value);
+  }
+  return value;
+}
+
+// 判分与分母统计共用同一规则。共享池优先使用选项键；无有效参考答案则不计分。
+function gradingRule(item: ContentItem): { format: AnswerFormat; expected: string } | null {
+  let format: AnswerFormat = item.sharedOptionPool ? "mc4" : formatOf(item);
+  if (MANUAL_FORMATS.includes(format)) {
+    return null;
+  }
+
+  let expected: string;
+  if (format === "write_char") {
+    expected = normalizeChar(item.answerText ?? "");
+  } else if (format === "order") {
+    expected = normalizeSequence(item.answerText ?? "") || normalizeSequence(item.correctOptionId);
+  } else if (format === "fill" && !item.correctOptionId.trim()) {
+    expected = normalizeText(item.answerText ?? "");
+  } else {
+    // 选择题与选词填空保持选项键精确匹配，不对选项键做文本归一化。
+    format = "mc4";
+    expected = item.correctOptionId;
+  }
+  return expected.trim() ? { format, expected } : null;
+}
+
+// 只有具备有效参考答案、且规则支持自动比较的题才计入自动评分分母。
+export function isAutoGradable(item: ContentItem): boolean {
+  return gradingRule(item) !== null;
 }
 
 export function gradeResponse(
   item: ContentItem,
   answer: string | undefined | null,
 ): GradeOutcome {
-  const format = formatOf(item);
-
-  // ── 共享选项池(A-F 六选共享)判分分支 ──────────────────────────────────
-  // 题带 sharedOptionPool 时,用户提交的仍是池内某个选项 id(字母),每题自带
-  // correctOptionId 指向其正确的池选项。判分口径与既有"选项键相等"完全一致:
-  // 未作答记错,选中即与 correctOptionId 比较。显式前置此分支只为自文档化语义,
-  // **不改变**任何既有题型(single_choice/order/fill/write_char/match)的判分逻辑。
-  if (item.sharedOptionPool) {
-    if (answer == null || answer === "") {
-      return "incorrect";
-    }
-    return answer === item.correctOptionId ? "correct" : "incorrect";
-  }
-
-  if (MANUAL_FORMATS.includes(format)) {
-    return "ungraded";
-  }
-  // 看拼音写汉字:有客观答案。无 answerText 时无法判分 → ungraded(不冤判为错)。
-  if (format === "write_char" && !((item.answerText ?? "").trim())) {
+  const rule = gradingRule(item);
+  if (!rule) {
     return "ungraded";
   }
   // 客观题未作答记为错。
   if (answer == null || answer === "") {
     return "incorrect";
   }
-  // 看拼音写汉字:归一化(去空格 + 全半角 + 繁简容错)后精确匹配 answerText。
-  if (format === "write_char") {
-    return normalizeChar(answer) === normalizeChar(item.answerText ?? "")
-      ? "correct"
-      : "incorrect";
-  }
-  if (format === "order") {
-    const expected = item.answerText ?? item.correctOptionId ?? "";
-    return normalizeSequence(answer) === normalizeSequence(expected) ? "correct" : "incorrect";
-  }
-  // 文本填空(无选项,答案存 answerText,如听后填空 L_LONG_FILL):按归一化文本精确比较。
-  if (format === "fill" && !item.correctOptionId && item.answerText) {
-    return normalizeText(answer) === normalizeText(item.answerText) ? "correct" : "incorrect";
-  }
-  // 选项键相等(judge/mc3/mc4/mc_image/fill 选词/match 降级)。
-  return answer === item.correctOptionId ? "correct" : "incorrect";
+  return normalizeAnswer(rule.format, answer) === rule.expected ? "correct" : "incorrect";
 }
 
 // 按 section 统计 {correct,total}(纯函数)。total 只算可自动判分的题
 // (主观书写/口语不计入分母),与 mock/supabase 的 sectionBreakdown 口径一致。
 // 这是判分的唯一实现:两套 repository 与「快照评分」均复用本函数,消除三重复制
 // (此前 mock/supabase 各自重写一份逻辑等价的本地 scoreSection,靠人工同步口径)。
-// 判分算法不变(仍走 gradeResponse / isAutoGradable);签名放宽到任意 SectionCode,
+// 仍走 gradeResponse / isAutoGradable;签名放宽到任意 SectionCode,
 // 以支持 HSK4-9 的 writing/speaking/translation 分区,而非硬编码 listening+reading。
 export type SectionScore = {
   sectionCode: SectionCode;
