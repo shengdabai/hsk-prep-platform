@@ -12,6 +12,13 @@ function getSecret(): string {
   if (secret && secret.length >= 16) {
     return secret;
   }
+  // 与 session.ts 的 getSecret() 行为对齐:生产环境缺失/过短 SESSION_SECRET 时必须 throw,
+  // 拒绝以弱密钥静默启动,杜绝 Edge 层会话签名可被预测的安全洞。
+  if (process.env.NODE_ENV === "production") {
+    throw new Error(
+      "SESSION_SECRET 未设置或过短(需 ≥16 字符)。生产环境必须配置,拒绝以不安全默认值启动。",
+    );
+  }
   return DEV_FALLBACK_SECRET;
 }
 
