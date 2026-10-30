@@ -1,0 +1,7 @@
+{
+  "name": "@hsk/content-engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "HSK 内容自动化生产引擎：组卷 → LLM 出题 → 配图 → 配音 → 审核队列"
+}

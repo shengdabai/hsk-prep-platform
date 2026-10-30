@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "pnpm --filter web dev",
     "build": "pnpm --filter web build",
+    "test": "pnpm --filter @hsk/shared --filter @hsk/db test && node --test wave0-security.test.mjs",
     "lint": "pnpm --filter web lint",
     "import:items": "pnpm --filter web import:items"
   }

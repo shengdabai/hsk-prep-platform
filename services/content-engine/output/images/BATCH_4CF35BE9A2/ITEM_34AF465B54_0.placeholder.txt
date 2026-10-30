@@ -1,0 +1,4 @@
+[DRY-RUN] image placeholder
+prompt: A simple illustration for L_WORD_IMG_TF at hsk-1 level, item 0
+itemId: ITEM_34AF465B54
+index: 0

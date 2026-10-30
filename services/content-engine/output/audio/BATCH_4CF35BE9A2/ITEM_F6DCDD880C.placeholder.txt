@@ -1,0 +1,4 @@
+[DRY-RUN] audio placeholder
+text: [DRY-RUN] 这是第 1 题的音频文本内容。...
+voice: female_standard
+speed: slow

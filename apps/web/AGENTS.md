@@ -8,6 +8,12 @@
 - 中间件在 **`proxy.ts`**(Next 16 中 middleware 已更名为 proxy),运行于 Edge runtime——不可用 `node:crypto`,只能用 Web Crypto(见 `lib/session-edge.ts`)。
 - 路由处理器运行于 Node runtime,可用 `node:crypto`(`lib/session.ts`、`lib/password.ts`)。
 
+## 命令(在仓库根目录执行,pnpm workspace)
+- 安装:`pnpm install`
+- 开发:`pnpm dev`(= `pnpm --filter web dev`)
+- 构建:`pnpm build`;Lint:`pnpm lint`
+- 测试:`pnpm test`(@hsk/shared、@hsk/db 单测 + `wave0-security.test.mjs` 安全回归);改鉴权/归属校验后必须跑
+
 ## 鉴权(重要)
 - 会话:HMAC 签名 cookie `hsk_session`(`lib/session.ts`),**不要**再用任何明文 userId cookie。
 - 页面/服务端组件:`lib/auth.ts` 的 `getCurrentUser/requireUser/requireRole`。
