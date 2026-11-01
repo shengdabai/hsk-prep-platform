@@ -241,6 +241,7 @@ export type Repository = {
   getUserById(userId: string): Promise<AppUser | null>;
   findUserByEmail(email: string): Promise<AppUser | null>;
   upsertUser(user: AppUser): Promise<AppUser>;
+  createUserWithPassword(user: AppUser, passwordHash: string): Promise<AppUser | null>;
   getRole(userId: string): Promise<UserRole>;
 
   // 凭据(密码哈希由调用方计算并存取,repository 不感知明文)。
