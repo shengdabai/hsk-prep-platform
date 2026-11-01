@@ -36,7 +36,11 @@ export async function POST(req: NextRequest) {
     let existing: Question[] = [];
     try {
       if (fs.existsSync(QUESTIONS_JSON)) {
-        existing = JSON.parse(fs.readFileSync(QUESTIONS_JSON, "utf-8")) as Question[];
+        const parsed: unknown = JSON.parse(fs.readFileSync(QUESTIONS_JSON, "utf-8"));
+        if (!Array.isArray(parsed) || !parsed.every((q) => q && typeof q === "object" && typeof q.id === "string")) {
+          throw new Error("question bank is not an array of questions with string ids");
+        }
+        existing = parsed as Question[];
       }
     } catch (e) {
       console.error("admin generate could not read the question bank", e);

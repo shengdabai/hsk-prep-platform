@@ -27,7 +27,8 @@ export default function GeneratePage() {
   const selectedType = DOC_TYPES.find((t) => t.value === docType)!;
 
   async function handleGenerate() {
-    if (!content.trim()) return;
+    // A pending save belongs to the current preview; generating now would let its answer mark a new batch.
+    if (!content.trim() || saving) return;
     setLoading(true);
     setError("");
     setResult(null);
@@ -53,8 +54,9 @@ export default function GeneratePage() {
   }
 
   async function handleSave() {
-    if (!result?.questions.length) return;
+    if (!result?.questions.length || loading) return;
     setSaving(true);
+    setError("");
     try {
       const res = await fetch("/api/admin/generate", {
         method: "POST",
@@ -154,7 +156,7 @@ export default function GeneratePage() {
         {/* 生成按钮 */}
         <button
           onClick={handleGenerate}
-          disabled={loading || !content.trim()}
+          disabled={loading || saving || !content.trim()}
           className="rounded-[1.2rem] bg-[#9f3215] px-6 py-3 text-sm font-medium text-white transition hover:bg-[#852a10] disabled:opacity-40"
         >
           {loading ? "AI 生成中…" : "开始生成"}
