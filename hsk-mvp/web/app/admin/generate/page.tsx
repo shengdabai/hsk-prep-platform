@@ -74,7 +74,8 @@ export default function GeneratePage() {
       if (!data.saved) {
         setError(data.error ?? "保存失败");
       } else if (data.skipped) {
-        // Partial save: keep the preview and the button, and say exactly what was left out.
+        // Partial save: this batch is done (a retry would only skip the same items), so say what was left out.
+        setSaved(true);
         setError(`已保存 ${data.count ?? 0} 题,跳过 ${data.skipped} 题(结构不合法或 id 已存在)。`);
       } else {
         setSaved(true);

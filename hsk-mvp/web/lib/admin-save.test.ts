@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { MAX_SAVE_ITEMS, planSave, sanitizeQuestion } from "./admin-save";
+import { cleanGenerated, MAX_SAVE_ITEMS, planSave, sanitizeQuestion } from "./admin-save";
 
 // Shape the generator prompt asks DeepSeek for (lib/ai-generate.ts), with fixture text.
 const generated = {
@@ -78,4 +78,25 @@ test("every shape the generator prompt describes is accepted", () => {
     { kind: "matching", options: opts(["1", "2", "3", "4", "5"]), answer: "3,1,4,2,5" },
   ];
   for (const sample of samples) assert.ok(sanitizeQuestion({ ...generated, ...sample }), sample.kind);
+});
+
+test("generated output is rebuilt before the preview and gets server ids", () => {
+  let n = 0;
+  const newId = () => `AI_GEN_server_${++n}`;
+  const { items, dropped } = cleanGenerated(
+    [generated, { ...generated, options: null }, { ...generated, options: [null] }, 1, null, { ...generated }],
+    newId,
+  );
+  assert.equal(items.length, 2);
+  assert.ok(items.every((q) => q.id.startsWith("AI_GEN_server_") && q.id !== generated.id));
+  assert.equal(new Set(items.map((q) => q.id)).size, 2);
+  assert.equal(dropped, 4);
+  assert.deepEqual(cleanGenerated("not a list", newId), { items: [], dropped: 0 });
+});
+
+test("well-formed generator output loses nothing in the rebuild", () => {
+  const batch = Array.from({ length: 5 }, () => ({ ...generated }));
+  const { items, dropped } = cleanGenerated(batch, (() => { let i = 0; return () => `AI_GEN_${i++}`; })());
+  assert.equal(items.length, 5);
+  assert.equal(dropped, 0);
 });

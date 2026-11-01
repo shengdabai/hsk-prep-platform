@@ -89,3 +89,16 @@ export function planSave(pregenerated: unknown, existingIds: ReadonlySet<string>
   if (items.length === 0) return { ok: false, error: "pregenerated 中没有可保存的题目(结构不合法或 id 已存在)。" };
   return { ok: true, items, skipped: pregenerated.length - items.length };
 }
+
+// Generated output goes through the same rebuild before the preview, so malformed model output
+// cannot crash the page, and each item gets a server-assigned id (model-made "random" ids repeat).
+export function cleanGenerated(questions: unknown, newId: () => string): { items: Question[]; dropped: number } {
+  const list = Array.isArray(questions) ? questions : [];
+  const items: Question[] = [];
+  for (const candidate of list) {
+    if (!candidate || typeof candidate !== "object" || Array.isArray(candidate)) continue;
+    const question = sanitizeQuestion({ ...candidate, id: newId() });
+    if (question) items.push(question);
+  }
+  return { items, dropped: list.length - items.length };
+}

@@ -1,9 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
+import { randomUUID } from "crypto";
 import fs from "fs";
 import path from "path";
 
 import { generateQuestions, type GenerateRequest } from "@/lib/ai-generate";
-import { planSave } from "@/lib/admin-save";
+import { cleanGenerated, planSave } from "@/lib/admin-save";
 import type { Question } from "@/lib/hsk-content";
 
 const DOC_TYPES: readonly unknown[] = ["vocab_list", "article", "dialogue", "textbook"];
@@ -71,14 +72,15 @@ export async function POST(req: NextRequest) {
   }
 
   const result = await generateQuestions(genReq);
-
-  if (result.error && result.questions.length === 0) {
-    return NextResponse.json({ error: result.error }, { status: 500 });
+  const { items, dropped } = cleanGenerated(result.questions, () => `AI_GEN_${randomUUID()}`);
+  if (items.length === 0) {
+    return NextResponse.json({ error: result.error ?? "生成结果中没有结构合法的题目。" }, { status: 500 });
   }
+  const warning = [result.error, dropped ? `已丢弃 ${dropped} 道结构不合法的题目。` : ""].filter(Boolean).join(" ");
 
   return NextResponse.json({
-    questions: result.questions,
+    questions: items,
     saved: false,
-    warning: result.error,
+    warning: warning || undefined,
   });
 }
