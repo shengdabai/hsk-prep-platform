@@ -45,3 +45,26 @@ flowchart TD
 2. 接真实 Supabase Auth 回调。
 3. 将 Stripe Webhook 写入 subscriptions / audit_logs。
 4. 让 parser 输出直接进入 review_tasks + content_items。
+
+
+## Stripe webhook persistence
+
+Apply `infra/sql/008_stripe_event_transaction.sql` before enabling the updated webhook.
+The webhook requires Supabase service-role configuration and never acknowledges a payment
+using the in-memory repository. A missing migration or failed database write returns 500
+so Stripe can retry. The RPC is callable only by `service_role`.
+
+The transaction locks the profile, records the event ID, updates the subscription and
+profile entitlement, and appends the audit entry. Failure rolls everything back.
+Duplicate IDs return `duplicate`; events older than the last applied event return `stale`.
+Cancellation of a different, older subscription does not revoke the current subscription.
+Stripe timestamps have one-second precision; equal-timestamp events follow lock order.
+The current implementation does not claim a total chronological order within that second.
+
+Unpaid checkout completion grants no access. The later
+`checkout.session.async_payment_succeeded` event handles confirmed delayed payments.
+Subscription period end comes from the first subscription item's `current_period_end`.
+
+Mocked HTTP/RPC coverage runs with `pnpm -r test`. A separate rollback-only SQL fixture
+is at `infra/sql/tests/008_stripe_event_transaction.test.sql`; run it only in an empty
+disposable PostgreSQL database. Unit tests do not verify database concurrency or deployment.

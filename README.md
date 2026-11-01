@@ -47,21 +47,20 @@ This repository supports productized learning workflows: diagnostic input, guide
 Use the commands that match the current project state:
 
 ```bash
-npm install
-npm run dev
-npm start
-npm run build
-npm run lint
+pnpm install
+pnpm dev
+pnpm build
+pnpm lint
+pnpm -r test
 ```
 
 | Command | Purpose |
 |---|---|
-| `npm install` | Install project dependencies. |
-| `npm run dev` | next dev |
-| `npm start` | next start |
-| `npm run build` | next build |
-| `npm run lint` | eslint |
-| `npm run test` | vitest run |
+| `pnpm install` | Install project dependencies. |
+| `pnpm dev` | next dev |
+| `pnpm build` | next build |
+| `pnpm lint` | eslint |
+| `pnpm -r test` | Run workspace Vitest suites |
 
 ## Operating Notes
 

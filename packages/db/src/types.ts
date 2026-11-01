@@ -157,6 +157,16 @@ export type Database = {
     };
     Views: Record<string, never>;
     Functions: {
+      apply_stripe_event: {
+        Args: {
+          p_event_id: string;
+          p_created: number;
+          p_user_id: string;
+          p_action: string;
+          p_subscription: Record<string, unknown> | null;
+        };
+        Returns: string;
+      };
       submit_exam_session: {
         Args: {
           p_session_id: string;

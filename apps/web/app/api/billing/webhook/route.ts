@@ -1,10 +1,8 @@
 import { NextResponse } from "next/server";
 import Stripe from "stripe";
 
-import { getRepository } from "@hsk/db";
+import { applyStripeEvent, type StripeEventInput } from "@hsk/db";
 import type { PlanCode, SubscriptionStatus } from "@hsk/shared";
-
-import { markStripeEventOnce } from "@/lib/stripe-event-dedup";
 
 function mapStripeStatus(status: Stripe.Subscription.Status): SubscriptionStatus {
   switch (status) {
@@ -68,25 +66,34 @@ export async function POST(request: Request) {
   let event: Stripe.Event;
   try {
     event = stripe.webhooks.constructEvent(payload, signature, webhookSecret);
-  } catch (error) {
+  } catch {
     return NextResponse.json(
-      { error: error instanceof Error ? error.message : "Webhook verification failed." },
+      { error: "Webhook verification failed." },
       { status: 400 },
     );
   }
 
-  // N2 幂等:Stripe 会重投递同一事件。已处理过的 event.id 直接回 200,
-  // 不重复执行业务副作用(setSubscription 虽 upsert 幂等,但 addAuditLog 不是)。
-  if (!markStripeEventOnce(event.id)) {
-    return NextResponse.json({ ok: true, eventType: event.type, deduplicated: true });
-  }
-
-  const repo = getRepository();
+  let result: string | undefined;
+  const apply = async (
+    subscription: StripeEventInput["subscription"],
+    userId: string,
+    action: string,
+  ) => {
+    result = await applyStripeEvent({
+      eventId: event.id, created: event.created, userId, action, subscription,
+    });
+  };
 
   try {
     switch (event.type) {
-      case "checkout.session.completed": {
+      case "checkout.session.completed":
+      case "checkout.session.async_payment_succeeded": {
         const session = event.data.object as Stripe.Checkout.Session;
+        // Delayed payment methods complete checkout before funds are confirmed.
+        if (session.mode !== "subscription" ||
+            !["paid", "no_payment_required"].includes(session.payment_status)) {
+          break;
+        }
         const userId = session.client_reference_id ?? session.metadata?.userId;
         if (!userId) {
           break;
@@ -98,30 +105,17 @@ export async function POST(request: Request) {
         const plan = planFromPriceId(priceId);
         if (!plan) {
           // priceId 无法映射到已知套餐:不擅自授予,记审计日志并跳过。
-          await repo.addAuditLog({
-            actorId: userId,
-            targetTable: "subscriptions",
-            targetId: userId,
-            action: "checkout_completed_unmapped_price",
-            payload: { priceId, eventId: event.id },
-          });
+          await apply(null, userId, "checkout_completed_unmapped_price");
           break;
         }
-        await repo.setSubscription({
+        await apply({
           userId,
           plan,
           status: "active",
           stripeCustomerId: typeof session.customer === "string" ? session.customer : null,
           stripeSubscriptionId:
             typeof session.subscription === "string" ? session.subscription : null,
-        });
-        await repo.addAuditLog({
-          actorId: userId,
-          targetTable: "subscriptions",
-          targetId: userId,
-          action: "checkout_completed",
-          payload: { plan, eventId: event.id },
-        });
+        }, userId, "checkout_completed");
         break;
       }
       case "customer.subscription.updated":
@@ -141,9 +135,8 @@ export async function POST(request: Request) {
           event.type === "customer.subscription.deleted"
             ? "canceled"
             : mapStripeStatus(subscription.status);
-        const periodEnd = (subscription as unknown as { current_period_end?: number })
-          .current_period_end;
-        await repo.setSubscription({
+        const periodEnd = subscription.items.data[0]?.current_period_end;
+        await apply({
           userId,
           plan,
           status,
@@ -151,25 +144,18 @@ export async function POST(request: Request) {
             typeof subscription.customer === "string" ? subscription.customer : null,
           stripeSubscriptionId: subscription.id,
           currentPeriodEndsAt: periodEnd ? new Date(periodEnd * 1000).toISOString() : null,
-        });
-        await repo.addAuditLog({
-          actorId: userId,
-          targetTable: "subscriptions",
-          targetId: userId,
-          action: event.type,
-          payload: { status, eventId: event.id },
-        });
+        }, userId, event.type);
         break;
       }
       default:
         break;
     }
-  } catch (error) {
+  } catch {
     return NextResponse.json(
-      { error: error instanceof Error ? error.message : "Webhook handler failed." },
+      { error: "Webhook handler failed." },
       { status: 500 },
     );
   }
 
-  return NextResponse.json({ ok: true, eventType: event.type });
+  return NextResponse.json({ ok: true, eventType: event.type, result });
 }
