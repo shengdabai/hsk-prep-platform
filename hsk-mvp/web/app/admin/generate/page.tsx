@@ -68,9 +68,17 @@ export default function GeneratePage() {
           pregenerated: result.questions,
         }),
       });
-      const data = (await res.json()) as { saved?: boolean; error?: string };
-      if (data.saved) setSaved(true);
-      else setError(data.error ?? "保存失败");
+      const data = (await res.json()) as { saved?: boolean; count?: number; skipped?: number; error?: string };
+      if (!data.saved) {
+        setError(data.error ?? "保存失败");
+      } else if (data.skipped) {
+        // Partial save: keep the preview and the button, and say exactly what was left out.
+        setError(`已保存 ${data.count ?? 0} 题,跳过 ${data.skipped} 题(结构不合法或 id 已存在)。`);
+      } else {
+        setSaved(true);
+      }
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "网络错误");
     } finally {
       setSaving(false);
     }

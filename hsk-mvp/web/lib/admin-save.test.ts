@@ -47,3 +47,35 @@ test("a save request with nothing valid is an error, never a fall-through", () =
   assert.equal(plan.items.length, 1);
   assert.equal(plan.skipped, 1);
 });
+
+test("a matching answer must be a permutation of 1..n for n options", () => {
+  const options = [1, 2, 3].map((n) => ({ id: String(n), label: String(n), text: `item ${n}` }));
+  const matching = { ...generated, kind: "matching", options };
+  assert.equal(sanitizeQuestion({ ...matching, answer: "3, 1, 2" })?.answer, "3,1,2");
+  for (const answer of ["1,2", "1,1,2", "0,1,2", "99,99,99", "1,2,4", "1,2,3,4"]) {
+    assert.equal(sanitizeQuestion({ ...matching, answer }), null, answer);
+  }
+});
+
+test("duplicate option ids are rejected", () => {
+  assert.equal(sanitizeQuestion({ ...generated, options: [{ id: "A", label: "A", text: "x" }, { id: "A", label: "B", text: "y" }] }), null);
+});
+
+test("ids already in the bank or repeated in the batch are skipped", () => {
+  const plan = planSave([generated, { ...generated }, { ...generated, id: "AI_GEN_NEW" }], new Set(["AI_GEN_OLD"]));
+  assert.ok(plan.ok);
+  assert.deepEqual(plan.items.map((q) => q.id), ["AI_GEN_FIXTURE", "AI_GEN_NEW"]);
+  assert.equal(plan.skipped, 1);
+  assert.equal(planSave([generated], new Set([generated.id])).ok, false);
+});
+
+test("every shape the generator prompt describes is accepted", () => {
+  const opts = (ids: string[], text = (id: string) => `option ${id}`) => ids.map((id) => ({ id, label: id, text: text(id) }));
+  const samples = [
+    { kind: "image_true_false", options: opts(["A", "B"], (id) => (id === "A" ? "√" : "×")), answer: "B" },
+    { kind: "single_choice", options: opts(["A", "B", "C"]), answer: "C" },
+    { kind: "fill_blank", options: opts(["A", "B", "C", "D"]), answer: "D" },
+    { kind: "matching", options: opts(["1", "2", "3", "4", "5"]), answer: "3,1,4,2,5" },
+  ];
+  for (const sample of samples) assert.ok(sanitizeQuestion({ ...generated, ...sample }), sample.kind);
+});

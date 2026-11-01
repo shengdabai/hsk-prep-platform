@@ -33,13 +33,18 @@ export async function POST(req: NextRequest) {
 
   // 保存模式:只写入重建后的合法题目(强制 pending / draft),无论结果如何都不进入付费生成。
   if (save === true) {
-    const plan = planSave(pregenerated);
-    if (!plan.ok) return NextResponse.json({ error: plan.error }, { status: 400 });
+    let existing: Question[] = [];
     try {
-      let existing: Question[] = [];
       if (fs.existsSync(QUESTIONS_JSON)) {
         existing = JSON.parse(fs.readFileSync(QUESTIONS_JSON, "utf-8")) as Question[];
       }
+    } catch (e) {
+      console.error("admin generate could not read the question bank", e);
+      return NextResponse.json({ error: "读取题库失败。" }, { status: 500 });
+    }
+    const plan = planSave(pregenerated, new Set(existing.map((question) => question.id)));
+    if (!plan.ok) return NextResponse.json({ error: plan.error }, { status: 400 });
+    try {
       fs.writeFileSync(QUESTIONS_JSON, JSON.stringify([...existing, ...plan.items], null, 2), "utf-8");
       return NextResponse.json({ saved: true, count: plan.items.length, skipped: plan.skipped });
     } catch (e) {

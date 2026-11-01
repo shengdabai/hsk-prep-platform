@@ -19,6 +19,11 @@ function text(value: unknown, max = MAX_TEXT): value is string {
 function optionalText(value: unknown): value is string | null | undefined {
   return value === undefined || value === null || (typeof value === "string" && value.length <= MAX_TEXT);
 }
+function isPermutation(answer: string, size: number): boolean {
+  const order = answer.split(",").map((part) => part.trim());
+  if (order.length !== size || !order.every((part) => /^\d{1,2}$/.test(part))) return false;
+  return [...order].map(Number).sort((a, b) => a - b).every((value, index) => value === index + 1);
+}
 function textList(value: unknown): value is string[] {
   return Array.isArray(value) && value.length <= 50 && value.every((v) => typeof v === "string" && v.length <= 200);
 }
@@ -42,9 +47,11 @@ export function sanitizeQuestion(input: unknown): Question | null {
     if (!text(optionId, 20) || !text(label, 20) || !text(optionText, 500)) return null;
     cleanOptions.push({ id: optionId, label, text: optionText });
   }
-  // Matching answers are an ordering such as "3,1,4,2,5"; every other kind names one option id.
+  if (new Set(cleanOptions.map((option) => option.id)).size !== cleanOptions.length) return null;
+  // Matching answers order the right-hand items, e.g. "3,1,4,2,5": a permutation of 1..n for n options.
+  // Every other kind names one option id.
   const answerOk = kind === "matching"
-    ? typeof answer === "string" && /^\d+(,\d+)*$/.test(answer)
+    ? typeof answer === "string" && isPermutation(answer, cleanOptions.length)
     : cleanOptions.some((option) => option.id === answer);
   if (!answerOk) return null;
 
@@ -53,7 +60,7 @@ export function sanitizeQuestion(input: unknown): Question | null {
     ...(typeof context === "string" ? { context } : {}),
     ...(typeof visualHint === "string" ? { visualHint } : {}),
     options: cleanOptions,
-    answer: answer as string,
+    answer: kind === "matching" ? (answer as string).split(",").map((part) => part.trim()).join(",") : (answer as string),
     explanation, estimatedSeconds,
     vocabFocus: [...vocabFocus], tags: [...tags], sourceType, copyrightStatus,
     // Saved items always wait for human review; the caller cannot approve or publish them.
@@ -65,12 +72,20 @@ export function sanitizeQuestion(input: unknown): Question | null {
 export type SavePlan = { ok: true; items: Question[]; skipped: number } | { ok: false; error: string };
 
 // A save request never falls through to paid generation: missing, empty or invalid input is an error.
-export function planSave(pregenerated: unknown): SavePlan {
+// Items whose id is already stored (or repeated in the batch) are skipped: lookups by id return the first match.
+export function planSave(pregenerated: unknown, existingIds: ReadonlySet<string> = new Set()): SavePlan {
   if (!Array.isArray(pregenerated) || pregenerated.length === 0) {
     return { ok: false, error: "save 模式需要非空的 pregenerated 数组。" };
   }
   if (pregenerated.length > MAX_SAVE_ITEMS) return { ok: false, error: `一次最多保存 ${MAX_SAVE_ITEMS} 题。` };
-  const items = pregenerated.map(sanitizeQuestion).filter((q): q is Question => q !== null);
-  if (items.length === 0) return { ok: false, error: "pregenerated 中无结构合法的题目。" };
+  const seen = new Set(existingIds);
+  const items: Question[] = [];
+  for (const candidate of pregenerated) {
+    const question = sanitizeQuestion(candidate);
+    if (!question || seen.has(question.id)) continue;
+    seen.add(question.id);
+    items.push(question);
+  }
+  if (items.length === 0) return { ok: false, error: "pregenerated 中没有可保存的题目(结构不合法或 id 已存在)。" };
   return { ok: true, items, skipped: pregenerated.length - items.length };
 }
