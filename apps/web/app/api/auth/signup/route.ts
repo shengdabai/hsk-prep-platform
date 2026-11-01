@@ -47,7 +47,8 @@ export async function POST(request: Request) {
     plan: "free",
   };
   const created = await repo.createUserWithPassword(user, hashPassword(password));
-  if (!created) return NextResponse.json({ error: "邮箱已存在。" }, { status: 409 });
+  // null = unique conflict (email, or the practically impossible id clash): report it generically.
+  if (!created) return NextResponse.json({ error: "账号已存在。" }, { status: 409 });
 
   const response = NextResponse.json({ ok: true });
   response.cookies.set(sessionCookie, createSessionToken(user.id, user.role, SESSION_TTL), {

@@ -435,4 +435,13 @@ describe("atomic signup", () => {
     expect(await mockRepository.getUserById("duplicate")).toBeNull();
     expect(await mockRepository.getPasswordHash(user.id)).toBe("fixture-hash");
   });
+
+  it("refuses a reused id even with a different email", async () => {
+    const user = {id:"fixture-signup-id",email:"fixture-id@example.invalid",fullName:"Fixture",role:"learner" as const,plan:"free" as const};
+    expect(await mockRepository.createUserWithPassword(user,"fixture-hash")).toEqual(user);
+    expect(await mockRepository.createUserWithPassword({...user,email:"other@example.invalid"},"replacement")).toBeNull();
+    expect((await mockRepository.getUserById(user.id))?.email).toBe(user.email);
+    expect(await mockRepository.findUserByEmail("other@example.invalid")).toBeNull();
+    expect(await mockRepository.getPasswordHash(user.id)).toBe("fixture-hash");
+  });
 });
