@@ -19,6 +19,6 @@ pnpm build
 
 ## 说明
 
-- 默认使用 demo auth + mock repository
+- 本地开发/测试默认使用 demo auth + mock repository；生产缺 Supabase repository 凭据时 fail closed
 - 已预留 Supabase Auth / Postgres / Storage 接入位
 - 已提供学生端、管理端和 Route Handlers 骨架

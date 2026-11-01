@@ -18,11 +18,16 @@ function getSupabaseEnv() {
     anonKey,
     serviceRoleKey,
     configured: Boolean(url && anonKey),
+    repositoryConfigured: Boolean(url && serviceRoleKey),
   };
 }
 
 export function isSupabaseConfigured() {
   return getSupabaseEnv().configured;
+}
+
+export function isSupabaseRepositoryConfigured() {
+  return getSupabaseEnv().repositoryConfigured;
 }
 
 export function createSupabaseBrowserClient() {

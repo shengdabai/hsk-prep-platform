@@ -7,17 +7,16 @@ import type { SessionPayload } from "@/lib/session";
 // 必须与 session.ts 的 DEV_FALLBACK_SECRET 完全一致。
 const DEV_FALLBACK_SECRET = "dev-insecure-session-secret-change-in-production-32b";
 
-function getSecret(): string {
+// 与 session.ts 的 getSecret 同一策略,但这里不能抛错(抛错会让 proxy 直接 500),
+// 所以生产环境缺密钥时返回 null,由调用方 fail-closed(令牌一律视为无效)。
+// 否则任何人都能用源码里公开的开发密钥伪造 admin 令牌通过边缘门禁。
+function getSecret(): string | null {
   const secret = process.env.SESSION_SECRET;
   if (secret && secret.length >= 16) {
     return secret;
   }
-  // 与 session.ts 的 getSecret() 行为对齐:生产环境缺失/过短 SESSION_SECRET 时必须 throw,
-  // 拒绝以弱密钥静默启动,杜绝 Edge 层会话签名可被预测的安全洞。
   if (process.env.NODE_ENV === "production") {
-    throw new Error(
-      "SESSION_SECRET 未设置或过短(需 ≥16 字符)。生产环境必须配置,拒绝以不安全默认值启动。",
-    );
+    return null;
   }
   return DEV_FALLBACK_SECRET;
 }
@@ -36,10 +35,10 @@ function base64UrlToString(input: string): string {
   return atob(padded + pad);
 }
 
-async function edgeSign(body: string): Promise<string> {
+async function edgeSign(secret: string, body: string): Promise<string> {
   const key = await crypto.subtle.importKey(
     "raw",
-    new TextEncoder().encode(getSecret()),
+    new TextEncoder().encode(secret),
     { name: "HMAC", hash: "SHA-256" },
     false,
     ["sign"],
@@ -48,10 +47,26 @@ async function edgeSign(body: string): Promise<string> {
   return bytesToBase64Url(new Uint8Array(sig));
 }
 
+// 常量时间比较(Edge 无 timingSafeEqual):长度本身不是秘密,长度相同时逐字符累积差异,不提前返回。
+function constantTimeEqual(a: string, b: string): boolean {
+  if (a.length !== b.length) {
+    return false;
+  }
+  let diff = 0;
+  for (let i = 0; i < a.length; i++) {
+    diff |= a.charCodeAt(i) ^ b.charCodeAt(i);
+  }
+  return diff === 0;
+}
+
 export async function verifySessionTokenEdge(
   token: string | undefined | null,
 ): Promise<SessionPayload | null> {
   if (!token) {
+    return null;
+  }
+  const secret = getSecret();
+  if (!secret) {
     return null;
   }
   const dot = token.lastIndexOf(".");
@@ -60,8 +75,8 @@ export async function verifySessionTokenEdge(
   }
   const body = token.slice(0, dot);
   const providedSig = token.slice(dot + 1);
-  const expectedSig = await edgeSign(body);
-  if (providedSig !== expectedSig) {
+  const expectedSig = await edgeSign(secret, body);
+  if (!constantTimeEqual(providedSig, expectedSig)) {
     return null;
   }
   try {
