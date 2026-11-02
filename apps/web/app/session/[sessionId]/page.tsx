@@ -3,6 +3,7 @@ import { redirect } from "next/navigation";
 import { getRepository } from "@hsk/db";
 
 import { requireUser } from "@/lib/auth";
+import { sessionDeadlineMs } from "@/lib/session-deadline";
 import { getSessionViewItems } from "@/lib/view-models";
 import { SessionRunner } from "@/components/session-runner";
 import { SiteShell } from "@/components/site-shell";
@@ -25,6 +26,8 @@ export default async function SessionPage({
   // 评分用快照导致的不一致。已提交会话用 submitted 视图补回正解/解析。
   const submitted = session.status === "submitted";
   const questions = await getSessionViewItems(session.id, session.setId, submitted);
+  const exam = session.mode === "mock_exam" && !submitted ? await repo.getMockExamById(session.setId) : null;
+  const deadlineMs = exam ? sessionDeadlineMs(session.startedAt, exam.minutes) : null;
 
   return (
     <SiteShell user={user}>
@@ -36,6 +39,7 @@ export default async function SessionPage({
           answers: session.answers,
         }}
         questions={questions}
+        deadlineMs={deadlineMs}
       />
     </SiteShell>
   );

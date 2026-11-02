@@ -1,8 +1,9 @@
 "use client";
 
-import { useCallback, useMemo, useState, useTransition } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import type { AnswerFormat } from "@hsk/shared";
+import { formatRemaining } from "@/lib/session-deadline";
 import { QuestionView } from "./question-view";
 import type { DisplayQuestion } from "./question-view";
 
@@ -40,9 +41,12 @@ type SessionView = {
 export function SessionRunner({
   session,
   questions,
+  deadlineMs = null,
 }: {
   session: SessionView;
   questions: Question[];
+  // A timed exam's end, in epoch milliseconds. Null when the session has no time limit.
+  deadlineMs?: number | null;
 }) {
   const router = useRouter();
   const submitted = session.status === "submitted";
@@ -63,6 +67,8 @@ export function SessionRunner({
   // 本地 state + localStorage 始终先落,网络失败不丢用户选择。
   const [unsavedAnswers, setUnsavedAnswers] = useState<Record<string, string>>({});
   const [isPending, startTransition] = useTransition();
+  const [remainingMs, setRemainingMs] = useState<number | null>(null);
+  const autoSubmitted = useRef(false);
 
   const current = questions[currentIndex];
 
@@ -169,6 +175,26 @@ export function SessionRunner({
     });
   }
 
+  // The server refuses late answers, and this hands in what was saved when the time runs out.
+  const submitOnTimeout = useRef(submit);
+  useEffect(() => {
+    submitOnTimeout.current = submit;
+  });
+  useEffect(() => {
+    if (deadlineMs === null || submitted) return;
+    const tick = () => {
+      const left = deadlineMs - Date.now();
+      setRemainingMs(left);
+      if (left <= 0 && !autoSubmitted.current) {
+        autoSubmitted.current = true;
+        void submitOnTimeout.current();
+      }
+    };
+    tick();
+    const timer = window.setInterval(tick, 1000);
+    return () => window.clearInterval(timer);
+  }, [deadlineMs, submitted]);
+
   // Build the DisplayQuestion shape expected by QuestionView
   const displayQuestion: DisplayQuestion = {
     ...current,
@@ -221,6 +247,16 @@ export function SessionRunner({
             />
           </div>
         </div>
+
+        {remainingMs !== null ? (
+          <div
+            role="timer"
+            aria-label="考试剩余时间"
+            className="rounded-[var(--radius-xl)] border border-[var(--surface-border)] bg-[var(--surface)] p-4 text-center text-2xl font-semibold tabular-nums"
+          >
+            {formatRemaining(remainingMs)}
+          </div>
+        ) : null}
 
         {/* Question grid navigator */}
         <nav

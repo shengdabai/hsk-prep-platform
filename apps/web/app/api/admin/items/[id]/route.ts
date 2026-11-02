@@ -4,6 +4,7 @@ import { requireApiRole } from "@/lib/api-auth";
 import { fail, ok, withApiHandler } from "@/lib/api-response";
 import { safeJson } from "@/lib/auth-validation";
 import { patchAdminItemSchema } from "@/lib/api-validation";
+import { mayPatchItem } from "@/lib/access-policy";
 
 export const PATCH = withApiHandler(
   async (request: Request, { params }: { params: Promise<{ id: string }> }) => {
@@ -19,6 +20,9 @@ export const PATCH = withApiHandler(
       return fail(400, parsed.error.issues[0]?.message ?? "请求参数不合法。");
     }
     const patch = parsed.data;
+    if (!mayPatchItem(user.role, patch)) {
+      return fail(403, "只有管理员可以修改发布状态。");
+    }
 
     const repo = getRepository();
     const item = await repo.patchAdminItem(id, patch);
