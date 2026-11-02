@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import type { AnswerFormat } from "@hsk/shared";
+import { createAnswerSaver } from "@/lib/answer-saver";
 import { formatRemaining } from "@/lib/session-deadline";
 import { QuestionView } from "./question-view";
 import type { DisplayQuestion } from "./question-view";
@@ -52,7 +53,8 @@ export function SessionRunner({
   const submitted = session.status === "submitted";
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<string, string>>(() => {
-    if (typeof window === "undefined") return session.answers;
+    // A submitted session shows what the server recorded, not what this browser kept.
+    if (typeof window === "undefined" || session.status === "submitted") return session.answers;
     try {
       const saved = window.localStorage.getItem(`hsk-session-${session.id}`);
       if (!saved) return session.answers;
@@ -69,6 +71,9 @@ export function SessionRunner({
   const [isPending, startTransition] = useTransition();
   const [remainingMs, setRemainingMs] = useState<number | null>(null);
   const autoSubmitted = useRef(false);
+  const timeIsUp = useRef(false);
+  const submitting = useRef(false);
+  const warnedAboutUnsaved = useRef(false);
 
   const current = questions[currentIndex];
 
@@ -77,30 +82,17 @@ export function SessionRunner({
   const unsavedCount = useMemo(() => Object.keys(unsavedAnswers).length, [unsavedAnswers]);
   const progressPct = questions.length > 0 ? (answeredCount / questions.length) * 100 : 0;
 
-  async function persistAnswer(itemId: string, value: string): Promise<boolean> {
-    try {
+  // 保存失败的答案进入未保存集合,UI 提示用户可重试,答案已在本地保留。
+  const [saver] = useState(() =>
+    createAnswerSaver(async (itemId, value) => {
       const response = await fetch(`/api/sessions/${session.id}/answer`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ itemId, optionId: value }),
       });
-      if (!response.ok) {
-        throw new Error(`保存失败(${response.status})`);
-      }
-      // 保存成功:从未保存集合中移除该题。
-      setUnsavedAnswers((prev) => {
-        if (!(itemId in prev)) return prev;
-        const next = { ...prev };
-        delete next[itemId];
-        return next;
-      });
-      return true;
-    } catch {
-      // 失败:记入未保存集合,UI 提示用户可重试,答案已在本地保留。
-      setUnsavedAnswers((prev) => ({ ...prev, [itemId]: value }));
-      return false;
-    }
-  }
+      return response.ok;
+    }, setUnsavedAnswers),
+  );
 
   // useCallback + 函数式更新:onAnswer 引用稳定,QuestionView(React.memo)
   // 在切题/无关 state 变化时不再重渲染;依赖仅 session.id(稳定)。
@@ -119,36 +111,46 @@ export function SessionRunner({
         }
         return nextAnswers;
       });
-      await persistAnswer(itemId, value);
+      await saver.save(itemId, value);
     },
-    // persistAnswer 仅用 setUnsavedAnswers(函数式)与 session.id,引用稳定。
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    [session.id],
+    [saver, session.id],
   );
 
   // 传给 QuestionView 的稳定 void 回调(QuestionView 已 React.memo)。
   const handleAnswer = useCallback(
     (itemId: string, value: string) => {
+      if (timeIsUp.current) return; // The exam has ended, so a late click changes nothing.
       void answer(itemId, value);
     },
     [answer],
   );
 
   async function retryUnsaved() {
-    const pending = Object.entries(unsavedAnswers);
-    for (const [itemId, value] of pending) {
-      // 用最新的本地答案重试(用户可能在失败后又改了答案)。
-      await persistAnswer(itemId, answers[itemId] ?? value);
+    await saver.flush();
+  }
+
+  async function submit(handInRegardless = false) {
+    if (submitting.current) return;
+    submitting.current = true;
+    try {
+      await handIn(handInRegardless);
+    } finally {
+      submitting.current = false;
     }
   }
 
-  async function submit() {
+  async function handIn(handInRegardless: boolean) {
     setError(null);
-    // 提交前尽量补存未保存的答案,避免漏判。
-    if (Object.keys(unsavedAnswers).length > 0) {
-      await retryUnsaved();
+    // 提交前等在途的保存完成并补存失败的答案,避免漏判。
+    const unsavedLeft = await saver.flush();
+    if (unsavedLeft === 0) {
+      warnedAboutUnsaved.current = false;
     }
-    // 注:此处读 unsavedAnswers 实时值,不用 memo 化的 unsavedCount(避免闭包过期)。
+    if (unsavedLeft > 0 && !handInRegardless && !warnedAboutUnsaved.current) {
+      warnedAboutUnsaved.current = true;
+      setError(`还有 ${unsavedLeft} 道题没有保存成功。请检查网络后再提交；再点一次「提交评分」会放弃这些答案并交卷。`);
+      return;
+    }
     let response: Response;
     try {
       response = await fetch(`/api/sessions/${session.id}/submit`, {
@@ -168,17 +170,31 @@ export function SessionRunner({
       setError(data.error ?? "提交失败。");
       return;
     }
-    window.localStorage.removeItem(`hsk-session-${session.id}`);
+    if (unsavedLeft === 0) {
+      window.localStorage.removeItem(`hsk-session-${session.id}`);
+    }
     startTransition(() => {
       router.push(`/report/${data.reportId}`);
       router.refresh();
     });
   }
 
-  // The server refuses late answers, and this hands in what was saved when the time runs out.
-  const submitOnTimeout = useRef(submit);
+  // The server takes answers for a short grace period after the end, so a failed save gets more
+  // tries inside it. The exam is then handed in, because the time is over either way.
+  async function handInWhenTimeIsUp() {
+    for (let attempt = 0; attempt < 3 && (await saver.flush()) > 0; attempt += 1) {
+      await new Promise((resolve) => window.setTimeout(resolve, 4000));
+    }
+    // A click on the submit button may still be running, and it can stop at the unsaved warning.
+    while (submitting.current) {
+      await new Promise((resolve) => window.setTimeout(resolve, 200));
+    }
+    await submit(true);
+  }
+
+  const submitOnTimeout = useRef(handInWhenTimeIsUp);
   useEffect(() => {
-    submitOnTimeout.current = submit;
+    submitOnTimeout.current = handInWhenTimeIsUp;
   });
   useEffect(() => {
     if (deadlineMs === null || submitted) return;
@@ -187,6 +203,7 @@ export function SessionRunner({
       setRemainingMs(left);
       if (left <= 0 && !autoSubmitted.current) {
         autoSubmitted.current = true;
+        timeIsUp.current = true;
         void submitOnTimeout.current();
       }
     };
@@ -255,6 +272,9 @@ export function SessionRunner({
             className="rounded-[var(--radius-xl)] border border-[var(--surface-border)] bg-[var(--surface)] p-4 text-center text-2xl font-semibold tabular-nums"
           >
             {formatRemaining(remainingMs)}
+            {remainingMs <= 0 ? (
+              <div className="mt-1 text-sm font-normal text-[var(--text-secondary)]">时间到，正在交卷。</div>
+            ) : null}
           </div>
         ) : null}
 
