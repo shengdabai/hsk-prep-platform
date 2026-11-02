@@ -5,14 +5,14 @@
 ## 运行
 
 ```bash
-cd /Users/adam/hsk-prep-platform
+cd <repo>
 pnpm dev
 ```
 
 ## 验证
 
 ```bash
-cd /Users/adam/hsk-prep-platform
+cd <repo>
 pnpm lint
 pnpm build
 ```

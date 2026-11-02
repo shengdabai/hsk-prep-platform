@@ -36,7 +36,7 @@ const plans = [
       "错题本 + 复习功能",
       "后续新增 HSK1 内容免费获取",
     ],
-    cta: "开始 Pro 订阅",
+    cta: "注册免费版，Pro 开放后可升级",
     ctaHref: "/signup?plan=pro",
     recommended: true,
     variant: "brand" as const,
@@ -76,7 +76,7 @@ export default async function PricingPage() {
             透明定价，按需选择
           </h1>
           <p className="text-lg leading-8 text-[var(--text-secondary)]">
-            免费体验完整模考流程，准备好了再升级 Pro——随时可取消，无隐藏费用。
+            免费体验完整模考流程。Pro 订阅尚未开放，下面是开放后的方案和价格。
           </p>
         </div>
 
@@ -163,7 +163,7 @@ export default async function PricingPage() {
             {[
               {
                 q: "Stripe 支付何时上线？",
-                a: "支付接口骨架已预留，Stripe Checkout 将在正式公测前接入，届时 Pro 订阅即时生效。",
+                a: "现在还不能购买 Pro，付款页面尚未上线。上线前不会向你收取任何费用。",
               },
               {
                 q: "免费版可以一直用吗？",

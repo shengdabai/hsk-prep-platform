@@ -1,6 +1,9 @@
 import { NextResponse } from "next/server";
 import Stripe from "stripe";
 
+import { getRepository } from "@hsk/db";
+import { hasPaidAccess } from "@hsk/shared";
+
 import { requireApiUser } from "@/lib/api-auth";
 import { createCheckoutSchema, firstIssueMessage, safeJson } from "@/lib/auth-validation";
 import { clientIp, rateLimit, tooManyRequests } from "@/lib/rate-limit";
@@ -32,13 +35,19 @@ export async function POST(request: Request) {
 
   const secretKey = process.env.STRIPE_SECRET_KEY;
   const priceId = process.env.STRIPE_PRICE_PRO_MONTHLY;
-  const appUrl = process.env.NEXT_PUBLIC_APP_URL ?? "http://localhost:3000";
+  // A live site with no address would send paying users to localhost after checkout.
+  const appUrl =
+    process.env.NEXT_PUBLIC_APP_URL ??
+    (process.env.NODE_ENV === "production" ? undefined : "http://localhost:3000");
 
-  if (!secretKey || !priceId) {
-    return NextResponse.json({
-      ok: false,
-      message: "Stripe 未配置,返回接口骨架响应。",
-    });
+  if (!secretKey || !priceId || !appUrl) {
+    console.error("Checkout is not configured.");
+    return NextResponse.json({ error: "支付暂不可用,请稍后再试。" }, { status: 500 });
+  }
+
+  const existing = await getRepository().getSubscription(user.id);
+  if (hasPaidAccess(existing)) {
+    return NextResponse.json({ error: "你已有生效中的订阅。" }, { status: 409 });
   }
 
   const stripe = new Stripe(secretKey);
