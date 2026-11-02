@@ -8,7 +8,6 @@ build
 .env.local
 .env.*.local
 coverage
-pnpm-lock.yaml
 apps/web/.next
 apps/web/node_modules
 apps/web/.env.local

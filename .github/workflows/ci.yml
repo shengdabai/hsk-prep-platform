@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Tests
+        run: pnpm -r --if-present test
+      - name: Types
+        run: pnpm --filter web exec tsc --noEmit
+      - name: Lint
+        run: pnpm --filter web lint
+      - name: Build
+        run: pnpm --filter web build
+      - name: Security tests
+        run: node --test wave0-security.test.mjs
