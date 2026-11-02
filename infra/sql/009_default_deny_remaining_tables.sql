@@ -1,12 +1,14 @@
--- Every table in public gets row level security, and the browser-facing roles get no direct access.
+-- Content and catalog tables get row level security, and the browser-facing roles get no direct access.
 -- The app reads and writes through the service role on the server, which bypasses row level security,
--- so the app does not change. Rerunning this file is safe.
+-- so the app does not change. Paid content therefore has one gate, in the server routes.
+-- Rerunning this file is safe.
 do $$
 declare
   t text;
 begin
   foreach t in array array[
     'plans', 'levels', 'sections', 'question_types', 'tags',
+    'content_items', 'practice_sets',
     'source_document_families', 'source_documents', 'source_pages', 'media_assets',
     'content_item_options', 'content_item_answers', 'content_item_tags', 'practice_set_items'
   ]
