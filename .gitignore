@@ -40,3 +40,6 @@ state*.json
 *.log
 output/
 .cache/
+
+# Cropped question images stay out of the repository until each source is reviewed.
+hsk-mvp/web/public/images/questions/

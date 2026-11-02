@@ -60,10 +60,11 @@ def convert_item(item: dict) -> dict | None:
         "explanation": "",
         "estimatedSeconds": 30 if section == "阅读" else 20,
         "vocabFocus": [],
-        "sourceType": "re_authored",
-        "reviewStatus": "approved",
-        "publishStatus": "published",
-        "copyrightStatus": "cleared",
+        # Extracted items start unreviewed. A person sets these after checking the item and its source.
+        "sourceType": "reference_only",
+        "reviewStatus": "pending",
+        "publishStatus": "draft",
+        "copyrightStatus": "pending",
         "tags": ["hsk1", section, f"part{part}"],
     }
 
