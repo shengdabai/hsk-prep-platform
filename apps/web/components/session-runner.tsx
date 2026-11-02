@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import type { AnswerFormat } from "@hsk/shared";
-import { createAnswerSaver } from "@/lib/answer-saver";
+import { answersToRestore, createAnswerSaver } from "@/lib/answer-saver";
 import { formatRemaining } from "@/lib/session-deadline";
 import { QuestionView } from "./question-view";
 import type { DisplayQuestion } from "./question-view";
@@ -37,6 +37,12 @@ type SessionView = {
   status: string;
   answers: Record<string, string>;
 };
+
+// Limits for a network that hangs. The whole hand-in wait stays inside the server's grace period.
+const SAVE_TIMEOUT_MS = 8_000;
+const SUBMIT_TIMEOUT_MS = 30_000;
+const HAND_IN_WAIT_MS = 20_000;
+const RETRY_PAUSE_MS = 2_000;
 
 // ─── SessionRunner ─────────────────────────────────────────────────────────────
 export function SessionRunner({
@@ -83,16 +89,31 @@ export function SessionRunner({
   const progressPct = questions.length > 0 ? (answeredCount / questions.length) * 100 : 0;
 
   // 保存失败的答案进入未保存集合,UI 提示用户可重试,答案已在本地保留。
+  const [serverClosedExam, setServerClosedExam] = useState(false);
   const [saver] = useState(() =>
-    createAnswerSaver(async (itemId, value) => {
-      const response = await fetch(`/api/sessions/${session.id}/answer`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ itemId, optionId: value }),
-      });
-      return response.ok;
-    }, setUnsavedAnswers),
+    createAnswerSaver(
+      async (itemId, value) => {
+        const response = await fetch(`/api/sessions/${session.id}/answer`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ itemId, optionId: value }),
+          signal: AbortSignal.timeout(SAVE_TIMEOUT_MS),
+        });
+        if (response.status === 409) {
+          setServerClosedExam(true);
+          return "refused";
+        }
+        return response.ok ? "saved" : "retry";
+      },
+      setUnsavedAnswers,
+      answersToRestore(answers, session.answers),
+    ),
   );
+
+  // Answers restored from this browser after a reload still have to reach the server.
+  useEffect(() => {
+    if (!submitted) void saver.flush();
+  }, [saver, submitted]);
 
   // useCallback + 函数式更新:onAnswer 引用稳定,QuestionView(React.memo)
   // 在切题/无关 state 变化时不再重渲染;依赖仅 session.id(稳定)。
@@ -142,7 +163,7 @@ export function SessionRunner({
   async function handIn(handInRegardless: boolean) {
     setError(null);
     // 提交前等在途的保存完成并补存失败的答案,避免漏判。
-    const unsavedLeft = await saver.flush();
+    const unsavedLeft = handInRegardless ? saver.open() : await saver.settle(HAND_IN_WAIT_MS);
     if (unsavedLeft === 0) {
       warnedAboutUnsaved.current = false;
     }
@@ -155,6 +176,7 @@ export function SessionRunner({
     try {
       response = await fetch(`/api/sessions/${session.id}/submit`, {
         method: "POST",
+        signal: AbortSignal.timeout(SUBMIT_TIMEOUT_MS),
       });
     } catch {
       setError("网络异常,提交失败,请检查网络后重试。");
@@ -170,7 +192,8 @@ export function SessionRunner({
       setError(data.error ?? "提交失败。");
       return;
     }
-    if (unsavedLeft === 0) {
+    // An answer the server never confirmed stays in this browser.
+    if (saver.unconfirmed() === 0) {
       window.localStorage.removeItem(`hsk-session-${session.id}`);
     }
     startTransition(() => {
@@ -182,8 +205,9 @@ export function SessionRunner({
   // The server takes answers for a short grace period after the end, so a failed save gets more
   // tries inside it. The exam is then handed in, because the time is over either way.
   async function handInWhenTimeIsUp() {
-    for (let attempt = 0; attempt < 3 && (await saver.flush()) > 0; attempt += 1) {
-      await new Promise((resolve) => window.setTimeout(resolve, 4000));
+    const giveUpAt = Date.now() + HAND_IN_WAIT_MS;
+    while (Date.now() < giveUpAt && (await saver.settle(giveUpAt - Date.now())) > 0) {
+      await new Promise((resolve) => window.setTimeout(resolve, RETRY_PAUSE_MS));
     }
     // A click on the submit button may still be running, and it can stop at the unsaved warning.
     while (submitting.current) {
@@ -199,7 +223,8 @@ export function SessionRunner({
   useEffect(() => {
     if (deadlineMs === null || submitted) return;
     const tick = () => {
-      const left = deadlineMs - Date.now();
+      // The server is the authority: a refused answer means the exam has ended, whatever this page shows.
+      const left = serverClosedExam ? 0 : deadlineMs - Date.now();
       setRemainingMs(left);
       if (left <= 0 && !autoSubmitted.current) {
         autoSubmitted.current = true;
@@ -210,7 +235,7 @@ export function SessionRunner({
     tick();
     const timer = window.setInterval(tick, 1000);
     return () => window.clearInterval(timer);
-  }, [deadlineMs, submitted]);
+  }, [deadlineMs, submitted, serverClosedExam]);
 
   // Build the DisplayQuestion shape expected by QuestionView
   const displayQuestion: DisplayQuestion = {
