@@ -55,7 +55,8 @@ end $$;
 -- exam_session_items 启用 RLS,与 001 其余学生数据表一致(自身会话可读)。
 alter table public.exam_session_items enable row level security;
 
-create policy if not exists "session items own read"
+drop policy if exists "session items own read" on public.exam_session_items;
+create policy "session items own read"
 on public.exam_session_items
 for select
 using (
