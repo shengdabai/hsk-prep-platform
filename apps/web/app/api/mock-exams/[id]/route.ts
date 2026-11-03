@@ -1,5 +1,7 @@
 import { getRepository } from "@hsk/db";
 
+import { examAccess } from "@/lib/access-policy";
+import { getApiUser } from "@/lib/api-auth";
 import { fail, ok, withApiHandler } from "@/lib/api-response";
 
 export const GET = withApiHandler(
@@ -9,6 +11,15 @@ export const GET = withApiHandler(
     const exam = await repo.getMockExamById(id);
     if (!exam) {
       return fail(404, "模考不存在。");
+    }
+    const user = exam.access === "free" ? null : await getApiUser();
+    const subscription = user ? await repo.getSubscription(user.id) : null;
+    const access = examAccess(exam.access, Boolean(user), subscription);
+    if (access === "sign_in") {
+      return fail(401, "请先登录。");
+    }
+    if (access === "upgrade") {
+      return fail(403, "该内容需要订阅后才能查看,请前往价格页升级。");
     }
     const items = await repo.getPublishedItemsForSet(exam.id);
     return ok({

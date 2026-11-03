@@ -19,7 +19,7 @@ export function SpeakInput({ submitted }: { submitted: boolean }) {
     <div className="flex items-center gap-3 rounded-2xl border border-dashed border-stone-300 bg-stone-50 px-5 py-4">
       <span className="text-xl">🎙️</span>
       <p className="text-sm text-stone-600">
-        {submitted ? "口语录音已提交。" : "口语录音功能即将上线，请直接点击「提交评分」继续。"}
+        {submitted ? "口语录音功能尚未上线，本题没有保存录音。" : "口语录音功能尚未上线，请直接点击「提交评分」继续。"}
       </p>
     </div>
   );

@@ -300,32 +300,38 @@ alter table public.exam_reports enable row level security;
 alter table public.mistake_book enable row level security;
 alter table public.review_tasks enable row level security;
 
-create policy if not exists "profiles self read"
+drop policy if exists "profiles self read" on public.profiles;
+create policy "profiles self read"
 on public.profiles
 for select
 using (auth.uid() = id);
 
-create policy if not exists "profiles self update"
+drop policy if exists "profiles self update" on public.profiles;
+create policy "profiles self update"
 on public.profiles
 for update
 using (auth.uid() = id);
 
-create policy if not exists "published content read"
+drop policy if exists "published content read" on public.content_items;
+create policy "published content read"
 on public.content_items
 for select
 using (publish_status = 'published' and review_status = 'approved' and copyright_status = 'cleared');
 
-create policy if not exists "published sets read"
+drop policy if exists "published sets read" on public.practice_sets;
+create policy "published sets read"
 on public.practice_sets
 for select
 using (publish_status = 'published' and review_status = 'approved');
 
-create policy if not exists "sessions own read"
+drop policy if exists "sessions own read" on public.exam_sessions;
+create policy "sessions own read"
 on public.exam_sessions
 for select
 using (auth.uid() = profile_id);
 
-create policy if not exists "responses own read"
+drop policy if exists "responses own read" on public.exam_responses;
+create policy "responses own read"
 on public.exam_responses
 for select
 using (
@@ -337,17 +343,20 @@ using (
   )
 );
 
-create policy if not exists "reports own read"
+drop policy if exists "reports own read" on public.exam_reports;
+create policy "reports own read"
 on public.exam_reports
 for select
 using (auth.uid() = profile_id);
 
-create policy if not exists "mistake book own read"
+drop policy if exists "mistake book own read" on public.mistake_book;
+create policy "mistake book own read"
 on public.mistake_book
 for select
 using (auth.uid() = profile_id);
 
-create policy if not exists "review tasks reviewer admin"
+drop policy if exists "review tasks reviewer admin" on public.review_tasks;
+create policy "review tasks reviewer admin"
 on public.review_tasks
 for all
 using (

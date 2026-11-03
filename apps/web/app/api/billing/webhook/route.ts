@@ -150,7 +150,9 @@ export async function POST(request: Request) {
       default:
         break;
     }
-  } catch {
+  } catch (error) {
+    // The event type and error class are enough to find the cause. Payment data stays out of the log.
+    console.error(`Stripe webhook failed: ${event.type} ${error instanceof Error ? error.name : "unknown"}`);
     return NextResponse.json(
       { error: "Webhook handler failed." },
       { status: 500 },

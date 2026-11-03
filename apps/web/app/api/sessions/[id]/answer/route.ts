@@ -4,6 +4,7 @@ import { forbidden, requireApiUser } from "@/lib/api-auth";
 import { fail, ok, withApiHandler } from "@/lib/api-response";
 import { safeJson } from "@/lib/auth-validation";
 import { saveAnswerSchema } from "@/lib/api-validation";
+import { isPastDeadline } from "@/lib/session-deadline";
 import { getSnapshotItems } from "../../_snapshot";
 
 export const POST = withApiHandler(
@@ -31,6 +32,12 @@ export const POST = withApiHandler(
     }
     if (session.status === "submitted") {
       return fail(409, "会话已提交,无法继续作答。");
+    }
+    if (session.mode === "mock_exam") {
+      const exam = await repo.getMockExamById(session.setId);
+      if (exam && isPastDeadline(session.startedAt, exam.minutes)) {
+        return fail(409, "考试时间已到,无法继续作答,请提交试卷。");
+      }
     }
 
     // B4 IDOR:itemId 必须属于本会话的卷(快照,旧会话回退到实时已发布题集),

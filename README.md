@@ -131,7 +131,7 @@ hsk-prep-platform/
 
 ## 🗺️ Status
 
-Active MVP. Core student and admin flows, SRS, and Stripe billing are implemented; runs in demo mode without a backend. See `docs/PRD_HSK_PREP_WEB_MVP.md` and `docs/ARCHITECTURE_HSK_PREP_WEB_MVP.md`.
+Active MVP. Core student and admin flows and SRS are implemented. Stripe has server routes and a webhook, but no checkout page yet, so Pro cannot be bought. Runs in demo mode without a backend. See `docs/PRD_HSK_PREP_WEB_MVP.md` and `docs/ARCHITECTURE_HSK_PREP_WEB_MVP.md`.
 
 ## 🤝 Connect / About
 
@@ -179,7 +179,7 @@ HSK(汉语水平考试)是国际通用的中文水平测试。全球学习者需
 - pnpm monorepo,共享包(db、shared 类型、UI)
 - PDF 内容提取的解析服务契约
 - 版本化 SQL 迁移与种子脚本
-- Stripe 计费集成(checkout + webhook)
+- Stripe 服务端接口与 webhook(付款页面尚未上线,目前不能购买 Pro)
 
 ## 🧱 技术栈
 
@@ -215,6 +215,8 @@ pnpm dev
 1. `001_hsk_prep_mvp.sql` —— 核心表结构
 2. `002_seed_basics.sql` —— 种子数据
 3. `003`–`007` —— 权益、SRS、用户档案、考试快照、内容字段
+4. `008` —— Stripe 事件事务
+5. `009` —— 内容表的默认拒绝规则
 
 然后在 `.env.local` 中配置 Supabase 凭证:
 
@@ -226,7 +228,7 @@ SUPABASE_SERVICE_ROLE_KEY=你的 service role key
 
 ### 演示模式
 
-未连接 Supabase 时,应用以演示鉴权模式运行 —— 任意密码均可登录:
+未连接 Supabase 时,应用以演示鉴权模式运行,演示账户的密码都是 `demo1234`:
 
 - 学生:`learner@demo.local`
 - 审核员:`reviewer@demo.local`
@@ -265,7 +267,7 @@ hsk-prep-platform/
 
 ## 🗺️ 状态
 
-活跃 MVP。学生端与管理端核心流程、SRS、Stripe 计费已实现;无后端时以演示模式运行。详见 `docs/PRD_HSK_PREP_WEB_MVP.md` 与 `docs/ARCHITECTURE_HSK_PREP_WEB_MVP.md`。
+活跃 MVP。学生端与管理端核心流程、SRS 已实现。Stripe 有服务端接口和 webhook,但付款页面尚未上线,目前不能购买 Pro。无后端时以演示模式运行。详见 `docs/PRD_HSK_PREP_WEB_MVP.md` 与 `docs/ARCHITECTURE_HSK_PREP_WEB_MVP.md`。
 
 ## 🤝 联系 / 关于
 

@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+import { isSupabaseRepositoryConfigured } from "@hsk/db";
+
 import { AuthForm } from "@/components/auth-form";
 import { SiteShell } from "@/components/site-shell";
 import { getCurrentUser } from "@/lib/auth";
@@ -13,7 +15,9 @@ export default async function LoginPage() {
         <div className="space-y-5">
           <div className="text-xs uppercase tracking-[0.28em] text-stone-500">Login</div>
           <h1 className="text-5xl font-semibold tracking-tight text-stone-950">登录后开始做题。</h1>
-          <p className="max-w-lg text-lg leading-8 text-stone-600">Demo 账户：`learner@demo.local / demo1234`</p>
+          {isSupabaseRepositoryConfigured() ? null : (
+            <p className="max-w-lg text-lg leading-8 text-stone-600">Demo 账户：`learner@demo.local / demo1234`</p>
+          )}
         </div>
         <div className="rounded-[2rem] border border-stone-900/10 bg-white/80 p-8">
           <AuthForm mode="login" />

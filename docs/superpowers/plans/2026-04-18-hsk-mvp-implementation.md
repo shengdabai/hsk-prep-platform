@@ -183,7 +183,7 @@ if __name__ == "__main__":
 - [ ] **Step 2: 运行脚本验证**
 
 ```bash
-cd /Users/adam/Desktop/中文教学/Hsk-prep-platform/hsk-mvp
+cd <repo>/hsk-mvp
 python3 scripts/05b_parse_answers_pdftotext.py
 ```
 
@@ -199,7 +199,7 @@ cat output/answers/H11555D_answers.json | python3 -m json.tool | head -30
 - [ ] **Step 3: Commit**
 
 ```bash
-cd /Users/adam/Desktop/中文教学/Hsk-prep-platform
+cd <repo>
 git add hsk-mvp/scripts/05b_parse_answers_pdftotext.py hsk-mvp/output/answers/
 git commit -m "feat(pipeline): add pdftotext-based answer parser
 
@@ -286,7 +286,7 @@ if __name__ == "__main__":
 - [ ] **Step 2: 运行并验证**
 
 ```bash
-cd /Users/adam/Desktop/中文教学/Hsk-prep-platform/hsk-mvp
+cd <repo>/hsk-mvp
 python3 scripts/06b_inject_answers.py
 ```
 
@@ -305,7 +305,7 @@ print(f'Total: {len(items)}, with answer: {len(has_ans)}')
 - [ ] **Step 3: Commit**
 
 ```bash
-cd /Users/adam/Desktop/中文教学/Hsk-prep-platform
+cd <repo>
 git add hsk-mvp/scripts/06b_inject_answers.py hsk-mvp/output/jsonl_v2/items_with_answers.jsonl
 git commit -m "feat(pipeline): inject answers into items JSONL
 
@@ -456,7 +456,7 @@ if __name__ == "__main__":
 - [ ] **Step 3: 运行验证**
 
 ```bash
-cd /Users/adam/Desktop/中文教学/Hsk-prep-platform/hsk-mvp
+cd <repo>/hsk-mvp
 python3 scripts/10b_export_for_web.py
 ```
 
@@ -474,7 +474,7 @@ print('Sample:', json.dumps(qs[0], ensure_ascii=False, indent=2))
 - [ ] **Step 4: Commit**
 
 ```bash
-cd /Users/adam/Desktop/中文教学/Hsk-prep-platform
+cd <repo>
 git add hsk-mvp/scripts/10b_export_for_web.py hsk-mvp/output/web_import/
 git commit -m "feat(pipeline): export questions JSON for web import
 
@@ -605,7 +605,7 @@ export function StartSessionButton({
 - [ ] **Step 4: Commit**
 
 ```bash
-cd /Users/adam/Desktop/中文教学/Hsk-prep-platform
+cd <repo>
 git add hsk-mvp/web/app/practice/mock-exams/\[slug\]/page.tsx hsk-mvp/web/components/start-session-button.tsx
 git commit -m "fix(web): correct access control for free mock exams
 
@@ -625,7 +625,7 @@ Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>"
 - [ ] **Step 1: 查看 getDashboardSnapshot 实现**
 
 ```bash
-grep -n "getDashboardSnapshot\|getUserReports" /Users/adam/Desktop/中文教学/Hsk-prep-platform/hsk-mvp/web/lib/platform-store.ts | head -20
+grep -n "getDashboardSnapshot\|getUserReports" <repo>/hsk-mvp/web/lib/platform-store.ts | head -20
 ```
 
 - [ ] **Step 2: 修改 account/page.tsx 添加安全处理**
@@ -656,7 +656,7 @@ const [reports, snapshot] = await Promise.all([
 - [ ] **Step 4: Commit**
 
 ```bash
-cd /Users/adam/Desktop/中文教学/Hsk-prep-platform
+cd <repo>
 git add hsk-mvp/web/app/account/page.tsx
 git commit -m "fix(web): handle null returns in account page to prevent white screen
 
@@ -737,7 +737,7 @@ curl -s http://localhost:3000/practice/mock-exams/h1_mock_a | grep -o "[0-9]* �
 - [ ] **Step 5: Commit**
 
 ```bash
-cd /Users/adam/Desktop/中文教学/Hsk-prep-platform
+cd <repo>
 git add hsk-mvp/web/lib/hsk-content.ts
 git commit -m "feat(web): load real HSK1 questions from pipeline output
 
