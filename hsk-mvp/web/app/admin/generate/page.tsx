@@ -21,11 +21,14 @@ export default function GeneratePage() {
   const [error, setError] = useState("");
   const [saved, setSaved] = useState(false);
   const [saving, setSaving] = useState(false);
+  // Kept in memory only: the API requires it in x-admin-token, and it must never ship in the bundle.
+  const [adminToken, setAdminToken] = useState("");
 
   const selectedType = DOC_TYPES.find((t) => t.value === docType)!;
 
   async function handleGenerate() {
-    if (!content.trim()) return;
+    // A pending save belongs to the current preview; generating now would let its answer mark a new batch.
+    if (!content.trim() || saving) return;
     setLoading(true);
     setError("");
     setResult(null);
@@ -34,7 +37,7 @@ export default function GeneratePage() {
     try {
       const res = await fetch("/api/admin/generate", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: { "Content-Type": "application/json", "x-admin-token": adminToken },
         body: JSON.stringify({ content, docType, count, level: "HSK1" }),
       });
       const data = (await res.json()) as { questions?: Question[]; error?: string; warning?: string };
@@ -51,12 +54,13 @@ export default function GeneratePage() {
   }
 
   async function handleSave() {
-    if (!result?.questions.length) return;
+    if (!result?.questions.length || loading) return;
     setSaving(true);
+    setError("");
     try {
       const res = await fetch("/api/admin/generate", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: { "Content-Type": "application/json", "x-admin-token": adminToken },
         body: JSON.stringify({
           content,
           docType,
@@ -66,9 +70,18 @@ export default function GeneratePage() {
           pregenerated: result.questions,
         }),
       });
-      const data = (await res.json()) as { saved?: boolean; error?: string };
-      if (data.saved) setSaved(true);
-      else setError(data.error ?? "保存失败");
+      const data = (await res.json()) as { saved?: boolean; count?: number; skipped?: number; error?: string };
+      if (!data.saved) {
+        setError(data.error ?? "保存失败");
+      } else if (data.skipped) {
+        // Partial save: this batch is done (a retry would only skip the same items), so say what was left out.
+        setSaved(true);
+        setError(`已保存 ${data.count ?? 0} 题,跳过 ${data.skipped} 题(结构不合法或 id 已存在)。`);
+      } else {
+        setSaved(true);
+      }
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "网络错误");
     } finally {
       setSaving(false);
     }
@@ -77,6 +90,19 @@ export default function GeneratePage() {
   return (
     <AdminShell title="AI 题目生成" body="上传文档内容，自动生成 HSK1 练习题。生成后可预览，确认后保存到题库（reviewStatus=pending，需审核后发布）。">
       <div className="space-y-6">
+        {/* 管理员令牌 */}
+        <div>
+          <div className="mb-2 text-sm font-medium text-stone-700">管理员令牌</div>
+          <input
+            type="password"
+            autoComplete="off"
+            value={adminToken}
+            onChange={(e) => setAdminToken(e.target.value)}
+            placeholder="HSK_MVP_ADMIN_TOKEN"
+            className="w-full rounded-[1.2rem] border border-stone-900/15 bg-white px-4 py-2 text-sm text-stone-800 placeholder:text-stone-400 focus:border-stone-900/40 focus:outline-none"
+          />
+        </div>
+
         {/* 文档类型 */}
         <div>
           <div className="mb-2 text-sm font-medium text-stone-700">文档类型</div>
@@ -131,7 +157,7 @@ export default function GeneratePage() {
         {/* 生成按钮 */}
         <button
           onClick={handleGenerate}
-          disabled={loading || !content.trim()}
+          disabled={loading || saving || !content.trim()}
           className="rounded-[1.2rem] bg-[#9f3215] px-6 py-3 text-sm font-medium text-white transition hover:bg-[#852a10] disabled:opacity-40"
         >
           {loading ? "AI 生成中…" : "开始生成"}

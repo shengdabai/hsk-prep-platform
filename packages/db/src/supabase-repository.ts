@@ -1227,6 +1227,17 @@ export const supabaseRepository: Repository = {
     return mapProfileToUser(data as ProfileRow);
   },
 
+  async createUserWithPassword(user: AppUser, passwordHash: string): Promise<AppUser | null> {
+    const { error } = await admin().from("profiles").insert({
+      id: user.id, email: user.email, full_name: user.fullName,
+      role: user.role === "anonymous" ? "learner" : user.role,
+      default_plan_code: user.plan, password_hash: passwordHash,
+    });
+    if (error?.code === "23505") return null;
+    if (error) fail("createUserWithPassword", error);
+    return user;
+  },
+
   async upsertUser(user: AppUser): Promise<AppUser> {
     const client = admin();
     const { error } = await client.from("profiles").upsert(

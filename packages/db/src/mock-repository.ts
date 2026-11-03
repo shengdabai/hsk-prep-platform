@@ -471,6 +471,14 @@ export const mockRepository: Repository = {
   async findUserByEmail(email) {
     return [...getStore().users.values()].find((user) => user.email === email) ?? null;
   },
+  async createUserWithPassword(user, passwordHash) {
+    const store = getStore();
+    if (store.users.has(user.id) || [...store.users.values()].some(existing => existing.email === user.email)) return null;
+    // No await between the two in-memory writes: one indivisible JS turn.
+    store.credentials.set(user.id, passwordHash);
+    store.users.set(user.id, user);
+    return user;
+  },
   async upsertUser(user) {
     getStore().users.set(user.id, user);
     return user;
