@@ -1,0 +1,1424 @@
+{
+  "setSlug": "hsk1-ai-mock-01",
+  "setTitle": "HSK1 AI 全真模考 01",
+  "setDescription": "content-engine 自动生产的完整 HSK1 模拟卷:听力 20 题 + 阅读 20 题,对齐新版 HSK 3.0 结构(每题 1 分,满分 40)。看图判断题配 Codex 生成插画,全部听力题配 Minimax 真人音频。",
+  "levelCode": "hsk-1",
+  "mode": "mock_exam",
+  "access": "free",
+  "minutes": 35,
+  "items": [
+    {
+      "id": "h1m01_l1_01",
+      "questionTypeCode": "L_WORD_IMG_TF",
+      "sectionCode": "listening",
+      "title": "听力·第一部分 1",
+      "stem": "听录音,判断图片与内容是否一致",
+      "prompt": "他在打电话。",
+      "context": "录音:他在打电话。",
+      "audioScript": "他在打电话。",
+      "imageBrief": "A young man holding a smartphone to his ear and talking, simple flat educational illustration, clean light background, no text.",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "一致"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "不一致"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "录音说『他在打电话』,正确答案是『一致』。",
+      "vocabFocus": [
+        "打电话"
+      ],
+      "tags": [
+        "动作",
+        "通讯"
+      ]
+    },
+    {
+      "id": "h1m01_l1_02",
+      "questionTypeCode": "L_WORD_IMG_TF",
+      "sectionCode": "listening",
+      "title": "听力·第一部分 2",
+      "stem": "听录音,判断图片与内容是否一致",
+      "prompt": "这是一只猫。",
+      "context": "录音:这是一只猫。",
+      "audioScript": "这是一只猫。",
+      "imageBrief": "A cute small dog sitting on the floor, simple flat educational illustration, clean light background, no text.",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "一致"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "不一致"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "录音说『猫』,正确答案是『不一致』。",
+      "vocabFocus": [
+        "猫"
+      ],
+      "tags": [
+        "动物"
+      ]
+    },
+    {
+      "id": "h1m01_l1_03",
+      "questionTypeCode": "L_WORD_IMG_TF",
+      "sectionCode": "listening",
+      "title": "听力·第一部分 3",
+      "stem": "听录音,判断图片与内容是否一致",
+      "prompt": "她在看书。",
+      "context": "录音:她在看书。",
+      "audioScript": "她在看书。",
+      "imageBrief": "A woman sitting and reading an open book, simple flat educational illustration, clean light background, no text.",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "一致"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "不一致"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "录音说『她在看书』,正确答案是『一致』。",
+      "vocabFocus": [
+        "看书"
+      ],
+      "tags": [
+        "动作",
+        "学习"
+      ]
+    },
+    {
+      "id": "h1m01_l1_04",
+      "questionTypeCode": "L_WORD_IMG_TF",
+      "sectionCode": "listening",
+      "title": "听力·第一部分 4",
+      "stem": "听录音,判断图片与内容是否一致",
+      "prompt": "桌子上有三个苹果。",
+      "context": "录音:桌子上有三个苹果。",
+      "audioScript": "桌子上有三个苹果。",
+      "imageBrief": "A table with three red apples on it, simple flat educational illustration, clean light background, no text.",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "一致"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "不一致"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "录音说『三个苹果』,正确答案是『一致』。",
+      "vocabFocus": [
+        "三",
+        "苹果"
+      ],
+      "tags": [
+        "数字",
+        "水果"
+      ]
+    },
+    {
+      "id": "h1m01_l1_05",
+      "questionTypeCode": "L_WORD_IMG_TF",
+      "sectionCode": "listening",
+      "title": "听力·第一部分 5",
+      "stem": "听录音,判断图片与内容是否一致",
+      "prompt": "今天下雨。",
+      "context": "录音:今天下雨。",
+      "audioScript": "今天下雨。",
+      "imageBrief": "A bright sunny day with a big sun in a clear blue sky, simple flat educational illustration, no text.",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "一致"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "不一致"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "录音说『下雨』,正确答案是『不一致』。",
+      "vocabFocus": [
+        "下雨"
+      ],
+      "tags": [
+        "天气"
+      ]
+    },
+    {
+      "id": "h1m01_l2_01",
+      "questionTypeCode": "L_SENT_IMG_MC",
+      "sectionCode": "listening",
+      "title": "听力·第二部分 1",
+      "stem": "听句子,选择与内容相符的一项",
+      "prompt": "请选择与你听到的句子相符的一项。",
+      "context": "录音:我喜欢喝咖啡。",
+      "audioScript": "我喜欢喝咖啡。",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "一个人在喝咖啡",
+          "imageBrief": "A person sitting and drinking a cup of coffee, simple flat educational illustration, clean light background, no text."
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "一个人在睡觉",
+          "imageBrief": "A person sleeping in a bed with eyes closed, simple flat educational illustration, clean light background, no text."
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "一个人在跑步",
+          "imageBrief": "A person running, simple flat educational illustration, clean light background, no text."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "录音说『喜欢喝咖啡』,正确答案是『一个人在喝咖啡』。",
+      "vocabFocus": [
+        "喜欢",
+        "喝",
+        "咖啡"
+      ],
+      "tags": [
+        "饮品"
+      ]
+    },
+    {
+      "id": "h1m01_l2_02",
+      "questionTypeCode": "L_SENT_IMG_MC",
+      "sectionCode": "listening",
+      "title": "听力·第二部分 2",
+      "stem": "听句子,选择与内容相符的一项",
+      "prompt": "请选择与你听到的句子相符的一项。",
+      "context": "录音:我的妈妈是老师。",
+      "audioScript": "我的妈妈是老师。",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "一位医生在医院",
+          "imageBrief": "A doctor wearing a white coat in a hospital, simple flat educational illustration, clean light background, no text."
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "一位老师在上课",
+          "imageBrief": "A teacher standing in front of a chalkboard teaching, simple flat educational illustration, clean light background, no text."
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "一位司机在开车",
+          "imageBrief": "A driver sitting and driving a car, simple flat educational illustration, clean light background, no text."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "录音说妈妈是『老师』,正确答案是『一位老师在上课』。",
+      "vocabFocus": [
+        "妈妈",
+        "老师"
+      ],
+      "tags": [
+        "职业",
+        "家人"
+      ]
+    },
+    {
+      "id": "h1m01_l2_03",
+      "questionTypeCode": "L_SENT_IMG_MC",
+      "sectionCode": "listening",
+      "title": "听力·第二部分 3",
+      "stem": "听句子,选择与内容相符的一项",
+      "prompt": "请选择与你听到的句子相符的一项。",
+      "context": "录音:他在吃米饭。",
+      "audioScript": "他在吃米饭。",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "一个人在喝水",
+          "imageBrief": "A person drinking a glass of water, simple flat educational illustration, clean light background, no text."
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "一个人在吃饭",
+          "imageBrief": "A person eating a bowl of rice with chopsticks, simple flat educational illustration, clean light background, no text."
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "一个人在买东西",
+          "imageBrief": "A person shopping with a shopping bag, simple flat educational illustration, clean light background, no text."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "录音说『吃米饭』,正确答案是『一个人在吃饭』。",
+      "vocabFocus": [
+        "吃",
+        "米饭"
+      ],
+      "tags": [
+        "饮食"
+      ]
+    },
+    {
+      "id": "h1m01_l2_04",
+      "questionTypeCode": "L_SENT_IMG_MC",
+      "sectionCode": "listening",
+      "title": "听力·第二部分 4",
+      "stem": "听句子,选择与内容相符的一项",
+      "prompt": "请选择与你听到的句子相符的一项。",
+      "context": "录音:我家有一辆车。",
+      "audioScript": "我家有一辆车。",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "一辆汽车",
+          "imageBrief": "A blue car, side view, simple flat educational illustration, plain light background, no text."
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "一架飞机",
+          "imageBrief": "A white passenger airplane, simple flat educational illustration, plain light background, no text."
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "一条船",
+          "imageBrief": "A small boat on water, simple flat educational illustration, plain light background, no text."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "录音说『车』,正确答案是『一辆汽车』。",
+      "vocabFocus": [
+        "车"
+      ],
+      "tags": [
+        "交通"
+      ]
+    },
+    {
+      "id": "h1m01_l2_05",
+      "questionTypeCode": "L_SENT_IMG_MC",
+      "sectionCode": "listening",
+      "title": "听力·第二部分 5",
+      "stem": "听句子,选择与内容相符的一项",
+      "prompt": "请选择与你听到的句子相符的一项。",
+      "context": "录音:今天很热。",
+      "audioScript": "今天很热。",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "下雪的冬天",
+          "imageBrief": "A snowy winter scene with snowflakes and a snowman, simple flat educational illustration, no text."
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "炎热的夏天",
+          "imageBrief": "A hot summer day with a bright sun and a person sweating, simple flat educational illustration, no text."
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "刮风的天气",
+          "imageBrief": "A windy day with bending trees and blowing leaves, simple flat educational illustration, no text."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "录音说『很热』,正确答案是『炎热的夏天』。",
+      "vocabFocus": [
+        "热"
+      ],
+      "tags": [
+        "天气"
+      ]
+    },
+    {
+      "id": "h1m01_l3_01",
+      "questionTypeCode": "L_DIALOG_IMG_MC",
+      "sectionCode": "listening",
+      "title": "听力·第三部分 1",
+      "stem": "听对话,选择正确答案",
+      "prompt": "女的想买什么?",
+      "context": "录音:女:你好,我想买苹果。 男:好的,要几个?",
+      "audioScript": "女:你好,我想买苹果。 男:好的,要几个? 问:女的想买什么?",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "米饭",
+          "imageBrief": "A bowl of cooked white rice, simple flat educational illustration, clean light background, no text."
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "水",
+          "imageBrief": "A glass of water, simple flat educational illustration, clean light background, no text."
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "苹果",
+          "imageBrief": "A red apple, simple flat educational illustration, clean light background, no text."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "女的说『我想买苹果』,正确答案是『苹果』。",
+      "vocabFocus": [
+        "买",
+        "苹果"
+      ],
+      "tags": [
+        "购物",
+        "对话"
+      ]
+    },
+    {
+      "id": "h1m01_l3_02",
+      "questionTypeCode": "L_DIALOG_IMG_MC",
+      "sectionCode": "listening",
+      "title": "听力·第三部分 2",
+      "stem": "听对话,选择正确答案",
+      "prompt": "他们现在在哪儿?",
+      "context": "录音:男:这本书多少钱? 女:三十块。",
+      "audioScript": "男:这本书多少钱? 女:三十块。 问:他们最可能在哪儿?",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "医院",
+          "imageBrief": "A hospital building with a red cross, simple flat educational illustration, clean light background, no text."
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "书店",
+          "imageBrief": "A bookstore with shelves of books, simple flat educational illustration, clean light background, no text."
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "学校",
+          "imageBrief": "A school building, simple flat educational illustration, clean light background, no text."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "在问『书多少钱』,正确答案是『书店』。",
+      "vocabFocus": [
+        "书",
+        "钱"
+      ],
+      "tags": [
+        "购物",
+        "地点"
+      ]
+    },
+    {
+      "id": "h1m01_l3_03",
+      "questionTypeCode": "L_DIALOG_IMG_MC",
+      "sectionCode": "listening",
+      "title": "听力·第三部分 3",
+      "stem": "听对话,选择正确答案",
+      "prompt": "男的周末做什么?",
+      "context": "录音:女:你周末做什么? 男:我去游泳。",
+      "audioScript": "女:你周末做什么? 男:我去游泳。 问:男的周末做什么?",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "看书",
+          "imageBrief": "A person reading a book, simple flat educational illustration, clean light background, no text."
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "做饭",
+          "imageBrief": "A person cooking food, simple flat educational illustration, clean light background, no text."
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "游泳",
+          "imageBrief": "A person swimming in a pool, simple flat educational illustration, clean light background, no text."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "男的说『我去游泳』,正确答案是『游泳』。",
+      "vocabFocus": [
+        "周末",
+        "游泳"
+      ],
+      "tags": [
+        "运动",
+        "活动"
+      ]
+    },
+    {
+      "id": "h1m01_l3_04",
+      "questionTypeCode": "L_DIALOG_IMG_MC",
+      "sectionCode": "listening",
+      "title": "听力·第三部分 4",
+      "stem": "听对话,选择正确答案",
+      "prompt": "男的喜欢吃什么水果?",
+      "context": "录音:女:你喜欢吃什么水果? 男:我喜欢吃西瓜。",
+      "audioScript": "女:你喜欢吃什么水果? 男:我喜欢吃西瓜。 问:男的喜欢吃什么水果?",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "西瓜",
+          "imageBrief": "A watermelon, simple flat educational illustration, clean light background, no text."
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "草莓",
+          "imageBrief": "Strawberries, simple flat educational illustration, clean light background, no text."
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "葡萄",
+          "imageBrief": "A bunch of grapes, simple flat educational illustration, clean light background, no text."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "男的说『我喜欢吃西瓜』,正确答案是『西瓜』。",
+      "vocabFocus": [
+        "喜欢",
+        "水果",
+        "西瓜"
+      ],
+      "tags": [
+        "水果",
+        "饮食"
+      ]
+    },
+    {
+      "id": "h1m01_l3_05",
+      "questionTypeCode": "L_DIALOG_IMG_MC",
+      "sectionCode": "listening",
+      "title": "听力·第三部分 5",
+      "stem": "听对话,选择正确答案",
+      "prompt": "他们周末要去哪儿?",
+      "context": "录音:男:周末我们去图书馆吧。 女:好的。",
+      "audioScript": "男:周末我们去图书馆吧。 女:好的。 问:他们周末要去哪儿?",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "商店",
+          "imageBrief": "A small shop storefront, simple flat educational illustration, clean light background, no text."
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "公园",
+          "imageBrief": "A green park with trees, simple flat educational illustration, clean light background, no text."
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "图书馆",
+          "imageBrief": "A library reading room with bookshelves, simple flat educational illustration, clean light background, no text."
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "男的提议『去图书馆』,正确答案是『图书馆』。",
+      "vocabFocus": [
+        "周末",
+        "图书馆"
+      ],
+      "tags": [
+        "地点",
+        "活动"
+      ]
+    },
+    {
+      "id": "h1m01_l4_01",
+      "questionTypeCode": "L_QA_MC3",
+      "sectionCode": "listening",
+      "title": "听力·第四部分 1",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "男的在做什么?",
+      "context": "录音:女:你在做什么? 男:我在做饭。",
+      "audioScript": "女:你在做什么? 男:我在做饭。 问:男的在做什么?",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "做饭"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "看电视"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "睡觉"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "男的说『我在做饭』,正确答案是『做饭』。",
+      "vocabFocus": [
+        "做饭"
+      ],
+      "tags": [
+        "动作",
+        "家务"
+      ]
+    },
+    {
+      "id": "h1m01_l4_02",
+      "questionTypeCode": "L_QA_MC3",
+      "sectionCode": "listening",
+      "title": "听力·第四部分 2",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "女的有几个孩子?",
+      "context": "录音:男:你有几个孩子? 女:两个。",
+      "audioScript": "男:你有几个孩子? 女:两个。 问:女的有几个孩子?",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "一个"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "三个"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "两个"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "女的说『两个』,正确答案是『两个』。",
+      "vocabFocus": [
+        "几个",
+        "孩子"
+      ],
+      "tags": [
+        "数字",
+        "家人"
+      ]
+    },
+    {
+      "id": "h1m01_l4_03",
+      "questionTypeCode": "L_QA_MC3",
+      "sectionCode": "listening",
+      "title": "听力·第四部分 3",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "男的想喝什么?",
+      "context": "录音:女:你想喝茶还是喝水? 男:我想喝水。",
+      "audioScript": "女:你想喝茶还是喝水? 男:我想喝水。 问:男的想喝什么?",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "茶"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "水"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "咖啡"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "男的说『我想喝水』,正确答案是『水』。",
+      "vocabFocus": [
+        "喝",
+        "水"
+      ],
+      "tags": [
+        "饮品"
+      ]
+    },
+    {
+      "id": "h1m01_l4_04",
+      "questionTypeCode": "L_QA_MC3",
+      "sectionCode": "listening",
+      "title": "听力·第四部分 4",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "他们明天去哪儿?",
+      "context": "录音:男:我们明天去公园,好吗? 女:好的。",
+      "audioScript": "男:我们明天去公园,好吗? 女:好的。 问:他们明天去哪儿?",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "学校"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "饭店"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "公园"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "男的提议『去公园』,正确答案是『公园』。",
+      "vocabFocus": [
+        "明天",
+        "公园"
+      ],
+      "tags": [
+        "地点",
+        "时间"
+      ]
+    },
+    {
+      "id": "h1m01_l4_05",
+      "questionTypeCode": "L_QA_MC3",
+      "sectionCode": "listening",
+      "title": "听力·第四部分 5",
+      "stem": "听对话和问题,选择正确答案",
+      "prompt": "女的的爸爸做什么工作?",
+      "context": "录音:男:你爸爸做什么工作? 女:他是医生。",
+      "audioScript": "男:你爸爸做什么工作? 女:他是医生。 问:女的的爸爸做什么工作?",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "老师"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "医生"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "司机"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "女的说爸爸『是医生』,正确答案是『医生』。",
+      "vocabFocus": [
+        "爸爸",
+        "医生",
+        "工作"
+      ],
+      "tags": [
+        "职业",
+        "家人"
+      ]
+    },
+    {
+      "id": "h1m01_r1_01",
+      "questionTypeCode": "R_IMG_WORD_TF",
+      "sectionCode": "reading",
+      "title": "阅读·第一部分 1",
+      "stem": "看图判断图片与词语是否一致",
+      "prompt": "词语:水",
+      "imageBrief": "A clear glass of water on a plain white background, simple flat educational illustration, no text.",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "一致"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "不一致"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "正确答案是『一致』。",
+      "vocabFocus": [
+        "水"
+      ],
+      "tags": [
+        "名词",
+        "饮品"
+      ]
+    },
+    {
+      "id": "h1m01_r1_02",
+      "questionTypeCode": "R_IMG_WORD_TF",
+      "sectionCode": "reading",
+      "title": "阅读·第一部分 2",
+      "stem": "看图判断图片与词语是否一致",
+      "prompt": "词语:书",
+      "imageBrief": "A single closed book on a plain white background, simple flat educational illustration, no text.",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "一致"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "不一致"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "正确答案是『一致』。",
+      "vocabFocus": [
+        "书"
+      ],
+      "tags": [
+        "名词",
+        "学习"
+      ]
+    },
+    {
+      "id": "h1m01_r1_03",
+      "questionTypeCode": "R_IMG_WORD_TF",
+      "sectionCode": "reading",
+      "title": "阅读·第一部分 3",
+      "stem": "看图判断图片与词语是否一致",
+      "prompt": "词语:狗",
+      "imageBrief": "A single orange cat sitting, on a plain white background, simple flat educational illustration, no text.",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "一致"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "不一致"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "正确答案是『不一致』。",
+      "vocabFocus": [
+        "狗"
+      ],
+      "tags": [
+        "动物"
+      ]
+    },
+    {
+      "id": "h1m01_r1_04",
+      "questionTypeCode": "R_IMG_WORD_TF",
+      "sectionCode": "reading",
+      "title": "阅读·第一部分 4",
+      "stem": "看图判断图片与词语是否一致",
+      "prompt": "词语:水果",
+      "imageBrief": "A single whole orange with a small green leaf on top, round, plain white background, simple flat educational illustration, no extra shapes or text.",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "一致"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "不一致"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "正确答案是『一致』。",
+      "vocabFocus": [
+        "水果"
+      ],
+      "tags": [
+        "名词",
+        "水果"
+      ]
+    },
+    {
+      "id": "h1m01_r1_05",
+      "questionTypeCode": "R_IMG_WORD_TF",
+      "sectionCode": "reading",
+      "title": "阅读·第一部分 5",
+      "stem": "看图判断图片与词语是否一致",
+      "prompt": "词语:椅子",
+      "imageBrief": "A single wooden table on a plain white background, simple flat educational illustration, no text.",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "一致"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "不一致"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "正确答案是『不一致』。",
+      "vocabFocus": [
+        "椅子"
+      ],
+      "tags": [
+        "名词",
+        "家具"
+      ]
+    },
+    {
+      "id": "h1m01_r2_01",
+      "questionTypeCode": "R_SENT_IMG_MC",
+      "sectionCode": "reading",
+      "title": "阅读·第二部分 1",
+      "stem": "读句子,选择相符的一项",
+      "prompt": "妈妈在做饭。",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "厨房里有人做饭",
+          "imageBrief": "A woman cooking food at a stove in a kitchen, simple flat educational illustration, clean light background, no text."
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "教室里有人上课",
+          "imageBrief": "Students sitting at desks in a classroom with a teacher, simple flat educational illustration, clean light background, no text."
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "公园里有人跑步",
+          "imageBrief": "A person jogging in a green park with trees, simple flat educational illustration, clean light background, no text."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "句子说『做饭』,正确答案是『厨房里有人做饭』。",
+      "vocabFocus": [
+        "做饭"
+      ],
+      "tags": [
+        "家务"
+      ]
+    },
+    {
+      "id": "h1m01_r2_02",
+      "questionTypeCode": "R_SENT_IMG_MC",
+      "sectionCode": "reading",
+      "title": "阅读·第二部分 2",
+      "stem": "读句子,选择相符的一项",
+      "prompt": "他坐飞机去北京。",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "一辆出租车",
+          "imageBrief": "A yellow taxi car, simple flat educational illustration, plain light background, no text."
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "一架飞机",
+          "imageBrief": "A white passenger airplane flying, simple flat educational illustration, plain light background, no text."
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "一列火车",
+          "imageBrief": "A train on rails, simple flat educational illustration, plain light background, no text."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "句子说『坐飞机』,正确答案是『一架飞机』。",
+      "vocabFocus": [
+        "坐",
+        "飞机"
+      ],
+      "tags": [
+        "交通"
+      ]
+    },
+    {
+      "id": "h1m01_r2_03",
+      "questionTypeCode": "R_SENT_IMG_MC",
+      "sectionCode": "reading",
+      "title": "阅读·第二部分 3",
+      "stem": "读句子,选择相符的一项",
+      "prompt": "小猫在睡觉。",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "一只猫在睡觉",
+          "imageBrief": "A cute cat sleeping curled up with eyes closed, simple flat educational illustration, plain light background, no text."
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "一只鸟在飞",
+          "imageBrief": "A small bird flying in the sky, simple flat educational illustration, plain light background, no text."
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "一条鱼在游",
+          "imageBrief": "A fish swimming in water, simple flat educational illustration, plain light background, no text."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "句子说『小猫在睡觉』,正确答案是『一只猫在睡觉』。",
+      "vocabFocus": [
+        "猫",
+        "睡觉"
+      ],
+      "tags": [
+        "动物"
+      ]
+    },
+    {
+      "id": "h1m01_r2_04",
+      "questionTypeCode": "R_SENT_IMG_MC",
+      "sectionCode": "reading",
+      "title": "阅读·第二部分 4",
+      "stem": "读句子,选择相符的一项",
+      "prompt": "今天是我的生日。",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "生日蛋糕和蜡烛",
+          "imageBrief": "A birthday cake with lit candles, simple flat educational illustration, plain light background, no text."
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "上班的办公室",
+          "imageBrief": "An office desk with a computer, simple flat educational illustration, plain light background, no text."
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "下雨的街道",
+          "imageBrief": "A rainy street with raindrops and an umbrella, simple flat educational illustration, plain light background, no text."
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "句子说『生日』,正确答案是『生日蛋糕和蜡烛』。",
+      "vocabFocus": [
+        "生日"
+      ],
+      "tags": [
+        "生活"
+      ]
+    },
+    {
+      "id": "h1m01_r2_05",
+      "questionTypeCode": "R_SENT_IMG_MC",
+      "sectionCode": "reading",
+      "title": "阅读·第二部分 5",
+      "stem": "读句子,选择相符的一项",
+      "prompt": "学生们在教室里学习。",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "医院的病房",
+          "imageBrief": "A hospital ward room with a bed, simple flat educational illustration, plain light background, no text."
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "教室里的学生",
+          "imageBrief": "Students studying at desks in a classroom, simple flat educational illustration, plain light background, no text."
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "商店的柜台",
+          "imageBrief": "A shop counter with goods on shelves, simple flat educational illustration, plain light background, no text."
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "句子说『教室里学习』,正确答案是『教室里的学生』。",
+      "vocabFocus": [
+        "学生",
+        "教室",
+        "学习"
+      ],
+      "tags": [
+        "学习",
+        "地点"
+      ]
+    },
+    {
+      "id": "h1m01_r3_01",
+      "questionTypeCode": "R_QA_MATCH",
+      "sectionCode": "reading",
+      "title": "阅读·第三部分 1",
+      "stem": "为问句选择合适的回答",
+      "prompt": "你叫什么名字?",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "我叫王明。"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "在学校。"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "星期五。"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "正确答案是『我叫王明。』。",
+      "vocabFocus": [
+        "名字"
+      ],
+      "tags": [
+        "问答"
+      ]
+    },
+    {
+      "id": "h1m01_r3_02",
+      "questionTypeCode": "R_QA_MATCH",
+      "sectionCode": "reading",
+      "title": "阅读·第三部分 2",
+      "stem": "为问句选择合适的回答",
+      "prompt": "现在几点了?",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "九点。"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "很好吃。"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "我很高兴。"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "正确答案是『九点。』。",
+      "vocabFocus": [
+        "几点"
+      ],
+      "tags": [
+        "时间",
+        "问答"
+      ]
+    },
+    {
+      "id": "h1m01_r3_03",
+      "questionTypeCode": "R_QA_MATCH",
+      "sectionCode": "reading",
+      "title": "阅读·第三部分 3",
+      "stem": "为问句选择合适的回答",
+      "prompt": "这个多少钱?",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "我的朋友。"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "在家里。"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "五块钱。"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "正确答案是『五块钱。』。",
+      "vocabFocus": [
+        "多少钱"
+      ],
+      "tags": [
+        "购物",
+        "问答"
+      ]
+    },
+    {
+      "id": "h1m01_r3_04",
+      "questionTypeCode": "R_QA_MATCH",
+      "sectionCode": "reading",
+      "title": "阅读·第三部分 4",
+      "stem": "为问句选择合适的回答",
+      "prompt": "你今天怎么样?",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "我很好。"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "三个。"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "红色的。"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "正确答案是『我很好。』。",
+      "vocabFocus": [
+        "怎么样"
+      ],
+      "tags": [
+        "问答"
+      ]
+    },
+    {
+      "id": "h1m01_r3_05",
+      "questionTypeCode": "R_QA_MATCH",
+      "sectionCode": "reading",
+      "title": "阅读·第三部分 5",
+      "stem": "为问句选择合适的回答",
+      "prompt": "你想吃什么?",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "二十岁。"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "在医院。"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "我想吃面条。"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "正确答案是『我想吃面条。』。",
+      "vocabFocus": [
+        "吃"
+      ],
+      "tags": [
+        "饮食",
+        "问答"
+      ]
+    },
+    {
+      "id": "h1m01_r4_01",
+      "questionTypeCode": "R_SENT_FILL_MC",
+      "sectionCode": "reading",
+      "title": "阅读·第四部分 1",
+      "stem": "选词填空",
+      "prompt": "我每天早上____牛奶。",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "看"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "喝"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "听"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "『牛奶』搭配『喝』,正确答案是『喝』。",
+      "vocabFocus": [
+        "喝",
+        "牛奶"
+      ],
+      "tags": [
+        "搭配",
+        "动词"
+      ]
+    },
+    {
+      "id": "h1m01_r4_02",
+      "questionTypeCode": "R_SENT_FILL_MC",
+      "sectionCode": "reading",
+      "title": "阅读·第四部分 2",
+      "stem": "选词填空",
+      "prompt": "今天天气很____,我们去公园吧。",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "大"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "好"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "多"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "天气『好』,正确答案是『好』。",
+      "vocabFocus": [
+        "天气",
+        "好"
+      ],
+      "tags": [
+        "搭配",
+        "形容词"
+      ]
+    },
+    {
+      "id": "h1m01_r4_03",
+      "questionTypeCode": "R_SENT_FILL_MC",
+      "sectionCode": "reading",
+      "title": "阅读·第四部分 3",
+      "stem": "选词填空",
+      "prompt": "他是我的好____。",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "朋友"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "医院"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "星期"
+        }
+      ],
+      "correctOptionId": "A",
+      "explanation": "『好朋友』,正确答案是『朋友』。",
+      "vocabFocus": [
+        "朋友"
+      ],
+      "tags": [
+        "搭配",
+        "名词"
+      ]
+    },
+    {
+      "id": "h1m01_r4_04",
+      "questionTypeCode": "R_SENT_FILL_MC",
+      "sectionCode": "reading",
+      "title": "阅读·第四部分 4",
+      "stem": "选词填空",
+      "prompt": "请问,现在____点?",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "太"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "很"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "几"
+        }
+      ],
+      "correctOptionId": "C",
+      "explanation": "问时间用『几点』,正确答案是『几』。",
+      "vocabFocus": [
+        "几点"
+      ],
+      "tags": [
+        "搭配",
+        "疑问"
+      ]
+    },
+    {
+      "id": "h1m01_r4_05",
+      "questionTypeCode": "R_SENT_FILL_MC",
+      "sectionCode": "reading",
+      "title": "阅读·第四部分 5",
+      "stem": "选词填空",
+      "prompt": "我有两____中文书。",
+      "options": [
+        {
+          "id": "A",
+          "label": "A",
+          "text": "个"
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "text": "本"
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "text": "口"
+        }
+      ],
+      "correctOptionId": "B",
+      "explanation": "书用量词『本』,正确答案是『本』。",
+      "vocabFocus": [
+        "本",
+        "书"
+      ],
+      "tags": [
+        "量词"
+      ]
+    }
+  ]
+}

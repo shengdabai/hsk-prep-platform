@@ -42,3 +42,14 @@ output/
 
 # Cropped question images stay out of the repository until each source is reviewed.
 hsk-mvp/web/public/images/questions/
+
+# Third-party copyrighted exam material and raw imports stay local (public repo).
+hsk-mvp/data/raw/imports/
+hsk-mvp/data/standards/imported/
+*.pdf
+# Local databases / vector stores
+*.db
+*.sqlite
+*.sqlite3
+*.rvf
+.claude/
